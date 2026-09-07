@@ -84,12 +84,12 @@
     <div class="footer__contact">
         <div class="container">
             <div class="grid grid-cols-12 gap-5">
-                <div class="col-span-12 lg:col-span-5">
+                <div class="col-span-12 lg:col-span-3">
                     <div class="mb-5 text-lg font-bold text-white">Advent Himalaya Treks P. Ltd.</div>
                     <div class="footer__contact-wrap">
                         <div class="flex items-center gap-3 mb-2 footer__contact-item last:mb-0">
                             <div class="footer__contact-item-image">
-                                <span class="text-lg text-primary icon-map-pin-house" aria-hidden="true"></span>
+                                <span class="text-lg text-[#c7d5ec] icon-map-pin-house" aria-hidden="true"></span>
                             </div>
                             <div class="footer__contact-item-content text-[#cfcfcf] text-sm">
                                 Kathmandu, Nepal
@@ -97,7 +97,7 @@
                         </div>
                         <div class="flex items-center gap-3 mb-2 footer__contact-item last:mb-0">
                             <div class="footer__contact-item-image">
-                                <span class="text-lg text-primary icon-phone-outline" aria-hidden="true"></span>
+                                <span class="text-lg text-[#c7d5ec] icon-phone-outline" aria-hidden="true"></span>
                             </div>
                             <a href="" class=" footer__contact-item-content text-[#cfcfcf] text-sm hover:text-primary transition-all duration-500">
                                 +977 1 4957394
@@ -105,7 +105,7 @@
                         </div>
                         <div class="flex items-center gap-3 mb-2 footer__contact-item last:mb-0">
                             <div class="footer__contact-item-image">
-                                <span class="text-lg text-primary icon-whatsapp-outline" aria-hidden="true"></span>
+                                <span class="text-lg text-[#c7d5ec] icon-whatsapp-outline" aria-hidden="true"></span>
                             </div>
                             <a href="" class=" footer__contact-item-content text-[#cfcfcf] text-sm hover:text-primary transition-all duration-500">
                                 +977 9851191662
@@ -113,60 +113,149 @@
                         </div>
                         <div class="flex items-center gap-3 mb-2 footer__contact-item last:mb-0">
                             <div class="footer__contact-item-image">
-                                <span class="text-lg text-primary icon-mail-outline" aria-hidden="true"></span>
+                                <span class="text-lg text-[#c7d5ec] icon-mail-outline" aria-hidden="true"></span>
                             </div>
                             <a href="" class=" footer__contact-item-content break-all text-[#cfcfcf] text-sm hover:text-primary transition-all duration-500">
                                 info@adventhimalayatreks.com
                             </a>
                         </div>
                     </div>
-                    <a href="" class="inline-block px-4 py-2 mt-5 text-sm text-white transition-all duration-500 border rounded-full border-primary hover:bg-primary">
-                        Our Location Map
-                    </a>
-                </div>
-                <div class="col-span-12 lg:col-span-3">
-                    <div class="mb-5 text-lg font-bold text-white max-lg:border-t max-lg:pt-10 max-lg:mt-6 max-lg:border-[#635449]">Follow Us</div>
-                    <div class="footer__social-wrapper">
-                        <div class="mb-3 footer__social-item last:mb-0">
-                            <a href="" class="group">
-                                <span class="text-lg text-[#2d77d0] icon-facebook" aria-hidden="true"></span>
-                                <span class=" pl-2 text-[#cfcfcf] text-sm group-hover:text-primary transition-all duration-500">
-                                    Facebook
-                                </span>
-                            </a>
-                        </div>
-                        <div class="mb-3 footer__social-item last:mb-0">
-                            <a href="" class="group">
-                                <span class="text-lg text-[#32aaf2] icon-twitter" aria-hidden="true"></span>
-                                <span class=" pl-2 text-[#cfcfcf] text-sm group-hover:text-primary transition-all duration-500">
-                                    Twitter
-                                </span>
-                            </a>
-                        </div>
-                        <div class="mb-3 footer__social-item last:mb-0">
-                            <a href="" class="group">
-                                <span class="text-lg text-[#e65068] icon-instagram" aria-hidden="true"></span>
-                                <span class=" pl-2 text-[#cfcfcf] text-sm group-hover:text-primary transition-all duration-500">
-                                    Instagram
-                                </span>
-                            </a>
-                        </div>
-                        <div class="mb-3 footer__social-item last:mb-0">
-                            <a href="" class="group">
-                                <span class="text-lg text-[#ef000c] icon-youtube" aria-hidden="true"></span>
-                                <span class=" pl-2 text-[#cfcfcf] text-sm group-hover:text-primary transition-all duration-500">
-                                    Youtube
-                                </span>
-                            </a>
+                    <div class="footer-social">
+                        <div class="mb-5 text-lg font-bold text-white max-lg:mt-6">Follow Us</div>
+                        <div class="footer__social-wrapper">
+                            <div class="footer__social-item">
+                                <a href="" class="group">
+                                    <span class="text-lg text-[#2d77d0] icon-facebook group-hover:text-primary transition-all duration-500" aria-hidden="true"></span>
+                                </a>
+                            </div>
+                            <div class="footer__social-item">
+                                <a href="" class="group">
+                                    <span class="text-lg text-[#32aaf2] icon-twitter group-hover:text-primary transition-all duration-500" aria-hidden="true"></span>
+                                </a>
+                            </div>
+                            <div class="footer__social-item">
+                                <a href="" class="group">
+                                    <span class="text-lg text-[#e65068] icon-instagram group-hover:text-primary transition-all duration-500" aria-hidden="true"></span>
+                                </a>
+                            </div>
+                            <div class="footer__social-item">
+                                <a href="" class="group">
+                                    <span class="text-lg text-[#ef000c] icon-youtube group-hover:text-primary transition-all duration-500" aria-hidden="true"></span>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-span-12 lg:col-span-4">
-                    <div class="mb-5 text-lg font-bold text-white max-lg:border-t max-lg:pt-10 max-lg:mt-6 max-lg:border-[#635449]">Subscribe Our Newsletter</div>
+                <div class="col-span-12 lg:col-span-5">
+                    <div class="footer__links">
+                        <div class="mb-5 text-lg font-bold text-white">Useful Links</div>
+                        <ul class="columns-2">
+                            <li class="mb-2 last:mb-0">
+                                <a href="" class="text-sm text-[#cfcfcf] hover:text-primary transition-all duration-500">
+                                    Terms and Conditions </a>
+                            </li>
+                            <li class="mb-2 last:mb-0">
+                                <a href="" class="text-sm text-[#cfcfcf] hover:text-primary transition-all duration-500">
+                                    Subscribe to Newsletter</a>
+                            </li>
+                            <li class="mb-2 last:mb-0">
+                                <a href="" class="text-sm text-[#cfcfcf] hover:text-primary transition-all duration-500">
+                                    Sitemap</a>
+                            </li>
+                            <li class="mb-2 last:mb-0">
+                                <a href="" class="text-sm text-[#cfcfcf] hover:text-primary transition-all duration-500">
+                                    FAQs</a>
+                            </li>
+                            <li class="mb-2 last:mb-0">
+                                <a href="" class="text-sm text-[#cfcfcf] hover:text-primary transition-all duration-500">
+                                    Contact Us
+                                </a>
+                            </li>
+                            <li class="mb-2 last:mb-0">
+                                <a href="" class="text-sm text-[#cfcfcf] hover:text-primary transition-all duration-500">
+                                    Best Selling Trip
+                                </a>
+                            </li>
+                            <li class="mb-2 last:mb-0">
+                                <a href="" class="text-sm text-[#cfcfcf] hover:text-primary transition-all duration-500">
+                                    Tailor-made Trip
+                                </a>
+                            </li>
+                            <li class="mb-2 last:mb-0">
+                                <a href="" class="text-sm text-[#cfcfcf] hover:text-primary transition-all duration-500">
+                                    Travel Guides
+                                </a>
+                            </li>
+                            <li class="mb-2 last:mb-0">
+                                <a href="" class="text-sm text-[#cfcfcf] hover:text-primary transition-all duration-500">
+                                    Reviews
+                                </a>
+                            </li>
+                            <li class="mb-2 last:mb-0">
+                                <a href="" class="text-sm text-[#cfcfcf] hover:text-primary transition-all duration-500">
+                                    Write a Review
+                                </a>
+                            </li>
+                            <li class="mb-2 last:mb-0">
+                                <a href="" class="text-sm text-[#cfcfcf] hover:text-primary transition-all duration-500">
+                                    Charity Program
+                                </a>
+                            </li>
+                            <li class="mb-2 last:mb-0">
+                                <a href="" class="text-sm text-[#cfcfcf] hover:text-primary transition-all duration-500">
+                                    Tailor-made Trip
+                                </a>
+                            </li>
+                            <li class="mb-2 last:mb-0">
+                                <a href="" class="text-sm text-[#cfcfcf] hover:text-primary transition-all duration-500">
+                                    Travel Guides
+                                </a>
+                            </li>
+                            <li class="mb-2 last:mb-0">
+                                <a href="" class="text-sm text-[#cfcfcf] hover:text-primary transition-all duration-500">
+                                    Reviews
+                                </a>
+                            </li>
+                            <li class="mb-2 last:mb-0">
+                                <a href="" class="text-sm text-[#cfcfcf] hover:text-primary transition-all duration-500">
+                                    Write a Review
+                                </a>
+                            </li>
+                            <li class="mb-2 last:mb-0">
+                                <a href="" class="text-sm text-[#cfcfcf] hover:text-primary transition-all duration-500">
+                                    Top 10 Treks
+                                </a>
+                            </li>
+                            <li class="mb-2 last:mb-0">
+                                <a href="" class="text-sm text-[#cfcfcf] hover:text-primary transition-all duration-500">
+                                    Tailor-made Trip
+                                </a>
+                            </li>
+                            <li class="mb-2 last:mb-0">
+                                <a href="" class="text-sm text-[#cfcfcf] hover:text-primary transition-all duration-500">
+                                    Travel Guides
+                                </a>
+                            </li>
+                            <li class="mb-2 last:mb-0">
+                                <a href="" class="text-sm text-[#cfcfcf] hover:text-primary transition-all duration-500">
+                                    Reviews
+                                </a>
+                            </li>
+                            <li class="mb-2 last:mb-0">
+                                <a href="" class="text-sm text-[#cfcfcf] hover:text-primary transition-all duration-500">
+                                    Write a Review
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-span-12 lg:col-span-4 lg:pl-5">
+                    <div class="mb-5 text-lg font-bold text-white">Subscribe Our Newsletter</div>
                     <div class="text-[#cfcfcf] text-sm mb-3 lg:w-4/5 w-full">Get the latest news, offers, our travel brochure & travel Guide straight to your inbox</div>
                     <form class="mt-2 max-sm:w-full max-md:w-2/3 max-lg:w-1/2">
-                        <input type="text" class="text-white mb-3 text-[13px] bg-transparent border lg:w-4/5  rounded-full px-5 py-3 border-[#635449] w-full" placeholder="Your Name" />
-                        <input type="email" class="text-white mb-3 text-[13px] bg-transparent border lg:w-4/5  rounded-full px-5 py-3 border-[#635449] w-full" placeholder="Your Name" />
+                        <input type="text" class="text-white mb-3 text-[13px] bg-transparent border lg:w-4/5  rounded-full px-5 py-3 border-[#c7d5ec] w-full" placeholder="Your Name" />
+                        <input type="email" class="text-white mb-5 text-[13px] bg-transparent border lg:w-4/5  rounded-full px-5 py-3 border-[#c7d5ec] w-full" placeholder="Your Name" />
                         <button class="px-4 py-2 text-sm font-semibold text-white transition-all duration-500 border rounded-full border-primary hover:bg-secondary bg-primary">
                             Subscribe
                         </button>
@@ -175,109 +264,7 @@
             </div>
         </div>
     </div>
-    <div class="footer__links">
-        <div class="container">
-            <div class="mb-5 text-lg font-bold text-white">Useful Links</div>
-            <ul class="md:columns-3 columns-2 lg:columns-4">
-                <li class="mb-2 last:mb-0">
-                    <a href="" class="text-sm text-[#cfcfcf] hover:text-primary transition-all duration-500">
-                        Terms and Conditions </a>
-                </li>
-                <li class="mb-2 last:mb-0">
-                    <a href="" class="text-sm text-[#cfcfcf] hover:text-primary transition-all duration-500">
-                        Subscribe to Newsletter</a>
-                </li>
-                <li class="mb-2 last:mb-0">
-                    <a href="" class="text-sm text-[#cfcfcf] hover:text-primary transition-all duration-500">
-                        Sitemap</a>
-                </li>
-                <li class="mb-2 last:mb-0">
-                    <a href="" class="text-sm text-[#cfcfcf] hover:text-primary transition-all duration-500">
-                        FAQs</a>
-                </li>
-                <li class="mb-2 last:mb-0">
-                    <a href="" class="text-sm text-[#cfcfcf] hover:text-primary transition-all duration-500">
-                        Contact Us
-                    </a>
-                </li>
-                <li class="mb-2 last:mb-0">
-                    <a href="" class="text-sm text-[#cfcfcf] hover:text-primary transition-all duration-500">
-                        Best Selling Trip
-                    </a>
-                </li>
-                <li class="mb-2 last:mb-0">
-                    <a href="" class="text-sm text-[#cfcfcf] hover:text-primary transition-all duration-500">
-                        Tailor-made Trip
-                    </a>
-                </li>
-                <li class="mb-2 last:mb-0">
-                    <a href="" class="text-sm text-[#cfcfcf] hover:text-primary transition-all duration-500">
-                        Travel Guides
-                    </a>
-                </li>
-                <li class="mb-2 last:mb-0">
-                    <a href="" class="text-sm text-[#cfcfcf] hover:text-primary transition-all duration-500">
-                        Reviews
-                    </a>
-                </li>
-                <li class="mb-2 last:mb-0">
-                    <a href="" class="text-sm text-[#cfcfcf] hover:text-primary transition-all duration-500">
-                        Write a Review
-                    </a>
-                </li>
-                <li class="mb-2 last:mb-0">
-                    <a href="" class="text-sm text-[#cfcfcf] hover:text-primary transition-all duration-500">
-                        Charity Program
-                    </a>
-                </li>
-                <li class="mb-2 last:mb-0">
-                    <a href="" class="text-sm text-[#cfcfcf] hover:text-primary transition-all duration-500">
-                        Tailor-made Trip
-                    </a>
-                </li>
-                <li class="mb-2 last:mb-0">
-                    <a href="" class="text-sm text-[#cfcfcf] hover:text-primary transition-all duration-500">
-                        Travel Guides
-                    </a>
-                </li>
-                <li class="mb-2 last:mb-0">
-                    <a href="" class="text-sm text-[#cfcfcf] hover:text-primary transition-all duration-500">
-                        Reviews
-                    </a>
-                </li>
-                <li class="mb-2 last:mb-0">
-                    <a href="" class="text-sm text-[#cfcfcf] hover:text-primary transition-all duration-500">
-                        Write a Review
-                    </a>
-                </li>
-                <li class="mb-2 last:mb-0">
-                    <a href="" class="text-sm text-[#cfcfcf] hover:text-primary transition-all duration-500">
-                        Top 10 Treks
-                    </a>
-                </li>
-                <li class="mb-2 last:mb-0">
-                    <a href="" class="text-sm text-[#cfcfcf] hover:text-primary transition-all duration-500">
-                        Tailor-made Trip
-                    </a>
-                </li>
-                <li class="mb-2 last:mb-0">
-                    <a href="" class="text-sm text-[#cfcfcf] hover:text-primary transition-all duration-500">
-                        Travel Guides
-                    </a>
-                </li>
-                <li class="mb-2 last:mb-0">
-                    <a href="" class="text-sm text-[#cfcfcf] hover:text-primary transition-all duration-500">
-                        Reviews
-                    </a>
-                </li>
-                <li class="mb-2 last:mb-0">
-                    <a href="" class="text-sm text-[#cfcfcf] hover:text-primary transition-all duration-500">
-                        Write a Review
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
+
     <div class="footer__copyright">
         <div class="container">
             <div class="flex items-center justify-between max-lg:flex-col-reverse">

@@ -13,13 +13,12 @@
         </div>
         <div class="homepage__banner-content">
             <div class="container">
-
-                <div class=" font-signika mb-7 text-[clamp(2rem,6vw,3.75rem)] text-center leading-[clamp(2.6rem,6.5vw,4rem)] font-bold text-white">
-                    The himalayas are calling
-                </div>
-                <div class="mb-1 text-sm text-center text-white sm:text-base ">
+                <div class="mb-2 text-sm text-center text-white sm:text-base ">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do.
+                </div>
+                <div class=" font-signika mb-7 text-[clamp(2rem,6vw,3.75rem)] text-center leading-[clamp(2.3rem,6.5vw,4rem)] font-bold text-white!">
+                    The himalayas are calling
                 </div>
                 <div class="w-full max-w-xl mx-auto mt-3 rounded-full homepage__banner-search">
                     <form>
@@ -134,7 +133,10 @@
 </section>
 <section class="homepage__why-us bg-dim_bg common-box">
     <div class="container">
-        <div class="text-center section-title">Why Advent Himalaya Greks?</div>
+        <div class="section-title-wrap">
+            <div class="text-center section-title-sm">Why Advent Himalaya Greks?</div>
+            <div class="text-center section-title mb-0!">Why Advent Himalaya Greks?</div>
+        </div>
         <div class="text-center max-sm:px-2 max-lg:px-10 lg:max-w-[60%] mx-auto">
             "Specializing in adventurous Himalayan expeditions, cultural tours, and trekking experiences, we offer expertly guided journeys through Nepal’s breathtaking landscapes." Read more about us
         </div>
@@ -226,10 +228,6 @@
                         </span>
                         Best seller
                     </div>
-                    <div class="package-list__item-wishlist">
-                        <span class="text-lg text-primary icon icon-heart-outline">
-                        </span>
-                    </div>
                     <div class="package-list__item-image">
                         <div class="placeholder__img-wrapper">
                             <div class="placeholder__img">
@@ -263,18 +261,20 @@
                                 </span>
                             </div>
                         </div>
-                        <div class="package-list__item-grade">
-                            <span class="text-base icon icon-star">
-                            </span>
-                            <span class="text-[13px] text-text_color">
-                                5.0 (1 Reviews)
-                            </span>
-                        </div>
-                        <div class="package-list__item-price">
-                            <div class="text-sm text-black">Price from</div>
-                            <div class="font-semibold text-xl  text-black lg:text-[22px]">
-                                US$1680
-                                <span class="text-lg font-normal text-[#878787] line-through">US$1800</span>
+                        <div class="package-list__item-bottom">
+                            <div class="package-list__item-price">
+                                <div class="text-sm text-black">Price from</div>
+                                <div class="font-semibold text-xl  text-primary lg:text-[22px]">
+                                    US$1680
+                                    <span class="text-lg font-normal text-[#878787] line-through">US$1800</span>
+                                </div>
+                            </div>
+                            <div class="package-list__item-review">
+                                <span class="text-base icon icon-star">
+                                </span>
+                                <span class="text-[13px] text-text_color">
+                                    5.0 (1 Reviews)
+                                </span>
                             </div>
                         </div>
                     </div>
@@ -286,10 +286,6 @@
                         <span class="text-xs icon icon-star">
                         </span>
                         Best seller
-                    </div>
-                    <div class="package-list__item-wishlist">
-                        <span class="text-lg text-primary icon icon-heart-outline">
-                        </span>
                     </div>
                     <div class="package-list__item-image">
                         <div class="placeholder__img-wrapper">
@@ -324,18 +320,20 @@
                                 </span>
                             </div>
                         </div>
-                        <div class="package-list__item-grade">
-                            <span class="text-base icon icon-star">
-                            </span>
-                            <span class="text-[13px] text-text_color">
-                                5.0 (1 Reviews)
-                            </span>
-                        </div>
-                        <div class="package-list__item-price">
-                            <div class="text-sm text-black">Price from</div>
-                            <div class="font-semibold text-xl  text-black lg:text-[22px]">
-                                US$1680
-                                <span class="text-lg font-normal text-[#878787] line-through">US$1800</span>
+                        <div class="package-list__item-bottom">
+                            <div class="package-list__item-price">
+                                <div class="text-sm text-black">Price from</div>
+                                <div class="font-semibold text-xl  text-primary lg:text-[22px]">
+                                    US$1680
+                                    <span class="text-lg font-normal text-[#878787] line-through">US$1800</span>
+                                </div>
+                            </div>
+                            <div class="package-list__item-review">
+                                <span class="text-base icon icon-star">
+                                </span>
+                                <span class="text-[13px] text-text_color">
+                                    5.0 (1 Reviews)
+                                </span>
                             </div>
                         </div>
                     </div>
@@ -347,10 +345,6 @@
                         <span class="text-xs icon icon-star">
                         </span>
                         Best seller
-                    </div>
-                    <div class="package-list__item-wishlist">
-                        <span class="text-lg text-primary icon icon-heart-outline">
-                        </span>
                     </div>
                     <div class="package-list__item-image">
                         <div class="placeholder__img-wrapper">
@@ -385,18 +379,20 @@
                                 </span>
                             </div>
                         </div>
-                        <div class="package-list__item-grade">
-                            <span class="text-base icon icon-star">
-                            </span>
-                            <span class="text-[13px] text-text_color">
-                                5.0 (1 Reviews)
-                            </span>
-                        </div>
-                        <div class="package-list__item-price">
-                            <div class="text-sm text-black">Price from</div>
-                            <div class="font-semibold text-xl  text-black lg:text-[22px]">
-                                US$1680
-                                <span class="text-lg font-normal text-[#878787] line-through">US$1800</span>
+                        <div class="package-list__item-bottom">
+                            <div class="package-list__item-price">
+                                <div class="text-sm text-black">Price from</div>
+                                <div class="font-semibold text-xl  text-primary lg:text-[22px]">
+                                    US$1680
+                                    <span class="text-lg font-normal text-[#878787] line-through">US$1800</span>
+                                </div>
+                            </div>
+                            <div class="package-list__item-review">
+                                <span class="text-base icon icon-star">
+                                </span>
+                                <span class="text-[13px] text-text_color">
+                                    5.0 (1 Reviews)
+                                </span>
                             </div>
                         </div>
                     </div>
@@ -408,10 +404,6 @@
                         <span class="text-xs icon icon-star">
                         </span>
                         Best seller
-                    </div>
-                    <div class="package-list__item-wishlist">
-                        <span class="text-lg text-primary icon icon-heart-outline">
-                        </span>
                     </div>
                     <div class="package-list__item-image">
                         <div class="placeholder__img-wrapper">
@@ -446,18 +438,20 @@
                                 </span>
                             </div>
                         </div>
-                        <div class="package-list__item-grade">
-                            <span class="text-base icon icon-star">
-                            </span>
-                            <span class="text-[13px] text-text_color">
-                                5.0 (1 Reviews)
-                            </span>
-                        </div>
-                        <div class="package-list__item-price">
-                            <div class="text-sm text-black">Price from</div>
-                            <div class="font-semibold text-xl  text-black lg:text-[22px]">
-                                US$1680
-                                <span class="text-lg font-normal text-[#878787] line-through">US$1800</span>
+                        <div class="package-list__item-bottom">
+                            <div class="package-list__item-price">
+                                <div class="text-sm text-black">Price from</div>
+                                <div class="font-semibold text-xl  text-primary lg:text-[22px]">
+                                    US$1680
+                                    <span class="text-lg font-normal text-[#878787] line-through">US$1800</span>
+                                </div>
+                            </div>
+                            <div class="package-list__item-review">
+                                <span class="text-base icon icon-star">
+                                </span>
+                                <span class="text-[13px] text-text_color">
+                                    5.0 (1 Reviews)
+                                </span>
                             </div>
                         </div>
                     </div>
@@ -469,10 +463,6 @@
                         <span class="text-xs icon icon-star">
                         </span>
                         Best seller
-                    </div>
-                    <div class="package-list__item-wishlist">
-                        <span class="text-lg text-primary icon icon-heart-outline">
-                        </span>
                     </div>
                     <div class="package-list__item-image">
                         <div class="placeholder__img-wrapper">
@@ -507,18 +497,20 @@
                                 </span>
                             </div>
                         </div>
-                        <div class="package-list__item-grade">
-                            <span class="text-base icon icon-star">
-                            </span>
-                            <span class="text-[13px] text-text_color">
-                                5.0 (1 Reviews)
-                            </span>
-                        </div>
-                        <div class="package-list__item-price">
-                            <div class="text-sm text-black">Price from</div>
-                            <div class="font-semibold text-xl  text-black lg:text-[22px]">
-                                US$1680
-                                <span class="text-lg font-normal text-[#878787] line-through">US$1800</span>
+                        <div class="package-list__item-bottom">
+                            <div class="package-list__item-price">
+                                <div class="text-sm text-black">Price from</div>
+                                <div class="font-semibold text-xl  text-primary lg:text-[22px]">
+                                    US$1680
+                                    <span class="text-lg font-normal text-[#878787] line-through">US$1800</span>
+                                </div>
+                            </div>
+                            <div class="package-list__item-review">
+                                <span class="text-base icon icon-star">
+                                </span>
+                                <span class="text-[13px] text-text_color">
+                                    5.0 (1 Reviews)
+                                </span>
                             </div>
                         </div>
                     </div>
@@ -530,10 +522,6 @@
                         <span class="text-xs icon icon-star">
                         </span>
                         Best seller
-                    </div>
-                    <div class="package-list__item-wishlist">
-                        <span class="text-lg text-primary icon icon-heart-outline">
-                        </span>
                     </div>
                     <div class="package-list__item-image">
                         <div class="placeholder__img-wrapper">
@@ -568,18 +556,20 @@
                                 </span>
                             </div>
                         </div>
-                        <div class="package-list__item-grade">
-                            <span class="text-base icon icon-star">
-                            </span>
-                            <span class="text-[13px] text-text_color">
-                                5.0 (1 Reviews)
-                            </span>
-                        </div>
-                        <div class="package-list__item-price">
-                            <div class="text-sm text-black">Price from</div>
-                            <div class="font-semibold text-xl  text-black lg:text-[22px]">
-                                US$1680
-                                <span class="text-lg font-normal text-[#878787] line-through">US$1800</span>
+                        <div class="package-list__item-bottom">
+                            <div class="package-list__item-price">
+                                <div class="text-sm text-black">Price from</div>
+                                <div class="font-semibold text-xl  text-primary lg:text-[22px]">
+                                    US$1680
+                                    <span class="text-lg font-normal text-[#878787] line-through">US$1800</span>
+                                </div>
+                            </div>
+                            <div class="package-list__item-review">
+                                <span class="text-base icon icon-star">
+                                </span>
+                                <span class="text-[13px] text-text_color">
+                                    5.0 (1 Reviews)
+                                </span>
                             </div>
                         </div>
                     </div>
@@ -587,18 +577,16 @@
             </div>
         </div>
 </section>
-<section class="homepage__upcoming">
+<section class="homepage__upcoming hav-title-btn">
     <div class="container-fluid">
         <div class="container">
-            <div class=" section-title">Join Our Fixed Departure Group Trips</div>
-            <div class="text-white lg:w-5/12">
-                Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
-            </div>
-            <div class="last-minute__filter">
-                <div class="last-minute__filter-item">Apr 2026</div>
-                <div class="last-minute__filter-item">May 2026</div>
-                <div class="last-minute__filter-item active">Jun 2026</div>
-                <div class="last-minute__filter-item">Jul 2026</div>
+            <div class="flex items-center justify-between mb-6">
+                <div class=" section-title mb-0!">Join Our Fixed Departure Group Trips</div>
+                <div class="section-title-btn">
+                    <a href="" class="inline-block px-5 py-2 mt-4 text-sm font-medium text-white transition-all duration-500 border border-white rounded-full hover:bg-primary">
+                        Start Plaining Today!
+                    </a>
+                </div>
             </div>
             <div class="last-minute__wrap">
                 <div class="last-minute__title">
@@ -606,44 +594,43 @@
                 </div>
                 <div class="last-minute__item">
                     <div class="last-minute__item-duration">
-                        <div class="text-sm font-bold text-text_color">15 Days</div>
                         <div class="  text-xs text-[#878787]">Duration</div>
+                        <div class="text-sm font-bold text-text_color">15 Days</div>
                     </div>
                     <div class="last-minute__item-start">
-                        <div class="text-sm font-bold text-text_color">27 April, 2026</div>
                         <div class="  text-xs text-[#878787]">Start Monday</div>
+                        <div class="text-sm font-bold text-text_color">27 April, 2026</div>
                     </div>
                     <div class="last-minute__item-end">
-                        <div class="text-sm font-bold text-text_color">14 May, 2026</div>
                         <div class="  text-xs text-[#878787]">Ends Thursday</div>
+                        <div class="text-sm font-bold text-text_color">14 May, 2026</div>
                     </div>
                     <div class="last-minute__item-availability">
+                        <div class="  text-xs text-[#878787]">Status</div>
                         <div class="text-sm font-bold text-text_color">Availability</div>
                         <div class="  text-xs text-[#878787]">2 Spots Remaining</div>
                     </div>
                     <div class="last-minute__item-group">
-                        <div class="text-sm font-bold text-text_color">15</div>
                         <div class="  text-xs text-[#878787]">Group Size</div>
+                        <div class="text-sm font-bold text-text_color">15</div>
                     </div>
                     <div class="last-minute__item-price">
-                        <div class="text-sm font-bold text-text_color">US$ 1600 <span class="font-normal line-through text-[#878787]">1800</span></div>
                         <div class="  text-xs text-[#878787]">Per Person</div>
+                        <div class="text-sm font-bold text-text_color">US$ 1600 <span class="font-normal line-through text-[#878787]">1800</span></div>
                     </div>
                     <div class="last-minute__item-link lg:text-right">
-                        <a href="" class="px-5 py-2.5 text-sm inline-block font-semibold text-white uppercase transition-all duration-500 rounded-full bg-primary hover:bg-secondary">
+                        <a href="" class="px-4 py-2.5 text-sm inline-block font-semibold text-white uppercase transition-all duration-500 rounded-full bg-primary hover:bg-secondary">
                             Book Now
                         </a>
                     </div>
                 </div>
-
             </div>
-            <div class="mt-8 mb-3 text-xl font-bold text-white lg:text-2xl">
+            <div class="mt-8 mb-2 text-xl font-bold text-white lg:text-2xl">
                 Plan your trip on your own date
             </div>
-            <div class="text-white lg:w-5/12">
+            <div class="text-white lg:w-10/12 max-lg:mb-6">
                 Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
             </div>
-            <a href="" class="inline-block px-5 py-2 mt-4 text-sm font-medium text-white transition-all duration-500 border border-white rounded-full hover:bg-primary">Start Plaining Today!</a>
         </div>
     </div>
 </section>
@@ -668,10 +655,6 @@
                                     </span>
                                     Best seller
                                 </div>
-                                <div class="package-list__item-wishlist">
-                                    <span class="text-lg text-primary icon icon-heart-outline">
-                                    </span>
-                                </div>
                                 <div class="package-list__item-image">
                                     <div class="placeholder__img-wrapper">
                                         <div class="placeholder__img">
@@ -705,18 +688,20 @@
                                             </span>
                                         </div>
                                     </div>
-                                    <div class="package-list__item-grade">
-                                        <span class="text-base icon icon-star">
-                                        </span>
-                                        <span class="text-[13px] text-text_color">
-                                            5.0 (1 Reviews)
-                                        </span>
-                                    </div>
-                                    <div class="package-list__item-price">
-                                        <div class="text-sm text-black">Price from</div>
-                                        <div class="font-semibold text-xl  text-black lg:text-[22px]">
-                                            US$1680
-                                            <span class="text-lg font-normal text-[#878787] line-through">US$1800</span>
+                                    <div class="package-list__item-bottom">
+                                        <div class="package-list__item-price">
+                                            <div class="text-sm text-black">Price from</div>
+                                            <div class="font-semibold text-xl  text-primary lg:text-[22px]">
+                                                US$1680
+                                                <span class="text-lg font-normal text-[#878787] line-through">US$1800</span>
+                                            </div>
+                                        </div>
+                                        <div class="package-list__item-review">
+                                            <span class="text-base icon icon-star">
+                                            </span>
+                                            <span class="text-[13px] text-text_color">
+                                                5.0 (1 Reviews)
+                                            </span>
                                         </div>
                                     </div>
                                 </div>
@@ -729,10 +714,6 @@
                                     </span>
                                     Best seller
                                 </div>
-                                <div class="package-list__item-wishlist">
-                                    <span class="text-lg text-primary icon icon-heart-outline">
-                                    </span>
-                                </div>
                                 <div class="package-list__item-image">
                                     <div class="placeholder__img-wrapper">
                                         <div class="placeholder__img">
@@ -766,18 +747,20 @@
                                             </span>
                                         </div>
                                     </div>
-                                    <div class="package-list__item-grade">
-                                        <span class="text-base icon icon-star">
-                                        </span>
-                                        <span class="text-[13px] text-text_color">
-                                            5.0 (1 Reviews)
-                                        </span>
-                                    </div>
-                                    <div class="package-list__item-price">
-                                        <div class="text-sm text-black">Price from</div>
-                                        <div class="font-semibold text-xl  text-black lg:text-[22px]">
-                                            US$1680
-                                            <span class="text-lg font-normal text-[#878787] line-through">US$1800</span>
+                                    <div class="package-list__item-bottom">
+                                        <div class="package-list__item-price">
+                                            <div class="text-sm text-black">Price from</div>
+                                            <div class="font-semibold text-xl  text-primary lg:text-[22px]">
+                                                US$1680
+                                                <span class="text-lg font-normal text-[#878787] line-through">US$1800</span>
+                                            </div>
+                                        </div>
+                                        <div class="package-list__item-review">
+                                            <span class="text-base icon icon-star">
+                                            </span>
+                                            <span class="text-[13px] text-text_color">
+                                                5.0 (1 Reviews)
+                                            </span>
                                         </div>
                                     </div>
                                 </div>
@@ -790,10 +773,6 @@
                                     </span>
                                     Best seller
                                 </div>
-                                <div class="package-list__item-wishlist">
-                                    <span class="text-lg text-primary icon icon-heart-outline">
-                                    </span>
-                                </div>
                                 <div class="package-list__item-image">
                                     <div class="placeholder__img-wrapper">
                                         <div class="placeholder__img">
@@ -827,18 +806,20 @@
                                             </span>
                                         </div>
                                     </div>
-                                    <div class="package-list__item-grade">
-                                        <span class="text-base icon icon-star">
-                                        </span>
-                                        <span class="text-[13px] text-text_color">
-                                            5.0 (1 Reviews)
-                                        </span>
-                                    </div>
-                                    <div class="package-list__item-price">
-                                        <div class="text-sm text-black">Price from</div>
-                                        <div class="font-semibold text-xl  text-black lg:text-[22px]">
-                                            US$1680
-                                            <span class="text-lg font-normal text-[#878787] line-through">US$1800</span>
+                                    <div class="package-list__item-bottom">
+                                        <div class="package-list__item-price">
+                                            <div class="text-sm text-black">Price from</div>
+                                            <div class="font-semibold text-xl  text-primary lg:text-[22px]">
+                                                US$1680
+                                                <span class="text-lg font-normal text-[#878787] line-through">US$1800</span>
+                                            </div>
+                                        </div>
+                                        <div class="package-list__item-review">
+                                            <span class="text-base icon icon-star">
+                                            </span>
+                                            <span class="text-[13px] text-text_color">
+                                                5.0 (1 Reviews)
+                                            </span>
                                         </div>
                                     </div>
                                 </div>
@@ -858,10 +839,6 @@
                                     </span>
                                     Best seller
                                 </div>
-                                <div class="package-list__item-wishlist">
-                                    <span class="text-lg text-primary icon icon-heart-outline">
-                                    </span>
-                                </div>
                                 <div class="package-list__item-image">
                                     <div class="placeholder__img-wrapper">
                                         <div class="placeholder__img">
@@ -895,18 +872,20 @@
                                             </span>
                                         </div>
                                     </div>
-                                    <div class="package-list__item-grade">
-                                        <span class="text-base icon icon-star">
-                                        </span>
-                                        <span class="text-[13px] text-text_color">
-                                            5.0 (1 Reviews)
-                                        </span>
-                                    </div>
-                                    <div class="package-list__item-price">
-                                        <div class="text-sm text-black">Price from</div>
-                                        <div class="font-semibold text-xl  text-black lg:text-[22px]">
-                                            US$1680
-                                            <span class="text-lg font-normal text-[#878787] line-through">US$1800</span>
+                                    <div class="package-list__item-bottom">
+                                        <div class="package-list__item-price">
+                                            <div class="text-sm text-black">Price from</div>
+                                            <div class="font-semibold text-xl  text-primary lg:text-[22px]">
+                                                US$1680
+                                                <span class="text-lg font-normal text-[#878787] line-through">US$1800</span>
+                                            </div>
+                                        </div>
+                                        <div class="package-list__item-review">
+                                            <span class="text-base icon icon-star">
+                                            </span>
+                                            <span class="text-[13px] text-text_color">
+                                                5.0 (1 Reviews)
+                                            </span>
                                         </div>
                                     </div>
                                 </div>
@@ -919,10 +898,6 @@
                                     </span>
                                     Best seller
                                 </div>
-                                <div class="package-list__item-wishlist">
-                                    <span class="text-lg text-primary icon icon-heart-outline">
-                                    </span>
-                                </div>
                                 <div class="package-list__item-image">
                                     <div class="placeholder__img-wrapper">
                                         <div class="placeholder__img">
@@ -956,18 +931,20 @@
                                             </span>
                                         </div>
                                     </div>
-                                    <div class="package-list__item-grade">
-                                        <span class="text-base icon icon-star">
-                                        </span>
-                                        <span class="text-[13px] text-text_color">
-                                            5.0 (1 Reviews)
-                                        </span>
-                                    </div>
-                                    <div class="package-list__item-price">
-                                        <div class="text-sm text-black">Price from</div>
-                                        <div class="font-semibold text-xl  text-black lg:text-[22px]">
-                                            US$1680
-                                            <span class="text-lg font-normal text-[#878787] line-through">US$1800</span>
+                                    <div class="package-list__item-bottom">
+                                        <div class="package-list__item-price">
+                                            <div class="text-sm text-black">Price from</div>
+                                            <div class="font-semibold text-xl  text-primary lg:text-[22px]">
+                                                US$1680
+                                                <span class="text-lg font-normal text-[#878787] line-through">US$1800</span>
+                                            </div>
+                                        </div>
+                                        <div class="package-list__item-review">
+                                            <span class="text-base icon icon-star">
+                                            </span>
+                                            <span class="text-[13px] text-text_color">
+                                                5.0 (1 Reviews)
+                                            </span>
                                         </div>
                                     </div>
                                 </div>
@@ -980,10 +957,6 @@
                                     </span>
                                     Best seller
                                 </div>
-                                <div class="package-list__item-wishlist">
-                                    <span class="text-lg text-primary icon icon-heart-outline">
-                                    </span>
-                                </div>
                                 <div class="package-list__item-image">
                                     <div class="placeholder__img-wrapper">
                                         <div class="placeholder__img">
@@ -1017,18 +990,20 @@
                                             </span>
                                         </div>
                                     </div>
-                                    <div class="package-list__item-grade">
-                                        <span class="text-base icon icon-star">
-                                        </span>
-                                        <span class="text-[13px] text-text_color">
-                                            5.0 (1 Reviews)
-                                        </span>
-                                    </div>
-                                    <div class="package-list__item-price">
-                                        <div class="text-sm text-black">Price from</div>
-                                        <div class="font-semibold text-xl  text-black lg:text-[22px]">
-                                            US$1680
-                                            <span class="text-lg font-normal text-[#878787] line-through">US$1800</span>
+                                    <div class="package-list__item-bottom">
+                                        <div class="package-list__item-price">
+                                            <div class="text-sm text-black">Price from</div>
+                                            <div class="font-semibold text-xl  text-primary lg:text-[22px]">
+                                                US$1680
+                                                <span class="text-lg font-normal text-[#878787] line-through">US$1800</span>
+                                            </div>
+                                        </div>
+                                        <div class="package-list__item-review">
+                                            <span class="text-base icon icon-star">
+                                            </span>
+                                            <span class="text-[13px] text-text_color">
+                                                5.0 (1 Reviews)
+                                            </span>
                                         </div>
                                     </div>
                                 </div>
@@ -1048,10 +1023,6 @@
                                     </span>
                                     Best seller
                                 </div>
-                                <div class="package-list__item-wishlist">
-                                    <span class="text-lg text-primary icon icon-heart-outline">
-                                    </span>
-                                </div>
                                 <div class="package-list__item-image">
                                     <div class="placeholder__img-wrapper">
                                         <div class="placeholder__img">
@@ -1085,18 +1056,20 @@
                                             </span>
                                         </div>
                                     </div>
-                                    <div class="package-list__item-grade">
-                                        <span class="text-base icon icon-star">
-                                        </span>
-                                        <span class="text-[13px] text-text_color">
-                                            5.0 (1 Reviews)
-                                        </span>
-                                    </div>
-                                    <div class="package-list__item-price">
-                                        <div class="text-sm text-black">Price from</div>
-                                        <div class="font-semibold text-xl  text-black lg:text-[22px]">
-                                            US$1680
-                                            <span class="text-lg font-normal text-[#878787] line-through">US$1800</span>
+                                    <div class="package-list__item-bottom">
+                                        <div class="package-list__item-price">
+                                            <div class="text-sm text-black">Price from</div>
+                                            <div class="font-semibold text-xl  text-primary lg:text-[22px]">
+                                                US$1680
+                                                <span class="text-lg font-normal text-[#878787] line-through">US$1800</span>
+                                            </div>
+                                        </div>
+                                        <div class="package-list__item-review">
+                                            <span class="text-base icon icon-star">
+                                            </span>
+                                            <span class="text-[13px] text-text_color">
+                                                5.0 (1 Reviews)
+                                            </span>
                                         </div>
                                     </div>
                                 </div>
@@ -1109,10 +1082,6 @@
                                     </span>
                                     Best seller
                                 </div>
-                                <div class="package-list__item-wishlist">
-                                    <span class="text-lg text-primary icon icon-heart-outline">
-                                    </span>
-                                </div>
                                 <div class="package-list__item-image">
                                     <div class="placeholder__img-wrapper">
                                         <div class="placeholder__img">
@@ -1146,18 +1115,20 @@
                                             </span>
                                         </div>
                                     </div>
-                                    <div class="package-list__item-grade">
-                                        <span class="text-base icon icon-star">
-                                        </span>
-                                        <span class="text-[13px] text-text_color">
-                                            5.0 (1 Reviews)
-                                        </span>
-                                    </div>
-                                    <div class="package-list__item-price">
-                                        <div class="text-sm text-black">Price from</div>
-                                        <div class="font-semibold text-xl  text-black lg:text-[22px]">
-                                            US$1680
-                                            <span class="text-lg font-normal text-[#878787] line-through">US$1800</span>
+                                    <div class="package-list__item-bottom">
+                                        <div class="package-list__item-price">
+                                            <div class="text-sm text-black">Price from</div>
+                                            <div class="font-semibold text-xl  text-primary lg:text-[22px]">
+                                                US$1680
+                                                <span class="text-lg font-normal text-[#878787] line-through">US$1800</span>
+                                            </div>
+                                        </div>
+                                        <div class="package-list__item-review">
+                                            <span class="text-base icon icon-star">
+                                            </span>
+                                            <span class="text-[13px] text-text_color">
+                                                5.0 (1 Reviews)
+                                            </span>
                                         </div>
                                     </div>
                                 </div>
@@ -1170,10 +1141,6 @@
                                     </span>
                                     Best seller
                                 </div>
-                                <div class="package-list__item-wishlist">
-                                    <span class="text-lg text-primary icon icon-heart-outline">
-                                    </span>
-                                </div>
                                 <div class="package-list__item-image">
                                     <div class="placeholder__img-wrapper">
                                         <div class="placeholder__img">
@@ -1207,18 +1174,20 @@
                                             </span>
                                         </div>
                                     </div>
-                                    <div class="package-list__item-grade">
-                                        <span class="text-base icon icon-star">
-                                        </span>
-                                        <span class="text-[13px] text-text_color">
-                                            5.0 (1 Reviews)
-                                        </span>
-                                    </div>
-                                    <div class="package-list__item-price">
-                                        <div class="text-sm text-black">Price from</div>
-                                        <div class="font-semibold text-xl  text-black lg:text-[22px]">
-                                            US$1680
-                                            <span class="text-lg font-normal text-[#878787] line-through">US$1800</span>
+                                    <div class="package-list__item-bottom">
+                                        <div class="package-list__item-price">
+                                            <div class="text-sm text-black">Price from</div>
+                                            <div class="font-semibold text-xl  text-primary lg:text-[22px]">
+                                                US$1680
+                                                <span class="text-lg font-normal text-[#878787] line-through">US$1800</span>
+                                            </div>
+                                        </div>
+                                        <div class="package-list__item-review">
+                                            <span class="text-base icon icon-star">
+                                            </span>
+                                            <span class="text-[13px] text-text_color">
+                                                5.0 (1 Reviews)
+                                            </span>
                                         </div>
                                     </div>
                                 </div>
@@ -1238,10 +1207,6 @@
                                     </span>
                                     Best seller
                                 </div>
-                                <div class="package-list__item-wishlist">
-                                    <span class="text-lg text-primary icon icon-heart-outline">
-                                    </span>
-                                </div>
                                 <div class="package-list__item-image">
                                     <div class="placeholder__img-wrapper">
                                         <div class="placeholder__img">
@@ -1275,18 +1240,20 @@
                                             </span>
                                         </div>
                                     </div>
-                                    <div class="package-list__item-grade">
-                                        <span class="text-base icon icon-star">
-                                        </span>
-                                        <span class="text-[13px] text-text_color">
-                                            5.0 (1 Reviews)
-                                        </span>
-                                    </div>
-                                    <div class="package-list__item-price">
-                                        <div class="text-sm text-black">Price from</div>
-                                        <div class="font-semibold text-xl  text-black lg:text-[22px]">
-                                            US$1680
-                                            <span class="text-lg font-normal text-[#878787] line-through">US$1800</span>
+                                    <div class="package-list__item-bottom">
+                                        <div class="package-list__item-price">
+                                            <div class="text-sm text-black">Price from</div>
+                                            <div class="font-semibold text-xl  text-primary lg:text-[22px]">
+                                                US$1680
+                                                <span class="text-lg font-normal text-[#878787] line-through">US$1800</span>
+                                            </div>
+                                        </div>
+                                        <div class="package-list__item-review">
+                                            <span class="text-base icon icon-star">
+                                            </span>
+                                            <span class="text-[13px] text-text_color">
+                                                5.0 (1 Reviews)
+                                            </span>
                                         </div>
                                     </div>
                                 </div>
@@ -1299,10 +1266,6 @@
                                     </span>
                                     Best seller
                                 </div>
-                                <div class="package-list__item-wishlist">
-                                    <span class="text-lg text-primary icon icon-heart-outline">
-                                    </span>
-                                </div>
                                 <div class="package-list__item-image">
                                     <div class="placeholder__img-wrapper">
                                         <div class="placeholder__img">
@@ -1336,18 +1299,20 @@
                                             </span>
                                         </div>
                                     </div>
-                                    <div class="package-list__item-grade">
-                                        <span class="text-base icon icon-star">
-                                        </span>
-                                        <span class="text-[13px] text-text_color">
-                                            5.0 (1 Reviews)
-                                        </span>
-                                    </div>
-                                    <div class="package-list__item-price">
-                                        <div class="text-sm text-black">Price from</div>
-                                        <div class="font-semibold text-xl  text-black lg:text-[22px]">
-                                            US$1680
-                                            <span class="text-lg font-normal text-[#878787] line-through">US$1800</span>
+                                    <div class="package-list__item-bottom">
+                                        <div class="package-list__item-price">
+                                            <div class="text-sm text-black">Price from</div>
+                                            <div class="font-semibold text-xl  text-primary lg:text-[22px]">
+                                                US$1680
+                                                <span class="text-lg font-normal text-[#878787] line-through">US$1800</span>
+                                            </div>
+                                        </div>
+                                        <div class="package-list__item-review">
+                                            <span class="text-base icon icon-star">
+                                            </span>
+                                            <span class="text-[13px] text-text_color">
+                                                5.0 (1 Reviews)
+                                            </span>
                                         </div>
                                     </div>
                                 </div>
@@ -1360,10 +1325,6 @@
                                     </span>
                                     Best seller
                                 </div>
-                                <div class="package-list__item-wishlist">
-                                    <span class="text-lg text-primary icon icon-heart-outline">
-                                    </span>
-                                </div>
                                 <div class="package-list__item-image">
                                     <div class="placeholder__img-wrapper">
                                         <div class="placeholder__img">
@@ -1397,18 +1358,20 @@
                                             </span>
                                         </div>
                                     </div>
-                                    <div class="package-list__item-grade">
-                                        <span class="text-base icon icon-star">
-                                        </span>
-                                        <span class="text-[13px] text-text_color">
-                                            5.0 (1 Reviews)
-                                        </span>
-                                    </div>
-                                    <div class="package-list__item-price">
-                                        <div class="text-sm text-black">Price from</div>
-                                        <div class="font-semibold text-xl  text-black lg:text-[22px]">
-                                            US$1680
-                                            <span class="text-lg font-normal text-[#878787] line-through">US$1800</span>
+                                    <div class="package-list__item-bottom">
+                                        <div class="package-list__item-price">
+                                            <div class="text-sm text-black">Price from</div>
+                                            <div class="font-semibold text-xl  text-primary lg:text-[22px]">
+                                                US$1680
+                                                <span class="text-lg font-normal text-[#878787] line-through">US$1800</span>
+                                            </div>
+                                        </div>
+                                        <div class="package-list__item-review">
+                                            <span class="text-base icon icon-star">
+                                            </span>
+                                            <span class="text-[13px] text-text_color">
+                                                5.0 (1 Reviews)
+                                            </span>
                                         </div>
                                     </div>
                                 </div>
@@ -1428,10 +1391,6 @@
                                     </span>
                                     Best seller
                                 </div>
-                                <div class="package-list__item-wishlist">
-                                    <span class="text-lg text-primary icon icon-heart-outline">
-                                    </span>
-                                </div>
                                 <div class="package-list__item-image">
                                     <div class="placeholder__img-wrapper">
                                         <div class="placeholder__img">
@@ -1465,18 +1424,20 @@
                                             </span>
                                         </div>
                                     </div>
-                                    <div class="package-list__item-grade">
-                                        <span class="text-base icon icon-star">
-                                        </span>
-                                        <span class="text-[13px] text-text_color">
-                                            5.0 (1 Reviews)
-                                        </span>
-                                    </div>
-                                    <div class="package-list__item-price">
-                                        <div class="text-sm text-black">Price from</div>
-                                        <div class="font-semibold text-xl  text-black lg:text-[22px]">
-                                            US$1680
-                                            <span class="text-lg font-normal text-[#878787] line-through">US$1800</span>
+                                    <div class="package-list__item-bottom">
+                                        <div class="package-list__item-price">
+                                            <div class="text-sm text-black">Price from</div>
+                                            <div class="font-semibold text-xl  text-primary lg:text-[22px]">
+                                                US$1680
+                                                <span class="text-lg font-normal text-[#878787] line-through">US$1800</span>
+                                            </div>
+                                        </div>
+                                        <div class="package-list__item-review">
+                                            <span class="text-base icon icon-star">
+                                            </span>
+                                            <span class="text-[13px] text-text_color">
+                                                5.0 (1 Reviews)
+                                            </span>
                                         </div>
                                     </div>
                                 </div>
@@ -1489,10 +1450,6 @@
                                     </span>
                                     Best seller
                                 </div>
-                                <div class="package-list__item-wishlist">
-                                    <span class="text-lg text-primary icon icon-heart-outline">
-                                    </span>
-                                </div>
                                 <div class="package-list__item-image">
                                     <div class="placeholder__img-wrapper">
                                         <div class="placeholder__img">
@@ -1526,18 +1483,20 @@
                                             </span>
                                         </div>
                                     </div>
-                                    <div class="package-list__item-grade">
-                                        <span class="text-base icon icon-star">
-                                        </span>
-                                        <span class="text-[13px] text-text_color">
-                                            5.0 (1 Reviews)
-                                        </span>
-                                    </div>
-                                    <div class="package-list__item-price">
-                                        <div class="text-sm text-black">Price from</div>
-                                        <div class="font-semibold text-xl  text-black lg:text-[22px]">
-                                            US$1680
-                                            <span class="text-lg font-normal text-[#878787] line-through">US$1800</span>
+                                    <div class="package-list__item-bottom">
+                                        <div class="package-list__item-price">
+                                            <div class="text-sm text-black">Price from</div>
+                                            <div class="font-semibold text-xl  text-primary lg:text-[22px]">
+                                                US$1680
+                                                <span class="text-lg font-normal text-[#878787] line-through">US$1800</span>
+                                            </div>
+                                        </div>
+                                        <div class="package-list__item-review">
+                                            <span class="text-base icon icon-star">
+                                            </span>
+                                            <span class="text-[13px] text-text_color">
+                                                5.0 (1 Reviews)
+                                            </span>
                                         </div>
                                     </div>
                                 </div>
@@ -1550,10 +1509,6 @@
                                     </span>
                                     Best seller
                                 </div>
-                                <div class="package-list__item-wishlist">
-                                    <span class="text-lg text-primary icon icon-heart-outline">
-                                    </span>
-                                </div>
                                 <div class="package-list__item-image">
                                     <div class="placeholder__img-wrapper">
                                         <div class="placeholder__img">
@@ -1587,18 +1542,20 @@
                                             </span>
                                         </div>
                                     </div>
-                                    <div class="package-list__item-grade">
-                                        <span class="text-base icon icon-star">
-                                        </span>
-                                        <span class="text-[13px] text-text_color">
-                                            5.0 (1 Reviews)
-                                        </span>
-                                    </div>
-                                    <div class="package-list__item-price">
-                                        <div class="text-sm text-black">Price from</div>
-                                        <div class="font-semibold text-xl  text-black lg:text-[22px]">
-                                            US$1680
-                                            <span class="text-lg font-normal text-[#878787] line-through">US$1800</span>
+                                    <div class="package-list__item-bottom">
+                                        <div class="package-list__item-price">
+                                            <div class="text-sm text-black">Price from</div>
+                                            <div class="font-semibold text-xl  text-primary lg:text-[22px]">
+                                                US$1680
+                                                <span class="text-lg font-normal text-[#878787] line-through">US$1800</span>
+                                            </div>
+                                        </div>
+                                        <div class="package-list__item-review">
+                                            <span class="text-base icon icon-star">
+                                            </span>
+                                            <span class="text-[13px] text-text_color">
+                                                5.0 (1 Reviews)
+                                            </span>
                                         </div>
                                     </div>
                                 </div>
@@ -1654,7 +1611,7 @@
                                 <div class=" testimonials__item-title ">
                                     Nepal a wonderful Country
                                 </div>
-                                <div class="testimonials__item-content text-[13px] leading-5 text-text_color">
+                                <div class="testimonials__item-content text-sm leading-6 text-text_color">
                                     I booked for the Mardi Trek and it was amazing. They briefed the itinerary and it was on schedule. I love how this trip was a blend of culture, everything was excellent no complaints. Thanks and cheers :)
                                 </div>
                                 <div class="flex items-center  gap-5.5  mt-4 testimonials__item-reviewer">
@@ -1698,7 +1655,7 @@
                                 <div class=" testimonials__item-title ">
                                     Nepal a wonderful Country
                                 </div>
-                                <div class="testimonials__item-content text-[13px] leading-5 text-text_color">
+                                <div class="testimonials__item-content text-sm leading-6 text-text_color">
                                     I booked for the Mardi Trek and it was amazing. They briefed the itinerary and it was on schedule. I love how this trip was a blend of culture, everything was excellent no complaints. Thanks and cheers :)
                                 </div>
                                 <div class="flex items-center  gap-5.5  mt-4 testimonials__item-reviewer">
@@ -2028,10 +1985,17 @@
         </div>
     </div>
 </section>
-<section class="homepage__article scroll-wrap">
+<section class="homepage__article scroll-wrap hav-title-btn">
     <div class="container-fluid">
         <div class="container">
-            <div class=" section-title">Empowering Communities Through <br /> Eco-Tourism and Charity in Nepal</div>
+            <div class="flex items-center justify-between mb-6">
+                <div class="mb-0 section-title">Empowering Communities Through <br /> Eco-Tourism and Charity in Nepal</div>
+                <div class="section-title-btn">
+                    <a href="" class="border border-[#afafaf] font-medium text-sm px-5 hover:bg-secondary hover:border-secondary hover:text-white transition-all duration-500 py-2.5 rounded-full">
+                        View All Packages
+                    </a>
+                </div>
+            </div>
             <div class="mb-6 text-text_color lg:w-10/12">
                 Lorem ipsum dolor sit amet, consectetur adipiscting elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
             </div>
@@ -2227,10 +2191,10 @@
                     alt="image" />
             </div>
             <div class="homepage__cta-content ">
-                <div class="text-center font-signika font-bold text-3xl  w-full   xl:leading-16! lg:text-4xl text-white xl:text-[42px] xl:w-8/10 mx-auto">
+                <div class="text-center font-signika font-bold text-3xl  w-full   xl:leading-12.5! lg:text-4xl text-white xl:text-[42px] xl:w-8/10 mx-auto">
                     Ready to Explore? Let's Chat About Your Dream Trip?
                 </div>
-                <div class="mx-auto my-5 text-center text-white lg:w-7/10">Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </div>
+                <div class="mx-auto mt-2 mb-6! text-center text-white lg:w-7/10">Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </div>
                 <a href="" class="  bg-primary font-medium text-sm px-5 hover:bg-secondary  text-white transition-all duration-500 py-2.5 rounded-full">
                     Start Planning Your Trip Now!
                 </a>

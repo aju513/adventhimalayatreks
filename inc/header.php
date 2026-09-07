@@ -12,6 +12,11 @@
                        </a>
                    </div>
                    <div class="flex items-center justify-end gap-3.75 min-w-125">
+                       <a href="" class="px-4 py-2.5 text-sm font-semibold text-white uppercase transition-all duration-500 rounded-full bg-primary hover:bg-secondary">
+                           <span class="text-sm text-white icon icon-paper-plane">
+                           </span>
+                           PLAN YOUR TRIP
+                       </a>
                        <div class="flex items-center gap-3 mr-5 header-whatsapp-contact">
                            <div class="rounded-full header__menu-contact-icon ">
                                <img
@@ -33,11 +38,7 @@
                            </div>
 
                        </div>
-                       <a href="" class="px-4 py-2.5 text-sm font-semibold text-white uppercase transition-all duration-500 rounded-full bg-primary hover:bg-secondary">
-                           <span class="text-sm text-white icon icon-paper-plane">
-                           </span>
-                           PLAN YOUR TRIP
-                       </a>
+
                    </div>
                </div>
            </div>
@@ -46,7 +47,7 @@
            <div class="container relative">
                <div class="grid grid-cols-12 gap-3.75">
                    <div class="col-span-12">
-                       <div class="flex justify-end gap-5 xl:gap-30">
+                       <div class="flex  items-center justify-end gap-5 xl:gap-30">
                            <nav class="flex items-center justify-end nav-menu ">
                                <ul
                                    class="items-center gap-5 xl:gap-10 lg:flex ">
@@ -1802,39 +1803,31 @@
                                    </li>
                                </ul>
                            </nav>
-                           <div class="flex items-center justify-end gap-3.75">
-                               <div class="flex items-center min-h-12.5 justify-end gap-5">
-                                   <div class="flex items-center justify-end gap-5 nav-list">
-                                       <div class="websearch-wrap">
-                                           <span class="items-center justify-center hidden w-8 h-8 p-2 transition-all duration-500 rounded-full cursor-pointer search-btn lg:flex hover:bg-secondary hover:bg-opacity-40">
-                                               <span class="text-2xl font-bold text-white transition-all duration-500 icon-search hover:text-primary" aria-hidden="true"></span>
-                                           </span>
-                                           <div class="relative mr-5 search-box-wrapper">
-                                               <div class="hidden search-box-elements">
-                                                   <a href="#" class="flex items-center justify-center search-close w-7 h-7">
-                                                       <span class="pt-1 text-2xl icon-cross " aria-hidden="true"></span>
-                                                   </a>
-                                                   <form>
-                                                       <div class="relative">
-                                                           <input
-                                                               type="text"
-                                                               id="default-search"
-                                                               class="block h-13.75  w-full rounded-lg border border-gray-300 bg-white px-4 py-2"
-                                                               placeholder="Search"
-                                                               required />
-                                                           <button
-                                                               type="submit"
-                                                               class="absolute bottom-3.5 inset-e-2.5 rounded-lg bg-white text-sm font-medium">
-                                                               <span class="text-xl icon-search text-primary" aria-hidden="true"></span>
-                                                           </button>
-                                                       </div>
-                                                   </form>
-                                               </div>
+                           <div class="websearch-wrap">
+                               <span class="items-center justify-center hidden w-8 h-8 p-2 transition-all duration-500 rounded-full cursor-pointer search-btn lg:flex hover:bg-secondary hover:bg-opacity-40">
+                                   <span class="text-2xl font-bold text-white transition-all duration-500 icon-search hover:text-primary" aria-hidden="true"></span>
+                               </span>
+                               <div class="relative mr-5 search-box-wrapper">
+                                   <div class="hidden search-box-elements">
+                                       <a href="#" class="flex items-center justify-center search-close w-7 h-7">
+                                           <span class="pt-1 text-2xl icon-cross " aria-hidden="true"></span>
+                                       </a>
+                                       <form>
+                                           <div class="relative">
+                                               <input
+                                                   type="text"
+                                                   id="default-search"
+                                                   class="block h-13.75  w-full rounded-lg border border-gray-300 bg-white px-4 py-2"
+                                                   placeholder="Search"
+                                                   required />
+                                               <button
+                                                   type="submit"
+                                                   class="absolute bottom-3.5 inset-e-2.5 rounded-lg bg-white text-sm font-medium">
+                                                   <span class="text-xl icon-search text-primary" aria-hidden="true"></span>
+                                               </button>
                                            </div>
-                                       </div>
+                                       </form>
                                    </div>
-                                   <a href=""> <span class="block text-2xl text-white transition-all duration-500 icon icon-heart-outline hover:text-primary">
-                                       </span></a>
                                </div>
                            </div>
                        </div>
