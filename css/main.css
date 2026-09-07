@@ -691,7 +691,7 @@ h3,
 h4,
 h5,
 h6 {
-  @apply leading-8.5 text-text_color mb-3 font-bold font-signika;
+  @apply text-text_color mb-3 font-bold font-signika;
   strong {
     @apply font-signika;
   }
@@ -2381,12 +2381,8 @@ input[type="text"].date-picker {
   @apply bg-secondary lg:pl-10;
 }
 
-/* .footer__links .container {
-  @apply relative z-10 border-b border-[#635449] pb-12.5;
-} */
-
 .footer__copyright {
-  @apply bg-secondary relative -top-2 lg:pb-7.5 pb-20;
+  @apply bg-secondary lg:pb-7.5 pb-20;
 }
 
 /* innersection */
@@ -2510,7 +2506,7 @@ input[type="text"].date-picker {
 
 .package__title {
   h1 {
-    @apply font-signika  mb-5 text-[28px]  font-extrabold leading-8   sm:text-[30px] lg:text-[40px] lg:leading-10;
+    @apply font-signika  mb-2 text-[28px]  font-extrabold leading-8   sm:text-[30px] lg:text-[40px] lg:leading-10;
   }
 }
 .package__section-title {
@@ -2643,6 +2639,12 @@ input[type="text"].date-picker {
 .package__video .circular-animate .icon-play:before {
   @apply text-secondary;
 }
+/* no video */
+.package__gallery {
+  &:not(:has(+ .package__video)) {
+    @apply mb-7.5;
+  }
+}
 /* package itinerary */
 .package__itinerary-note {
   @apply bg-[#fff0e6] rounded-2xl px-6 py-5 mb-6;
@@ -2653,15 +2655,15 @@ input[type="text"].date-picker {
 }
 
 .package__itinerary-item-day {
-  @apply absolute left-5 -top-4 font-bold text-[13px] text-white bg-secondary px-4 py-0.5 rounded-full;
+  @apply absolute left-5 top-0 font-bold text-[13px] text-white bg-secondary px-4 py-1 rounded-b-[5px] rounded-t-none;
 }
 
 .package__itinerary-item-title {
-  @apply text-xl text-[#111111] font-bold lg:text-[22px];
+  @apply text-xl text-[#111111] font-bold leading-7!;
 }
 
 .package__itinerary .itinerary-meta-facts {
-  @apply my-5;
+  @apply mt-5;
 }
 
 .package__itinerary .itinerary-meta-image img {
@@ -2754,13 +2756,13 @@ input[type="text"].date-picker {
   @apply bg-white px-3 py-2 rounded-md md:w-2/3 w-full;
 }
 .package__availability .tab-wrap .tab-link__item {
-  @apply font-bold text-[13px] py-1.5 capitalize text-black bg-dim_bg;
+  @apply font-bold text-[15px] py-1.5 capitalize text-black bg-dim_bg;
 }
 .package__availability .tab-wrap .tab-link__item.active {
   @apply text-white bg-secondary;
 }
 .package__availability-filter-item {
-  @apply bg-dim_bg rounded-full font-medium max-sm:text-xs text-text_color cursor-pointer sm:px-4 px-3 py-1.5 hover:bg-secondary hover:text-white duration-500 transition-all;
+  @apply bg-dim_bg rounded-full font-medium text-[13px] text-text_color cursor-pointer sm:px-4 px-3 py-1.5 hover:bg-secondary hover:text-white duration-500 transition-all;
 }
 .package__availability-filter-item.active {
   @apply bg-secondary text-white;
@@ -2769,7 +2771,7 @@ input[type="text"].date-picker {
   @apply mt-5;
 }
 .package__availability-item {
-  @apply bg-white xl:p-6 p-4 rounded-2xl max-md:gap-y-2 grid md:grid-cols-6 grid-cols-2 mb-3 last:mb-0;
+  @apply bg-white xl:p-6 p-4 rounded-2xl max-md:gap-y-2 grid md:grid-cols-5 grid-cols-2 mb-3 last:mb-0;
 }
 .package__availability-note {
   @apply bg-[#fff0e6] p-6 mt-5 text-sm leading-6 rounded-2xl;
@@ -2914,24 +2916,35 @@ input[type="text"].date-picker {
 .package__actions {
   @apply flex items-center gap-2 mb-5 lg:justify-end;
 }
-.package__price-top,
+.package__price-top {
+  @apply pt-6 pb-3 px-7 flex justify-between;
+}
 .package__price-links {
   @apply py-6 px-7;
 }
 .package__price-final {
-  @apply font-bold text-xl lg:text-[22px] text-black;
+  @apply font-bold text-xl lg:text-[22px] text-primary;
 }
 .package__price-initial {
   @apply text-base font-normal lg:text-lg line-through text-[#989898];
 }
 .package__price-breakdown {
-  @apply py-5 px-7 bg-[#fff0e6];
+  @apply p-4 bg-[#fff0e6] mx-7 rounded-xl;
 }
 .package__price-note {
   @apply text-[13px] text-text_color pb-5 px-7;
 }
 .package__sidebar-contact {
   @apply py-5 px-7 bg-[#fdd284] rounded-2xl mt-6;
+}
+.package__price-contact-icon {
+  @apply rounded-full;
+  img {
+    @apply rounded-full;
+  }
+}
+.package__price-contact-content {
+  @apply flex flex-col items-start;
 }
 .useful-info {
   h2 {

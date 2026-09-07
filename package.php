@@ -151,7 +151,7 @@
                         <a href="">
                             <div class="flex items-center gap-2 package__rating-tripadvisor ">
                                 <span class="icon-dot-rating"></span>
-                                <span class="text-[13px] text-text_color leading-5">44 reviews in Trip Advisor</span>
+                                <span class="text-[13px] text-text_color leading-5">44 reviews in TripAdvisor</span>
                             </div>
                         </a>
                         <a href="">
@@ -175,6 +175,7 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. cididunt ut labore et dolore magna aliqua. </p>
                     </div>
                     <div class="package__facts common-module ">
+                        <div class=" text-xl lg:text-2xl font-bold font-signika text-text_color mb-5">At a Glance</div>
                         <div class="grid grid-cols-12 gap-5">
                             <div class="col-span-6 md:col-span-4">
                                 <div class="package__facts-item">
@@ -541,7 +542,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="relative mb-3 content-main-image-wrapper">
+                                    <div class="relative mt-3 content-main-image-wrapper">
                                         <div class="content-main-image ">
                                             <div class="placeholder__img-wrapper">
                                                 <div class="w-full placeholder__img">
@@ -598,7 +599,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="relative mb-3 content-main-image-wrapper">
+                                    <div class="relative mt-3 content-main-image-wrapper">
                                         <div class="content-main-image ">
                                             <div class="placeholder__img-wrapper">
                                                 <div class="w-full placeholder__img">
@@ -655,7 +656,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="relative mb-3 content-main-image-wrapper">
+                                    <div class="relative mt-3 content-main-image-wrapper">
                                         <div class="content-main-image ">
                                             <div class="placeholder__img-wrapper">
                                                 <div class="w-full placeholder__img">
@@ -682,7 +683,7 @@
                                 We have solutions for you.
                             </div>
                             <div class="package__customize-action ">
-                                <a href="" class="px-4 py-2 text-sm font-medium transition-all duration-500 bg-white rounded-full hover:text-white hover:bg-secondary">Contact Us</a>
+                                <a href="" class="px-4 py-2 text-sm font-medium transition-all duration-500 bg-white rounded-full hover:text-white hover:bg-secondary">Download</a>
                                 <a href="" class="px-4 py-2 text-sm font-medium transition-all duration-500 bg-white rounded-full hover:text-white hover:bg-secondary">Customize trip</a>
                             </div>
                         </div>
@@ -695,7 +696,7 @@
                                     <div class="tab-link__item active" data-tab="route">Route Map</div>
                                     <div class="tab-link__item" data-tab="altitude">Altitude Chart</div>
                                 </div>
-                                <a href="" class="text-sm font-medium text-text_color hover:underline">Download Map</a>
+                                <a href="" class="text-sm font-medium text-text_color underline hover:text-primary">Download Map</a>
                             </div>
 
                             <div class="tab-content__wrap">
@@ -760,8 +761,6 @@
                     </div>
                     <div class="package__availability common-module scroll-mt-20" id="package-availability">
                         <h2 class="package__section-title">Dates and Availability</h2>
-                        <div class="text-text_color"><span class="font-bold">Fixed Departure</span> is for joining pre-scheduled group departures.</div>
-                        <div class="text-text_color"><span class="font-bold">Private Trip</span> is for personalized experiences.</div>
                         <div class="mt-5 tab-wrap">
                             <div class=" tab-link">
                                 <div class="tab-link__item active" data-tab="group-departure">Group Departure</div>
@@ -791,22 +790,25 @@
                                         <div class="package__availability-wrap">
                                             <div class="package__availability-item">
                                                 <div class="package__availability-item-start">
-                                                    <div class="text-sm font-bold text-text_color">
-                                                        29 April, 2026
-                                                    </div>
                                                     <div class=" text-xs text-[#878787] ">
                                                         Start Monday
                                                     </div>
+                                                    <div class="text-sm font-bold text-text_color">
+                                                        29 April, 2026
+                                                    </div>
                                                 </div>
                                                 <div class="package__availability-item-end">
-                                                    <div class="text-sm font-bold text-text_color">
-                                                        14 May, 2026
-                                                    </div>
                                                     <div class=" text-xs text-[#878787] ">
                                                         End Monday
                                                     </div>
+                                                    <div class="text-sm font-bold text-text_color">
+                                                        14 May, 2026
+                                                    </div>
                                                 </div>
                                                 <div class="package__availability-item-status">
+                                                    <div class=" text-xs text-[#878787] ">
+                                                        Status
+                                                    </div>
                                                     <div class="text-sm font-bold text-text_color">
                                                         Availability
                                                     </div>
@@ -815,19 +817,13 @@
                                                     </div>
                                                 </div>
                                                 <div class="package__availability-item-status">
-                                                    <div class="text-sm font-bold text-text_color">
-                                                        15
-                                                    </div>
                                                     <div class=" text-xs text-[#878787] ">
-                                                        Group Size
+                                                        Price
                                                     </div>
-                                                </div>
-                                                <div class="package__availability-item-status">
-                                                    <div class="-mb-2 text-sm font-bold text-text_color">
-                                                        US$ 1600
-                                                    </div>
-                                                    <div class=" text-xs  line-through text-[#878787]">
-                                                        US $1800
+                                                    <div class="-mb-2 text-sm font-bold text-secondary">
+                                                        US$ 1600 <span class=" text-xs  line-through text-[#878787]">
+                                                            US $1800
+                                                        </span>
                                                     </div>
                                                 </div>
                                                 <div class="md:text-right package__availability-item-link">
@@ -836,43 +832,37 @@
                                             </div>
                                             <div class="package__availability-item">
                                                 <div class="package__availability-item-start">
-                                                    <div class="text-sm font-bold text-text_color">
-                                                        29 April, 2026
-                                                    </div>
                                                     <div class=" text-xs text-[#878787] ">
                                                         Start Monday
                                                     </div>
+                                                    <div class="text-sm font-bold text-text_color">
+                                                        29 April, 2026
+                                                    </div>
                                                 </div>
                                                 <div class="package__availability-item-end">
-                                                    <div class="text-sm font-bold text-text_color">
-                                                        14 May, 2026
-                                                    </div>
                                                     <div class=" text-xs text-[#878787] ">
                                                         End Monday
                                                     </div>
+                                                    <div class="text-sm font-bold text-text_color">
+                                                        14 May, 2026
+                                                    </div>
                                                 </div>
                                                 <div class="package__availability-item-status">
+                                                    <div class=" text-xs text-[#878787] ">
+                                                        Status
+                                                    </div>
                                                     <div class="text-sm font-bold text-text_color">
                                                         Availability
                                                     </div>
-                                                    <div class=" text-xs text-[#878787] ">
-                                                        2 Spots Remaining
-                                                    </div>
                                                 </div>
                                                 <div class="package__availability-item-status">
-                                                    <div class="text-sm font-bold text-text_color">
-                                                        15
-                                                    </div>
                                                     <div class=" text-xs text-[#878787] ">
-                                                        Group Size
+                                                        Price
                                                     </div>
-                                                </div>
-                                                <div class="package__availability-item-status">
-                                                    <div class="-mb-2 text-sm font-bold text-text_color">
-                                                        US$ 1600
-                                                    </div>
-                                                    <div class=" text-xs  line-through text-[#878787]">
-                                                        US $1800
+                                                    <div class="-mb-2 text-sm font-bold text-secondary">
+                                                        US$ 1600 <span class=" text-xs  line-through text-[#878787]">
+                                                            US $1800
+                                                        </span>
                                                     </div>
                                                 </div>
                                                 <div class="md:text-right package__availability-item-link">
@@ -900,13 +890,8 @@
                             </div>
                         </div>
                     </div>
-                    <div
-                        class="package__addons common-module scroll-mt-20"
-                        id="package-addons">
-                        <h2 class="flex items-center gap-3 package__section-title">
-                            <span class="flex items-center justify-center bg-white rounded-full w-9 h-9 ">
-                                <span class="icon-plus text-3xl  text-[#FDD284]"></span>
-                            </span>
+                    <div class="package__addons common-module scroll-mt-20" id="package-addons">
+                        <h2 class="package__section-title">
                             Add-ons
                         </h2>
                         <div class="package__addons-content">
@@ -954,7 +939,7 @@
                                             <div class="font-bold text-text_color">
                                                 US$ 1300
                                             </div>
-                                            <div class="-mt-2 text-sm text-text_color">per person </div>
+                                            <div class="-mt-1 text-sm text-text_color">per person </div>
                                         </div>
                                     </div>
 
@@ -985,7 +970,13 @@
                         </div>
                     </div>
                     <div class="package__equipment common-module scroll-mt-20" id="package-equipment">
-                        <h2 class="package__section-title">Essential Packing List</h2>
+                        <div class="flex flex-wrap items-center justify-between mb-5">
+                            <h2 class="package__section-title mb-0!">Essential Packing List</h2>
+                            <button class="flex items-center justify-center text-text_color transition-all duration-500 hover:text-primary">
+                                <span class="underline hover:no-underline">Download</span>
+                                <span class="pl-1 text-sm leading-5 icon-download"></span>
+                            </button>
+                        </div>
                         <div class="package__equipment__wrapper">
                             <p>
                                 Embark on the ultimate adventure with a trek to Mount
@@ -1079,65 +1070,57 @@
                 </div>
                 <div class="col-span-12 lg:col-span-4">
                     <div class=" package__price-sidebar-main">
-                        <div class="package__actions">
-                            <div class="package__actions-item">
-                                <button class="w-10 h-10 p-2 bg-[#fff0e6] flex items-center justify-center rounded-full hover:bg-secondary duration-500 transition-all">
-                                    <span class="text-xl leading-5 text-primary icon-heart-outline"></span>
-                                </button>
-                            </div>
-                            <div class="package__actions-item">
-                                <button class="w-10 h-10 p-2 bg-[#fff0e6] flex items-center justify-center rounded-full hover:bg-secondary duration-500 transition-all">
-                                    <span class="text-xl leading-5 text-primary icon-download"></span>
-                                </button>
-                            </div>
-                            <div class="package__actions-item share-wrap " id="shareDropdown">
-                                <button id="sharetoggle" class="w-10 h-10 p-2 bg-[#fff0e6] flex items-center justify-center rounded-full hover:bg-secondary duration-500 transition-all share-trigger-btn">
-
-                                    <span class="text-xl leading-5 text-primary icon-share"> </span>
-
-                                </button>
-                                <div class=" share-list custom-rounded" id="dropdownMenu">
-                                    <button role="button" type="button" aria-label="Share on Facebook" onclick="handleShareClick('facebook');" class="share-list__item share-facebook ">
-                                        <span class="icon-facebook"></span>
-                                        <span class="ml-2 text-sm">Facebook</span>
-                                    </button>
-
-                                    <button role="button" type="button" aria-label="Share on X Corp" onclick="handleShareClick('twitter');" class="share-list__item share-x ">
-                                        <span class="icon-x-logo"></span>
-                                        <span class="ml-2 text-sm">X Corp</span>
-                                    </button>
-
-                                    <button role="button" type="button" aria-label="Share on LinkedIn" onclick="handleShareClick('linkedin');" class="share-list__item share-linkedin ">
-                                        <span class="icon-linkedin"></span>
-                                        <span class="ml-2 text-sm">Linkedin</span>
-                                    </button>
-
-                                    <button role="button" type="button" aria-label="Share on Instagram" onclick="handleShareClick('instagram');" class="share-list__item share-instagram ">
-                                        <span class="icon-instagram"></span>
-                                        <span class="ml-2 text-sm">Instagram</span>
-                                    </button>
-
-                                    <button role="button" type="button" aria-label="Share on WhatsApp" onclick="handleShareClick('whatsapp');" class="share-list__item share-whatsapp ">
-                                        <span class="icon-whatsapp-outline"></span>
-                                        <span class="ml-2 text-sm">WhatsApp</span>
-                                    </button>
-
-                                    <button role="button" type="button" aria-label="Copy Link" onclick="handleShareClick('copy');" class="share-list__item share-copy ">
-                                        <span class="icon-link"></span>
-                                        <span class="ml-2 text-sm">Copy</span>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
                         <div class="package__price-sidebar">
                             <div class="package__price-top">
-                                <div class="flex items-center gap-1.5">
-                                    <span class="text-xl leading-5 text-[#fdd284] icon-tag"></span>
-                                    <span class="text-sm font-bold text-text_color">Price from</span>
+                                <div class="package__price-top-price">
+                                    <div class="flex items-start gap-1.5">
+                                        <span class="text-xl leading-5 text-[#fdd284] icon-tag pt-1"></span>
+                                        <div class="flex flex-col">
+                                            <span class="text-sm font-bold text-text_color">Price from</span>
+                                            <div class="flex items-center gap-1.5">
+                                                <div class="package__price-final">US$1500</div>
+                                                <div class="package__price-initial">US$1600</div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="flex items-center gap-1.5">
-                                    <div class="package__price-final">US$1500</div>
-                                    <div class="package__price-initial">US$1600</div>
+                                <div class="package__actions">
+                                    <div class="package__actions-item share-wrap " id="shareDropdown">
+                                        <button id="sharetoggle" class="w-10 h-10 p-2 bg-[#fff0e6] flex items-center justify-center rounded-full hover:bg-secondary duration-500 transition-all share-trigger-btn">
+                                            <span class="text-xl leading-5 text-primary icon-share"> </span>
+                                        </button>
+                                        <div class=" share-list custom-rounded" id="dropdownMenu">
+                                            <button role="button" type="button" aria-label="Share on Facebook" onclick="handleShareClick('facebook');" class="share-list__item share-facebook ">
+                                                <span class="icon-facebook"></span>
+                                                <span class="ml-2 text-sm">Facebook</span>
+                                            </button>
+
+                                            <button role="button" type="button" aria-label="Share on X Corp" onclick="handleShareClick('twitter');" class="share-list__item share-x ">
+                                                <span class="icon-x-logo"></span>
+                                                <span class="ml-2 text-sm">X Corp</span>
+                                            </button>
+
+                                            <button role="button" type="button" aria-label="Share on LinkedIn" onclick="handleShareClick('linkedin');" class="share-list__item share-linkedin ">
+                                                <span class="icon-linkedin"></span>
+                                                <span class="ml-2 text-sm">Linkedin</span>
+                                            </button>
+
+                                            <button role="button" type="button" aria-label="Share on Instagram" onclick="handleShareClick('instagram');" class="share-list__item share-instagram ">
+                                                <span class="icon-instagram"></span>
+                                                <span class="ml-2 text-sm">Instagram</span>
+                                            </button>
+
+                                            <button role="button" type="button" aria-label="Share on WhatsApp" onclick="handleShareClick('whatsapp');" class="share-list__item share-whatsapp ">
+                                                <span class="icon-whatsapp-outline"></span>
+                                                <span class="ml-2 text-sm">WhatsApp</span>
+                                            </button>
+
+                                            <button role="button" type="button" aria-label="Copy Link" onclick="handleShareClick('copy');" class="share-list__item share-copy ">
+                                                <span class="icon-link"></span>
+                                                <span class="ml-2 text-sm">Copy</span>
+                                            </button>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="package__price-breakdown">
@@ -1189,26 +1172,33 @@
                         </div>
                         <div class="package__sidebar-contact">
                             <div class="text-lg font-bold text-black ">Need Help?</div>
-                            <div class="mt-3 mb-2 text-xs text-text_color leading-5!">Our Packages specialists are here to assist you with booking and customization.</div>
-                            <div class="flex items-center gap-3 ">
-                                <span class="text-lg text-text_color icon-mail-outline"></span>
-                                <a href="" class="break-all text-[#444444] text-[13px] font-bold hover:text-primary transition-all duration-500">
-                                    info@adventhimalayatreks.com
-                                </a>
+                            <div class="mt-2 mb-3 text-xs text-text_color leading-5!">Our Packages specialists are here to assist you with booking and customization.</div>
+                            <div class="flex gap-3 items-center">
+                                <div class="package__price-contact-icon ">
+                                    <img
+                                        width="55"
+                                        height="55"
+                                        src="/images/dynamic/reviewer.webp"
+                                        alt="logo" />
+                                </div>
+                                <div class="package__price-contact-content">
+                                    <span class="block font-semibold text-base text-[#1a2d45] ">
+                                        Babu Gurung
+                                    </span>
+                                    <a
+                                        href="tel:"
+                                        class="relative block text-sm font-bold transition-all duration-500 hover:text-primary text-[#1e4673]"><span class="text-sm text-[#47C355] icon-whatsapp-outline"></span>
+                                        +977 9851191662
+                                    </a>
+                                </div>
                             </div>
-                            <div class="flex items-center gap-3 ">
-                                <span class="text-lg text-text_color icon-whatsapp-outline"></span>
-                                <a href="" class="break-all text-[#444444] text-[13px] font-bold hover:text-primary transition-all duration-500">
-                                    +977 9851191662
-                                </a>
-                            </div>
+
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
 </section>
 <section class="pt-0 inner__moments package__moments scroll-wrap common-box">
     <div class="container">
@@ -1299,7 +1289,12 @@
 <section class="pt-0 common-box package__testimonials inner__testimonials">
     <div class="container-fluid">
         <div class="container">
-            <div class="inner-section-title ">What Client Says</div>
+            <div class="flex lg:justify-between lg:items-center flex-wrap mb-5">
+                <div class="inner-section-title mb-0!">What Client Says</div>
+                <a href="" class="inline-block px-5 py-2 mt-5 text-sm font-medium transition-all duration-500 bg-white border rounded-full border-primary hover:bg-secondary hover:border-secondary hover:text-white">
+                    Write a Review
+                </a>
+            </div>
             <div class="grid grid-cols-12 gap-5">
                 <div class="col-span-12 md:col-span-6">
                     <div class=" testimonials__item">
