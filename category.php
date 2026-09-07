@@ -58,113 +58,105 @@
                 </div>
             </div>
         </div>
-        <div class=" category-list common-box">
-            <div class="inner-section-title "> Travel Styles</div>
-
-            <div class="grid grid-cols-12 gap-[15px] md:gap-[5px]">
-                <div class="col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3">
-                    <div class="category-list__item">
-                        <div class="category-list__item-image">
-                            <div class="w-full placeholder__img-wrapper">
-                                <div class="w-full placeholder__img">
-                                    <a href="">
-                                        <img
-                                            src="/images/dynamic/category-thumb.webp"
-                                            width="600"
-                                            height="600"
-                                            alt="banner" />
+    </div>
+    <div class=" category-list common-box">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="inner-section-title "> Travel Styles</div>
+                <div class="grid grid-cols-12 gap-3.75 md:gap-1.25">
+                    <div class="col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3">
+                        <div class="category-list__item">
+                            <div class="category-list__item-image">
+                                <div class="w-full placeholder__img-wrapper">
+                                    <div class="w-full placeholder__img">
+                                        <a href="">
+                                            <img
+                                                src="/images/dynamic/category-thumb.webp"
+                                                width="600"
+                                                height="600"
+                                                alt="banner" />
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="category-list__item-content">
-                            <div class="category-list__item-count">
-                                25 Packages
+                            <div class="category-list__item-content">
+                                <h3 class=" category-list__item-title">
+                                    <a href="">Dubai</a>
+                                </h3>
                             </div>
-                            <h3 class=" category-list__item-title">
-                                <a href="">Dubai</a>
-                            </h3>
                         </div>
                     </div>
-                </div>
-                <div class="col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3">
-                    <div class="category-list__item">
-                        <div class="category-list__item-image">
-                            <div class="w-full placeholder__img-wrapper">
-                                <div class="w-full placeholder__img">
-                                    <a href="">
-                                        <img
-                                            src="/images/dynamic/category-thumb.webp"
-                                            width="600"
-                                            height="600"
-                                            alt="banner" />
+                    <div class="col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3">
+                        <div class="category-list__item">
+                            <div class="category-list__item-image">
+                                <div class="w-full placeholder__img-wrapper">
+                                    <div class="w-full placeholder__img">
+                                        <a href="">
+                                            <img
+                                                src="/images/dynamic/category-thumb.webp"
+                                                width="600"
+                                                height="600"
+                                                alt="banner" />
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="category-list__item-content">
-                            <div class="category-list__item-count">
-                                25 Packages
+                            <div class="category-list__item-content">
+                                <h3 class=" category-list__item-title">
+                                    <a href="">Dubai</a>
+                                </h3>
                             </div>
-                            <h3 class=" category-list__item-title">
-                                <a href="">Dubai</a>
-                            </h3>
                         </div>
                     </div>
-                </div>
 
-                <div class="col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3">
-                    <div class="category-list__item">
-                        <div class="category-list__item-image">
-                            <div class="w-full placeholder__img-wrapper">
-                                <div class="w-full placeholder__img">
-                                    <a href="">
-                                        <img
-                                            src="/images/dynamic/category-thumb.webp"
-                                            width="600"
-                                            height="600"
-                                            alt="banner" />
+                    <div class="col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3">
+                        <div class="category-list__item">
+                            <div class="category-list__item-image">
+                                <div class="w-full placeholder__img-wrapper">
+                                    <div class="w-full placeholder__img">
+                                        <a href="">
+                                            <img
+                                                src="/images/dynamic/category-thumb.webp"
+                                                width="600"
+                                                height="600"
+                                                alt="banner" />
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="category-list__item-content">
-                            <div class="category-list__item-count">
-                                25 Packages
+                            <div class="category-list__item-content">
+                                <h3 class=" category-list__item-title">
+                                    <a href="">Dubai</a>
+                                </h3>
                             </div>
-                            <h3 class=" category-list__item-title">
-                                <a href="">Dubai</a>
-                            </h3>
                         </div>
                     </div>
-                </div>
 
-                <div class="col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3">
-                    <div class="category-list__item">
-                        <div class="category-list__item-image">
-                            <div class="w-full placeholder__img-wrapper">
-                                <div class="w-full placeholder__img">
-                                    <a href="">
-                                        <img
-                                            src="/images/dynamic/category-thumb.webp"
-                                            width="600"
-                                            height="600"
-                                            alt="banner" />
+                    <div class="col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3">
+                        <div class="category-list__item">
+                            <div class="category-list__item-image">
+                                <div class="w-full placeholder__img-wrapper">
+                                    <div class="w-full placeholder__img">
+                                        <a href="">
+                                            <img
+                                                src="/images/dynamic/category-thumb.webp"
+                                                width="600"
+                                                height="600"
+                                                alt="banner" />
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="category-list__item-content">
-                            <div class="category-list__item-count">
-                                25 Packages
+                            <div class="category-list__item-content">
+                                <h3 class=" category-list__item-title">
+                                    <a href="">Dubai</a>
+                                </h3>
                             </div>
-                            <h3 class=" category-list__item-title">
-                                <a href="">Dubai</a>
-                            </h3>
                         </div>
                     </div>
-                </div>
 
+                </div>
             </div>
         </div>
-
-        <div class="pt-0 category-page_extra-content common-box">
+    </div>
+    <div class="pt-0 category-page_extra-content common-box">
+        <div class="container">
             <div class="grid grid-cols-12 gap-5">
                 <div class="col-span-12 lg:col-span-11">
                     <article>
@@ -214,4 +206,5 @@
             </div>
         </div>
     </div>
-    <?php include('./inc/footer.php') ?>
+</section>
+<?php include('./inc/footer.php') ?>

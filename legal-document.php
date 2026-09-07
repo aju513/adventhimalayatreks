@@ -8,7 +8,6 @@
                 Legal Document
             </h1>
         </div>
-
         <div class="legal-page__description ">
 
             <div class="legal-page__content lg:w-4/5 text-[15px] text-text_color">
@@ -17,8 +16,6 @@
                 delivered directly to your inbox
             </div>
         </div>
-
-
         <div class="mt-5 legal-document-wrapper">
 
             <div class="legal-document-wrapper__title">
@@ -38,7 +35,7 @@
                                                 width="400"
                                                 height="400"
                                                 class="rounded-[5px]"
-                                                src="./images/dynamic/legal.webp"
+                                                src="./images/dynamic/reviewer.webp"
                                                 alt="thumb" />
                                         </button>
                                     </div>

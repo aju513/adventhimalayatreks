@@ -59,8 +59,8 @@
                                            <span class="text-sm xl:text-base icon icon-angle-down">
                                            </span>
                                        </span>
-                                       <div class="item dropdown custom-shadow absolute left-0 top-12.5 z-10 hidden w-full rounded-bl-[5px] rounded-br-[5px] p-6">
-                                           <div class="flex max-h-112.5 flex-wrap justify-start overflow-y-auto">
+                                       <div class="item dropdown custom-shadow absolute left-0 top-10 z-10 hidden w-full rounded-bl-[5px] rounded-br-[5px] p-6">
+                                           <div class="dropdown-scroll flex max-h-112.5 flex-wrap justify-start overflow-y-auto">
                                                <div class="flex gap-3">
                                                    <ul class="flex flex-col nav-tab-links gap-1 custom-rounded flex-[0_0_200px] w-50 bg-secondary">
                                                        <li>
@@ -1319,7 +1319,7 @@
                                            <span class="text-sm xl:text-base icon icon-angle-down">
                                            </span>
                                        </span>
-                                       <div class="item dropdown custom-shadow absolute left-0 top-12.5 z-10 hidden w-full   p-6">
+                                       <div class="item dropdown custom-shadow absolute left-0 top-10 z-10 hidden w-full   p-6">
                                            <div class="flex max-h-112.5 flex-wrap justify-start overflow-y-auto">
                                                <ul class="megamenu-items columns-3 xl:columns-4">
                                                    <li class="p-0 lg:p-2">
@@ -1624,7 +1624,7 @@
                                            <span class="text-sm xl:text-base icon icon-angle-down">
                                            </span>
                                        </span>
-                                       <div class="item dropdown custom-shadow absolute left-auto top-12.5 z-10 hidden rounded-bl-[5px] rounded-br-[5px]">
+                                       <div class="item dropdown custom-shadow absolute left-auto top-10 z-10 hidden rounded-bl-[5px] rounded-br-[5px]">
                                            <div class="flex flex-wrap justify-start">
                                                <ul class="w-67.5 p-3">
                                                    <li class="relative hav-dropdown-children">
@@ -1673,7 +1673,7 @@
                                            <span class="text-sm xl:text-base icon icon-angle-down">
                                            </span>
                                        </span>
-                                       <div class="item dropdown custom-shadow absolute left-auto top-12.5 z-10 hidden rounded-bl-[5px] rounded-br-[5px]">
+                                       <div class="item dropdown custom-shadow absolute left-auto top-10 z-10 hidden rounded-bl-[5px] rounded-br-[5px]">
                                            <div class="flex flex-wrap justify-start">
                                                <ul class="w-67.5 p-3">
                                                    <li class="relative hav-dropdown-children">

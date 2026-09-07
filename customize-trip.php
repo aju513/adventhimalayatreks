@@ -1,7 +1,7 @@
 <?php include('./inc/common-header.php'); ?>
 <?php include('./inc/header.php') ?>
 <?php include('./inc/breadcrumbs.php') ?>
-<section class="common-box customize-trip-page" role="main">
+<section class="common-box customize-trip-page pb-0" role="main">
     <div class="container">
         <div class="page-title">
             <h1>
@@ -15,7 +15,7 @@
         </div>
         <div class="my-10 customize-page__info">
             <form class="w-full floating-form">
-                <div class="border border-primary border-opacity-10 mb-4 rounded-[5px] bg-white p-8 ">
+                <div class="border border-secondary/10 mb-4 rounded-[5px] bg-white p-8 ">
                     <div class="pb-5 text-lg font-bold text-text_color">
                         Trip Details
                     </div>

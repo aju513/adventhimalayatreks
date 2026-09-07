@@ -18,7 +18,7 @@
 
         <div class="mt-10 review-form-page__wrapper">
 
-            <form class="floating-form rounded-[5px] bg-dim_bg p-5 md:px-8 md:py-10">
+            <form class="floating-form rounded-[5px] border border-secondary/10 p-5 md:px-8 md:py-10">
                 <div class="grid md:grid-cols-3 md:gap-6">
                     <div class="relative z-0 w-full mb-0 group md:mb-5">
                         <input
@@ -30,7 +30,7 @@
                             required />
                         <label
                             for="fullname"
-                            class="text-text-color peer-focus:text-text-color peer-focus:dark:text-text-color absolute top-3 origin-[0] -translate-y-3 scale-75 transform pl-3 duration-300 focus:pl-0 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:start-0 peer-focus:-translate-y-3 peer-focus:scale-75 rtl:peer-focus:translate-x-1/4">
+                            class="text-text-color peer-focus:text-text-color peer-focus:dark:text-text-color absolute top-3.75 origin-[0] -translate-y-3.75 scale-75 transform pl-3 duration-300 focus:pl-0 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:start-0 peer-focus:-translate-y-3 peer-focus:scale-75 rtl:peer-focus:translate-x-1/4">
                             Full Name<span class="text-red-700">*</span>
                         </label>
                     </div>
@@ -45,7 +45,7 @@
                             required />
                         <label
                             for="mail"
-                            class="text-text-color peer-focus:text-text-color peer-focus:dark:text-text-color absolute top-3 origin-[0] -translate-y-3 scale-75 transform pl-3 text-base duration-300 focus:pl-0 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:start-0 peer-focus:-translate-y-3 peer-focus:scale-75 rtl:peer-focus:translate-x-1/4">
+                            class="text-text-color peer-focus:text-text-color peer-focus:dark:text-text-color absolute top-3.75 origin-[0] -translate-y-3.75 scale-75 transform pl-3 text-base duration-300 focus:pl-0 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:start-0 peer-focus:-translate-y-3 peer-focus:scale-75 rtl:peer-focus:translate-x-1/4">
                             Email Address<span class="text-red-700">*</span>
                         </label>
                     </div>
