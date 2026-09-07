@@ -142,238 +142,240 @@
         <div class="container">
             <div class="grid grid-cols-12 gap-5">
                 <div class="col-span-12 lg:col-span-8">
-                    <div class="package__title ">
-                        <h1>
-                            Everest Base Camp Trek 15 Days
-                        </h1>
-                    </div>
-                    <div class="package__rating flex items-center gap-3 flex-wrap lg:gap-4.5">
-                        <a href="">
-                            <div class="flex items-center gap-2 package__rating-tripadvisor ">
-                                <span class="icon-dot-rating"></span>
-                                <span class="text-[13px] text-text_color leading-5">44 reviews in TripAdvisor</span>
-                            </div>
-                        </a>
-                        <a href="">
-                            <div class="flex items-center gap-2 package__rating-google">
-                                <span class="icon-star-ratings"></span>
-                                <span class="text-[13px] text-text_color leading-5">120 in Google Reviews </span>
-                            </div>
-                        </a>
-                        <a href="">
-                            <div class="flex items-center gap-2 package__rating-facebook">
-                                <img
-                                    src="/images/svg/trust-star.svg"
-                                    width="70"
-                                    height="15"
-                                    alt="banner" class="rounded-none!" />
-                                <span class="text-[13px] text-text_color leading-5"> TrustPilot Reviews</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="package__summary common-module">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. cididunt ut labore et dolore magna aliqua. </p>
-                    </div>
-                    <div class="package__facts common-module ">
-                        <div class=" text-xl lg:text-2xl font-bold font-signika text-text_color mb-5">At a Glance</div>
-                        <div class="grid grid-cols-12 gap-5">
-                            <div class="col-span-6 md:col-span-4">
-                                <div class="package__facts-item">
-                                    <div class="package__facts-item-icon ">
-                                        <img
-                                            width={32}
-                                            height={32}
-                                            src="./images/svg/fact-calendar.svg"
-                                            alt="thumb" />
-                                    </div>
-                                    <div class="package__facts-item-content-wrap">
-                                        <div class="package__facts-item-title ">
-                                            Duration
-                                        </div>
-                                        <div class=" package__facts-item-content">
-                                            15 Days
-                                        </div>
-                                    </div>
-
+                    <div class="package__intro">
+                        <div class="package__title ">
+                            <h1>
+                                Everest Base Camp Trek 15 Days
+                            </h1>
+                        </div>
+                        <div class="package__rating flex items-center gap-3 flex-wrap lg:gap-4.5">
+                            <a href="">
+                                <div class="flex items-center gap-2 package__rating-tripadvisor ">
+                                    <span class="icon-dot-rating"></span>
+                                    <span class="text-[13px] text-text_color leading-5">44 reviews in TripAdvisor</span>
                                 </div>
-                            </div>
-                            <div class="col-span-6 md:col-span-4">
-                                <div class="package__facts-item">
-                                    <div class="flex gap-1 item-center">
+                            </a>
+                            <a href="">
+                                <div class="flex items-center gap-2 package__rating-google">
+                                    <span class="icon-star-ratings"></span>
+                                    <span class="text-[13px] text-text_color leading-5">120 in Google Reviews </span>
+                                </div>
+                            </a>
+                            <a href="">
+                                <div class="flex items-center gap-2 package__rating-facebook">
+                                    <img
+                                        src="/images/svg/trust-star.svg"
+                                        width="70"
+                                        height="15"
+                                        alt="banner" class="rounded-none!" />
+                                    <span class="text-[13px] text-text_color leading-5"> TrustPilot Reviews</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="package__summary common-module">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. cididunt ut labore et dolore magna aliqua. </p>
+                        </div>
+                        <div class="package__facts common-module ">
+                            <div class=" text-xl lg:text-2xl font-bold font-signika text-text_color mb-5">At a Glance</div>
+                            <div class="grid grid-cols-12 gap-5">
+                                <div class="col-span-6 md:col-span-4">
+                                    <div class="package__facts-item">
                                         <div class="package__facts-item-icon ">
                                             <img
                                                 width={32}
                                                 height={32}
-                                                src="./images/svg/fact-grade.svg"
+                                                src="./images/svg/fact-calendar.svg"
                                                 alt="thumb" />
                                         </div>
                                         <div class="package__facts-item-content-wrap">
                                             <div class="package__facts-item-title ">
-                                                Trip Grade
+                                                Duration
                                             </div>
                                             <div class=" package__facts-item-content">
-                                                Easy to Moderate
-                                                <div class="relative inline-flex flex-col items-center ml-2 popover-wrap group">
-                                                    <span class="text-xl icon-info text-text_color">
-                                                    </span>
+                                                15 Days
+                                            </div>
+                                        </div>
 
-                                                    <div class="absolute bottom-0 flex-col items-center hidden w-full mb-6 popover-bg sm:w-64 md:w-72">
-                                                        <span class="popover-wrap-content custom-shadow relative z-10 mb-0 rounded-[5px] bg-white p-3 text-[13px] leading-4 text-gray-800">
-                                                            <p>
-                                                                The moderate grade includes a one-week to fifteen-day itinerary. It can reach up to
-                                                                5000 meter altitude range, but the trails will be moderate (neither easy nor tough).
-                                                                High altitude may affect walking speed and distance. You need to have acclimatization
-                                                                over 3000 meters.
-                                                            </p>
+                                    </div>
+                                </div>
+                                <div class="col-span-6 md:col-span-4">
+                                    <div class="package__facts-item">
+                                        <div class="flex gap-1 item-center">
+                                            <div class="package__facts-item-icon ">
+                                                <img
+                                                    width={32}
+                                                    height={32}
+                                                    src="./images/svg/fact-grade.svg"
+                                                    alt="thumb" />
+                                            </div>
+                                            <div class="package__facts-item-content-wrap">
+                                                <div class="package__facts-item-title ">
+                                                    Trip Grade
+                                                </div>
+                                                <div class=" package__facts-item-content">
+                                                    Easy to Moderate
+                                                    <div class="relative inline-flex flex-col items-center ml-2 popover-wrap group">
+                                                        <span class="text-xl icon-info text-text_color">
                                                         </span>
-                                                        <div class="w-3 h-3 -mt-2 rotate-45 bg-white"></div>
+
+                                                        <div class="absolute bottom-0 flex-col items-center hidden w-full mb-6 popover-bg sm:w-64 md:w-72">
+                                                            <span class="popover-wrap-content custom-shadow relative z-10 mb-0 rounded-[5px] bg-white p-3 text-[13px] leading-4 text-gray-800">
+                                                                <p>
+                                                                    The moderate grade includes a one-week to fifteen-day itinerary. It can reach up to
+                                                                    5000 meter altitude range, but the trails will be moderate (neither easy nor tough).
+                                                                    High altitude may affect walking speed and distance. You need to have acclimatization
+                                                                    over 3000 meters.
+                                                                </p>
+                                                            </span>
+                                                            <div class="w-3 h-3 -mt-2 rotate-45 bg-white"></div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-span-6 md:col-span-4">
-                                <div class="package__facts-item">
-                                    <div class="package__facts-item-icon ">
-                                        <img
-                                            width={32}
-                                            height={32}
-                                            src="./images/svg/fact-altitude.svg"
-                                            alt="thumb" />
-                                    </div>
-                                    <div class="package__facts-item-content-wrap">
-                                        <div class="package__facts-item-title ">
-                                            Maximum Altitude
+                                <div class="col-span-6 md:col-span-4">
+                                    <div class="package__facts-item">
+                                        <div class="package__facts-item-icon ">
+                                            <img
+                                                width={32}
+                                                height={32}
+                                                src="./images/svg/fact-altitude.svg"
+                                                alt="thumb" />
                                         </div>
-                                        <div class=" package__facts-item-content">
-                                            5643 m.
+                                        <div class="package__facts-item-content-wrap">
+                                            <div class="package__facts-item-title ">
+                                                Maximum Altitude
+                                            </div>
+                                            <div class=" package__facts-item-content">
+                                                5643 m.
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-span-6 md:col-span-4">
-                                <div class="package__facts-item">
-                                    <div class="package__facts-item-icon ">
-                                        <img
-                                            width={32}
-                                            height={32}
-                                            src="./images/svg/fact-group.svg"
-                                            alt="thumb" />
-                                    </div>
-                                    <div class="package__facts-item-content-wrap">
-                                        <div class="package__facts-item-title ">
-                                            Group Size
+                                <div class="col-span-6 md:col-span-4">
+                                    <div class="package__facts-item">
+                                        <div class="package__facts-item-icon ">
+                                            <img
+                                                width={32}
+                                                height={32}
+                                                src="./images/svg/fact-group.svg"
+                                                alt="thumb" />
                                         </div>
-                                        <div class=" package__facts-item-content">
-                                            Up to 10 Travelers
+                                        <div class="package__facts-item-content-wrap">
+                                            <div class="package__facts-item-title ">
+                                                Group Size
+                                            </div>
+                                            <div class=" package__facts-item-content">
+                                                Up to 10 Travelers
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-span-6 md:col-span-4">
+                                    <div class="package__facts-item">
+                                        <div class="package__facts-item-icon ">
+                                            <img
+                                                width={32}
+                                                height={32}
+                                                src="./images/svg/fact-departure.svg"
+                                                alt="thumb" />
+                                        </div>
+                                        <div class="package__facts-item-content-wrap">
+                                            <div class="package__facts-item-title ">
+                                                Starts
+                                            </div>
+                                            <div class=" package__facts-item-content">
+                                                Kathmandu, Nepal
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-span-6 md:col-span-4">
+                                    <div class="package__facts-item">
+                                        <div class="package__facts-item-icon ">
+                                            <img
+                                                width={32}
+                                                height={32}
+                                                src="./images/svg/fact-departure.svg"
+                                                alt="thumb" />
+                                        </div>
+                                        <div class="package__facts-item-content-wrap">
+                                            <div class="package__facts-item-title ">
+                                                Ends
+                                            </div>
+                                            <div class=" package__facts-item-content">
+                                                Kathmandu, Nepal
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-span-6 md:col-span-4">
+                                    <div class="package__facts-item">
+                                        <div class="package__facts-item-icon ">
+                                            <img
+                                                width={32}
+                                                height={32}
+                                                src="./images/svg/fact-activities.svg"
+                                                alt="thumb" />
+                                        </div>
+                                        <div class="package__facts-item-content-wrap">
+                                            <div class="package__facts-item-title ">
+                                                Activities
+                                            </div>
+                                            <div class=" package__facts-item-content">
+                                                Trekking and Hiking
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-span-6 md:col-span-4">
+                                    <div class="package__facts-item">
+                                        <div class="package__facts-item-icon ">
+                                            <img
+                                                width={32}
+                                                height={32}
+                                                src="./images/svg/fact-best-time.svg"
+                                                alt="thumb" />
+                                        </div>
+                                        <div class="package__facts-item-content-wrap">
+                                            <div class="package__facts-item-title ">
+                                                Best Time
+                                            </div>
+                                            <div class=" package__facts-item-content">
+                                                Mar-May, Sep-Nov
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-span-6 md:col-span-4">
+                                    <div class="package__facts-item">
+                                        <div class="package__facts-item-icon ">
+                                            <img
+                                                width={32}
+                                                height={32}
+                                                src="./images/svg/fact-country.svg"
+                                                alt="thumb" />
+                                        </div>
+                                        <div class="package__facts-item-content-wrap">
+                                            <div class="package__facts-item-title ">
+                                                Country
+                                            </div>
+                                            <div class=" package__facts-item-content">
+                                                Nepal
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
-                            <div class="col-span-6 md:col-span-4">
-                                <div class="package__facts-item">
-                                    <div class="package__facts-item-icon ">
-                                        <img
-                                            width={32}
-                                            height={32}
-                                            src="./images/svg/fact-departure.svg"
-                                            alt="thumb" />
-                                    </div>
-                                    <div class="package__facts-item-content-wrap">
-                                        <div class="package__facts-item-title ">
-                                            Starts
-                                        </div>
-                                        <div class=" package__facts-item-content">
-                                            Kathmandu, Nepal
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-span-6 md:col-span-4">
-                                <div class="package__facts-item">
-                                    <div class="package__facts-item-icon ">
-                                        <img
-                                            width={32}
-                                            height={32}
-                                            src="./images/svg/fact-departure.svg"
-                                            alt="thumb" />
-                                    </div>
-                                    <div class="package__facts-item-content-wrap">
-                                        <div class="package__facts-item-title ">
-                                            Ends
-                                        </div>
-                                        <div class=" package__facts-item-content">
-                                            Kathmandu, Nepal
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div class="col-span-6 md:col-span-4">
-                                <div class="package__facts-item">
-                                    <div class="package__facts-item-icon ">
-                                        <img
-                                            width={32}
-                                            height={32}
-                                            src="./images/svg/fact-activities.svg"
-                                            alt="thumb" />
-                                    </div>
-                                    <div class="package__facts-item-content-wrap">
-                                        <div class="package__facts-item-title ">
-                                            Activities
-                                        </div>
-                                        <div class=" package__facts-item-content">
-                                            Trekking and Hiking
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-span-6 md:col-span-4">
-                                <div class="package__facts-item">
-                                    <div class="package__facts-item-icon ">
-                                        <img
-                                            width={32}
-                                            height={32}
-                                            src="./images/svg/fact-best-time.svg"
-                                            alt="thumb" />
-                                    </div>
-                                    <div class="package__facts-item-content-wrap">
-                                        <div class="package__facts-item-title ">
-                                            Best Time
-                                        </div>
-                                        <div class=" package__facts-item-content">
-                                            Mar-May, Sep-Nov
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-span-6 md:col-span-4">
-                                <div class="package__facts-item">
-                                    <div class="package__facts-item-icon ">
-                                        <img
-                                            width={32}
-                                            height={32}
-                                            src="./images/svg/fact-country.svg"
-                                            alt="thumb" />
-                                    </div>
-                                    <div class="package__facts-item-content-wrap">
-                                        <div class="package__facts-item-title ">
-                                            Country
-                                        </div>
-                                        <div class=" package__facts-item-content">
-                                            Nepal
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
-
                     </div>
                     <div class="package__overview common-module scroll-mt-20" id="package-overview">
                         <article>
@@ -683,8 +685,8 @@
                                 We have solutions for you.
                             </div>
                             <div class="package__customize-action ">
-                                <a href="" class="px-4 py-2 text-sm font-medium transition-all duration-500 bg-white rounded-full hover:text-white hover:bg-secondary">Download</a>
-                                <a href="" class="px-4 py-2 text-sm font-medium transition-all duration-500 bg-white rounded-full hover:text-white hover:bg-secondary">Customize trip</a>
+                                <a href="" class="px-4 py-2 text-xs font-medium transition-all duration-500 bg-white rounded-full hover:text-white hover:bg-secondary">Download Itinerary</a>
+                                <a href="" class="px-4 py-2 text-xs font-medium transition-all duration-500 bg-white rounded-full hover:text-white hover:bg-secondary">Customize trip</a>
                             </div>
                         </div>
                     </div>
@@ -787,86 +789,46 @@
                                             </div>
                                         </div>
 
-                                        <div class="package__availability-wrap">
+                                        <div class="package__availability-wrap" id="my_departure">
                                             <div class="package__availability-item">
                                                 <div class="package__availability-item-start">
-                                                    <div class=" text-xs text-[#878787] ">
-                                                        Start Monday
+                                                    <div class="text-xs text-[#878787]">
+                                                        Start Thursday
                                                     </div>
                                                     <div class="text-sm font-bold text-text_color">
-                                                        29 April, 2026
+                                                        24 September, 2026
                                                     </div>
                                                 </div>
                                                 <div class="package__availability-item-end">
-                                                    <div class=" text-xs text-[#878787] ">
-                                                        End Monday
+                                                    <div class="text-xs text-[#878787]">
+                                                        End Saturday
                                                     </div>
                                                     <div class="text-sm font-bold text-text_color">
-                                                        14 May, 2026
+                                                        10 October, 2026
                                                     </div>
                                                 </div>
                                                 <div class="package__availability-item-status">
-                                                    <div class=" text-xs text-[#878787] ">
-                                                        Status
-                                                    </div>
-                                                    <div class="text-sm font-bold text-text_color">
-                                                        Availability
-                                                    </div>
-                                                    <div class=" text-xs text-[#878787] ">
-                                                        2 Spots Remaining
+                                                    <div class="text-xs text-[#878787]">Status</div>
+                                                    <div class="text-sm font-bold text-text_color">Availability</div>
+                                                    <div class="text-xs text-[#878787]">
+                                                        Guaranteed
                                                     </div>
                                                 </div>
                                                 <div class="package__availability-item-status">
-                                                    <div class=" text-xs text-[#878787] ">
-                                                        Price
-                                                    </div>
+                                                    <div class="text-xs text-[#878787]">Price</div>
                                                     <div class="-mb-2 text-sm font-bold text-secondary">
-                                                        US$ 1600 <span class=" text-xs  line-through text-[#878787]">
-                                                            US $1800
-                                                        </span>
+                                                        US$ 1799
                                                     </div>
                                                 </div>
                                                 <div class="md:text-right package__availability-item-link">
-                                                    <a href="" class="inline-block px-2 xl:px-4 py-2 mt-0.5 text-sm font-medium text-white transition-all duration-500 rounded-full bg-primary hover:bg-secondary">Book Now</a>
-                                                </div>
-                                            </div>
-                                            <div class="package__availability-item">
-                                                <div class="package__availability-item-start">
-                                                    <div class=" text-xs text-[#878787] ">
-                                                        Start Monday
-                                                    </div>
-                                                    <div class="text-sm font-bold text-text_color">
-                                                        29 April, 2026
-                                                    </div>
-                                                </div>
-                                                <div class="package__availability-item-end">
-                                                    <div class=" text-xs text-[#878787] ">
-                                                        End Monday
-                                                    </div>
-                                                    <div class="text-sm font-bold text-text_color">
-                                                        14 May, 2026
-                                                    </div>
-                                                </div>
-                                                <div class="package__availability-item-status">
-                                                    <div class=" text-xs text-[#878787] ">
-                                                        Status
-                                                    </div>
-                                                    <div class="text-sm font-bold text-text_color">
-                                                        Availability
-                                                    </div>
-                                                </div>
-                                                <div class="package__availability-item-status">
-                                                    <div class=" text-xs text-[#878787] ">
-                                                        Price
-                                                    </div>
-                                                    <div class="-mb-2 text-sm font-bold text-secondary">
-                                                        US$ 1600 <span class=" text-xs  line-through text-[#878787]">
-                                                            US $1800
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                                <div class="md:text-right package__availability-item-link">
-                                                    <a href="" class="inline-block px-2 xl:px-4 py-2 mt-0.5 text-sm font-medium text-white transition-all duration-500 rounded-full bg-primary hover:bg-secondary">Book Now</a>
+                                                    <form action="http://127.0.0.1:8000/trip-booking?trip_id=1" method="POST" accept-charset="utf-8">
+                                                        <input type="hidden" name="_token" value="MGubn1oyDiKgIAd7jaejeajZ7Qrg2Msm9NHsG1Q0" autocomplete="off"> <input type="hidden" name="price" value="1799">
+                                                        <input type="hidden" name="booktype" value="departure">
+                                                        <input type="hidden" name="start_date" value="2026-09-24">
+                                                        <button type="submit" name="dbooknow" value="dbooknow" class="inline-block px-3 xl:px-4 py-2 mt-0.5 text-sm font-medium text-white transition-all duration-500 rounded-full bg-primary hover:bg-secondary">
+                                                            Book Now
+                                                        </button>
+                                                    </form>
                                                 </div>
                                             </div>
                                         </div>
@@ -945,27 +907,6 @@
 
                                 </div>
 
-                            </div>
-                            <div class="flex flex-wrap items-center justify-between mt-5 gap-y-1">
-                                <div class="flex flex-wrap items-center gap-2">
-                                    <div class="flex items-center gap-2 text-lg font-semibold text-text_color">
-                                        US$1680
-                                    </div>
-                                    <div class="text-sm line-through text-text-text_color/50 lg:text-right">
-                                        US$1800
-                                    </div>
-                                </div>
-                                <div class="package__addons-links">
-                                    <button class="bg-white font-medium text-sm px-4 py-1.5 rounded-full hover:bg-secondary hover:text-white text-text_color transition-all duration-500">
-                                        Book Now
-                                    </button>
-                                    <a
-                                        class="bg-white font-medium text-sm px-4 py-1.5 rounded-full hover:bg-secondary hover:text-white text-text_color transition-all duration-500"
-                                        href="">
-                                        Inquiry Now
-
-                                    </a>
-                                </div>
                             </div>
                         </div>
                     </div>

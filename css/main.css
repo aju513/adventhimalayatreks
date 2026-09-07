@@ -2372,7 +2372,7 @@ input[type="text"].date-picker {
 }
 
 .footer__representatives .container {
-  @apply relative z-10 border-b border-[#c7d5ec] pb-12.5;
+  @apply relative z-10 border-b border-[#c7d5ec]/30 pb-12.5;
 }
 
 .footer__representatives-wrapper {
@@ -2401,7 +2401,7 @@ input[type="text"].date-picker {
 }
 
 .footer__contact .container {
-  @apply relative z-10 border-b border-[#c7d5ec] pb-12.5;
+  @apply relative z-10 border-b border-[#c7d5ec]/30 pb-12.5;
 }
 
 .footer__links {
@@ -2698,7 +2698,7 @@ input[type="text"].date-picker {
 }
 /* package customize */
 .package__customize-wrap {
-  @apply bg-primary flex max-sm:flex-col md:items-center md:justify-between gap-5 p-5 sm:py-6 rounded-2xl;
+  @apply bg-primary flex max-md:flex-col lg:items-center lg:justify-between gap-5 p-5 sm:py-6 rounded-2xl;
 }
 
 .package__customize-content {
@@ -2798,7 +2798,21 @@ input[type="text"].date-picker {
   @apply mt-5;
 }
 .package__availability-item {
-  @apply bg-white xl:p-6 p-4 rounded-2xl max-md:gap-y-2 grid md:grid-cols-5 grid-cols-2 mb-3 last:mb-0;
+  @apply grid grid-cols-2 gap-3 items-center rounded-2xl bg-white p-4  mb-3 last:mb-0 md:grid-cols-12 md:gap-4 xl:p-6;
+}
+.package__availability-item-start,
+.package__availability-item-end {
+  @apply md:col-span-3;
+}
+
+.package__availability-item-status,
+.package__availability-item-price,
+.package__availability-item-link {
+  @apply md:col-span-2;
+}
+
+.package__availability-item-link {
+  @apply md:text-right;
 }
 .package__availability-note {
   @apply bg-[#fff0e6] p-6 mt-5 text-sm leading-6 rounded-2xl;
@@ -2808,7 +2822,7 @@ input[type="text"].date-picker {
 }
 /*package addons */
 .package__addons {
-  @apply relative rounded-2xl bg-[#fdd284] px-5 pt-9 pb-5;
+  @apply relative rounded-2xl bg-[#fdd284] p-5 pt-6;
   .package__section-title {
     @apply font-signika font-bold text-[28px] lg:text-[32px] text-text_color mb-6 leading-9;
   }
@@ -2962,7 +2976,7 @@ input[type="text"].date-picker {
   @apply text-[13px] text-text_color pb-5 px-7;
 }
 .package__sidebar-contact {
-  @apply py-5 px-7 bg-[#fdd284] rounded-2xl mt-6;
+  @apply py-5 px-7 bg-[#fff0e6] rounded-2xl mt-6;
 }
 .package__price-contact-icon {
   @apply rounded-full;
