@@ -58,7 +58,7 @@ input:focus {
   }
 }
 p {
-  @apply leading-7 mb-4 font-normal text-text_color;
+  @apply leading-6 mb-4 font-normal text-text_color;
 }
 
 p:last-child {
@@ -1853,7 +1853,7 @@ input[type="text"].date-picker {
   @apply relative p-5 rounded-lg bg-white xl:p-8;
   box-shadow: 0px 3px 18px 0px rgba(3, 37, 44, 0.1);
   .testimonials__item-title {
-    @apply font-semibold  text-lg xl:text-[22px] text-black mb-3;
+    @apply font-semibold text-lg xl:text-[22px] text-black mb-1.5 leading-6.5;
   }
 }
 
@@ -1973,7 +1973,7 @@ input[type="text"].date-picker {
 .inner__testimonials {
   @apply max-lg:pb-0;
   .container-fluid {
-    @apply bg-[#fdd284] relative w-full  rounded-none px-0 pb-20 pt-16 before:content-none 2xl:max-w-[calc(100%-180px)] 2xl:rounded-[30px] 2xl:px-8;
+    @apply bg-[#fdd284] relative w-full  rounded-none px-0 pb-10 lg:pb-20 pt-16 before:content-none 2xl:max-w-[calc(100%-180px)] 2xl:rounded-[30px] 2xl:px-8;
   }
 }
 /*  notice bar */
@@ -2409,7 +2409,7 @@ input[type="text"].date-picker {
 }
 .footer__main:not(:has(.footer__representatives)) {
   .footer__contact {
-    @apply pt-0!;
+    @apply max-sm:pt-0! pt-5!;
   }
 }
 

@@ -1253,10 +1253,8 @@
                                 </span>
                             </div>
                         </div>
-
-
                         <div class=" testimonials__item-title ">
-                            Nepal a wonderful Country
+                            Treks in Mt Everest, Annapurna and Chitwan
                         </div>
                         <div class="testimonials__item-content text-[13px] leading-5 text-text_color">
                             I booked for the Mardi Trek and it was amazing. They briefed the itinerary and it was on schedule. I love how this trip was a blend of culture, everything was excellent no complaints. Thanks and cheers :)

@@ -125,23 +125,23 @@
                             <div class="mb-3 text-lg font-bold text-white max-lg:mt-6">Follow Us</div>
                             <div class="footer__social-wrapper">
                                 <div class="footer__social-item">
-                                    <a href="" class="group w-8 h-8 border border-[#c7d5ec1a] flex items-center justify-center hover:bg-[#3b5998] hover:border-[#3b5998] rounded-full transition-all duration-500">
-                                        <span class=" text-lg transition-all duration-500 icon-facebook text-[#3b5998] group-hover:text-white"></span>
+                                    <a href="" class="group w-8 h-8 border border-[#c7d5ec]/30 flex items-center justify-center hover:bg-[#3b5998] hover:border-[#3b5998] rounded-full transition-all duration-500">
+                                        <span class=" text-lg transition-all duration-500 icon-facebook text-[#c7d5ec]/30 group-hover:text-white"></span>
                                     </a>
                                 </div>
                                 <div class="footer__social-item">
-                                    <a href="" class="group w-8 h-8 border border-[#c7d5ec1a] flex items-center justify-center hover:bg-[#32aaf2] hover:border-[#32aaf2] rounded-full transition-all duration-500">
-                                        <span class="text-lg text-[#32aaf2] icon-twitter group-hover:text-white transition-all duration-500" aria-hidden="true"></span>
+                                    <a href="" class="group w-8 h-8 border border-[#c7d5ec]/30 flex items-center justify-center hover:bg-black hover:border-black rounded-full transition-all duration-500">
+                                        <span class="text-lg text-[#c7d5ec]/30 icon-x-logo group-hover:text-white transition-all duration-500" aria-hidden="true"></span>
                                     </a>
                                 </div>
                                 <div class="footer__social-item">
-                                    <a href="" class="group w-8 h-8 border border-[#c7d5ec1a] flex items-center justify-center hover:bg-[#e65068] hover:border-[#e65068] rounded-full transition-all duration-500">
-                                        <span class="text-lg text-[#e65068] icon-instagram group-hover:text-white transition-all duration-500" aria-hidden="true"></span>
+                                    <a href="" class="group w-8 h-8 border border-[#c7d5ec]/30 flex items-center justify-center hover:bg-[#e65068] hover:border-[#e65068] rounded-full transition-all duration-500">
+                                        <span class="text-lg text-[#c7d5ec]/30 icon-instagram group-hover:text-white transition-all duration-500" aria-hidden="true"></span>
                                     </a>
                                 </div>
                                 <div class="footer__social-item">
-                                    <a href="" class="group group w-8 h-8 border border-[#c7d5ec1a] flex items-center justify-center hover:bg-[#ef000c] hover:border-[#ef000c] rounded-full transition-all duration-500">
-                                        <span class="text-lg text-[#ef000c] icon-youtube group-hover:text-white transition-all duration-500" aria-hidden="true"></span>
+                                    <a href="" class="group group w-8 h-8 border border-[#c7d5ec]/30 flex items-center justify-center hover:bg-[#ef000c] hover:border-[#ef000c] rounded-full transition-all duration-500">
+                                        <span class="text-lg text-[#c7d5ec]/30 icon-youtube group-hover:text-white transition-all duration-500" aria-hidden="true"></span>
                                     </a>
                                 </div>
                             </div>
