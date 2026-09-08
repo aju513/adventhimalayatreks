@@ -1256,7 +1256,7 @@
                         <div class=" testimonials__item-title ">
                             Treks in Mt Everest, Annapurna and Chitwan
                         </div>
-                        <div class="testimonials__item-content text-[13px] leading-5 text-text_color">
+                        <div class="testimonials__item-content text-sm text-text_color">
                             I booked for the Mardi Trek and it was amazing. They briefed the itinerary and it was on schedule. I love how this trip was a blend of culture, everything was excellent no complaints. Thanks and cheers :)
                         </div>
                         <div class="flex items-center  gap-5.5  mt-4 testimonials__item-reviewer">

@@ -58,7 +58,7 @@ input:focus {
   }
 }
 p {
-  @apply leading-6 mb-4 font-normal text-text_color;
+  @apply leading-7 mb-4 font-normal text-text_color;
 }
 
 p:last-child {
@@ -1854,6 +1854,12 @@ input[type="text"].date-picker {
   box-shadow: 0px 3px 18px 0px rgba(3, 37, 44, 0.1);
   .testimonials__item-title {
     @apply font-semibold text-lg xl:text-[22px] text-black mb-1.5 leading-6.5;
+  }
+  .testimonials__item-content {
+    @apply leading-6! text-sm;
+  }
+  .testimonials__item-content p {
+    @apply leading-6! text-sm;
   }
 }
 
