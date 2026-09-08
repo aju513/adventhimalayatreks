@@ -35,7 +35,7 @@
         </div>
     </div>
     <div class="footer__main">
-        <div class="footer__representatives">
+        <!-- <div class="footer__representatives">
             <div class="container">
                 <div class="mb-3 text-lg font-bold text-white">Talk To Our Representatives</div>
                 <div class="footer__representatives-wrapper">
@@ -81,7 +81,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <div class="footer__contact">
             <div class="container">
                 <div class="grid grid-cols-12 gap-5">

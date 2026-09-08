@@ -691,7 +691,7 @@
                     <div class="package__route common-module scroll-mt-20" id="package-route">
                         <h2 class="package__section-title">Map And Altitude Chart</h2>
                         <div class="tab-wrap">
-                            <div class="flex flex-wrap items-center justify-between mb-5 gap-3">
+                            <div class="flex flex-wrap items-end justify-between mb-5 gap-3">
                                 <div class="mb-0 tab-link">
                                     <div class="tab-link__item active" data-tab="route">Route Map</div>
                                     <div class="tab-link__item" data-tab="altitude">Altitude Chart</div>
@@ -909,7 +909,7 @@
                         </div>
                     </div>
                     <div class="package__equipment common-module scroll-mt-20" id="package-equipment">
-                        <div class="flex flex-wrap items-center justify-between mb-5">
+                        <div class="flex flex-wrap items-end gap-2 justify-between mb-5">
                             <h2 class="package__section-title mb-0!">Essential Packing List</h2>
                             <button class="flex items-center justify-center text-text_color transition-all duration-500 hover:text-primary">
                                 <span class="underline hover:no-underline">Download</span>

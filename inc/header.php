@@ -46,7 +46,12 @@
                <div class="grid grid-cols-12 gap-3.75">
                    <div class="col-span-12">
                        <div class="flex  items-center justify-end gap-5 xl:gap-30">
-                           <nav class="flex items-center justify-end nav-menu ">
+                           <div class=" biz__logo">
+                               <a href="/">
+                                   <img width="210" height="100" src="./images/logo.svg" alt="logo">
+                               </a>
+                           </div>
+                           <nav class="flex items-center nav-menu ">
                                <ul
                                    class="items-center gap-5 xl:gap-10 lg:flex ">
                                    <li>

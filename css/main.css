@@ -1426,6 +1426,9 @@ input[type="text"].date-picker {
   @apply block absolute left-0 bg-white p-3.75 rounded-2xl -top-10 z-10 w-60
          shadow-[0_10px_8px_-10px_rgba(31,54,111,0.4)];
 }
+.header .header__menu .biz__logo {
+  @apply hidden;
+}
 .header .header__menu {
   @apply w-full bg-secondary relative z-2 py-2;
 }
@@ -1459,11 +1462,17 @@ input[type="text"].date-picker {
 .header .header__menu.sticky .dropdown {
   @apply top-13;
 }
+.header .header__menu.sticky .biz__logo {
+  @apply relative bg-white w-full block;
+}
+.header .header__menu.sticky .biz__logo a {
+  @apply block absolute left-0 bg-white p-2 rounded-b-2xl rounded-t-none -top-7 z-100 w-40 shadow-[0_10px_8px_-10px_rgba(31,54,111,0.4)];
+}
 .header .header__menu.sticky .nav-menu {
   @apply min-h-13 flex items-center;
 }
-.header .header__menu.sticky .flex.justify-end.gap-5 {
-  @apply justify-between;
+.header .header__menu.sticky .col-span-12 > .flex {
+  @apply justify-between gap-10;
 }
 .header .header__menu.sticky .min-h-\[50px\] {
   @apply min-h-8;
@@ -2725,7 +2734,7 @@ input[type="text"].date-picker {
 }
 /* package route */
 .package__route .tab-wrap .tab-link__item {
-  @apply font-semibold text-lg capitalize text-black bg-dim_bg;
+  @apply font-semibold text-base capitalize text-black bg-dim_bg;
 }
 
 .package__route .tab-wrap .tab-link__item.active {
@@ -2813,7 +2822,7 @@ input[type="text"].date-picker {
   @apply mt-5;
 }
 .package__availability-item {
-  @apply grid grid-cols-2 gap-3 items-center rounded-2xl bg-white p-4 mb-3 last:mb-0 md:grid-cols-12 md:gap-4 xl:px-6 xl:py-4;
+  @apply grid grid-cols-2 gap-3 items-center rounded-2xl bg-white p-4 mb-3 last:mb-0 md:grid-cols-12 md:gap-4 xl:px-6 xl:py-5;
 }
 .package__availability-item-start,
 .package__availability-item-end {
