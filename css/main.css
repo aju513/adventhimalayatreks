@@ -151,7 +151,7 @@ ol {
   }
 }
 .search-close {
-  @apply float-right bg-secondary rounded-full w-7 h-7 text-center mb-2.5 relative z-1 p-2;
+  @apply float-right bg-secondary rounded-full w-7 h-7 text-center mb-4 relative z-1 p-2;
   .icon-cross {
     @apply relative -top-0.5 left-[0.5px];
     &:before {
@@ -909,11 +909,11 @@ blockquote {
     @apply h-62.5 max-h-62.5 object-cover;
   }
   .popover-wrap {
-    @apply static;
+    @apply relative;
   }
 
   .popover-bg {
-    @apply top-0 left-0;
+    @apply top-auto right-auto bottom-[calc(100%+10px)] left-1/2 w-[calc(100vw-2rem)] max-w-[300px] max-h-[calc(100dvh-1rem)] -translate-x-1/2 overflow-y-auto;
   }
 
   .popover-bg .rotate-45 {
@@ -1266,7 +1266,7 @@ input[type="text"].date-picker {
   @apply py-3.75 bg-dim_bg;
 }
 .breadcrumbs__wrapper .breadcrumbs__list-item {
-  @apply relative pr-5 text-[#878787];
+  @apply relative  pr-5 text-[#878787];
 }
 .breadcrumbs__wrapper .breadcrumbs__list-item::before {
   @apply font-icomoon absolute right-0.75 -top-px text-[#878787] -rotate-90 text-sm;
@@ -1280,11 +1280,19 @@ input[type="text"].date-picker {
 }
 /*  banner search suggestion */
 .search-suggest {
-  @apply mt-1.25;
+  @apply -mt-6.25;
 }
 
 .search-suggest__item {
-  @apply p-0 mb-2;
+  @apply px-2.5 py-2.5 mb-2 rounded-[5px];
+
+  &:nth-child(even) {
+    @apply bg-[#f4faff];
+  }
+
+  &:last-child {
+    @apply mb-0;
+  }
 }
 
 .search-suggest a {
@@ -1295,8 +1303,8 @@ input[type="text"].date-picker {
   @apply text-secondary transition-all duration-500;
 }
 
-.search-suggest span {
-  @apply text-[#212121] block -mt-1.25 text-xs;
+.search-suggest .meta span {
+  @apply block text-xs text-[#4A4A4A];
 }
 
 .typeahead-standalone .tt-list {
@@ -1311,12 +1319,6 @@ input[type="text"].date-picker {
 .typeahead-standalone .tt-list .tt-suggestion:hover,
 .typeahead-standalone .tt-list .tt-suggestion.tt-selected {
   @apply bg-[#24205f14];
-}
-.tt-suggestion {
-  @apply pt-1.75 pr-1.75 pb-px pl-1.75;
-  &:nth-child(even) {
-    @apply bg-[#e9f7ff] mb-1.25 rounded-[5px];
-  }
 }
 
 /*  collaspe */
@@ -1650,11 +1652,11 @@ input[type="text"].date-picker {
 }
 
 .blog-list__item-title {
-  @apply text-secondary font-semibold leading-6 text-lg lg:text-xl;
+  @apply leading-6 font-semibold text-xl text-black lg:text-[22px];
 }
 
 .blog-list__item-title a {
-  @apply text-secondary font-semibold leading-6 text-lg lg:text-xl hover:text-primary transition-all duration-500;
+  @apply leading-6 hover:text-primary transition-all duration-500;
 }
 /*  blog page */
 .blog-page__featured-image .placeholder__img-wrapper {
@@ -2032,7 +2034,7 @@ input[type="text"].date-picker {
   @apply bg-white text-secondary;
 }
 .last-minute__title {
-  @apply text-white font-bold text-xl lg:text-2xl mb-3;
+  @apply text-white font-semibold text-xl  mb-3;
 }
 
 .last-minute__item {
@@ -2191,11 +2193,11 @@ input[type="text"].date-picker {
 }
 
 .article-list__item-title {
-  @apply mt-3 mb-0! leading-6 lg:leading-7 pr-5 z-10 text-secondary font-semibold lg:text-xl text-lg;
+  @apply mt-3 mb-0! leading-6 lg:leading-7 pr-5 z-10 font-semibold text-xl text-black lg:text-[22px];
 }
 
 .article-list__item-title a {
-  @apply text-secondary font-semibold leading-6 lg:leading-7 lg:text-xl text-lg hover:text-primary transition-all duration-500;
+  @apply text-black font-semibold leading-6 lg:leading-7 lg:text-[22px] text-xl hover:text-primary transition-all duration-500;
 }
 /*  homepage */
 .homepage__banner {
@@ -2362,17 +2364,17 @@ input[type="text"].date-picker {
   }
 }
 
-.footer__representatives {
+.footer__main {
   @apply bg-secondary max-sm:pt-15 sm:mt-37.5 mt-22 relative;
 }
 
-.footer__representatives::before {
+.footer__main::before {
   @apply pointer-events-none absolute sm:-top-28 max-[480px]:-top-13.5 -top-20 lg:-top-40 xl:-top-50 2xl:-top-70 left-0 z-1 w-full;
   content: url("../images/svg/footer-divider.svg");
 }
 
 .footer__representatives .container {
-  @apply relative z-10 border-b border-[#c7d5ec]/30 pb-12.5;
+  @apply relative z-10 border-b border-[#c7d5ec]/10 pb-12.5;
 }
 
 .footer__representatives-wrapper {
@@ -2394,18 +2396,23 @@ input[type="text"].date-picker {
   @apply mt-5;
 }
 .footer__social-wrapper {
-  @apply flex items-center gap-4;
+  @apply flex items-center gap-3;
 }
 .footer__contact {
   @apply bg-secondary py-12.5;
 }
 
 .footer__contact .container {
-  @apply relative z-10 border-b border-[#c7d5ec]/30 pb-12.5;
+  @apply relative z-10 border-b border-[#C7D5EC1A] pb-12.5;
+}
+.footer__main:not(:has(.footer__representatives)) {
+  .footer__contact {
+    @apply pt-0!;
+  }
 }
 
 .footer__links {
-  @apply bg-secondary lg:pl-10;
+  @apply bg-secondary lg:pl-20;
 }
 
 .footer__copyright {
@@ -2664,7 +2671,7 @@ input[type="text"].date-picker {
   @apply opacity-60 w-20 h-20 -z-1;
 }
 .package__video .circular-animate .icon-play:before {
-  @apply text-secondary;
+  @apply text-primary;
 }
 /* no video */
 .package__gallery {
@@ -2678,7 +2685,7 @@ input[type="text"].date-picker {
 }
 
 .package__itinerary-item {
-  @apply px-6 pb-6 pt-8 relative rounded-2xl border border-primary mb-7 last:mb-0;
+  @apply px-6 pb-6 pt-8 relative rounded-2xl border border-secondary mb-7 last:mb-0;
 }
 
 .package__itinerary-item-day {
@@ -2698,7 +2705,7 @@ input[type="text"].date-picker {
 }
 /* package customize */
 .package__customize-wrap {
-  @apply bg-primary flex max-md:flex-col lg:items-center lg:justify-between gap-5 p-5 sm:py-6 rounded-2xl;
+  @apply bg-primary flex flex-col  gap-5 p-5 sm:py-6 rounded-2xl;
 }
 
 .package__customize-content {
@@ -2706,11 +2713,11 @@ input[type="text"].date-picker {
 }
 
 .package__customize-action {
-  @apply md:flex-[0_0_280px] gap-2 flex items-center md:justify-end;
+  @apply gap-2 flex flex-wrap items-center;
 }
 /* package route */
 .package__route .tab-wrap .tab-link__item {
-  @apply font-bold text-xl capitalize text-black bg-dim_bg;
+  @apply font-semibold text-lg capitalize text-black bg-dim_bg;
 }
 
 .package__route .tab-wrap .tab-link__item.active {
@@ -2752,11 +2759,11 @@ input[type="text"].date-picker {
 }
 
 .package__cost-details .cost-includes .cost-content-wrap ul li {
-  @apply leading-6 pl-8 relative mb-4 text-text_color;
+  @apply leading-6 pl-8 relative mb-2 last:mb-0 text-text_color;
 }
 
 .package__cost-details .cost-includes .cost-content-wrap ul li::before {
-  @apply w-6 h-6 text-[22px] text-[#fdd284] absolute left-0 top-px font-icomoon;
+  @apply w-6 h-6 text-xl text-[#fdd284] absolute left-0 -top-0.5 font-icomoon;
   content: "\e904";
 }
 
@@ -2765,11 +2772,11 @@ input[type="text"].date-picker {
 }
 
 .package__cost-details .cost-excludes .cost-content-wrap ul li {
-  @apply leading-6 pl-8 relative mb-4 text-text_color;
+  @apply leading-6 pl-8 relative mb-2 last:mb-0 text-text_color;
 }
 
 .package__cost-details .cost-excludes .cost-content-wrap ul li::before {
-  @apply w-6 h-6 text-[22px] text-[#878787] absolute left-0 top-px font-icomoon;
+  @apply w-6 h-6 text-xl text-[#878787] absolute left-0 -top-0.5 font-icomoon;
   content: "\e92e";
 }
 /* package availability */
@@ -2792,7 +2799,7 @@ input[type="text"].date-picker {
   @apply bg-dim_bg rounded-full font-medium text-[13px] text-text_color cursor-pointer sm:px-4 px-3 py-1.5 hover:bg-secondary hover:text-white duration-500 transition-all;
 }
 .package__availability-filter-item.active {
-  @apply bg-secondary text-white;
+  @apply bg-primary text-white;
 }
 .package__availability-wrap {
   @apply mt-5;
@@ -2964,10 +2971,10 @@ input[type="text"].date-picker {
   @apply py-6 px-7;
 }
 .package__price-final {
-  @apply font-bold text-xl lg:text-[22px] text-primary;
+  @apply font-bold text-lg lg:text-[22px] text-primary;
 }
 .package__price-initial {
-  @apply text-base font-normal lg:text-lg line-through text-[#989898];
+  @apply text-[15px] font-normal lg:text-lg line-through text-[#989898];
 }
 .package__price-breakdown {
   @apply p-4 bg-[#fff0e6] mx-7 rounded-xl;

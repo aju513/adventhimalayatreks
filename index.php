@@ -30,98 +30,169 @@
                             <span class="text-3xl font-bold text-primary icon-search" aria-hidden="true"></span>
                         </button>
                     </form>
-                    <ul class="custom-shadow search-suggest custom-rounded absolute z-10   hidden   max-h-[280px] w-full overflow-y-auto bg-white p-[15px] pt-[30px] text-sm font-semibold [&>*:nth-child(even)]:bg-[#e9f7ff]">
-                        <li class="custom-rounded px-[10px] py-[10px] search-suggest__item">
-                            <div class="flex items-center gap-2">
-                                <div class="search-suggest__item-image flex-[0_0_70px]">
+                    <ul
+                        id="search-suggest"
+                        role="listbox"
+                        aria-label="Search trips"
+                        class="custom-shadow search-suggest custom-rounded absolute p-5 z-5 pb-4 max-h-70 w-full overflow-y-auto bg-white  text-sm font-semibold [&>*:nth-child(even)]:bg-[#e9f7ff]">
+
+                        <li
+                            class="custom-rounded px-[10px] py-[10px] search-suggest__item"
+                            role="option">
+
+                            <div class="flex items-center gap-3">
+
+                                <div class="search-suggest__item-image shrink-0">
                                     <img
                                         src="/images/dynamic/package-thumb.webp"
-                                        alt="gallery"
-                                        class="rounded-[5px]"
                                         width="60"
-                                        height="63" />
+                                        height="63"
+                                        alt="Ama Dablam Base Camp Trek"
+                                        class="rounded-[5px]">
                                 </div>
-                                <div class="search-suggest__item-content">
+
+                                <div class="search-suggest__item-content flex flex-col gap-2">
+
                                     <a href="">
                                         Ama Dablam Base Camp Trek - 10 Days
                                     </a>
-                                    <div class="flex items-center gap-3">
-                                        <span class="block font-bold">
+
+                                    <div class="meta flex flex-wrap items-center gap-3">
+                                        <span>
                                             Price: US$1200
                                         </span>
-                                        <span class="block">Duration: 10 Days</span>
+
+                                        <span>|</span>
+
+                                        <span>
+                                            Duration: 10 Days
+                                        </span>
                                     </div>
+
                                 </div>
+
                             </div>
+
                         </li>
-                        <li class="custom-rounded px-[10px] py-[10px] search-suggest__item">
-                            <div class="flex items-center gap-2">
-                                <div class="search-suggest__item-image flex-[0_0_70px]">
+
+
+                        <li
+                            class="custom-rounded px-[10px] py-[10px] search-suggest__item"
+                            role="option">
+
+                            <div class="flex items-center gap-3">
+
+                                <div class="search-suggest__item-image shrink-0">
                                     <img
                                         src="/images/dynamic/package-thumb.webp"
-                                        alt="gallery"
-                                        class="rounded-[5px]"
                                         width="60"
-                                        height="63" />
+                                        height="63"
+                                        alt="Ama Dablam Base Camp Trek"
+                                        class="rounded-[5px]">
                                 </div>
-                                <div class="search-suggest__item-content">
+
+                                <div class="search-suggest__item-content flex flex-col gap-2">
+
                                     <a href="">
                                         Ama Dablam Base Camp Trek - 10 Days
                                     </a>
-                                    <div class="flex items-center gap-3">
-                                        <span class="block font-bold">
+
+                                    <div class="meta flex flex-wrap items-center gap-3">
+                                        <span>
                                             Price: US$1200
                                         </span>
-                                        <span class="block">Duration: 10 Days</span>
+
+                                        <span>|</span>
+
+                                        <span>
+                                            Duration: 10 Days
+                                        </span>
                                     </div>
+
                                 </div>
+
                             </div>
+
                         </li>
-                        <li class="custom-rounded px-[10px] py-[10px] search-suggest__item">
-                            <div class="flex items-center gap-2">
-                                <div class="search-suggest__item-image flex-[0_0_70px]">
+
+
+                        <li
+                            class="custom-rounded px-[10px] py-[10px] search-suggest__item"
+                            role="option">
+
+                            <div class="flex items-center gap-3">
+
+                                <div class="search-suggest__item-image shrink-0">
                                     <img
                                         src="/images/dynamic/package-thumb.webp"
-                                        alt="gallery"
-                                        class="rounded-[5px]"
                                         width="60"
-                                        height="63" />
+                                        height="63"
+                                        alt="Ama Dablam Base Camp Trek"
+                                        class="rounded-[5px]">
                                 </div>
-                                <div class="search-suggest__item-content">
+
+                                <div class="search-suggest__item-content flex flex-col gap-2">
+
                                     <a href="">
                                         Ama Dablam Base Camp Trek - 10 Days
                                     </a>
-                                    <div class="flex items-center gap-3">
-                                        <span class="block font-bold">
+
+                                    <div class="meta flex flex-wrap items-center gap-3">
+                                        <span>
                                             Price: US$1200
                                         </span>
-                                        <span class="block">Duration: 10 Days</span>
+
+                                        <span>|</span>
+
+                                        <span>
+                                            Duration: 10 Days
+                                        </span>
                                     </div>
+
                                 </div>
+
                             </div>
+
                         </li>
-                        <li class="custom-rounded px-[10px] py-[10px] search-suggest__item">
-                            <div class="flex items-center gap-2">
-                                <div class="search-suggest__item-image flex-[0_0_70px]">
+
+
+                        <li
+                            class="custom-rounded px-[10px] py-[10px] search-suggest__item"
+                            role="option">
+
+                            <div class="flex items-center gap-3">
+
+                                <div class="search-suggest__item-image shrink-0">
                                     <img
                                         src="/images/dynamic/package-thumb.webp"
-                                        alt="gallery"
-                                        class="rounded-[5px]"
                                         width="60"
-                                        height="63" />
+                                        height="63"
+                                        alt="Ama Dablam Base Camp Trek"
+                                        class="rounded-[5px]">
                                 </div>
-                                <div class="search-suggest__item-content">
+
+                                <div class="search-suggest__item-content flex flex-col gap-2">
+
                                     <a href="">
                                         Ama Dablam Base Camp Trek - 10 Days
                                     </a>
-                                    <div class="flex items-center gap-3">
-                                        <span class="block font-bold">
+
+                                    <div class="meta flex flex-wrap items-center gap-3">
+                                        <span class="font-bold">
                                             Price: US$1200
                                         </span>
-                                        <span class="block">Duration: 10 Days</span>
+
+                                        <span>|</span>
+
+                                        <span>
+                                            Duration: 10 Days
+                                        </span>
                                     </div>
+
                                 </div>
+
                             </div>
+
                         </li>
 
                     </ul>
@@ -137,7 +208,7 @@
             <div class="text-center section-title-sm">Why Advent Himalaya Greks?</div>
             <div class="text-center section-title mb-0!">Why Advent Himalaya Greks?</div>
         </div>
-        <div class="text-center max-sm:px-2 max-lg:px-10 lg:max-w-[60%] mx-auto">
+        <div class="text-center max-sm:px-2 max-lg:px-10 lg:max-w-[85%] mx-auto">
             "Specializing in adventurous Himalayan expeditions, cultural tours, and trekking experiences, we offer expertly guided journeys through Nepal’s breathtaking landscapes." Read more about us
         </div>
         <div class="mt-14 why-us-wrapper">
@@ -263,8 +334,8 @@
                         </div>
                         <div class="package-list__item-bottom">
                             <div class="package-list__item-price">
-                                <div class="text-sm text-black">Price from</div>
-                                <div class="font-semibold text-xl  text-primary lg:text-[22px]">
+                                <div class="text-sm text-text_color">Price from</div>
+                                <div class="font-bold text-xl text-primary">
                                     US$1680
                                     <span class="text-lg font-normal text-[#878787] line-through">US$1800</span>
                                 </div>
@@ -272,7 +343,7 @@
                             <div class="package-list__item-review">
                                 <span class="text-base icon icon-star">
                                 </span>
-                                <span class="text-[13px] text-text_color">
+                                <span class="text-[13px] text-text_color font-semibold">
                                     5.0 (1 Reviews)
                                 </span>
                             </div>
@@ -322,8 +393,8 @@
                         </div>
                         <div class="package-list__item-bottom">
                             <div class="package-list__item-price">
-                                <div class="text-sm text-black">Price from</div>
-                                <div class="font-semibold text-xl  text-primary lg:text-[22px]">
+                                <div class="text-sm text-text_color">Price from</div>
+                                <div class="font-bold text-xl text-primary">
                                     US$1680
                                     <span class="text-lg font-normal text-[#878787] line-through">US$1800</span>
                                 </div>
@@ -331,7 +402,7 @@
                             <div class="package-list__item-review">
                                 <span class="text-base icon icon-star">
                                 </span>
-                                <span class="text-[13px] text-text_color">
+                                <span class="text-[13px] text-text_color font-semibold">
                                     5.0 (1 Reviews)
                                 </span>
                             </div>
@@ -381,8 +452,8 @@
                         </div>
                         <div class="package-list__item-bottom">
                             <div class="package-list__item-price">
-                                <div class="text-sm text-black">Price from</div>
-                                <div class="font-semibold text-xl  text-primary lg:text-[22px]">
+                                <div class="text-sm text-text_color">Price from</div>
+                                <div class="font-bold text-xl text-primary">
                                     US$1680
                                     <span class="text-lg font-normal text-[#878787] line-through">US$1800</span>
                                 </div>
@@ -390,7 +461,7 @@
                             <div class="package-list__item-review">
                                 <span class="text-base icon icon-star">
                                 </span>
-                                <span class="text-[13px] text-text_color">
+                                <span class="text-[13px] text-text_color font-semibold">
                                     5.0 (1 Reviews)
                                 </span>
                             </div>
@@ -440,8 +511,8 @@
                         </div>
                         <div class="package-list__item-bottom">
                             <div class="package-list__item-price">
-                                <div class="text-sm text-black">Price from</div>
-                                <div class="font-semibold text-xl  text-primary lg:text-[22px]">
+                                <div class="text-sm text-text_color">Price from</div>
+                                <div class="font-bold text-xl text-primary">
                                     US$1680
                                     <span class="text-lg font-normal text-[#878787] line-through">US$1800</span>
                                 </div>
@@ -449,7 +520,7 @@
                             <div class="package-list__item-review">
                                 <span class="text-base icon icon-star">
                                 </span>
-                                <span class="text-[13px] text-text_color">
+                                <span class="text-[13px] text-text_color font-semibold">
                                     5.0 (1 Reviews)
                                 </span>
                             </div>
@@ -499,8 +570,8 @@
                         </div>
                         <div class="package-list__item-bottom">
                             <div class="package-list__item-price">
-                                <div class="text-sm text-black">Price from</div>
-                                <div class="font-semibold text-xl  text-primary lg:text-[22px]">
+                                <div class="text-sm text-text_color">Price from</div>
+                                <div class="font-bold text-xl text-primary">
                                     US$1680
                                     <span class="text-lg font-normal text-[#878787] line-through">US$1800</span>
                                 </div>
@@ -508,7 +579,7 @@
                             <div class="package-list__item-review">
                                 <span class="text-base icon icon-star">
                                 </span>
-                                <span class="text-[13px] text-text_color">
+                                <span class="text-[13px] text-text_color font-semibold">
                                     5.0 (1 Reviews)
                                 </span>
                             </div>
@@ -558,8 +629,8 @@
                         </div>
                         <div class="package-list__item-bottom">
                             <div class="package-list__item-price">
-                                <div class="text-sm text-black">Price from</div>
-                                <div class="font-semibold text-xl  text-primary lg:text-[22px]">
+                                <div class="text-sm text-text_color">Price from</div>
+                                <div class="font-bold text-xl text-primary">
                                     US$1680
                                     <span class="text-lg font-normal text-[#878787] line-through">US$1800</span>
                                 </div>
@@ -567,7 +638,7 @@
                             <div class="package-list__item-review">
                                 <span class="text-base icon icon-star">
                                 </span>
-                                <span class="text-[13px] text-text_color">
+                                <span class="text-[13px] text-text_color font-semibold">
                                     5.0 (1 Reviews)
                                 </span>
                             </div>
@@ -577,13 +648,13 @@
             </div>
         </div>
 </section>
-<section class="homepage__upcoming hav-title-btn">
+<section class="homepage__upcoming">
     <div class="container-fluid">
         <div class="container">
-            <div class="flex items-center justify-between mb-6">
+            <div class="flex items-center justify-between mb-4">
                 <div class=" section-title mb-0!">Join Our Fixed Departure Group Trips</div>
-                <div class="section-title-btn">
-                    <a href="" class="inline-block px-5 py-2 mt-4 text-sm font-medium text-white transition-all duration-500 border border-white rounded-full hover:bg-primary">
+                <div class="hidden lg:block">
+                    <a href="" class="inline-block px-5 py-2 text-sm font-medium text-white transition-all duration-500 border border-white rounded-full hover:bg-primary">
                         Start Plaining Today!
                     </a>
                 </div>
@@ -594,43 +665,108 @@
                 </div>
                 <div class="last-minute__item">
                     <div class="last-minute__item-duration">
-                        <div class="  text-xs text-[#878787]">Duration</div>
-                        <div class="text-sm font-bold text-text_color">15 Days</div>
+                        <div class="text-xs text-[#878787]">Duration</div>
+                        <div class="text-sm font-bold text-text_color">
+                            17 Days
+                        </div>
                     </div>
                     <div class="last-minute__item-start">
-                        <div class="  text-xs text-[#878787]">Start Monday</div>
-                        <div class="text-sm font-bold text-text_color">27 April, 2026</div>
+                        <div class="text-xs text-[#878787]">Start Wednesday</div>
+                        <div class="text-sm font-bold text-text_color">September 09, 2026</div>
                     </div>
                     <div class="last-minute__item-end">
-                        <div class="  text-xs text-[#878787]">Ends Thursday</div>
-                        <div class="text-sm font-bold text-text_color">14 May, 2026</div>
+                        <div class="text-xs text-[#878787]">End Friday</div>
+                        <div class="text-sm font-bold text-text_color">September 25, 2026</div>
                     </div>
                     <div class="last-minute__item-availability">
-                        <div class="  text-xs text-[#878787]">Status</div>
-                        <div class="text-sm font-bold text-text_color">Availability</div>
-                        <div class="  text-xs text-[#878787]">2 Spots Remaining</div>
+                        <div class="text-xs text-[#878787]">Status</div>
+                        <div class="text-sm font-bold text-text_color">Guaranteed</div>
+                        <div class="text-xs text-[#878787]">
+                            2 Seat Left
+                        </div>
                     </div>
                     <div class="last-minute__item-group">
-                        <div class="  text-xs text-[#878787]">Group Size</div>
-                        <div class="text-sm font-bold text-text_color">15</div>
+                        <div class="text-xs text-[#878787]">Group Size</div>
+                        <div class="text-sm font-bold text-text_color">
+                            2 - 10
+                        </div>
                     </div>
                     <div class="last-minute__item-price">
-                        <div class="  text-xs text-[#878787]">Per Person</div>
-                        <div class="text-sm font-bold text-text_color">US$ 1600 <span class="font-normal line-through text-[#878787]">1800</span></div>
+                        <div class="text-xs text-[#878787]">Per Person</div>
+                        <div class="text-sm font-bold text-text_color">
+                            US$ 1799
+                        </div>
                     </div>
                     <div class="last-minute__item-link lg:text-right">
-                        <a href="" class="px-4 py-2.5 text-sm inline-block font-semibold text-white uppercase transition-all duration-500 rounded-full bg-primary hover:bg-secondary">
-                            Book Now
-                        </a>
+                        <form action="https://adventhimalayatreks.budhomanche.com/trip-booking?trip_id=1" method="POST">
+                            <input type="hidden" name="_token" value="OorjUwGJlceA5lVZ5mQpMaKvtBK5CyCuY0aQaNJ3" autocomplete="off"> <input type="hidden" name="departure_id" value="1">
+                            <input type="hidden" name="price" value="1799">
+                            <input type="hidden" name="booktype" value="last_minute">
+                            <input type="hidden" name="start_date" value="2026-09-09">
+                            <button type="submit" name="lminute_booknow" value="lminute_booknow" class="inline-block px-4 py-2.5 text-sm font-semibold text-white uppercase transition-all duration-500 rounded-full bg-primary hover:bg-secondary">
+                                Book Now
+                            </button>
+                        </form>
                     </div>
                 </div>
+                <div class="last-minute__item">
+                    <div class="last-minute__item-duration">
+                        <div class="text-xs text-[#878787]">Duration</div>
+                        <div class="text-sm font-bold text-text_color">
+                            17 Days
+                        </div>
+                    </div>
+                    <div class="last-minute__item-start">
+                        <div class="text-xs text-[#878787]">Start Thursday</div>
+                        <div class="text-sm font-bold text-text_color">September 24, 2026</div>
+                    </div>
+                    <div class="last-minute__item-end">
+                        <div class="text-xs text-[#878787]">End Saturday</div>
+                        <div class="text-sm font-bold text-text_color">October 10, 2026</div>
+                    </div>
+                    <div class="last-minute__item-availability">
+                        <div class="text-xs text-[#878787]">Status</div>
+                        <div class="text-sm font-bold text-text_color">Guaranteed</div>
+                    </div>
+                    <div class="last-minute__item-group">
+                        <div class="text-xs text-[#878787]">Group Size</div>
+                        <div class="text-sm font-bold text-text_color">
+                            2 - 10
+                        </div>
+                    </div>
+                    <div class="last-minute__item-price">
+                        <div class="text-xs text-[#878787]">Per Person</div>
+                        <div class="text-sm font-bold text-text_color">
+                            US$ 1799
+                        </div>
+                    </div>
+                    <div class="last-minute__item-link lg:text-right">
+                        <form action="https://adventhimalayatreks.budhomanche.com/trip-booking?trip_id=1" method="POST">
+                            <input type="hidden" name="_token" value="OorjUwGJlceA5lVZ5mQpMaKvtBK5CyCuY0aQaNJ3" autocomplete="off"> <input type="hidden" name="departure_id" value="2">
+                            <input type="hidden" name="price" value="1799">
+                            <input type="hidden" name="booktype" value="last_minute">
+                            <input type="hidden" name="start_date" value="2026-09-24">
+                            <button type="submit" name="lminute_booknow" value="lminute_booknow" class="inline-block px-4 py-2.5 text-sm font-semibold text-white uppercase transition-all duration-500 rounded-full bg-primary hover:bg-secondary">
+                                Book Now
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="max-lg:block hidden">
+                <a href="" class="inline-block px-5 py-2 mt-4 text-sm font-medium text-white transition-all duration-500 border border-white rounded-full hover:bg-primary">
+                    Start Plaining Today!
+                </a>
             </div>
             <div class="mt-8 mb-2 text-xl font-bold text-white lg:text-2xl">
                 Plan your trip on your own date
             </div>
-            <div class="text-white lg:w-10/12 max-lg:mb-6">
+            <div class="text-white lg:w-10/12 max-lg:mb-4">
                 Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
             </div>
+            <a href="" class="inline-block px-5 py-2 lg:mt-4 text-sm font-medium text-white transition-all duration-500 border border-white rounded-full hover:bg-primary">
+                Plan Your Own Trip
+            </a>
         </div>
     </div>
 </section>
@@ -690,8 +826,8 @@
                                     </div>
                                     <div class="package-list__item-bottom">
                                         <div class="package-list__item-price">
-                                            <div class="text-sm text-black">Price from</div>
-                                            <div class="font-semibold text-xl  text-primary lg:text-[22px]">
+                                            <div class="text-sm text-text_color">Price from</div>
+                                            <div class="font-bold text-xl text-primary">
                                                 US$1680
                                                 <span class="text-lg font-normal text-[#878787] line-through">US$1800</span>
                                             </div>
@@ -699,7 +835,7 @@
                                         <div class="package-list__item-review">
                                             <span class="text-base icon icon-star">
                                             </span>
-                                            <span class="text-[13px] text-text_color">
+                                            <span class="text-[13px] text-text_color font-semibold">
                                                 5.0 (1 Reviews)
                                             </span>
                                         </div>
@@ -749,8 +885,8 @@
                                     </div>
                                     <div class="package-list__item-bottom">
                                         <div class="package-list__item-price">
-                                            <div class="text-sm text-black">Price from</div>
-                                            <div class="font-semibold text-xl  text-primary lg:text-[22px]">
+                                            <div class="text-sm text-text_color">Price from</div>
+                                            <div class="font-bold text-xl text-primary">
                                                 US$1680
                                                 <span class="text-lg font-normal text-[#878787] line-through">US$1800</span>
                                             </div>
@@ -758,7 +894,7 @@
                                         <div class="package-list__item-review">
                                             <span class="text-base icon icon-star">
                                             </span>
-                                            <span class="text-[13px] text-text_color">
+                                            <span class="text-[13px] text-text_color font-semibold">
                                                 5.0 (1 Reviews)
                                             </span>
                                         </div>
@@ -808,8 +944,8 @@
                                     </div>
                                     <div class="package-list__item-bottom">
                                         <div class="package-list__item-price">
-                                            <div class="text-sm text-black">Price from</div>
-                                            <div class="font-semibold text-xl  text-primary lg:text-[22px]">
+                                            <div class="text-sm text-text_color">Price from</div>
+                                            <div class="font-bold text-xl text-primary">
                                                 US$1680
                                                 <span class="text-lg font-normal text-[#878787] line-through">US$1800</span>
                                             </div>
@@ -817,7 +953,7 @@
                                         <div class="package-list__item-review">
                                             <span class="text-base icon icon-star">
                                             </span>
-                                            <span class="text-[13px] text-text_color">
+                                            <span class="text-[13px] text-text_color font-semibold">
                                                 5.0 (1 Reviews)
                                             </span>
                                         </div>
@@ -874,8 +1010,8 @@
                                     </div>
                                     <div class="package-list__item-bottom">
                                         <div class="package-list__item-price">
-                                            <div class="text-sm text-black">Price from</div>
-                                            <div class="font-semibold text-xl  text-primary lg:text-[22px]">
+                                            <div class="text-sm text-text_color">Price from</div>
+                                            <div class="font-bold text-xl text-primary">
                                                 US$1680
                                                 <span class="text-lg font-normal text-[#878787] line-through">US$1800</span>
                                             </div>
@@ -883,7 +1019,7 @@
                                         <div class="package-list__item-review">
                                             <span class="text-base icon icon-star">
                                             </span>
-                                            <span class="text-[13px] text-text_color">
+                                            <span class="text-[13px] text-text_color font-semibold">
                                                 5.0 (1 Reviews)
                                             </span>
                                         </div>
@@ -933,8 +1069,8 @@
                                     </div>
                                     <div class="package-list__item-bottom">
                                         <div class="package-list__item-price">
-                                            <div class="text-sm text-black">Price from</div>
-                                            <div class="font-semibold text-xl  text-primary lg:text-[22px]">
+                                            <div class="text-sm text-text_color">Price from</div>
+                                            <div class="font-bold text-xl text-primary">
                                                 US$1680
                                                 <span class="text-lg font-normal text-[#878787] line-through">US$1800</span>
                                             </div>
@@ -942,7 +1078,7 @@
                                         <div class="package-list__item-review">
                                             <span class="text-base icon icon-star">
                                             </span>
-                                            <span class="text-[13px] text-text_color">
+                                            <span class="text-[13px] text-text_color font-semibold">
                                                 5.0 (1 Reviews)
                                             </span>
                                         </div>
@@ -992,8 +1128,8 @@
                                     </div>
                                     <div class="package-list__item-bottom">
                                         <div class="package-list__item-price">
-                                            <div class="text-sm text-black">Price from</div>
-                                            <div class="font-semibold text-xl  text-primary lg:text-[22px]">
+                                            <div class="text-sm text-text_color">Price from</div>
+                                            <div class="font-bold text-xl text-primary">
                                                 US$1680
                                                 <span class="text-lg font-normal text-[#878787] line-through">US$1800</span>
                                             </div>
@@ -1001,7 +1137,7 @@
                                         <div class="package-list__item-review">
                                             <span class="text-base icon icon-star">
                                             </span>
-                                            <span class="text-[13px] text-text_color">
+                                            <span class="text-[13px] text-text_color font-semibold">
                                                 5.0 (1 Reviews)
                                             </span>
                                         </div>
@@ -1058,8 +1194,8 @@
                                     </div>
                                     <div class="package-list__item-bottom">
                                         <div class="package-list__item-price">
-                                            <div class="text-sm text-black">Price from</div>
-                                            <div class="font-semibold text-xl  text-primary lg:text-[22px]">
+                                            <div class="text-sm text-text_color">Price from</div>
+                                            <div class="font-bold text-xl text-primary">
                                                 US$1680
                                                 <span class="text-lg font-normal text-[#878787] line-through">US$1800</span>
                                             </div>
@@ -1067,7 +1203,7 @@
                                         <div class="package-list__item-review">
                                             <span class="text-base icon icon-star">
                                             </span>
-                                            <span class="text-[13px] text-text_color">
+                                            <span class="text-[13px] text-text_color font-semibold">
                                                 5.0 (1 Reviews)
                                             </span>
                                         </div>
@@ -1117,8 +1253,8 @@
                                     </div>
                                     <div class="package-list__item-bottom">
                                         <div class="package-list__item-price">
-                                            <div class="text-sm text-black">Price from</div>
-                                            <div class="font-semibold text-xl  text-primary lg:text-[22px]">
+                                            <div class="text-sm text-text_color">Price from</div>
+                                            <div class="font-bold text-xl text-primary">
                                                 US$1680
                                                 <span class="text-lg font-normal text-[#878787] line-through">US$1800</span>
                                             </div>
@@ -1126,7 +1262,7 @@
                                         <div class="package-list__item-review">
                                             <span class="text-base icon icon-star">
                                             </span>
-                                            <span class="text-[13px] text-text_color">
+                                            <span class="text-[13px] text-text_color font-semibold">
                                                 5.0 (1 Reviews)
                                             </span>
                                         </div>
@@ -1176,8 +1312,8 @@
                                     </div>
                                     <div class="package-list__item-bottom">
                                         <div class="package-list__item-price">
-                                            <div class="text-sm text-black">Price from</div>
-                                            <div class="font-semibold text-xl  text-primary lg:text-[22px]">
+                                            <div class="text-sm text-text_color">Price from</div>
+                                            <div class="font-bold text-xl text-primary">
                                                 US$1680
                                                 <span class="text-lg font-normal text-[#878787] line-through">US$1800</span>
                                             </div>
@@ -1185,7 +1321,7 @@
                                         <div class="package-list__item-review">
                                             <span class="text-base icon icon-star">
                                             </span>
-                                            <span class="text-[13px] text-text_color">
+                                            <span class="text-[13px] text-text_color font-semibold">
                                                 5.0 (1 Reviews)
                                             </span>
                                         </div>
@@ -1242,8 +1378,8 @@
                                     </div>
                                     <div class="package-list__item-bottom">
                                         <div class="package-list__item-price">
-                                            <div class="text-sm text-black">Price from</div>
-                                            <div class="font-semibold text-xl  text-primary lg:text-[22px]">
+                                            <div class="text-sm text-text_color">Price from</div>
+                                            <div class="font-bold text-xl text-primary">
                                                 US$1680
                                                 <span class="text-lg font-normal text-[#878787] line-through">US$1800</span>
                                             </div>
@@ -1251,7 +1387,7 @@
                                         <div class="package-list__item-review">
                                             <span class="text-base icon icon-star">
                                             </span>
-                                            <span class="text-[13px] text-text_color">
+                                            <span class="text-[13px] text-text_color font-semibold">
                                                 5.0 (1 Reviews)
                                             </span>
                                         </div>
@@ -1301,8 +1437,8 @@
                                     </div>
                                     <div class="package-list__item-bottom">
                                         <div class="package-list__item-price">
-                                            <div class="text-sm text-black">Price from</div>
-                                            <div class="font-semibold text-xl  text-primary lg:text-[22px]">
+                                            <div class="text-sm text-text_color">Price from</div>
+                                            <div class="font-bold text-xl text-primary">
                                                 US$1680
                                                 <span class="text-lg font-normal text-[#878787] line-through">US$1800</span>
                                             </div>
@@ -1310,7 +1446,7 @@
                                         <div class="package-list__item-review">
                                             <span class="text-base icon icon-star">
                                             </span>
-                                            <span class="text-[13px] text-text_color">
+                                            <span class="text-[13px] text-text_color font-semibold">
                                                 5.0 (1 Reviews)
                                             </span>
                                         </div>
@@ -1360,8 +1496,8 @@
                                     </div>
                                     <div class="package-list__item-bottom">
                                         <div class="package-list__item-price">
-                                            <div class="text-sm text-black">Price from</div>
-                                            <div class="font-semibold text-xl  text-primary lg:text-[22px]">
+                                            <div class="text-sm text-text_color">Price from</div>
+                                            <div class="font-bold text-xl text-primary">
                                                 US$1680
                                                 <span class="text-lg font-normal text-[#878787] line-through">US$1800</span>
                                             </div>
@@ -1369,7 +1505,7 @@
                                         <div class="package-list__item-review">
                                             <span class="text-base icon icon-star">
                                             </span>
-                                            <span class="text-[13px] text-text_color">
+                                            <span class="text-[13px] text-text_color font-semibold">
                                                 5.0 (1 Reviews)
                                             </span>
                                         </div>
@@ -1426,8 +1562,8 @@
                                     </div>
                                     <div class="package-list__item-bottom">
                                         <div class="package-list__item-price">
-                                            <div class="text-sm text-black">Price from</div>
-                                            <div class="font-semibold text-xl  text-primary lg:text-[22px]">
+                                            <div class="text-sm text-text_color">Price from</div>
+                                            <div class="font-bold text-xl text-primary">
                                                 US$1680
                                                 <span class="text-lg font-normal text-[#878787] line-through">US$1800</span>
                                             </div>
@@ -1435,7 +1571,7 @@
                                         <div class="package-list__item-review">
                                             <span class="text-base icon icon-star">
                                             </span>
-                                            <span class="text-[13px] text-text_color">
+                                            <span class="text-[13px] text-text_color font-semibold">
                                                 5.0 (1 Reviews)
                                             </span>
                                         </div>
@@ -1485,8 +1621,8 @@
                                     </div>
                                     <div class="package-list__item-bottom">
                                         <div class="package-list__item-price">
-                                            <div class="text-sm text-black">Price from</div>
-                                            <div class="font-semibold text-xl  text-primary lg:text-[22px]">
+                                            <div class="text-sm text-text_color">Price from</div>
+                                            <div class="font-bold text-xl text-primary">
                                                 US$1680
                                                 <span class="text-lg font-normal text-[#878787] line-through">US$1800</span>
                                             </div>
@@ -1494,7 +1630,7 @@
                                         <div class="package-list__item-review">
                                             <span class="text-base icon icon-star">
                                             </span>
-                                            <span class="text-[13px] text-text_color">
+                                            <span class="text-[13px] text-text_color font-semibold">
                                                 5.0 (1 Reviews)
                                             </span>
                                         </div>
@@ -1544,8 +1680,8 @@
                                     </div>
                                     <div class="package-list__item-bottom">
                                         <div class="package-list__item-price">
-                                            <div class="text-sm text-black">Price from</div>
-                                            <div class="font-semibold text-xl  text-primary lg:text-[22px]">
+                                            <div class="text-sm text-text_color">Price from</div>
+                                            <div class="font-bold text-xl text-primary">
                                                 US$1680
                                                 <span class="text-lg font-normal text-[#878787] line-through">US$1800</span>
                                             </div>
@@ -1553,7 +1689,7 @@
                                         <div class="package-list__item-review">
                                             <span class="text-base icon icon-star">
                                             </span>
-                                            <span class="text-[13px] text-text_color">
+                                            <span class="text-[13px] text-text_color font-semibold">
                                                 5.0 (1 Reviews)
                                             </span>
                                         </div>
@@ -1611,7 +1747,7 @@
                                 <div class=" testimonials__item-title ">
                                     Nepal a wonderful Country
                                 </div>
-                                <div class="testimonials__item-content text-sm leading-6 text-text_color">
+                                <div class="testimonials__item-content text-sm leading-6! text-text_color">
                                     I booked for the Mardi Trek and it was amazing. They briefed the itinerary and it was on schedule. I love how this trip was a blend of culture, everything was excellent no complaints. Thanks and cheers :)
                                 </div>
                                 <div class="flex items-center  gap-5.5  mt-4 testimonials__item-reviewer">
@@ -1850,8 +1986,8 @@
                     </div>
                 </div>
                 <div class="pointer-events-none homepage__testimonials-btn">
-                    <div class="flex items-center justify-center w-10 h-10 transition-all duration-500 bg-white rounded-full pointer-events-auto hover:bg-secondary group testimonials-prev"><span class="inline-block text-xl font-bold transition-all duration-500 rotate-90 group-hover:text-white text-black/70 icon-angle-down" aria-hidden="true"></span></div>
-                    <div class="flex items-center justify-center w-10 h-10 transition-all duration-500 bg-white rounded-full pointer-events-auto hover:bg-secondary group testimonials-next"> <span class="inline-block text-xl font-bold transition-all duration-500 -rotate-90 group-hover:text-white text-black/70 icon-angle-down" aria-hidden="true"></span></div>
+                    <div class="flex items-center justify-center w-10 h-10 transition-all duration-500 bg-white rounded-full pointer-events-auto hover:bg-secondary group testimonials-prev custom-shadow"><span class="inline-block text-xl font-bold transition-all duration-500 rotate-90 group-hover:text-white text-black/70 icon-angle-down" aria-hidden="true"></span></div>
+                    <div class="flex items-center justify-center w-10 h-10 transition-all duration-500 bg-white rounded-full pointer-events-auto hover:bg-secondary group testimonials-next custom-shadow"> <span class="inline-block text-xl font-bold transition-all duration-500 -rotate-90 group-hover:text-white text-black/70 icon-angle-down" aria-hidden="true"></span></div>
                 </div>
             </div>
             <div class="testimonials-platforms">
@@ -1988,7 +2124,7 @@
 <section class="homepage__article scroll-wrap hav-title-btn">
     <div class="container-fluid">
         <div class="container">
-            <div class="flex items-center justify-between mb-6">
+            <div class="flex items-center justify-between mb-4">
                 <div class="mb-0 section-title">Empowering Communities Through <br /> Eco-Tourism and Charity in Nepal</div>
                 <div class="section-title-btn">
                     <a href="" class="border border-[#afafaf] font-medium text-sm px-5 hover:bg-secondary hover:border-secondary hover:text-white transition-all duration-500 py-2.5 rounded-full">
@@ -2195,8 +2331,8 @@
                     Ready to Explore? Let's Chat About Your Dream Trip?
                 </div>
                 <div class="mx-auto mt-2 mb-6! text-center text-white lg:w-7/10">Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </div>
-                <a href="" class="  bg-primary font-medium text-sm px-5 hover:bg-secondary  text-white transition-all duration-500 py-2.5 rounded-full">
-                    Start Planning Your Trip Now!
+                <a href="" class="uppercase  bg-primary font-medium text-sm px-5 hover:bg-secondary  text-white transition-all duration-500 py-2.5 rounded-full">
+                    Plan Your Trip
                 </a>
             </div>
         </div>

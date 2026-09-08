@@ -152,7 +152,7 @@
                             <a href="">
                                 <div class="flex items-center gap-2 package__rating-tripadvisor ">
                                     <span class="icon-dot-rating"></span>
-                                    <span class="text-[13px] text-text_color leading-5">44 reviews in TripAdvisor</span>
+                                    <span class="text-[13px] text-text_color leading-5">44 reviews in <span class="underline">TripAdvisor</span></span>
                                 </div>
                             </a>
                             <a href="">
@@ -502,8 +502,6 @@
                         <div class="package__itinerary-note">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
                         </div>
-
-
                         <div class="package__itinerary-wrap">
                             <div class="package__itinerary-item ">
                                 <div class="package__itinerary-item-day">
@@ -680,20 +678,20 @@
                     </div>
                     <div class="package__customize common-module scroll-mt-20" id="package-customize">
                         <div class="package__customize-wrap">
-                            <div class="package__customize-content">
+                            <div class="package__customize-content lg:w-10/12">
                                 Are you still confuse from where to start?
                                 We have solutions for you.
                             </div>
                             <div class="package__customize-action ">
-                                <a href="" class="px-4 py-2 text-xs font-medium transition-all duration-500 bg-white rounded-full hover:text-white hover:bg-secondary">Download Itinerary</a>
-                                <a href="" class="px-4 py-2 text-xs font-medium transition-all duration-500 bg-white rounded-full hover:text-white hover:bg-secondary">Customize trip</a>
+                                <a href="" class="px-4 py-2 text-sm font-medium transition-all duration-500 bg-white rounded-full hover:text-white hover:bg-secondary max-[425px]:w-full text-center">Download Itinerary</a>
+                                <a href="" class="px-4 py-2 text-sm font-medium transition-all duration-500 bg-white rounded-full hover:text-white hover:bg-secondary max-[425px]:w-full text-center">Customize trip</a>
                             </div>
                         </div>
                     </div>
                     <div class="package__route common-module scroll-mt-20" id="package-route">
                         <h2 class="package__section-title">Map And Altitude Chart</h2>
                         <div class="tab-wrap">
-                            <div class="flex flex-wrap items-center justify-between mb-5">
+                            <div class="flex flex-wrap items-center justify-between mb-5 gap-3">
                                 <div class="mb-0 tab-link">
                                     <div class="tab-link__item active" data-tab="route">Route Map</div>
                                     <div class="tab-link__item" data-tab="altitude">Altitude Chart</div>
@@ -1230,9 +1228,9 @@
 <section class="pt-0 common-box package__testimonials inner__testimonials">
     <div class="container-fluid">
         <div class="container">
-            <div class="flex lg:justify-between lg:items-center flex-wrap mb-5">
+            <div class="flex justify-between items-center flex-wrap mb-5 gap-3">
                 <div class="inner-section-title mb-0!">What Client Says</div>
-                <a href="" class="inline-block px-5 py-2 mt-5 text-sm font-medium transition-all duration-500 bg-white border rounded-full border-primary hover:bg-secondary hover:border-secondary hover:text-white">
+                <a href="" class="inline-block px-5 py-2 text-sm font-medium transition-all duration-500 bg-white border rounded-full border-primary hover:bg-secondary hover:border-secondary hover:text-white">
                     Write a Review
                 </a>
             </div>

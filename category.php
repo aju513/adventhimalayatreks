@@ -63,7 +63,7 @@
         <div class="container-fluid">
             <div class="container">
                 <div class="inner-section-title "> Travel Styles</div>
-                <div class="grid grid-cols-12 gap-3.75 md:gap-1.25">
+                <div class="grid grid-cols-12 gap-3.75">
                     <div class="col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3">
                         <div class="category-list__item">
                             <div class="category-list__item-image">

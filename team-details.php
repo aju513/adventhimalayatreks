@@ -1,9 +1,9 @@
 <?php include('./inc/common-header.php'); ?>
 <?php include('./inc/header.php') ?>
 <?php include('./inc/breadcrumbs.php') ?>
-<section class="common-box team-details-page" role="main">
+<section class="common-box team-details-page pb-0" role="main">
     <div class="container">
-        <div class="mt-10 team-details-page__full-content">
+        <div class="team-details-page__full-content">
             <div class="grid grid-cols-12 gap-5">
                 <div class="col-span-12 sm:col-span-4 md:col-span-3">
                     <div class="team-details-page__description-image">
