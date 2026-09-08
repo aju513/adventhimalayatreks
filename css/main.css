@@ -1279,15 +1279,28 @@ input[type="text"].date-picker {
   @apply text-[rgb(var(--color-secondary))];
 }
 /*  banner search suggestion */
-.search-suggest {
-  @apply -mt-6.25;
+
+/* Dropdown */
+
+.typeahead-standalone {
+  @apply absolute top-full left-0 z-40 w-full;
 }
 
+.search-suggest-wrap {
+  @apply w-full bg-white p-5 pt-7 rounded-b-[20px] -mt-7;
+}
+
+.search-suggest {
+  @apply max-h-70 overflow-y-auto;
+}
+
+/* Items */
+
 .search-suggest__item {
-  @apply px-2.5 py-2.5 mb-2 rounded-[5px];
+  @apply px-2.5 py-2.5 mb-2 rounded-[5px] pr-4;
 
   &:nth-child(even) {
-    @apply bg-[#f4faff];
+    @apply bg-[#fff8f1];
   }
 
   &:last-child {
@@ -1296,29 +1309,19 @@ input[type="text"].date-picker {
 }
 
 .search-suggest a {
-  @apply text-primary font-bold transition-all duration-400;
+  @apply text-text_color font-bold transition-all duration-400;
+
+  &:hover {
+    @apply text-primary;
+  }
 }
 
-.search-suggest a:hover {
-  @apply text-secondary transition-all duration-500;
+.search-suggest .meta {
+  @apply flex flex-wrap items-center gap-3;
 }
 
 .search-suggest .meta span {
-  @apply block text-xs text-[#4A4A4A];
-}
-
-.typeahead-standalone .tt-list {
-  @apply pt-8.75 pr-2.5 pb-2.5 pl-2.5 border-0 -top-5.25 z-0;
-}
-.typeahead-standalone .tt-input {
-  @apply bg-white;
-}
-.typeahead-standalone .tt-list .tt-suggestion {
-  @apply p-1.25;
-}
-.typeahead-standalone .tt-list .tt-suggestion:hover,
-.typeahead-standalone .tt-list .tt-suggestion.tt-selected {
-  @apply bg-[#24205f14];
+  @apply block text-xs text-[#878787];
 }
 
 /*  collaspe */
@@ -2234,11 +2237,11 @@ input[type="text"].date-picker {
 }
 
 .homepage__banner-search form {
-  @apply border border-white/50 mt-7.5 relative flex items-center rounded-[30px] bg-white;
+  @apply border border-white/50 mt-7.5 relative z-50 flex items-center rounded-[30px] bg-white;
 }
 
 .homepage__banner-search form input {
-  @apply relative z-30 block h-13.75 w-full rounded-[5px] bg-transparent text-secondary pr-4 pl-6;
+  @apply relative z-30 block h-13.75 w-full rounded-[30px] bg-transparent text-secondary pr-4 pl-6;
 }
 
 .homepage__banner-search form input::placeholder {
@@ -2246,9 +2249,8 @@ input[type="text"].date-picker {
 }
 
 .homepage__banner-search form button {
-  @apply pr-5 pt-1.25;
+  @apply relative z-30 pr-5 pt-1.25;
 }
-
 .homepage__upcoming .container-fluid {
   @apply bg-secondary relative rounded-none px-0 pb-20 pt-16 2xl:rounded-[30px] 2xl:max-w-[calc(100%-180px)] w-full 2xl:px-8;
 }
@@ -2867,28 +2869,34 @@ input[type="text"].date-picker {
 .package__addons-item {
   @apply rounded-xl mb-3 bg-white p-3.75 last:mb-0;
   .package__addons-item-title-wrap {
-    @apply flex   justify-between items-center gap-y-2 max-md:flex-wrap md:gap-5;
+    @apply flex flex-col gap-4 md:flex-row md:items-start md:gap-5;
   }
   .package__addons-item-image {
-    @apply flex-1 sm:flex-[0_0_100px];
+    @apply w-full shrink-0 self-start sm:w-30 md:flex-[0_0_120px];
     .placeholder__img-wrapper {
-      @apply aspect-600/450;
+      @apply aspect-600/450 w-full overflow-hidden rounded-lg;
+    }
+    .placeholder__img {
+      @apply size-full;
+    }
+    img {
+      @apply block size-full object-cover;
     }
   }
+  .package__addons-item-content {
+    @apply min-w-0 flex-1 text-text_color leading-5! text-[13px];
+  }
   .package__addons-item-title {
-    @apply font-signika text-text_color text-base font-semibold lg:text-lg;
+    @apply font-signika text-text_color text-base font-semibold lg:text-lg mb-1;
   }
   .package__addons-item-price {
-    @apply text-text_color  leading-6! md:flex-[0_0_100px];
-  }
-  .package__addons-item-content {
-    @apply text-text_color leading-5! text-[13px];
+    @apply w-full shrink-0 border-t border-[#dedede] pt-3 text-primary leading-6! md:w-auto md:flex-[0_0_120px] md:self-center md:border-t-0 md:border-l md:border-[#dedede] md:pt-0 md:pl-6;
   }
 }
 .package__addons-links {
   @apply flex flex-wrap items-center gap-2;
 }
-/*  */
+/* Equipment list */
 .package__equipment__wrapper {
   @apply bg-[#fff0e6] p-5 rounded-sm;
 }
@@ -2922,6 +2930,9 @@ input[type="text"].date-picker {
 .package__equipment__wrapper ul li::before {
   @apply w-5 h-5 absolute top-0.75 left-0;
   content: url("../images/svg/list-icon.svg");
+}
+.package__equipment__wrapper .custom-block-quote-section {
+  @apply mb-0!;
 }
 
 /* package faq */

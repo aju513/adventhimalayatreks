@@ -20,182 +20,147 @@
                 <div class=" font-signika mb-7 text-[clamp(2rem,6vw,3.75rem)] text-center leading-[clamp(2.3rem,6.5vw,4rem)] font-bold text-white!">
                     The himalayas are calling
                 </div>
-                <div class="w-full max-w-xl mx-auto mt-3 rounded-full homepage__banner-search">
+                <div class="w-full max-w-xl mx-auto mt-3 homepage__banner-search">
                     <form>
                         <input
                             type="text"
-
                             placeholder="Search Your Adventure" />
-                        <button>
-                            <span class="text-3xl font-bold text-primary icon-search" aria-hidden="true"></span>
+
+                        <button type="button">
+                            <span
+                                class="text-3xl font-bold text-primary icon-search"
+                                aria-hidden="true">
+                            </span>
                         </button>
                     </form>
-                    <ul
-                        id="search-suggest"
-                        role="listbox"
-                        aria-label="Search trips"
-                        class="custom-shadow search-suggest custom-rounded absolute p-5 z-5 pb-4 max-h-70 w-full overflow-y-auto bg-white  text-sm font-semibold [&>*:nth-child(even)]:bg-[#e9f7ff]">
+                    <div class="typeahead-standalone absolute hidden top-full left-0 z-40 w-full">
+                        <div class="search-suggest-wrap w-full rounded-b-[20px] bg-white p-5 -mt-5 custom-shadow">
+                            <ul
+                                id="search-suggest"
+                                role="listbox"
+                                aria-label="Search trips"
+                                class="search-suggest max-h-70 overflow-y-auto text-sm font-semibold">
 
-                        <li
-                            class="custom-rounded px-[10px] py-[10px] search-suggest__item"
-                            role="option">
+                                <li class="search-suggest__item" role="option">
+                                    <div class="flex items-start gap-3">
+                                        <div class="search-suggest__item-image shrink-0">
+                                            <img
+                                                src="/images/dynamic/package-thumb.webp"
+                                                width="60"
+                                                height="63"
+                                                alt="Ama Dablam Base Camp Trek"
+                                                class="rounded-[5px]" />
+                                        </div>
+                                        <div class="search-suggest__item-content flex flex-col gap-2">
+                                            <a href="">
+                                                Ama Dablam Base Camp Trek - 10 Days
+                                            </a>
+                                            <div class="meta flex flex-wrap items-center gap-3">
+                                                <span>
+                                                    Price: US$1200
+                                                </span>
+                                                <span>|</span>
+                                                <span>
+                                                    Duration: 10 Days
+                                                </span>
+                                            </div>
 
-                            <div class="flex items-center gap-3">
+                                        </div>
 
-                                <div class="search-suggest__item-image shrink-0">
-                                    <img
-                                        src="/images/dynamic/package-thumb.webp"
-                                        width="60"
-                                        height="63"
-                                        alt="Ama Dablam Base Camp Trek"
-                                        class="rounded-[5px]">
-                                </div>
-
-                                <div class="search-suggest__item-content flex flex-col gap-2">
-
-                                    <a href="">
-                                        Ama Dablam Base Camp Trek - 10 Days
-                                    </a>
-
-                                    <div class="meta flex flex-wrap items-center gap-3">
-                                        <span>
-                                            Price: US$1200
-                                        </span>
-
-                                        <span>|</span>
-
-                                        <span>
-                                            Duration: 10 Days
-                                        </span>
                                     </div>
 
-                                </div>
-
-                            </div>
-
-                        </li>
+                                </li>
 
 
-                        <li
-                            class="custom-rounded px-[10px] py-[10px] search-suggest__item"
-                            role="option">
-
-                            <div class="flex items-center gap-3">
-
-                                <div class="search-suggest__item-image shrink-0">
-                                    <img
-                                        src="/images/dynamic/package-thumb.webp"
-                                        width="60"
-                                        height="63"
-                                        alt="Ama Dablam Base Camp Trek"
-                                        class="rounded-[5px]">
-                                </div>
-
-                                <div class="search-suggest__item-content flex flex-col gap-2">
-
-                                    <a href="">
-                                        Ama Dablam Base Camp Trek - 10 Days
-                                    </a>
-
-                                    <div class="meta flex flex-wrap items-center gap-3">
-                                        <span>
-                                            Price: US$1200
-                                        </span>
-
-                                        <span>|</span>
-
-                                        <span>
-                                            Duration: 10 Days
-                                        </span>
+                                <li class="search-suggest__item" role="option">
+                                    <div class="flex items-start gap-3">
+                                        <div class="search-suggest__item-image shrink-0">
+                                            <img
+                                                src="/images/dynamic/package-thumb.webp"
+                                                width="60"
+                                                height="63"
+                                                alt="Ama Dablam Base Camp Trek"
+                                                class="rounded-[5px]" />
+                                        </div>
+                                        <div class="search-suggest__item-content flex flex-col gap-2">
+                                            <a href="">
+                                                Ama Dablam Base Camp Trek - 10 Days
+                                            </a>
+                                            <div class="meta flex flex-wrap items-center gap-3">
+                                                <span>
+                                                    Price: US$1200
+                                                </span>
+                                                <span>|</span>
+                                                <span>
+                                                    Duration: 10 Days
+                                                </span>
+                                            </div>
+                                        </div>
                                     </div>
-
-                                </div>
-
-                            </div>
-
-                        </li>
-
-
-                        <li
-                            class="custom-rounded px-[10px] py-[10px] search-suggest__item"
-                            role="option">
-
-                            <div class="flex items-center gap-3">
-
-                                <div class="search-suggest__item-image shrink-0">
-                                    <img
-                                        src="/images/dynamic/package-thumb.webp"
-                                        width="60"
-                                        height="63"
-                                        alt="Ama Dablam Base Camp Trek"
-                                        class="rounded-[5px]">
-                                </div>
-
-                                <div class="search-suggest__item-content flex flex-col gap-2">
-
-                                    <a href="">
-                                        Ama Dablam Base Camp Trek - 10 Days
-                                    </a>
-
-                                    <div class="meta flex flex-wrap items-center gap-3">
-                                        <span>
-                                            Price: US$1200
-                                        </span>
-
-                                        <span>|</span>
-
-                                        <span>
-                                            Duration: 10 Days
-                                        </span>
+                                </li>
+                                <li class="search-suggest__item" role="option">
+                                    <div class="flex items-start gap-3">
+                                        <div class="search-suggest__item-image shrink-0">
+                                            <img
+                                                src="/images/dynamic/package-thumb.webp"
+                                                width="60"
+                                                height="63"
+                                                alt="Ama Dablam Base Camp Trek"
+                                                class="rounded-[5px]" />
+                                        </div>
+                                        <div class="search-suggest__item-content flex flex-col gap-2">
+                                            <a href="">
+                                                Ama Dablam Base Camp Trek - 10 Days
+                                            </a>
+                                            <div class="meta flex flex-wrap items-center gap-3">
+                                                <span>
+                                                    Price: US$1200
+                                                </span>
+                                                <span>|</span>
+                                                <span>
+                                                    Duration: 10 Days
+                                                </span>
+                                            </div>
+                                        </div>
                                     </div>
+                                </li>
+                                <li class="search-suggest__item" role="option">
+                                    <div class="flex items-start gap-3">
 
-                                </div>
+                                        <div class="search-suggest__item-image shrink-0">
+                                            <img
+                                                src="/images/dynamic/package-thumb.webp"
+                                                width="60"
+                                                height="63"
+                                                alt="Ama Dablam Base Camp Trek"
+                                                class="rounded-[5px]" />
+                                        </div>
 
-                            </div>
+                                        <div class="search-suggest__item-content flex flex-col gap-2">
 
-                        </li>
+                                            <a href="">
+                                                Ama Dablam Base Camp Trek - 10 Days
+                                            </a>
 
+                                            <div class="meta flex flex-wrap items-center gap-3">
+                                                <span>
+                                                    Price: US$1200
+                                                </span>
 
-                        <li
-                            class="custom-rounded px-[10px] py-[10px] search-suggest__item"
-                            role="option">
+                                                <span>|</span>
 
-                            <div class="flex items-center gap-3">
+                                                <span>
+                                                    Duration: 10 Days
+                                                </span>
+                                            </div>
 
-                                <div class="search-suggest__item-image shrink-0">
-                                    <img
-                                        src="/images/dynamic/package-thumb.webp"
-                                        width="60"
-                                        height="63"
-                                        alt="Ama Dablam Base Camp Trek"
-                                        class="rounded-[5px]">
-                                </div>
+                                        </div>
 
-                                <div class="search-suggest__item-content flex flex-col gap-2">
-
-                                    <a href="">
-                                        Ama Dablam Base Camp Trek - 10 Days
-                                    </a>
-
-                                    <div class="meta flex flex-wrap items-center gap-3">
-                                        <span class="font-bold">
-                                            Price: US$1200
-                                        </span>
-
-                                        <span>|</span>
-
-                                        <span>
-                                            Duration: 10 Days
-                                        </span>
                                     </div>
-
-                                </div>
-
-                            </div>
-
-                        </li>
-
-                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -337,7 +302,7 @@
                                 <div class="text-sm text-text_color">Price from</div>
                                 <div class="font-bold text-xl text-primary">
                                     US$1680
-                                    <span class="text-lg font-normal text-[#878787] line-through">US$1800</span>
+                                    <span class="text-base font-normal text-[#878787] line-through">US$1800</span>
                                 </div>
                             </div>
                             <div class="package-list__item-review">

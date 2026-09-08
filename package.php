@@ -896,7 +896,7 @@
                                         </div>
 
                                         <div class="package__addons-item-price">
-                                            <div class="font-bold text-text_color">
+                                            <div class="font-bold text-primary">
                                                 US$ 1300
                                             </div>
                                             <div class="-mt-1 text-sm text-text_color">per person </div>
@@ -944,9 +944,6 @@
                                 <li>Praesent sed mauris ac justo euismod facilisis. </li>
                                 <li>Vestibulum quis purus vel ligula elementum rutrum. </li>
                             </ul>
-                            <a href="" class="flex items-center gap-2 text-lg font-bold text-black arrow-move-effect">
-                                Check Out the List <span class="text-xl icon-arrow-right"></span>
-                            </a>
                         </div>
                     </div>
                     <div class="package__essentials common-module scroll-mt-20" id="package-essentials">
