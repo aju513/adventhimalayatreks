@@ -20,11 +20,11 @@
                     </div>
                 </div>
                 <div class="col-span-12 sm:col-span-8 md:col-span-9">
-                    <div class="page-title">
+                    <div class="page-title mb-5!">
                         <h1>
                             Sobita Khanal
                         </h1>
-                        <div class="mt-2 text-xl font-bold font-signika text-primary">
+                        <div class="text-xl font-normsl font-signika text-primary">
                             Co-Founder/Tourist Guide
                         </div>
                     </div>

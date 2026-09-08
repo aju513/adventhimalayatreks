@@ -35,7 +35,7 @@
                             </div>
                         </div>
                         <div class="team-list__item-content">
-                            <div class="mt-2 -mb-2 text-base font-semibold text-text_color">
+                            <div class="mt-2 -mb-2 text-lg font-semibold text-text_color">
                                 First Last Name
                             </div>
                             <span class=" text-xs leading-3 text-[#878787]">
@@ -61,7 +61,7 @@
                             </div>
                         </div>
                         <div class="team-list__item-content">
-                            <div class="mt-2 -mb-2 text-base font-semibold text-text_color">
+                            <div class="mt-2 -mb-2 text-lg font-semibold text-text_color">
                                 First Last Name
                             </div>
                             <span class=" text-xs leading-3 text-[#878787]">
@@ -87,7 +87,7 @@
                             </div>
                         </div>
                         <div class="team-list__item-content">
-                            <div class="mt-2 -mb-2 text-base font-semibold text-text_color">
+                            <div class="mt-2 -mb-2 text-lg font-semibold text-text_color">
                                 First Last Name
                             </div>
                             <span class=" text-xs leading-3 text-[#878787]">
@@ -113,7 +113,7 @@
                             </div>
                         </div>
                         <div class="team-list__item-content">
-                            <div class="mt-2 -mb-2 text-base font-semibold text-text_color">
+                            <div class="mt-2 -mb-2 text-lg font-semibold text-text_color">
                                 First Last Name
                             </div>
                             <span class=" text-xs leading-3 text-[#878787]">
@@ -139,7 +139,7 @@
                             </div>
                         </div>
                         <div class="team-list__item-content">
-                            <div class="mt-2 -mb-2 text-base font-semibold text-text_color">
+                            <div class="mt-2 -mb-2 text-lg font-semibold text-text_color">
                                 First Last Name
                             </div>
                             <span class=" text-xs leading-3 text-[#878787]">
@@ -165,7 +165,7 @@
                             </div>
                         </div>
                         <div class="team-list__item-content">
-                            <div class="mt-2 -mb-2 text-base font-semibold text-text_color">
+                            <div class="mt-2 -mb-2 text-lg font-semibold text-text_color">
                                 First Last Name
                             </div>
                             <span class=" text-xs leading-3 text-[#878787]">
@@ -199,7 +199,7 @@
                             </div>
                         </div>
                         <div class="team-list__item-content">
-                            <div class="mt-2 -mb-2 text-base font-semibold text-text_color">
+                            <div class="mt-2 -mb-2 text-lg font-semibold text-text_color">
                                 First Last Name
                             </div>
                             <span class=" text-xs leading-3 text-[#878787]">
@@ -225,7 +225,7 @@
                             </div>
                         </div>
                         <div class="team-list__item-content">
-                            <div class="mt-2 -mb-2 text-base font-semibold text-text_color">
+                            <div class="mt-2 -mb-2 text-lg font-semibold text-text_color">
                                 First Last Name
                             </div>
                             <span class=" text-xs leading-3 text-[#878787]">
@@ -251,7 +251,7 @@
                             </div>
                         </div>
                         <div class="team-list__item-content">
-                            <div class="mt-2 -mb-2 text-base font-semibold text-text_color">
+                            <div class="mt-2 -mb-2 text-lg font-semibold text-text_color">
                                 First Last Name
                             </div>
                             <span class=" text-xs leading-3 text-[#878787]">
@@ -277,7 +277,7 @@
                             </div>
                         </div>
                         <div class="team-list__item-content">
-                            <div class="mt-2 -mb-2 text-base font-semibold text-text_color">
+                            <div class="mt-2 -mb-2 text-lg font-semibold text-text_color">
                                 First Last Name
                             </div>
                             <span class=" text-xs leading-3 text-[#878787]">
@@ -303,7 +303,7 @@
                             </div>
                         </div>
                         <div class="team-list__item-content">
-                            <div class="mt-2 -mb-2 text-base font-semibold text-text_color">
+                            <div class="mt-2 -mb-2 text-lg font-semibold text-text_color">
                                 First Last Name
                             </div>
                             <span class=" text-xs leading-3 text-[#878787]">
@@ -329,7 +329,7 @@
                             </div>
                         </div>
                         <div class="team-list__item-content">
-                            <div class="mt-2 -mb-2 text-base font-semibold text-text_color">
+                            <div class="mt-2 -mb-2 text-lg font-semibold text-text_color">
                                 First Last Name
                             </div>
                             <span class=" text-xs leading-3 text-[#878787]">

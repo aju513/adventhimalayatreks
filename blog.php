@@ -82,8 +82,8 @@
             <h2 class="inner-section-title">
                 Latest Blog
             </h2>
-            <div class="mb-4 blog-list__sort">
-                <div class="flex flex-col justify-between gap-5 sm:flex-row">
+            <div class="mb-5 blog-list__sort">
+                <div class="flex flex-col justify-between gap-x-5 gap-y-3 sm:flex-row">
                     <div class="relative blog-list__sort-category">
                         <select class="custom-rounded border border-primary border-opacity-20 w-full cursor-pointer appearance-none px-[25px] py-[15px] leading-6 text-text_color sm:w-[270px]">
                             <option selected>All Topics</option>

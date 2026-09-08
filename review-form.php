@@ -18,7 +18,7 @@
 
         <div class="mt-10 review-form-page__wrapper">
 
-            <form class="floating-form rounded-[5px] border border-secondary/10 p-5 md:px-8 md:py-10">
+            <form class="floating-form rounded-[5px] border border-secondary/10 p-5 md:px-8 md:py-10 custom-shadow">
                 <div class="grid md:grid-cols-3 md:gap-6">
                     <div class="relative z-0 w-full mb-0 group md:mb-5">
                         <input

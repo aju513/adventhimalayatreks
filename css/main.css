@@ -760,7 +760,7 @@ article {
 /* blockquote */
 .custom-block-quote-section,
 blockquote {
-  @apply bg-[#fff0e6] rounded-2xl px-6 py-5 mb-6;
+  @apply bg-[#fff8f1] rounded-2xl px-6 py-5 mb-6;
 }
 /* author */
 .author-profile__image .placeholder__img-wrapper {
@@ -1266,7 +1266,7 @@ input[type="text"].date-picker {
   @apply py-3.75 bg-dim_bg;
 }
 .breadcrumbs__wrapper .breadcrumbs__list-item {
-  @apply relative  pr-5 text-[#878787];
+  @apply relative  pr-5 last:pr-0 text-[#878787];
 }
 .breadcrumbs__wrapper .breadcrumbs__list-item::before {
   @apply font-icomoon absolute right-0.75 -top-px text-[#878787] -rotate-90 text-sm;
@@ -2088,7 +2088,7 @@ input[type="text"].date-picker {
 }
 
 .team-list__wrapper-title {
-  @apply mb-3 text-xl font-bold text-secondary font-signika;
+  @apply mb-3 text-xl lg:text-2xl font-bold text-secondary font-signika;
 }
 
 .team-details-page__description-image .placeholder__img-wrapper {

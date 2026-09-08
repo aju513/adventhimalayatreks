@@ -8,14 +8,14 @@
                 Customize Trip
             </h1>
         </div>
-        <div class="customize-trip-page__description">
+        <div class="customize-trip-page__description mb-8">
             <div class="customize-page__content lg:w-4/5 text-[15px] text-text_color">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem labore optio dignissimos repudiandae ab accusantium soluta maxime odit ratione officiis? Labore quasi natus esse tempore eum nulla illum, magni eos.
             </div>
         </div>
-        <div class="my-10 customize-page__info">
+        <div class="customize-page__info">
             <form class="w-full floating-form">
-                <div class="border border-secondary/10 mb-4 rounded-[5px] bg-white p-8 ">
+                <div class="border border-secondary/10 rounded-[5px] custom-shadow bg-white p-8 ">
                     <div class="pb-5 text-lg font-bold text-text_color">
                         Trip Details
                     </div>
