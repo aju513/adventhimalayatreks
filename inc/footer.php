@@ -88,7 +88,7 @@
                     <div class="col-span-12 lg:col-span-3">
                         <div class="mb-3 text-lg font-bold text-white">Advent Himalaya Treks P. Ltd.</div>
                         <div class="footer__contact-wrap">
-                            <div class="flex items-center gap-3 mb-2 footer__contact-item last:mb-0">
+                            <div class="flex items-start gap-3 mb-2 footer__contact-item last:mb-0">
                                 <div class="footer__contact-item-image">
                                     <span class="text-lg text-[#c7d5ec]/30 icon-map-pin-house" aria-hidden="true"></span>
                                 </div>
@@ -96,7 +96,7 @@
                                     Kathmandu, Nepal
                                 </div>
                             </div>
-                            <div class="flex items-center gap-3 mb-2 footer__contact-item last:mb-0">
+                            <div class="flex items-start gap-3 mb-2 footer__contact-item last:mb-0">
                                 <div class="footer__contact-item-image">
                                     <span class="text-lg text-[#c7d5ec]/30 icon-phone-outline" aria-hidden="true"></span>
                                 </div>
@@ -104,7 +104,7 @@
                                     +977 1 4957394
                                 </a>
                             </div>
-                            <div class="flex items-center gap-3 mb-2 footer__contact-item last:mb-0">
+                            <div class="flex items-start gap-3 mb-2 footer__contact-item last:mb-0">
                                 <div class="footer__contact-item-image">
                                     <span class="text-lg text-[#c7d5ec]/30 icon-whatsapp-outline" aria-hidden="true"></span>
                                 </div>
@@ -112,7 +112,7 @@
                                     +977 9851191662
                                 </a>
                             </div>
-                            <div class="flex items-center gap-3 mb-2 footer__contact-item last:mb-0">
+                            <div class="flex items-start gap-3 mb-2 footer__contact-item last:mb-0">
                                 <div class="footer__contact-item-image">
                                     <span class="text-lg text-[#c7d5ec]/30 icon-mail-outline" aria-hidden="true"></span>
                                 </div>
