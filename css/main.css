@@ -2807,7 +2807,7 @@ input[type="text"].date-picker {
   @apply mt-5;
 }
 .package__availability-item {
-  @apply grid grid-cols-2 gap-3 items-center rounded-2xl bg-white p-4  mb-3 last:mb-0 md:grid-cols-12 md:gap-4 xl:p-6;
+  @apply grid grid-cols-2 gap-3 items-center rounded-2xl bg-white p-4 mb-3 last:mb-0 md:grid-cols-12 md:gap-4 xl:px-6 xl:py-4;
 }
 .package__availability-item-start,
 .package__availability-item-end {

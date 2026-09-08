@@ -126,7 +126,7 @@
                             <div class="footer__social-wrapper">
                                 <div class="footer__social-item">
                                     <a href="" class="group w-8 h-8 border border-[#c7d5ec1a] flex items-center justify-center hover:bg-[#3b5998] hover:border-[#3b5998] rounded-full transition-all duration-500">
-                                        <span class="transition-all duration-500 icon-facebook text-[#d6e4f3] group-hover:text-white"></span>
+                                        <span class=" text-lg transition-all duration-500 icon-facebook text-[#3b5998] group-hover:text-white"></span>
                                     </a>
                                 </div>
                                 <div class="footer__social-item">

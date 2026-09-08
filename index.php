@@ -7,7 +7,7 @@
                 <img
                     src="/images/dynamic/homepage__banner.webp"
                     width="1920"
-                    height="770"
+                    height="700"
                     alt="banner" />
             </div>
         </div>
