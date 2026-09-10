@@ -503,12 +503,16 @@
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
                         </div>
                         <div class="package__itinerary-wrap">
-                            <div class="package__itinerary-item ">
+                            <div class="package__itinerary-item open">
                                 <div class="package__itinerary-item-day">
                                     Day 1
                                 </div>
                                 <div class="package__itinerary-item-title">
-                                    <h3> Arrival in Kathmandu, transfer to the hotel.</h3>
+                                    <h3 class="mb-0!"> Arrival in Kathmandu, transfer to the hotel.</h3>
+                                    <span class="package__itinerary-toggle">
+                                        <span class="package__itinerary-plus icon-plus"></span>
+                                        <span class="package__itinerary-minus icon-minus"></span>
+                                    </span>
                                 </div>
                                 <div class="package__itinerary-item-content">
                                     <div class="content-wrap">
@@ -565,7 +569,11 @@
                                     Day 12
                                 </div>
                                 <div class="package__itinerary-item-title">
-                                    <h3> Arrival in Kathmandu, transfer to the hotel.</h3>
+                                    <h3 class="mb-0!"> Arrival in Kathmandu, transfer to the hotel.</h3>
+                                    <span class="package__itinerary-toggle">
+                                        <span class="package__itinerary-plus icon-plus"></span>
+                                        <span class="package__itinerary-minus icon-minus"></span>
+                                    </span>
                                 </div>
                                 <div class="package__itinerary-item-content">
                                     <div class="content-wrap">
@@ -622,7 +630,11 @@
                                     Day 99
                                 </div>
                                 <div class="package__itinerary-item-title">
-                                    <h3> Arrival in Kathmandu, transfer to the hotel.</h3>
+                                    <h3 class="mb-0!"> Arrival in Kathmandu, transfer to the hotel.</h3>
+                                    <span class="package__itinerary-toggle">
+                                        <span class="package__itinerary-plus icon-plus"></span>
+                                        <span class="package__itinerary-minus icon-minus"></span>
+                                    </span>
                                 </div>
                                 <div class="package__itinerary-item-content">
                                     <div class="content-wrap">
@@ -1897,6 +1909,73 @@
             });
             tab.classList.add('active');
             document.getElementById(targetId).classList.add('active');
+        });
+    });
+</script>
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        const itineraryWraps = document.querySelectorAll(".package__itinerary-wrap");
+        const speed = 300;
+
+        itineraryWraps.forEach((wrap) => {
+            const items = wrap.querySelectorAll(".package__itinerary-item");
+
+            items.forEach((item) => {
+                const header = item.querySelector(".package__itinerary-item-title");
+                const body = item.querySelector(".package__itinerary-item-content");
+
+                if (!header || !body) return;
+
+                // Respect initial open state
+                if (item.classList.contains("open")) {
+                    body.style.height = "auto";
+                } else {
+                    body.style.height = "0px";
+                }
+
+                header.addEventListener("click", () => {
+                    const isOpen = item.classList.contains("open");
+
+                    items.forEach((otherItem) => {
+                        if (otherItem !== item) {
+                            collapse(otherItem);
+                        }
+                    });
+
+                    if (isOpen) {
+                        collapse(item);
+                    } else {
+                        expand(item);
+                    }
+                });
+            });
+
+            function expand(item) {
+                const body = item.querySelector(".package__itinerary-item-content");
+
+                item.classList.add("open");
+
+                body.style.height = body.scrollHeight + "px";
+
+                setTimeout(() => {
+                    if (item.classList.contains("open")) {
+                        body.style.height = "auto";
+                    }
+                }, speed);
+            }
+
+            function collapse(item) {
+                const body = item.querySelector(".package__itinerary-item-content");
+
+                if (!body || !item.classList.contains("open")) return;
+
+                body.style.height = body.scrollHeight + "px";
+
+                requestAnimationFrame(() => {
+                    item.classList.remove("open");
+                    body.style.height = "0px";
+                });
+            }
         });
     });
 </script>

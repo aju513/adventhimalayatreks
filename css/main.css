@@ -325,7 +325,7 @@ form input[type="number"].border-none {
 }
 
 .share-wrap .share-list .share-facebook {
-  @apply text-black transition-all duration-500;
+  @apply text-secondary transition-all duration-500;
 }
 
 .share-wrap .share-list .share-facebook .icon-facebook {
@@ -341,11 +341,11 @@ form input[type="number"].border-none {
 }
 
 .share-wrap .share-list .share-x {
-  @apply text-black transition-all duration-500;
+  @apply text-secondary transition-all duration-500;
 }
 
 .share-wrap .share-list .share-x .icon-twitter {
-  @apply text-black transition-all duration-500;
+  @apply text-secondary transition-all duration-500;
 }
 
 .share-wrap .share-list .share-x:hover {
@@ -357,7 +357,7 @@ form input[type="number"].border-none {
 }
 
 .share-wrap .share-list .share-linkedin {
-  @apply text-black transition-all duration-500;
+  @apply text-secondary transition-all duration-500;
 }
 
 .share-wrap .share-list .share-linkedin .icon-linkedin {
@@ -373,7 +373,7 @@ form input[type="number"].border-none {
 }
 
 .share-wrap .share-list .share-instagram {
-  @apply text-black transition-all duration-500;
+  @apply text-secondary transition-all duration-500;
 }
 
 .share-wrap .share-list .share-instagram .icon-instagram {
@@ -389,7 +389,7 @@ form input[type="number"].border-none {
 }
 
 .share-wrap .share-list .share-whatsapp {
-  @apply text-black transition-all duration-500;
+  @apply text-secondary transition-all duration-500;
 }
 
 .share-wrap .share-list .share-whatsapp .icon-whatsapp-outline {
@@ -405,7 +405,7 @@ form input[type="number"].border-none {
 }
 
 .share-wrap .share-list .share-copy {
-  @apply text-black transition-all duration-500;
+  @apply text-secondary transition-all duration-500;
 }
 
 .share-wrap .share-list .share-copy .icon-link {
@@ -691,7 +691,7 @@ h3,
 h4,
 h5,
 h6 {
-  @apply text-text_color mb-3 font-bold font-signika;
+  @apply text-secondary mb-3 font-bold font-signika;
   strong {
     @apply font-signika;
   }
@@ -1569,9 +1569,7 @@ input[type="text"].date-picker {
 .category-list .container-fluid {
   @apply bg-dim_bg relative rounded-none px-0 pb-20 pt-16 2xl:rounded-[30px] 2xl:max-w-[calc(100%-180px)] w-full 2xl:px-8;
 }
-.category-list {
-  @apply max-lg:pb-0;
-}
+
 /*   package list */
 .package-list__item {
   @apply shadow-[0px_3px_18px_0px_rgba(3,37,44,0.1)] bg-white relative rounded-[15px] border border-[#e4e4e4];
@@ -1595,9 +1593,9 @@ input[type="text"].date-picker {
   @apply px-5 xl:px-7 py-5;
 }
 .package-list__item-title {
-  @apply font-bold lg:text-2xl leading-6 lg:leading-7 text-xl mb-2.5 text-black hover:text-primary transition-all duration-500 lg:min-h-10;
+  @apply font-bold lg:text-2xl leading-6 lg:leading-7 text-xl mb-2.5 text-secondary hover:text-primary transition-all duration-500 lg:min-h-10;
   a {
-    @apply font-bold lg:text-2xl leading-6 lg:leading-7 text-xl text-black hover:text-primary transition-all duration-500;
+    @apply font-bold lg:text-2xl leading-6 lg:leading-7 text-xl text-secondary hover:text-primary transition-all duration-500;
   }
 }
 .package-list__item-bottom {
@@ -1664,7 +1662,7 @@ input[type="text"].date-picker {
 }
 
 .blog-list__item-title {
-  @apply leading-6 font-semibold text-xl text-black lg:text-[22px];
+  @apply leading-6 font-semibold text-xl text-secondary lg:text-[22px];
 }
 
 .blog-list__item-title a {
@@ -1715,7 +1713,7 @@ input[type="text"].date-picker {
   @apply w-full h-full max-h-35 object-cover;
 }
 .offer-package__item-title a {
-  @apply text-primary;
+  @apply text-secondary;
 }
 .offer-package__item-title a:hover {
   @apply no-underline;
@@ -1859,10 +1857,10 @@ input[type="text"].date-picker {
 
 /*  review */
 .testimonials__item {
-  @apply relative p-5 rounded-lg bg-white lg:p-6.5 xl:p-8;
+  @apply relative p-5 rounded-lg bg-white md:p-6.5 xl:p-8;
   box-shadow: 0px 3px 18px 0px rgba(3, 37, 44, 0.1);
   .testimonials__item-title {
-    @apply font-semibold text-lg xl:text-[22px] text-black mb-1.5 leading-6.5;
+    @apply font-semibold text-lg xl:text-[22px] text-secondary mb-1.5 leading-6.5;
   }
   .testimonials__item-content {
     @apply leading-6! text-sm;
@@ -2023,7 +2021,7 @@ input[type="text"].date-picker {
 }
 
 .legal-document__item-title {
-  @apply text-text_color mt-2 text-left text-base font-bold lg:text-lg;
+  @apply text-secondary mt-2 text-left text-base font-bold lg:text-lg;
 }
 
 .legal-document__item-content {
@@ -2130,7 +2128,7 @@ input[type="text"].date-picker {
 }
 
 .contact-page__representative-wrapper .contact-page__representative-title {
-  @apply font-bold text-xl text-black flex-[0_0_100%];
+  @apply font-bold text-xl text-secondary flex-[0_0_100%];
 }
 
 .contact-page__representative-wrapper .contact-page__representative-item {
@@ -2174,7 +2172,7 @@ input[type="text"].date-picker {
 }
 /* section title */
 .section-title {
-  @apply font-signika text-black font-bold mb-6 text-3xl md:text-4xl lg:text-[42px] leading-9 md:leading-10 lg:leading-12.5;
+  @apply font-signika text-secondary font-bold mb-6 text-3xl md:text-4xl lg:text-[42px] leading-9 md:leading-10 lg:leading-12.5;
 }
 .section-title-sm {
   @apply text-base;
@@ -2188,7 +2186,7 @@ input[type="text"].date-picker {
 .why-us__item {
   @apply bg-white sm:p-9 p-5 border border-primary rounded-2xl;
   .why-us__item-title {
-    @apply font-bold text-lg text-black lg:text-xl mt-4;
+    @apply font-bold text-lg text-secondary lg:text-xl mt-4;
   }
   .why-us__item-content {
     @apply text-[15px] text-text_color leading-6 mt-2;
@@ -2211,11 +2209,11 @@ input[type="text"].date-picker {
 }
 
 .article-list__item-title {
-  @apply mt-3 mb-0! leading-6 lg:leading-7 pr-5 z-10 font-semibold text-xl text-black lg:text-[22px];
+  @apply mt-3 mb-0! leading-6 lg:leading-7 pr-5 z-10 font-semibold text-xl text-secondary lg:text-[22px];
 }
 
 .article-list__item-title a {
-  @apply text-black font-semibold leading-6 lg:leading-7 lg:text-[22px] text-xl hover:text-primary transition-all duration-500;
+  @apply text-secondary font-semibold leading-6 lg:leading-7 lg:text-[22px] text-xl hover:text-primary transition-all duration-500;
 }
 /*  homepage */
 .homepage__banner {
@@ -2309,7 +2307,7 @@ input[type="text"].date-picker {
 }
 
 .homepage__testimonials-btn {
-  @apply absolute left-1/2 top-1/2 max-sm:hidden -translate-x-1/2 -translate-y-1/2 z-10 flex items-center justify-between w-[102%] 2xl:w-[110%];
+  @apply absolute left-1/2 top-1/2 z-10  hidden w-[102%] -translate-x-1/2 -translate-y-1/2  items-center justify-between lg:flex 2xl:w-[110%];
 }
 
 .homepage__testimonials-wrapper {
@@ -2349,7 +2347,7 @@ input[type="text"].date-picker {
 }
 
 .homepage__moments-item-title {
-  @apply font-semibold text-xl text-black lg:text-2xl;
+  @apply font-semibold text-xl text-secondary lg:text-2xl;
 }
 
 .homepage__moments-item-meta {
@@ -2462,7 +2460,7 @@ input[type="text"].date-picker {
 
 /* innersection */
 .inner-section-title {
-  @apply font-signika   text-2xl sm:text-[30px] font-bold mb-6.25 leading-6 sm:leading-9 text-black lg:text-4xl lg:leading-9.5;
+  @apply font-signika   text-2xl sm:text-[30px] font-bold mb-6.25 leading-6 sm:leading-9 text-secondary lg:text-4xl lg:leading-9.5;
 }
 .inner__team {
   .container-fluid {
@@ -2581,11 +2579,11 @@ input[type="text"].date-picker {
 
 .package__title {
   h1 {
-    @apply font-signika  mb-2 text-[28px]  font-extrabold leading-8   sm:text-[30px] lg:text-[40px] lg:leading-10;
+    @apply font-signika text-secondary mb-2 text-[28px]  font-extrabold leading-8   sm:text-[30px] lg:text-[40px] lg:leading-10;
   }
 }
 .package__section-title {
-  @apply font-signika font-bold text-[28px] lg:text-[32px] text-text_color mb-6 leading-9;
+  @apply font-signika font-bold text-[28px] lg:text-[32px] text-secondary mb-6 leading-9;
 }
 /* package rating */
 .package__rating {
@@ -2721,20 +2719,54 @@ input[type="text"].date-picker {
   }
 }
 /* package itinerary */
+
 .package__itinerary-note {
-  @apply bg-[#fff0e6] rounded-2xl px-6 py-5 mb-6;
+  @apply mb-6 rounded-2xl bg-[#fff0e6] px-6 py-5;
 }
 
 .package__itinerary-item {
-  @apply px-6 pb-6 pt-8 relative rounded-2xl border border-secondary mb-7 last:mb-0;
+  @apply relative mb-7 rounded-2xl border border-secondary
+         px-7 pb-6 pt-8 last:mb-0;
 }
 
 .package__itinerary-item-day {
-  @apply absolute left-5 top-0 font-bold text-[13px] text-white bg-secondary px-4 py-1 rounded-b-[5px] rounded-t-none;
+  @apply absolute left-7 top-0
+         rounded-b-[5px] rounded-t-none
+         bg-secondary px-4 py-1
+         text-[13px] font-bold text-white;
 }
 
 .package__itinerary-item-title {
-  @apply text-xl text-[#111111] font-bold leading-7!;
+  @apply flex cursor-pointer items-start justify-between gap-4
+         text-xl font-bold leading-7! text-secondary;
+}
+
+.package__itinerary-item-content {
+  @apply overflow-hidden transition-[height] duration-300;
+}
+
+.package__itinerary-toggle {
+  @apply shrink-0 text-xl text-secondary;
+}
+
+.package__itinerary-plus {
+  @apply block;
+}
+
+.package__itinerary-minus {
+  @apply hidden;
+}
+
+.package__itinerary-item.open .package__itinerary-plus {
+  @apply hidden;
+}
+
+.package__itinerary-item.open .package__itinerary-minus {
+  @apply block;
+}
+
+.package__itinerary-item.open .package__itinerary-item-content {
+  @apply mt-3;
 }
 
 .package__itinerary .itinerary-meta-facts {
@@ -2742,15 +2774,15 @@ input[type="text"].date-picker {
 }
 
 .package__itinerary .itinerary-meta-image img {
-  @apply object-cover rounded-[5px] h-32.5;
+  @apply h-32.5 rounded-[5px] object-cover;
 }
 /* package customize */
 .package__customize-wrap {
-  @apply bg-primary flex flex-col  gap-5 p-5 sm:py-6 rounded-2xl;
+  @apply bg-primary flex flex-col  gap-3 p-5 sm:py-6 rounded-2xl;
 }
 
 .package__customize-content {
-  @apply font-bold text-xl lg:text-[22px] text-white;
+  @apply font-semibold text-lg text-white;
 }
 
 .package__customize-action {
@@ -2758,7 +2790,7 @@ input[type="text"].date-picker {
 }
 /* package route */
 .package__route .tab-wrap .tab-link__item {
-  @apply font-semibold text-base capitalize text-black bg-dim_bg;
+  @apply font-semibold text-base capitalize text-secondary bg-dim_bg;
 }
 
 .package__route .tab-wrap .tab-link__item.active {
@@ -2831,7 +2863,7 @@ input[type="text"].date-picker {
   @apply bg-white px-3 py-2 rounded-md md:w-2/3 w-full;
 }
 .package__availability .tab-wrap .tab-link__item {
-  @apply font-bold text-[15px] py-1.5 capitalize text-black bg-dim_bg;
+  @apply font-bold text-[15px] py-1.5 capitalize text-secondary bg-dim_bg;
 }
 .package__availability .tab-wrap .tab-link__item.active {
   @apply text-white bg-secondary;
@@ -2872,7 +2904,7 @@ input[type="text"].date-picker {
 .package__addons {
   @apply relative rounded-2xl bg-[#fdd284] p-5 pt-6;
   .package__section-title {
-    @apply font-signika font-bold text-[28px] lg:text-[32px] text-text_color mb-6 leading-9;
+    @apply font-signika font-bold text-[28px] lg:text-[32px] text-secondary mb-6 leading-9;
   }
 }
 .package__addons h2 {
@@ -2926,7 +2958,7 @@ input[type="text"].date-picker {
     @apply min-w-0 flex-1 text-text_color leading-5! text-[13px];
   }
   .package__addons-item-title {
-    @apply font-signika text-text_color text-base font-semibold lg:text-lg mb-1;
+    @apply font-signika text-secondary text-base font-semibold lg:text-lg mb-1;
   }
   .package__addons-item-price {
     @apply w-full shrink-0 border-t border-[#dedede] pt-3 text-primary leading-6! md:w-auto md:flex-[0_0_120px] md:self-center md:border-t-0 md:border-l md:border-[#dedede] md:pt-0 md:pl-6;

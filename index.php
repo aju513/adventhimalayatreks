@@ -2333,6 +2333,9 @@
         breakpoints: {
 
             640: {
+                slidesPerView: 2.1,
+            },
+            1023: {
                 slidesPerView: 2,
             },
 
