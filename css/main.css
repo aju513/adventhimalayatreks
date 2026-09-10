@@ -69,11 +69,11 @@ button {
   @apply cursor-pointer;
 }
 p a {
-  @apply text-secondary transition-all duration-500;
+  @apply text-primary transition-all duration-500;
 }
 
 p a:hover {
-  @apply text-primary underline;
+  @apply text-secondary underline;
 }
 a {
   @apply transition-all duration-500;
@@ -85,7 +85,7 @@ article,
 article li,
 blockquote {
   a {
-    @apply text-secondary transition-all duration-500 hover:text-primary hover:underline;
+    @apply text-primary transition-all duration-500 hover:text-secondary hover:underline;
   }
 }
 img {
@@ -1117,7 +1117,7 @@ a.nested-dropdown-wrap {
   @apply mb-0;
 }
 .page-title h1 {
-  @apply font-signika   text-[28px]  font-extrabold leading-8   sm:text-[30px] lg:text-[40px] lg:leading-10;
+  @apply font-signika text-secondary text-[28px] font-extrabold leading-8  sm:text-[30px] lg:text-[40px] lg:leading-10;
 }
 textarea.peer:focus ~ .peer-focus\:text-text_color {
   @apply transform-none text-[16px];
@@ -1227,7 +1227,7 @@ input[type="number"]::-webkit-outer-spin-button {
   @apply mb-0;
 }
 .tab-link__item {
-  @apply px-5 py-1.5 bg-[#e4e4e4] font-bold text-xs cursor-pointer rounded-full transition-all duration-500 hover:bg-secondary hover:text-white text-secondary uppercase;
+  @apply px-5 py-2 bg-[#e4e4e4] font-bold text-xs cursor-pointer rounded-full transition-all duration-500 hover:bg-secondary hover:text-white text-secondary uppercase;
 }
 
 .tab-link__item.active {
