@@ -1124,7 +1124,7 @@
                             </div>
                         </div>
                         <div class="package__sidebar-contact">
-                            <div class="text-lg font-bold text-black ">Need Help?</div>
+                            <div class="text-lg font-bold text-secondary ">Need Help?</div>
                             <div class="mt-2 mb-3 text-xs text-text_color leading-5!">Our Packages specialists are here to assist you with booking and customization.</div>
                             <div class="flex gap-3 items-center">
                                 <div class="package__price-contact-icon ">
@@ -1354,7 +1354,7 @@
                             <span class="star"></span>
                             <span class="star"></span>
                         </span>
-                        <span class="text-xs text-black">222 reviews</span>
+                        <span class="text-xs text-secondary">222 reviews</span>
                     </div>
                 </div>
                 <div class="testimonials-platforms-item ">
@@ -1371,7 +1371,7 @@
                             <span class="text-sm star"></span>
                             <span class="text-sm star"></span>
                         </span>
-                        <span class="text-xs text-black">222 reviews</span>
+                        <span class="text-xs text-secondary">222 reviews</span>
                     </div>
                 </div>
                 <div class="testimonials-platforms-item ">
@@ -1387,7 +1387,7 @@
                             width="70"
                             height="15"
                             alt="banner" class="rounded-none" />
-                        <span class="text-xs text-black">222 reviews</span>
+                        <span class="text-xs text-secondary">222 reviews</span>
                     </div>
                 </div>
             </div>
@@ -1453,8 +1453,8 @@
                             </span>
                         </div>
                         <div class="package-list__item-price">
-                            <div class="text-sm text-black">Price from</div>
-                            <div class="font-semibold text-xl  text-black lg:text-[22px]">
+                            <div class="text-sm text-secondary">Price from</div>
+                            <div class="font-semibold text-xl  text-secondary lg:text-[22px]">
                                 US$1680
                                 <span class="text-lg font-normal text-[#878787] line-through">US$1800</span>
                             </div>
@@ -1514,8 +1514,8 @@
                             </span>
                         </div>
                         <div class="package-list__item-price">
-                            <div class="text-sm text-black">Price from</div>
-                            <div class="font-semibold text-xl  text-black lg:text-[22px]">
+                            <div class="text-sm text-secondary">Price from</div>
+                            <div class="font-semibold text-xl  text-secondary lg:text-[22px]">
                                 US$1680
                                 <span class="text-lg font-normal text-[#878787] line-through">US$1800</span>
                             </div>
@@ -1575,8 +1575,8 @@
                             </span>
                         </div>
                         <div class="package-list__item-price">
-                            <div class="text-sm text-black">Price from</div>
-                            <div class="font-semibold text-xl  text-black lg:text-[22px]">
+                            <div class="text-sm text-secondary">Price from</div>
+                            <div class="font-semibold text-xl  text-secondary lg:text-[22px]">
                                 US$1680
                                 <span class="text-lg font-normal text-[#878787] line-through">US$1800</span>
                             </div>

@@ -1,7 +1,7 @@
 <?php include('./inc/common-header.php'); ?>
 <?php include('./inc/header.php') ?>
 <?php include('./inc/breadcrumbs.php') ?>
-<section class="common-box last-minute-page" role="main">
+<section class="common-box last-minute-page pb-0" role="main">
     <div class="page-title">
         <div class="container">
             <h1>
@@ -47,159 +47,159 @@
             </div>
         </div>
     </div>
-
-
 </section>
-<section class="bg-secondary common-box last-minute__wrapper">
-    <div class="container">
-        <div class="mb-5 last-minute-page__filter">
-            <select class="w-2/3 border sm:w-1/3 custom-rounded border-primary border-opacity-20 md:w-40">
-                <option>Feb 2024</option>
-                <option>Mar 2024</option>
-                <option>Apr 2024</option>
-                <option>May 2024</option>
-                <option>Jun 2024</option>
-                <option>Jul 2024</option>
-                <option>Aug 2024</option>
-            </select>
-        </div>
-        <div class="last-minute__filter">
-            <div class="last-minute__filter-item">Apr 2026</div>
-            <div class="last-minute__filter-item">May 2026</div>
-            <div class="last-minute__filter-item active">Jun 2026</div>
-            <div class="last-minute__filter-item">Jul 2026</div>
-        </div>
-        <div class="mb-5 last-minute__wrap last:mb-0">
-            <div class="last-minute__title">
-                Everest Base Camp Trek 15 Days
+<section class="common-box pb-0 last-minute__wrapper">
+    <div class="container-fluid">
+        <div class="container">
+            <div class="mb-5 last-minute-page__filter">
+                <select class="w-2/3 border sm:w-1/3 custom-rounded md:w-40">
+                    <option>Feb 2024</option>
+                    <option>Mar 2024</option>
+                    <option>Apr 2024</option>
+                    <option>May 2024</option>
+                    <option>Jun 2024</option>
+                    <option>Jul 2024</option>
+                    <option>Aug 2024</option>
+                </select>
             </div>
-            <div class="last-minute__item">
-                <div class="last-minute__item-duration">
-                    <div class="text-sm font-bold text-text_color">15 Days</div>
-                    <div class="  leading-3! text-xs text-[#878787] ">Duration</div>
-                </div>
-                <div class="last-minute__item-start">
-                    <div class="text-sm font-bold text-text_color">27 April, 2026</div>
-                    <div class="  leading-3! text-xs text-[#878787] ">Start Monday</div>
-                </div>
-                <div class="last-minute__item-end">
-                    <div class="text-sm font-bold text-text_color">14 May, 2026</div>
-                    <div class="  leading-3! text-xs text-[#878787] ">Ends Thursday</div>
-                </div>
-                <div class="last-minute__item-availability">
-                    <div class="text-sm font-bold text-text_color">Availability</div>
-                    <div class="  leading-3! text-xs text-[#878787] ">2 Spots Remaining</div>
-                </div>
-                <div class="last-minute__item-group">
-                    <div class="text-sm font-bold text-text_color">15</div>
-                    <div class="  leading-3! text-xs text-[#878787] ">Group Size</div>
-                </div>
-                <div class="last-minute__item-price">
-                    <div class="text-sm font-bold text-text_color">US$ 1600 <span class="font-normal line-through text-[#878787]">1800</span></div>
-                    <div class="  leading-3! text-xs text-[#878787] ">Per Person</div>
-                </div>
-                <div class="last-minute__item-link lg:text-right">
-                    <a href="" class="px-5 py-2.5 text-sm inline-block font-semibold text-white uppercase transition-all duration-500 rounded-full bg-primary hover:bg-secondary">
-                        Book Now
-                    </a>
-                </div>
+            <div class="last-minute__filter">
+                <div class="last-minute__filter-item">Apr 2026</div>
+                <div class="last-minute__filter-item">May 2026</div>
+                <div class="last-minute__filter-item active">Jun 2026</div>
+                <div class="last-minute__filter-item">Jul 2026</div>
             </div>
-            <div class="last-minute__item">
-                <div class="last-minute__item-duration">
-                    <div class="text-sm font-bold text-text_color">15 Days</div>
-                    <div class="  leading-3! text-xs text-[#878787] ">Duration</div>
+            <div class="mb-5 last-minute__wrap last:mb-0">
+                <div class="last-minute__title">
+                    Everest Base Camp Trek 15 Days
                 </div>
-                <div class="last-minute__item-start">
-                    <div class="text-sm font-bold text-text_color">27 April, 2026</div>
-                    <div class="  leading-3! text-xs text-[#878787] ">Start Monday</div>
+                <div class="last-minute__item">
+                    <div class="last-minute__item-duration">
+                        <div class="text-sm font-bold text-text_color">15 Days</div>
+                        <div class="  leading-3! text-xs text-[#878787] ">Duration</div>
+                    </div>
+                    <div class="last-minute__item-start">
+                        <div class="text-sm font-bold text-text_color">27 April, 2026</div>
+                        <div class="  leading-3! text-xs text-[#878787] ">Start Monday</div>
+                    </div>
+                    <div class="last-minute__item-end">
+                        <div class="text-sm font-bold text-text_color">14 May, 2026</div>
+                        <div class="  leading-3! text-xs text-[#878787] ">Ends Thursday</div>
+                    </div>
+                    <div class="last-minute__item-availability">
+                        <div class="text-sm font-bold text-text_color">Availability</div>
+                        <div class="  leading-3! text-xs text-[#878787] ">2 Spots Remaining</div>
+                    </div>
+                    <div class="last-minute__item-group">
+                        <div class="text-sm font-bold text-text_color">15</div>
+                        <div class="  leading-3! text-xs text-[#878787] ">Group Size</div>
+                    </div>
+                    <div class="last-minute__item-price">
+                        <div class="text-sm font-bold text-text_color">US$ 1600 <span class="font-normal line-through text-[#878787]">1800</span></div>
+                        <div class="  leading-3! text-xs text-[#878787] ">Per Person</div>
+                    </div>
+                    <div class="last-minute__item-link lg:text-right">
+                        <a href="" class="px-5 py-2.5 text-sm inline-block font-semibold text-white uppercase transition-all duration-500 rounded-full bg-primary hover:bg-secondary">
+                            Book Now
+                        </a>
+                    </div>
                 </div>
-                <div class="last-minute__item-end">
-                    <div class="text-sm font-bold text-text_color">14 May, 2026</div>
-                    <div class="  leading-3! text-xs text-[#878787] ">Ends Thursday</div>
-                </div>
-                <div class="last-minute__item-availability">
-                    <div class="text-sm font-bold text-text_color">Availability</div>
-                    <div class="  leading-3! text-xs text-[#878787] ">2 Spots Remaining</div>
-                </div>
-                <div class="last-minute__item-group">
-                    <div class="text-sm font-bold text-text_color">15</div>
-                    <div class="  leading-3! text-xs text-[#878787] ">Group Size</div>
-                </div>
-                <div class="last-minute__item-price">
-                    <div class="text-sm font-bold text-text_color">US$ 1600 <span class="font-normal line-through text-[#878787]">1800</span></div>
-                    <div class="  leading-3! text-xs text-[#878787] ">Per Person</div>
-                </div>
-                <div class="last-minute__item-link lg:text-right">
-                    <a href="" class="px-5 py-2.5 text-sm inline-block font-semibold text-white uppercase transition-all duration-500 rounded-full bg-primary hover:bg-secondary">
-                        Book Now
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="mb-5 last-minute__wrap last:mb-0">
-            <div class="last-minute__title">
-                Everest Base Camp Trek 15 Days
-            </div>
-            <div class="last-minute__item">
-                <div class="last-minute__item-duration">
-                    <div class="text-sm font-bold text-text_color">15 Days</div>
-                    <div class="  leading-3! text-xs text-[#878787] ">Duration</div>
-                </div>
-                <div class="last-minute__item-start">
-                    <div class="text-sm font-bold text-text_color">27 April, 2026</div>
-                    <div class="  leading-3! text-xs text-[#878787] ">Start Monday</div>
-                </div>
-                <div class="last-minute__item-end">
-                    <div class="text-sm font-bold text-text_color">14 May, 2026</div>
-                    <div class="  leading-3! text-xs text-[#878787] ">Ends Thursday</div>
-                </div>
-                <div class="last-minute__item-availability">
-                    <div class="text-sm font-bold text-text_color">Availability</div>
-                    <div class="  leading-3! text-xs text-[#878787] ">2 Spots Remaining</div>
-                </div>
-                <div class="last-minute__item-group">
-                    <div class="text-sm font-bold text-text_color">15</div>
-                    <div class="  leading-3! text-xs text-[#878787] ">Group Size</div>
-                </div>
-                <div class="last-minute__item-price">
-                    <div class="text-sm font-bold text-text_color">US$ 1600 <span class="font-normal line-through text-[#878787]">1800</span></div>
-                    <div class="  leading-3! text-xs text-[#878787] ">Per Person</div>
-                </div>
-                <div class="last-minute__item-link lg:text-right">
-                    <a href="" class="px-5 py-2.5 text-sm inline-block font-semibold text-white uppercase transition-all duration-500 rounded-full bg-primary hover:bg-secondary">
-                        Book Now
-                    </a>
+                <div class="last-minute__item">
+                    <div class="last-minute__item-duration">
+                        <div class="text-sm font-bold text-text_color">15 Days</div>
+                        <div class="  leading-3! text-xs text-[#878787] ">Duration</div>
+                    </div>
+                    <div class="last-minute__item-start">
+                        <div class="text-sm font-bold text-text_color">27 April, 2026</div>
+                        <div class="  leading-3! text-xs text-[#878787] ">Start Monday</div>
+                    </div>
+                    <div class="last-minute__item-end">
+                        <div class="text-sm font-bold text-text_color">14 May, 2026</div>
+                        <div class="  leading-3! text-xs text-[#878787] ">Ends Thursday</div>
+                    </div>
+                    <div class="last-minute__item-availability">
+                        <div class="text-sm font-bold text-text_color">Availability</div>
+                        <div class="  leading-3! text-xs text-[#878787] ">2 Spots Remaining</div>
+                    </div>
+                    <div class="last-minute__item-group">
+                        <div class="text-sm font-bold text-text_color">15</div>
+                        <div class="  leading-3! text-xs text-[#878787] ">Group Size</div>
+                    </div>
+                    <div class="last-minute__item-price">
+                        <div class="text-sm font-bold text-text_color">US$ 1600 <span class="font-normal line-through text-[#878787]">1800</span></div>
+                        <div class="  leading-3! text-xs text-[#878787] ">Per Person</div>
+                    </div>
+                    <div class="last-minute__item-link lg:text-right">
+                        <a href="" class="px-5 py-2.5 text-sm inline-block font-semibold text-white uppercase transition-all duration-500 rounded-full bg-primary hover:bg-secondary">
+                            Book Now
+                        </a>
+                    </div>
                 </div>
             </div>
-            <div class="last-minute__item">
-                <div class="last-minute__item-duration">
-                    <div class="text-sm font-bold text-text_color">15 Days</div>
-                    <div class="  leading-3! text-xs text-[#878787] ">Duration</div>
+            <div class="mb-5 last-minute__wrap last:mb-0">
+                <div class="last-minute__title">
+                    Everest Base Camp Trek 15 Days
                 </div>
-                <div class="last-minute__item-start">
-                    <div class="text-sm font-bold text-text_color">27 April, 2026</div>
-                    <div class="  leading-3! text-xs text-[#878787] ">Start Monday</div>
+                <div class="last-minute__item">
+                    <div class="last-minute__item-duration">
+                        <div class="text-sm font-bold text-text_color">15 Days</div>
+                        <div class="  leading-3! text-xs text-[#878787] ">Duration</div>
+                    </div>
+                    <div class="last-minute__item-start">
+                        <div class="text-sm font-bold text-text_color">27 April, 2026</div>
+                        <div class="  leading-3! text-xs text-[#878787] ">Start Monday</div>
+                    </div>
+                    <div class="last-minute__item-end">
+                        <div class="text-sm font-bold text-text_color">14 May, 2026</div>
+                        <div class="  leading-3! text-xs text-[#878787] ">Ends Thursday</div>
+                    </div>
+                    <div class="last-minute__item-availability">
+                        <div class="text-sm font-bold text-text_color">Availability</div>
+                        <div class="  leading-3! text-xs text-[#878787] ">2 Spots Remaining</div>
+                    </div>
+                    <div class="last-minute__item-group">
+                        <div class="text-sm font-bold text-text_color">15</div>
+                        <div class="  leading-3! text-xs text-[#878787] ">Group Size</div>
+                    </div>
+                    <div class="last-minute__item-price">
+                        <div class="text-sm font-bold text-text_color">US$ 1600 <span class="font-normal line-through text-[#878787]">1800</span></div>
+                        <div class="  leading-3! text-xs text-[#878787] ">Per Person</div>
+                    </div>
+                    <div class="last-minute__item-link lg:text-right">
+                        <a href="" class="px-5 py-2.5 text-sm inline-block font-semibold text-white uppercase transition-all duration-500 rounded-full bg-primary hover:bg-secondary">
+                            Book Now
+                        </a>
+                    </div>
                 </div>
-                <div class="last-minute__item-end">
-                    <div class="text-sm font-bold text-text_color">14 May, 2026</div>
-                    <div class="  leading-3! text-xs text-[#878787] ">Ends Thursday</div>
-                </div>
-                <div class="last-minute__item-availability">
-                    <div class="text-sm font-bold text-text_color">Availability</div>
-                    <div class="  leading-3! text-xs text-[#878787] ">2 Spots Remaining</div>
-                </div>
-                <div class="last-minute__item-group">
-                    <div class="text-sm font-bold text-text_color">15</div>
-                    <div class="  leading-3! text-xs text-[#878787] ">Group Size</div>
-                </div>
-                <div class="last-minute__item-price">
-                    <div class="text-sm font-bold text-text_color">US$ 1600 <span class="font-normal line-through text-[#878787]">1800</span></div>
-                    <div class="  leading-3! text-xs text-[#878787] ">Per Person</div>
-                </div>
-                <div class="last-minute__item-link lg:text-right">
-                    <a href="" class="px-5 py-2.5 text-sm inline-block font-semibold text-white uppercase transition-all duration-500 rounded-full bg-primary hover:bg-secondary">
-                        Book Now
-                    </a>
+                <div class="last-minute__item">
+                    <div class="last-minute__item-duration">
+                        <div class="text-sm font-bold text-text_color">15 Days</div>
+                        <div class="  leading-3! text-xs text-[#878787] ">Duration</div>
+                    </div>
+                    <div class="last-minute__item-start">
+                        <div class="text-sm font-bold text-text_color">27 April, 2026</div>
+                        <div class="  leading-3! text-xs text-[#878787] ">Start Monday</div>
+                    </div>
+                    <div class="last-minute__item-end">
+                        <div class="text-sm font-bold text-text_color">14 May, 2026</div>
+                        <div class="  leading-3! text-xs text-[#878787] ">Ends Thursday</div>
+                    </div>
+                    <div class="last-minute__item-availability">
+                        <div class="text-sm font-bold text-text_color">Availability</div>
+                        <div class="  leading-3! text-xs text-[#878787] ">2 Spots Remaining</div>
+                    </div>
+                    <div class="last-minute__item-group">
+                        <div class="text-sm font-bold text-text_color">15</div>
+                        <div class="  leading-3! text-xs text-[#878787] ">Group Size</div>
+                    </div>
+                    <div class="last-minute__item-price">
+                        <div class="text-sm font-bold text-text_color">US$ 1600 <span class="font-normal line-through text-[#878787]">1800</span></div>
+                        <div class="  leading-3! text-xs text-[#878787] ">Per Person</div>
+                    </div>
+                    <div class="last-minute__item-link lg:text-right">
+                        <a href="" class="px-5 py-2.5 text-sm inline-block font-semibold text-white uppercase transition-all duration-500 rounded-full bg-primary hover:bg-secondary">
+                            Book Now
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>

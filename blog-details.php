@@ -74,6 +74,9 @@
         <div class="mt-5 blog-content">
             <div class="grid grid-cols-12 gap-5">
                 <div class="col-span-12 lg:col-span-10">
+                    <div class="blog_summary">
+                        <p>If you are setting off for any adventure activity in any corners of the world, it’s always necessary to pack the ten essentials. The lists of ten essentials were introduced in the 1930s by the Mountaineers, which directly relate it with adventurous outdoor excursion. If you have this, you can be survived in many harsh situations. As Nepal is also a world renowned destination of adventure trips, following ten essentials is mandatory. Better to know before your trip to Nepal.</p>
+                    </div>
                     <article>
                         <p>
                             Pellentesque habitant morbi tristique senectus et netus et
@@ -178,7 +181,7 @@
                                     Donec eu libero sit amet quam egestas semper. Aenean
                                     ultricies mi vitae est. Mauris placerat eleifend leo.
                                 </p>
-                                <div class="mb-8 offer-package">
+                                <div class="mb-5 offer-package">
                                     <div class="relative flex items-center gap-5 offer-package__item  rounded-[5px]  border border-[#ffe3d2] px-5 py-4 mb-5 last:mb-0">
 
                                         <div class="offer-package__item-image">
@@ -219,7 +222,7 @@
                                             </div>
 
                                             <div class="flex items-center gap-2 offer-package__item-price border-t border-[#ffe3d2] pt-3 mt-3 ">
-                                                <span class="text-black line-through opacity-50 ">US$1680</span>
+                                                <span class="text-secondary line-through opacity-50 ">US$1680</span>
                                                 <span class="text-lg font-bold text-text_color">US$ 1500</span>
                                             </div>
                                         </div>
@@ -264,7 +267,7 @@
                                             </div>
 
                                             <div class="flex items-center gap-2 offer-package__item-price border-t border-[#ffe3d2] pt-3 mt-3 ">
-                                                <span class="text-black line-through opacity-50 ">US$1680</span>
+                                                <span class="text-secondary line-through opacity-50 ">US$1680</span>
                                                 <span class="text-lg font-bold text-text_color">US$ 1500</span>
                                             </div>
                                         </div>
@@ -807,7 +810,7 @@
 
                                 <button
                                     data-fancybox data-src="#send-inquiry"
-                                    class="inline-block px-5 py-2 mt-4 text-sm font-semibold text-white transition-all duration-500 cursor-pointer custom-rounded hover:bg-primary bg-secondary">
+                                    class="inline-block px-5 py-2 mt-6 text-sm font-semibold text-white transition-all duration-500 cursor-pointer custom-rounded hover:bg-primary bg-secondary">
                                     Ask a Question
                                 </button>
                                 <div

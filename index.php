@@ -1951,8 +1951,8 @@
                     </div>
                 </div>
                 <div class="pointer-events-none homepage__testimonials-btn">
-                    <div class="flex items-center justify-center w-10 h-10 transition-all duration-500 bg-white rounded-full pointer-events-auto hover:bg-secondary group testimonials-prev custom-shadow"><span class="inline-block text-xl font-bold transition-all duration-500 rotate-90 group-hover:text-white text-black/70 icon-angle-down" aria-hidden="true"></span></div>
-                    <div class="flex items-center justify-center w-10 h-10 transition-all duration-500 bg-white rounded-full pointer-events-auto hover:bg-secondary group testimonials-next custom-shadow"> <span class="inline-block text-xl font-bold transition-all duration-500 -rotate-90 group-hover:text-white text-black/70 icon-angle-down" aria-hidden="true"></span></div>
+                    <div class="flex items-center justify-center w-10 h-10 transition-all duration-500 bg-white rounded-full pointer-events-auto hover:bg-secondary group testimonials-prev custom-shadow"><span class="inline-block text-xl font-bold transition-all duration-500 rotate-90 group-hover:text-white text-secondary/70 icon-angle-down" aria-hidden="true"></span></div>
+                    <div class="flex items-center justify-center w-10 h-10 transition-all duration-500 bg-white rounded-full pointer-events-auto hover:bg-secondary group testimonials-next custom-shadow"> <span class="inline-block text-xl font-bold transition-all duration-500 -rotate-90 group-hover:text-white text-secondary/70 icon-angle-down" aria-hidden="true"></span></div>
                 </div>
             </div>
             <div class="testimonials-platforms">
@@ -1970,7 +1970,7 @@
                             <span class="star"></span>
                             <span class="star"></span>
                         </span>
-                        <span class="text-xs text-black">222 reviews</span>
+                        <span class="text-xs text-secondary">222 reviews</span>
                     </div>
                 </div>
                 <div class="testimonials-platforms-item ">
@@ -1987,7 +1987,7 @@
                             <span class="text-sm star"></span>
                             <span class="text-sm star"></span>
                         </span>
-                        <span class="text-xs text-black">222 reviews</span>
+                        <span class="text-xs text-secondary">222 reviews</span>
                     </div>
                 </div>
                 <div class="testimonials-platforms-item ">
@@ -2003,7 +2003,7 @@
                             width="70"
                             height="15"
                             alt="banner" class="rounded-none" />
-                        <span class="text-xs text-black">222 reviews</span>
+                        <span class="text-xs text-secondary">222 reviews</span>
                     </div>
                 </div>
             </div>

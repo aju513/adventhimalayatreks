@@ -25,7 +25,7 @@
                                    alt="logo" />
                            </div>
                            <div class="mt-1 header__menu-contact-content">
-                               <span class="   text-[13px] block text-black  ">
+                               <span class="   text-[13px] block text-secondary  ">
                                    WhatsApp or Viber 24/7
                                </span>
                                <a
@@ -56,7 +56,7 @@
                                    class="items-center gap-5 xl:gap-10 lg:flex ">
                                    <li>
                                        <span
-                                           class="dropdown-toggle flex w-full items-center gap-0 xl:text-base text-sm    hover:text-primary transition-all duration-500  font-medium leading-3.5 text-white "
+                                           class="dropdown-toggle flex w-full items-center gap-0 xl:text-base text-sm  hover:text-primary transition-all duration-500  font-medium leading-3.5 text-white "
                                            aria-expanded="false">
                                            Destinations
                                            <span class="text-sm xl:text-base icon icon-angle-down">
@@ -82,7 +82,7 @@
                                                            <ul class="megamenu-items xl:columns-3 columns-2 ">
                                                                <li class="p-0 lg:p-2">
                                                                    <a
-                                                                       class="mb-0.75 flex justify-between  text-base font-bold text-primary hover:text-secondary"
+                                                                       class="mb-0.75 flex justify-between  text-base font-bold text-secondary hover:text-primary"
                                                                        href="/categorylist"
                                                                        aria-expanded="false">
                                                                        Everestxx

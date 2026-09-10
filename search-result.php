@@ -86,8 +86,8 @@
                                 </span>
                             </div>
                             <div class="package-list__item-price">
-                                <div class="text-sm text-black">Price from</div>
-                                <div class="font-semibold text-xl  text-black lg:text-[22px]">
+                                <div class="text-sm text-secondary">Price from</div>
+                                <div class="font-semibold text-xl  text-secondary lg:text-[22px]">
                                     US$1680
                                     <span class="text-lg font-normal text-[#878787] line-through">US$1800</span>
                                 </div>
@@ -147,8 +147,8 @@
                                 </span>
                             </div>
                             <div class="package-list__item-price">
-                                <div class="text-sm text-black">Price from</div>
-                                <div class="font-semibold text-xl  text-black lg:text-[22px]">
+                                <div class="text-sm text-secondary">Price from</div>
+                                <div class="font-semibold text-xl  text-secondary lg:text-[22px]">
                                     US$1680
                                     <span class="text-lg font-normal text-[#878787] line-through">US$1800</span>
                                 </div>
@@ -208,8 +208,8 @@
                                 </span>
                             </div>
                             <div class="package-list__item-price">
-                                <div class="text-sm text-black">Price from</div>
-                                <div class="font-semibold text-xl  text-black lg:text-[22px]">
+                                <div class="text-sm text-secondary">Price from</div>
+                                <div class="font-semibold text-xl  text-secondary lg:text-[22px]">
                                     US$1680
                                     <span class="text-lg font-normal text-[#878787] line-through">US$1800</span>
                                 </div>
@@ -269,8 +269,8 @@
                                 </span>
                             </div>
                             <div class="package-list__item-price">
-                                <div class="text-sm text-black">Price from</div>
-                                <div class="font-semibold text-xl  text-black lg:text-[22px]">
+                                <div class="text-sm text-secondary">Price from</div>
+                                <div class="font-semibold text-xl  text-secondary lg:text-[22px]">
                                     US$1680
                                     <span class="text-lg font-normal text-[#878787] line-through">US$1800</span>
                                 </div>
@@ -330,8 +330,8 @@
                                 </span>
                             </div>
                             <div class="package-list__item-price">
-                                <div class="text-sm text-black">Price from</div>
-                                <div class="font-semibold text-xl  text-black lg:text-[22px]">
+                                <div class="text-sm text-secondary">Price from</div>
+                                <div class="font-semibold text-xl  text-secondary lg:text-[22px]">
                                     US$1680
                                     <span class="text-lg font-normal text-[#878787] line-through">US$1800</span>
                                 </div>

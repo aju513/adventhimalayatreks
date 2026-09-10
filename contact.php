@@ -4,7 +4,7 @@
 <section class="common-box contact-page" role="main">
     <div class="page-title">
         <div class="container">
-            <h1 class="  font-signika   text-[28px] font-black leading-8 text-black sm:text-[30px] lg:text-[40px] lg:leading-[40px]">
+            <h1 class="  font-signika   text-[28px] font-black leading-8 text-secondary sm:text-[30px] lg:text-[40px] lg:leading-[40px]">
                 Contact
             </h1>
         </div>
@@ -88,9 +88,9 @@
                     </div>
                     <div class="contact-page__representative-item-content">
                         <div class="text-sm text-[#111111] uppercase">NEPAL</div>
-                        <div class="mb-2 font-bold text-black">Rajan Thapa</div>
+                        <div class="mb-2 font-bold text-secondary">Rajan Thapa</div>
                         <div class="text-sm text-[#111111]  ">Whatsapp/Call</div>
-                        <a href="" class="font-bold text-black transition-all duration-500 hover:text-primary">+977 98510123456</a>
+                        <a href="" class="font-bold text-secondary transition-all duration-500 hover:text-primary">+977 98510123456</a>
                     </div>
                 </div>
                 <div class="contact-page__representative-item">
@@ -108,9 +108,9 @@
                     </div>
                     <div class="contact-page__representative-item-content">
                         <div class="text-sm text-[#111111] uppercase">NEPAL</div>
-                        <div class="mb-2 font-bold text-black">Rajan Thapa</div>
+                        <div class="mb-2 font-bold text-secondary">Rajan Thapa</div>
                         <div class="text-sm text-[#111111]  ">Whatsapp/Call</div>
-                        <a href="" class="font-bold text-black transition-all duration-500 hover:text-primary">+977 98510123456</a>
+                        <a href="" class="font-bold text-secondary transition-all duration-500 hover:text-primary">+977 98510123456</a>
                     </div>
                 </div>
             </div>
@@ -122,7 +122,7 @@
             <div class="contact-page__form-wrap">
                 <div class="grid grid-cols-12 gap-5">
                     <div class="col-span-12 lg:col-span-7">
-                        <div class="text-xl font-bold text-black">Get In Touch With Us</div>
+                        <div class="text-xl font-bold text-secondary">Get In Touch With Us</div>
                         <form class="contact-form ">
                             <div class="grid md:grid-cols-2 md:gap-6">
                                 <div class="relative z-0 w-full mb-5 group">

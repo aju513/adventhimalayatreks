@@ -1,7 +1,7 @@
 <footer class="footer ">
     <div class="footer__affiliation">
         <div class="container">
-            <div class="mb-6 text-lg font-bold text-center text-black uppercase hav-underline ">
+            <div class="mb-6 text-lg font-bold text-center text-secondary uppercase hav-underline ">
                 OUR AFFILIATIONS
             </div>
             <div class="footer__affiliation-wrapper">

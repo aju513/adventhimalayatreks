@@ -69,11 +69,11 @@ button {
   @apply cursor-pointer;
 }
 p a {
-  @apply font-bold text-secondary transition-all duration-500;
+  @apply text-secondary transition-all duration-500;
 }
 
 p a:hover {
-  @apply text-primary;
+  @apply text-primary underline;
 }
 a {
   @apply transition-all duration-500;
@@ -85,7 +85,7 @@ article,
 article li,
 blockquote {
   a {
-    @apply font-semibold text-secondary transition-all duration-500 hover:text-primary;
+    @apply text-secondary transition-all duration-500 hover:text-primary hover:underline;
   }
 }
 img {
@@ -919,6 +919,9 @@ blockquote {
   .popover-bg .rotate-45 {
     @apply hidden;
   }
+  .popover-wrap-content .p {
+    @apply leading-5;
+  }
 
   .package__facts {
     @apply relative;
@@ -1007,11 +1010,11 @@ nav .dropdown li:last-child a {
   @apply mb-0! pb-0!;
 }
 nav .dropdown a {
-  @apply text-text_color;
+  @apply text-secondary;
 }
 
 nav .dropdown a:hover {
-  @apply text-text_color;
+  @apply text-primary;
 }
 
 nav .dropdown a.text-text_color:hover {
@@ -1224,7 +1227,7 @@ input[type="number"]::-webkit-outer-spin-button {
   @apply mb-0;
 }
 .tab-link__item {
-  @apply px-5 py-1.5 bg-[#e4e4e4] font-bold text-[15px] cursor-pointer rounded-full transition-all duration-500 hover:bg-secondary hover:text-white text-secondary uppercase;
+  @apply px-5 py-1.5 bg-[#e4e4e4] font-bold text-xs cursor-pointer rounded-full transition-all duration-500 hover:bg-secondary hover:text-white text-secondary uppercase;
 }
 
 .tab-link__item.active {
@@ -1593,9 +1596,9 @@ input[type="text"].date-picker {
   @apply px-5 xl:px-7 py-5;
 }
 .package-list__item-title {
-  @apply font-bold lg:text-2xl leading-6 lg:leading-7 text-xl mb-2.5 text-secondary hover:text-primary transition-all duration-500 lg:min-h-10;
+  @apply font-bold lg:text-xl leading-6 lg:leading-7 text-lg mb-2.5 text-secondary hover:text-primary transition-all duration-500 lg:min-h-10;
   a {
-    @apply font-bold lg:text-2xl leading-6 lg:leading-7 text-xl text-secondary hover:text-primary transition-all duration-500;
+    @apply font-bold lg:text-xl leading-6 lg:leading-7 text-lg text-secondary hover:text-primary transition-all duration-500;
   }
 }
 .package-list__item-bottom {
@@ -1662,7 +1665,7 @@ input[type="text"].date-picker {
 }
 
 .blog-list__item-title {
-  @apply leading-6 font-semibold text-xl text-secondary lg:text-[22px];
+  @apply leading-6 font-semibold text-lg text-secondary lg:text-xl;
 }
 
 .blog-list__item-title a {
@@ -1695,6 +1698,9 @@ input[type="text"].date-picker {
   .placeholder__img
   img {
   @apply w-full rounded-full;
+}
+.blog_summary {
+  @apply mb-4;
 }
 /*  blog offer packages */
 .offer-package__item-image {
@@ -1752,7 +1758,7 @@ input[type="text"].date-picker {
 
 #sidebar-toc .toc-list {
   counter-reset: list-counter;
-  @apply pl-0 max-h-full list-none;
+  @apply pl-4 max-h-full list-none;
 }
 
 #sidebar-toc .toc-list .toc-link::before {
@@ -1860,7 +1866,7 @@ input[type="text"].date-picker {
   @apply relative p-5 rounded-lg bg-white md:p-6.5 xl:p-8;
   box-shadow: 0px 3px 18px 0px rgba(3, 37, 44, 0.1);
   .testimonials__item-title {
-    @apply font-semibold text-lg xl:text-[22px] text-secondary mb-1.5 leading-6.5;
+    @apply font-semibold text-xl text-secondary mb-1.5 leading-6.5;
   }
   .testimonials__item-content {
     @apply leading-6! text-sm;
@@ -2033,6 +2039,9 @@ input[type="text"].date-picker {
 }
 
 /*  last minute */
+.last-minute__wrapper .container-fluid {
+  @apply bg-secondary relative rounded-none px-0 pb-20 pt-16 2xl:rounded-[30px] 2xl:max-w-[calc(100%-180px)] w-full 2xl:px-8;
+}
 .last-minute-page__filter {
   select {
     @apply bg-white;
@@ -2043,7 +2052,7 @@ input[type="text"].date-picker {
 }
 
 .last-minute__filter .last-minute__filter-item {
-  @apply text-white bg-white/20 border font-semibold text-[13px] cursor-pointer border-white/50 rounded-full sm:px-3.5 px-2.5 py-1 uppercase hover:text-secondary hover:bg-white transition-all duration-500;
+  @apply text-white bg-primary font-semibold text-xs cursor-pointer rounded-full sm:px-3.5 px-3 py-1.5 uppercase hover:text-secondary hover:bg-white transition-all duration-500;
 }
 
 .last-minute__filter .last-minute__filter-item.active {
@@ -2172,7 +2181,7 @@ input[type="text"].date-picker {
 }
 /* section title */
 .section-title {
-  @apply font-signika text-secondary font-bold mb-6 text-3xl md:text-4xl lg:text-[42px] leading-9 md:leading-10 lg:leading-12.5;
+  @apply font-signika text-secondary font-bold mb-6 text-2xl md:text-3xl lg:text-[38px] leading-9 md:leading-10 lg:leading-12.5;
 }
 .section-title-sm {
   @apply text-base;
@@ -2209,11 +2218,11 @@ input[type="text"].date-picker {
 }
 
 .article-list__item-title {
-  @apply mt-3 mb-0! leading-6 lg:leading-7 pr-5 z-10 font-semibold text-xl text-secondary lg:text-[22px];
+  @apply mt-3 mb-0! leading-6 lg:leading-7 pr-5 z-10 font-semibold text-lg text-secondary lg:text-xl;
 }
 
 .article-list__item-title a {
-  @apply text-secondary font-semibold leading-6 lg:leading-7 lg:text-[22px] text-xl hover:text-primary transition-all duration-500;
+  @apply text-secondary font-semibold leading-6 lg:leading-7 lg:text-xl text-lg hover:text-primary transition-all duration-500;
 }
 /*  homepage */
 .homepage__banner {
@@ -2347,7 +2356,7 @@ input[type="text"].date-picker {
 }
 
 .homepage__moments-item-title {
-  @apply font-semibold text-xl text-secondary lg:text-2xl;
+  @apply font-semibold text-lg text-secondary lg:text-xl;
 }
 
 .homepage__moments-item-meta {
@@ -2730,15 +2739,11 @@ input[type="text"].date-picker {
 }
 
 .package__itinerary-item-day {
-  @apply absolute left-7 top-0
-         rounded-b-[5px] rounded-t-none
-         bg-secondary px-4 py-1
-         text-[13px] font-bold text-white;
+  @apply absolute left-7 top-0 rounded-b-[5px] rounded-t-none  bg-secondary px-4 py-1 text-[13px] font-bold text-white;
 }
 
 .package__itinerary-item-title {
-  @apply flex cursor-pointer items-start justify-between gap-4
-         text-xl font-bold leading-7! text-secondary;
+  @apply flex cursor-pointer items-start justify-between gap-4 text-xl font-bold leading-7! text-secondary;
 }
 
 .package__itinerary-item-content {

@@ -1,6 +1,6 @@
 <section class="py-2 breadcrumbs__wrapper">
     <div class="container">
-        <ul class="flex flex-wrap items-center justify-end breadcrumbs__list">
+        <ul class="flex flex-wrap items-center lg:justify-end breadcrumbs__list">
             <li class="text-xs breadcrumbs__list-item text-text_color opacity-80">
                 Home
             </li>

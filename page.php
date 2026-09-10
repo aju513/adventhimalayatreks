@@ -509,7 +509,7 @@
                             <span class="star"></span>
                             <span class="star"></span>
                         </span>
-                        <span class="text-xs text-black">222 reviews</span>
+                        <span class="text-xs text-secondary">222 reviews</span>
                     </div>
                 </div>
                 <div class="testimonials-platforms-item ">
@@ -526,7 +526,7 @@
                             <span class="text-sm star"></span>
                             <span class="text-sm star"></span>
                         </span>
-                        <span class="text-xs text-black">222 reviews</span>
+                        <span class="text-xs text-secondary">222 reviews</span>
                     </div>
                 </div>
                 <div class="testimonials-platforms-item ">
@@ -542,7 +542,7 @@
                             width="70"
                             height="15"
                             alt="banner" class="rounded-none" />
-                        <span class="text-xs text-black">222 reviews</span>
+                        <span class="text-xs text-secondary">222 reviews</span>
                     </div>
                 </div>
             </div>

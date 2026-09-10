@@ -50,7 +50,7 @@
 </section>
 <section class="pb-0 hav-gradient-bg common-box">
     <div class="container">
-        <h2 class="inner-section-title   font-signika   text-2xl sm:text-[30px] font-bold mb-[25px] leading-6 sm:leading-[36px] text-black lg:text-[35px] lg:leading-[38px]">
+        <h2 class="inner-section-title   font-signika   text-2xl sm:text-[30px] font-bold mb-[25px] leading-6 sm:leading-[36px] text-secondary lg:text-[35px] lg:leading-[38px]">
             Article List
         </h2>
         <div class="article-list">
