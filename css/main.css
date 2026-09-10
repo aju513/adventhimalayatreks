@@ -829,6 +829,9 @@ blockquote {
 .popover-wrap-content {
   @apply bg-white;
 }
+.popover-wrap-content .p {
+  @apply leading-5;
+}
 /* common responsive */
 
 @media (max-width: 1023px) {
@@ -918,9 +921,6 @@ blockquote {
 
   .popover-bg .rotate-45 {
     @apply hidden;
-  }
-  .popover-wrap-content .p {
-    @apply leading-5;
   }
 
   .package__facts {
