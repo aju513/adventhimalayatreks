@@ -7,7 +7,7 @@ export default defineConfig({
       usePolling: true, // Ensures auto-reload for PHP, CSS, and JS files
     },
     host: 'localhost',
-    port: 5174,
+    port: 5176,
   },
   build: {
     outDir: 'dist',

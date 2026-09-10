@@ -1675,7 +1675,7 @@
 <section class="pt-0 homepage__testimonials common-box hav-title-btn">
     <div class="container-fluid">
         <div class="container">
-            <div class="flex items-center justify-between mb-6">
+            <div class="homepage__testimonials-header flex items-center justify-between mb-6">
                 <div class="mb-0 section-title">What Client Says</div>
                 <div class="section-title-btn">
                     <a href="" class="border bg-white border-[#afafaf] font-medium text-sm px-5 hover:bg-secondary hover:border-secondary hover:text-white transition-all duration-500 py-2.5 rounded-full">

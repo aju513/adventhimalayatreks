@@ -48,7 +48,7 @@
                        <div class="flex  items-center justify-end gap-5 xl:gap-30">
                            <div class=" biz__logo">
                                <a href="/">
-                                   <img width="210" height="100" src="./images/logo.svg" alt="logo">
+                                   <img width="150" height="70" src="./images/logo.svg" alt="logo">
                                </a>
                            </div>
                            <nav class="flex items-center nav-menu ">
