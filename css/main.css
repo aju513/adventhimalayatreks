@@ -2776,6 +2776,9 @@ input[type="text"].date-picker {
 .package__itinerary .itinerary-meta-image img {
   @apply h-32.5 rounded-[5px] object-cover;
 }
+.package__itinerary-actions {
+  @apply border border-secondary font-medium text-sm px-5 hover:bg-secondary hover:border-secondary hover:text-white transition-all duration-500 py-1.5 rounded-[5px];
+}
 /* package customize */
 .package__customize-wrap {
   @apply bg-primary flex flex-col  gap-3 p-5 sm:py-6 rounded-2xl;

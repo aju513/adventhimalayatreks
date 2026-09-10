@@ -498,7 +498,12 @@
                         </a>
                     </div>
                     <div class="package__itinerary common-module scroll-mt-20" id="package-itinerary">
-                        <h2 class="package__section-title">Everest Base Camp Trek Itinerary</h2>
+                        <div class="flex flex-wrap items-center gap-2 lg:justify-between mb-5">
+                            <h2 class="package__section-title mb-0!">Everest Base Camp Trek Itinerary</h2>
+                            <button type="button" id="itinerary-toggle-all" class="package__itinerary-toggle-all package__itinerary-actions">
+                                Expand All
+                            </button>
+                        </div>
                         <div class="package__itinerary-note">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
                         </div>
