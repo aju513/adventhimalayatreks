@@ -252,7 +252,7 @@
                     </div>
                     <div class="col-span-12 lg:col-span-3">
                         <div class="mb-3 text-lg font-bold text-white">Subscribe Our Newsletter</div>
-                        <div class="text-[#cfcfcf] text-sm mb-3 lg:w-4/5 w-full">Get the latest news, offers, our travel brochure & travel Guide straight to your inbox</div>
+                        <div class="text-[#cfcfcf] text-sm mb-5 lg:w-4/5 w-full">Get the latest news, offers, our travel brochure & travel Guide straight to your inbox</div>
                         <form class="mt-2 max-sm:w-full max-md:w-2/3 max-lg:w-1/2">
                             <input type="text" class="text-white mb-3 text-[13px] bg-transparent border lg:w-4/5  rounded-full px-5 py-3 border-[#c7d5ec1a] w-full" placeholder="Your Name" />
                             <input type="email" class="text-white mb-3 text-[13px] bg-transparent border lg:w-4/5  rounded-full px-5 py-3 border-[#c7d5ec1a] w-full" placeholder="Your Name" />

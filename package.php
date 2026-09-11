@@ -175,15 +175,15 @@
                         <div class="package__summary common-module">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. cididunt ut labore et dolore magna aliqua. </p>
                         </div>
-                        <div class="package__facts common-module ">
+                        <div class="package__facts">
                             <div class=" text-xl lg:text-2xl font-bold font-signika text-text_color mb-5">At a Glance</div>
                             <div class="grid grid-cols-12 gap-5">
                                 <div class="col-span-6 md:col-span-4">
                                     <div class="package__facts-item">
                                         <div class="package__facts-item-icon ">
                                             <img
-                                                width={32}
-                                                height={32}
+                                                width={28}
+                                                height={28}
                                                 src="./images/svg/fact-calendar.svg"
                                                 alt="thumb" />
                                         </div>
@@ -203,8 +203,8 @@
                                         <div class="flex gap-1 item-center">
                                             <div class="package__facts-item-icon ">
                                                 <img
-                                                    width={32}
-                                                    height={32}
+                                                    width={28}
+                                                    height={28}
                                                     src="./images/svg/fact-grade.svg"
                                                     alt="thumb" />
                                             </div>
@@ -239,8 +239,8 @@
                                     <div class="package__facts-item">
                                         <div class="package__facts-item-icon ">
                                             <img
-                                                width={32}
-                                                height={32}
+                                                width={28}
+                                                height={28}
                                                 src="./images/svg/fact-altitude.svg"
                                                 alt="thumb" />
                                         </div>
@@ -258,8 +258,8 @@
                                     <div class="package__facts-item">
                                         <div class="package__facts-item-icon ">
                                             <img
-                                                width={32}
-                                                height={32}
+                                                width={28}
+                                                height={28}
                                                 src="./images/svg/fact-group.svg"
                                                 alt="thumb" />
                                         </div>
@@ -278,8 +278,8 @@
                                     <div class="package__facts-item">
                                         <div class="package__facts-item-icon ">
                                             <img
-                                                width={32}
-                                                height={32}
+                                                width={28}
+                                                height={28}
                                                 src="./images/svg/fact-departure.svg"
                                                 alt="thumb" />
                                         </div>
@@ -298,8 +298,8 @@
                                     <div class="package__facts-item">
                                         <div class="package__facts-item-icon ">
                                             <img
-                                                width={32}
-                                                height={32}
+                                                width={28}
+                                                height={28}
                                                 src="./images/svg/fact-departure.svg"
                                                 alt="thumb" />
                                         </div>
@@ -318,8 +318,8 @@
                                     <div class="package__facts-item">
                                         <div class="package__facts-item-icon ">
                                             <img
-                                                width={32}
-                                                height={32}
+                                                width={28}
+                                                height={28}
                                                 src="./images/svg/fact-activities.svg"
                                                 alt="thumb" />
                                         </div>
@@ -338,8 +338,8 @@
                                     <div class="package__facts-item">
                                         <div class="package__facts-item-icon ">
                                             <img
-                                                width={32}
-                                                height={32}
+                                                width={28}
+                                                height={28}
                                                 src="./images/svg/fact-best-time.svg"
                                                 alt="thumb" />
                                         </div>
@@ -358,8 +358,8 @@
                                     <div class="package__facts-item">
                                         <div class="package__facts-item-icon ">
                                             <img
-                                                width={32}
-                                                height={32}
+                                                width={28}
+                                                height={28}
                                                 src="./images/svg/fact-country.svg"
                                                 alt="thumb" />
                                         </div>
@@ -498,7 +498,7 @@
                         </a>
                     </div>
                     <div class="package__itinerary common-module scroll-mt-20" id="package-itinerary">
-                        <div class="flex flex-wrap items-center gap-2 lg:justify-between mb-5">
+                        <div class="flex flex-wrap items-center gap-2 justify-between mb-5">
                             <h2 class="package__section-title mb-0!">Everest Base Camp Trek Itinerary</h2>
                             <button type="button" id="itinerary-toggle-all" class="package__itinerary-toggle-all package__itinerary-actions">
                                 Expand All

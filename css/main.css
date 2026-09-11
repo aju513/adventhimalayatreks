@@ -829,8 +829,8 @@ blockquote {
 .popover-wrap-content {
   @apply bg-white;
 }
-.popover-wrap-content .p {
-  @apply leading-5;
+.popover-wrap-content p {
+  @apply leading-5!;
 }
 /* common responsive */
 
@@ -1117,7 +1117,7 @@ a.nested-dropdown-wrap {
   @apply mb-0;
 }
 .page-title h1 {
-  @apply font-signika text-secondary text-[28px] font-extrabold leading-8  sm:text-[30px] lg:text-[40px] lg:leading-10;
+  @apply font-signika text-secondary text-[32px] font-extrabold leading-8  md:text-[38px] lg:text-[46px] lg:leading-10;
 }
 textarea.peer:focus ~ .peer-focus\:text-text_color {
   @apply transform-none text-[16px];
@@ -1562,9 +1562,9 @@ input[type="text"].date-picker {
     @apply text-xs text-white;
   }
   .category-list__item-title {
-    @apply text-lg font-semibold leading-5! text-white transition-all duration-500 hover:text-primary lg:text-xl lg:leading-8!;
+    @apply font-semibold leading-5! text-white transition-all duration-500 hover:text-primary text-xl leading-7!;
     a {
-      @apply text-lg font-semibold leading-5! text-white transition-all duration-500 hover:text-primary lg:text-xl lg:leading-8!;
+      @apply font-semibold leading-5! text-white transition-all duration-500 hover:text-primary text-xl leading-7!;
     }
   }
 }
@@ -1596,9 +1596,9 @@ input[type="text"].date-picker {
   @apply px-5 xl:px-7 py-5;
 }
 .package-list__item-title {
-  @apply font-bold lg:text-xl leading-6 lg:leading-7 text-lg mb-2.5 text-secondary hover:text-primary transition-all duration-500 lg:min-h-10;
+  @apply font-semibold text-xl leading-7  mb-2.5 text-secondary hover:text-primary transition-all duration-500 lg:min-h-10;
   a {
-    @apply font-bold lg:text-xl leading-6 lg:leading-7 text-lg text-secondary hover:text-primary transition-all duration-500;
+    @apply font-semibold text-xl leading-7 text-secondary hover:text-primary transition-all duration-500;
   }
 }
 .package-list__item-bottom {
@@ -1665,11 +1665,11 @@ input[type="text"].date-picker {
 }
 
 .blog-list__item-title {
-  @apply leading-6 font-semibold text-lg text-secondary lg:text-xl;
+  @apply leading-7 font-semibold text-secondary text-xl;
 }
 
 .blog-list__item-title a {
-  @apply leading-6 hover:text-primary transition-all duration-500;
+  @apply leading-7 hover:text-primary transition-all duration-500;
 }
 /*  blog page */
 .blog-page__featured-image .placeholder__img-wrapper {
@@ -1858,7 +1858,7 @@ input[type="text"].date-picker {
   @apply opacity-100!;
 }
 .moments__list-item-content {
-  @apply font-semibold text-white lg:text-xl text-lg absolute left-5 bottom-4 z-10 pr-6;
+  @apply font-semibold text-white text-xl leading-7 absolute left-5 bottom-4 z-10 pr-6;
 }
 
 /*  review */
@@ -2181,7 +2181,7 @@ input[type="text"].date-picker {
 }
 /* section title */
 .section-title {
-  @apply font-signika text-secondary font-bold mb-6 text-2xl md:text-3xl lg:text-[38px] leading-9 md:leading-10 lg:leading-12.5;
+  @apply font-signika text-secondary font-bold mb-6 text-[28px] lg:text-[38px] leading-9 md:leading-10 lg:leading-12.5;
 }
 .section-title-sm {
   @apply text-base;
@@ -2251,7 +2251,7 @@ input[type="text"].date-picker {
 }
 
 .homepage__banner-content {
-  @apply absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-full z-20;
+  @apply absolute  max-sm:bottom-[25%] left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-full z-20;
 }
 
 .homepage__banner-search {
@@ -2263,7 +2263,7 @@ input[type="text"].date-picker {
 }
 
 .homepage__banner-search form input {
-  @apply relative z-30 block h-13.75 w-full rounded-[30px] bg-transparent text-secondary pr-4 pl-6;
+  @apply relative z-30 block h-12 w-full rounded-[30px] bg-transparent text-secondary pr-4 pl-6;
 }
 
 .homepage__banner-search form input::placeholder {
@@ -2447,11 +2447,11 @@ input[type="text"].date-picker {
   @apply flex items-center gap-3;
 }
 .footer__contact {
-  @apply bg-secondary py-12.5;
+  @apply bg-secondary pt-12.5 pb-9;
 }
 
 .footer__contact .container {
-  @apply relative z-10 border-b border-[#C7D5EC1A] pb-12.5;
+  @apply relative z-10 max-lg:border-none border-b border-[#C7D5EC1A] lg:pb-9;
 }
 .footer__main:not(:has(.footer__representatives)) {
   .footer__contact {
@@ -2664,17 +2664,17 @@ input[type="text"].date-picker {
   @apply lg:pb-10;
 }
 .package__facts-item {
-  @apply flex gap-2 items-center;
+  @apply flex gap-2 items-start;
 }
 .package__facts-item .package__facts-item-icon {
-  @apply flex-[0_0_35px];
+  @apply flex-[0_0_28px];
 }
 .package__facts-item-title {
   @apply -mb-0.5 text-xs text-text_color;
 }
 
 .package__facts-item-content {
-  @apply font-bold text-text_color;
+  @apply font-bold text-text_color text-[15px] leading-5;
 }
 /* package overview */
 .package__overview {
@@ -2727,41 +2727,37 @@ input[type="text"].date-picker {
     @apply mb-7.5;
   }
 }
-/* package itinerary */
 
+/* package itinerary */
 .package__itinerary-note {
   @apply mb-6 rounded-2xl bg-[#fff0e6] px-6 py-5;
 }
-
 .package__itinerary-item {
-  @apply relative mb-7 rounded-2xl border border-secondary
-         px-7 pb-6 pt-8 last:mb-0;
+  @apply relative mb-7 rounded-2xl  bg-[#f3f8fb] px-7 pb-6 pt-8  last:mb-0;
+  &::before {
+    content: "";
+    @apply pointer-events-none absolute inset-0 left-7 border-t-3 border-secondary;
+    border-radius: inherit;
+  }
 }
-
 .package__itinerary-item-day {
-  @apply absolute left-7 top-0 rounded-b-[5px] rounded-t-none  bg-secondary px-4 py-1 text-[13px] font-bold text-white;
+  @apply absolute left-7 top-0 rounded-b-[5px] rounded-t-none  bg-secondary px-4 py-1 text-[13px] font-bold text-white z-10;
 }
-
 .package__itinerary-item-title {
   @apply flex cursor-pointer items-start justify-between gap-4 text-xl font-bold leading-7! text-secondary;
 }
-
 .package__itinerary-item-content {
   @apply overflow-hidden transition-[height] duration-300;
 }
-
 .package__itinerary-toggle {
   @apply shrink-0 text-xl text-secondary;
 }
-
 .package__itinerary-plus {
   @apply block;
 }
-
 .package__itinerary-minus {
   @apply hidden;
 }
-
 .package__itinerary-item.open .package__itinerary-plus {
   @apply hidden;
 }
@@ -2782,7 +2778,7 @@ input[type="text"].date-picker {
   @apply h-32.5 rounded-[5px] object-cover;
 }
 .package__itinerary-actions {
-  @apply border border-secondary font-medium text-sm px-5 hover:bg-secondary hover:border-secondary hover:text-white transition-all duration-500 py-1.5 rounded-[5px];
+  @apply text-sm font-medium text-text_color underline hover:text-primary transition-all duration-500 self-end;
 }
 /* package customize */
 .package__customize-wrap {
@@ -3046,7 +3042,7 @@ input[type="text"].date-picker {
 }
 /* package price sidebar */
 .package__price-sidebar-main {
-  @apply mb-8 lg:mb-0 lg:sticky lg:top-20;
+  @apply mb-8 lg:mb-0 lg:sticky lg:top-20 max-lg:mt-7.5;
 }
 .package__price-sidebar {
   @apply border border-primary rounded-2xl   bg-white;

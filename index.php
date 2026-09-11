@@ -2296,7 +2296,7 @@
                     Ready to Explore? Let's Chat About Your Dream Trip?
                 </div>
                 <div class="mx-auto mt-2 mb-6! text-center text-white lg:w-7/10">Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </div>
-                <a href="" class="uppercase  bg-primary font-medium text-sm px-5 hover:bg-secondary  text-white transition-all duration-500 py-2.5 rounded-full">
+                <a href="" class="uppercase  bg-primary font-medium text-sm px-5 hover:bg-secondary  text-white transition-all duration-500 py-3.5 rounded-full">
                     Plan Your Trip
                 </a>
             </div>

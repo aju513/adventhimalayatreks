@@ -45,1765 +45,255 @@
            <div class="container relative">
                <div class="grid grid-cols-12 gap-3.75">
                    <div class="col-span-12">
-                       <div class="flex  items-center justify-end gap-5 xl:gap-30">
+                       <div class="flex  items-center justify-end gap-5 xl:gap-30 lg:gap-20">
                            <div class=" biz__logo">
                                <a href="/">
                                    <img width="150" height="70" src="./images/logo.svg" alt="logo">
                                </a>
                            </div>
-                           <nav class="flex items-center nav-menu ">
-                               <ul
-                                   class="items-center gap-5 xl:gap-10 lg:flex ">
-                                   <li>
-                                       <span
-                                           class="dropdown-toggle flex w-full items-center gap-0 xl:text-base text-sm  hover:text-primary transition-all duration-500  font-medium leading-3.5 text-white "
-                                           aria-expanded="false">
-                                           Destinations
-                                           <span class="text-sm xl:text-base icon icon-angle-down">
-                                           </span>
-                                       </span>
-                                       <div class="item dropdown custom-shadow absolute left-0 top-10 z-10 hidden w-full rounded-bl-[5px] rounded-br-[5px] p-6">
+                           <nav class="flex items-center nav-menu">
+                               <ul class="items-center gap-5 xl:gap-10 lg:flex">
+                                   <li><span class="dropdown-toggle flex w-full items-center gap-0 xl:text-base text-sm hover:text-primary transition-all duration-500 font-medium leading-3.5 text-white" role="button" tabindex="0" aria-expanded="true">Nepal<span class="text-sm xl:text-base icon icon-angle-down rotate-180"></span></span>
+                                       <div class="item dropdown custom-shadow absolute left-0 top-10 z-10 w-full rounded-bl-[5px] rounded-br-[5px] p-6">
                                            <div class="dropdown-scroll flex max-h-112.5 flex-wrap justify-start overflow-y-auto">
                                                <div class="flex gap-3">
-                                                   <ul class="flex flex-col nav-tab-links gap-1 custom-rounded flex-[0_0_200px] w-50 bg-secondary">
-                                                       <li>
-                                                           <button class="tab-item active" data-tab="tour">Nepal Tour</button>
-                                                       </li>
-                                                       <li>
-                                                           <button class="tab-item" data-tab="trekking">Nepal Trekking</button>
-                                                       </li>
-                                                       <li>
-                                                           <button class="tab-item" data-tab="climbing">Peak Climbing</button>
-                                                       </li>
+                                                   <ul class="flex flex-col nav-tab-links gap-1 custom-rounded flex-[0_0_250px] w-50 bg-secondary">
+                                                       <li><button class="tab-item active" data-tab="menu-tab-5">Trekking in Nepal</button></li>
+                                                       <li><button class="tab-item" data-tab="menu-tab-7">Peak Climbing in Nepal</button></li>
+                                                       <li><button class="tab-item" data-tab="menu-tab-18">Luxury Nepal Treks &amp; Tours</button></li>
+                                                       <li><button class="tab-item" data-tab="menu-tab-61">Nepal Agro Tourism</button></li>
                                                    </ul>
-
-                                                   <div class="hidden tab-content active" id="tab-tour">
+                                                   <div class="tab-content active" id="tab-menu-tab-5">
                                                        <div class="flex flex-wrap justify-start">
-                                                           <ul class="megamenu-items xl:columns-3 columns-2 ">
-                                                               <li class="p-0 lg:p-2">
-                                                                   <a
-                                                                       class="mb-0.75 flex justify-between  text-base font-bold text-secondary hover:text-primary"
-                                                                       href="/categorylist"
-                                                                       aria-expanded="false">
-                                                                       Everestxx
-                                                                   </a>
+                                                           <ul class="megamenu-items xl:columns-3 columns-2">
+                                                               <li class="p-0 lg:p-2"><a class="mb-0.75 flex justify-between text-base font-bold text-secondary hover:text-primary" aria-expanded="false" href="https://adventhimalayatreks.budhomanche.com/everest-region-trekking">Everest Region Trekking</a>
                                                                    <ul class="space-y-2">
-                                                                       <li>
-                                                                           <a
-                                                                               class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                               href="/category">
-                                                                               Short Trek to Everest Base Camp 7 Days{" "}
-                                                                           </a>
-                                                                       </li>
-                                                                       <li>
-                                                                           <a
-                                                                               class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                               href="/category">
-                                                                               Gokyo Lakes Trek
-                                                                           </a>
-                                                                       </li>
-                                                                       <li>
-                                                                           <a
-                                                                               class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                               href="/category">
-                                                                               Everest View Trek
-                                                                           </a>
-                                                                       </li>
-                                                                       <li>
-                                                                           <a
-                                                                               class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                               href="/category">
-                                                                               Everest Base Camp Trek with Helicopter
-                                                                               Return
-                                                                           </a>
-                                                                       </li>
-                                                                       <li>
-                                                                           <a
-                                                                               class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                               href="/category">
-                                                                               Everest Three High Pass Trek
-                                                                           </a>
-                                                                       </li>
-                                                                       <li>
-                                                                           <a
-                                                                               class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                               href="/category">
-                                                                               Everest Mani Rimdu Festival Trek
-                                                                           </a>
-                                                                       </li>
-                                                                       <li>
-                                                                           <a
-                                                                               class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                               href="/category">
-                                                                               Everest Base Camp Trek
-                                                                           </a>
-                                                                       </li>
-                                                                       <li>
-                                                                           <a
-                                                                               class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                               href="/category">
-                                                                               Everest Base Camp Tour 5 Days
-                                                                           </a>
-                                                                       </li>
-                                                                       <li>
-                                                                           <a
-                                                                               class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                               href="/category">
-                                                                               Everest Gokyo Chola Pass Trek
-                                                                           </a>
-                                                                       </li>
-                                                                       <li>
-                                                                           <a
-                                                                               class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                               href="/category">
-                                                                               Sleeping at Everest Base Camp Trek
-                                                                           </a>
-                                                                       </li>
-                                                                       <li>
-                                                                           <a
-                                                                               class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                               href="/category">
-                                                                               Everest Base Camp Helicopter Tour
-                                                                           </a>
-                                                                       </li>
-                                                                       <li>
-                                                                           <a
-                                                                               class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                               href="/category">
-                                                                               Kathmandu to Lukla Helicopter Flight
-                                                                               Booking
-                                                                           </a>
-                                                                       </li>
-
-                                                                       <li>
-                                                                           <a
-                                                                               class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                               href="/category">
-                                                                               Shortest Everest Base Camp EBC Trek 7 Day
-                                                                           </a>
-                                                                       </li>
-                                                                       <li>
-                                                                           <a
-                                                                               class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                               href="/category">
-                                                                               Everest Base Camp Helicopter Return Trek -
-                                                                               9 Days
-                                                                           </a>
-                                                                       </li>
-                                                                       <li>
-                                                                           <a
-                                                                               class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                               href="/category">
-                                                                               Numbur Cheese Circuit Trek - 15 Days
-                                                                           </a>
-                                                                       </li>
-                                                                       <li>
-                                                                           <a
-                                                                               class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                               href="/category">
-                                                                               Jiri to Everest Base Camp Trek
-                                                                           </a>
-                                                                       </li>
-                                                                       <li>
-                                                                           <a
-                                                                               class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                               href="/category">
-                                                                               Phaplu Lukla Everest Base Camp Trekking -
-                                                                               14 Days
-                                                                           </a>
-                                                                       </li>
-                                                                       <li>
-                                                                           <a
-                                                                               class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                               href="/category">
-                                                                               Pikey Peak Trek - 9 Days
-                                                                           </a>
-                                                                       </li>
-                                                                       <li>
-                                                                           <a
-                                                                               class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                               href="/category">
-                                                                               Rolwaling Tashi Lapcha Trek
-                                                                           </a>
-                                                                       </li>
-                                                                       <li>
-                                                                           <a
-                                                                               class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                               href="/category">
-                                                                               Rolwaling Trek | Rolwaling Valley - 10
-                                                                               Days
-                                                                           </a>
-                                                                       </li>
+                                                                       <li><a class="mb-0.75 text-sm font-medium duration-200 text-text_color hover:text-primary" href="https://adventhimalayatreks.budhomanche.com/trip/everest-base-camp-trek">Everest Base Camp Trek - 17 Days</a></li>
+                                                                       <li><a class="mb-0.75 text-sm font-medium duration-200 text-text_color hover:text-primary" href="https://adventhimalayatreks.budhomanche.com/trip/gokyo-lake-renjola-pass-trek-16-days">Gokyo Lake - Renjola Pass Trek -16 Days</a></li>
+                                                                       <li><a class="mb-0.75 text-sm font-medium duration-200 text-text_color hover:text-primary" href="https://adventhimalayatreks.budhomanche.com/trip/three-high-passes-trek-22-days">Three High Passes Trek- 22 Days</a></li>
+                                                                       <li><a class="mb-0.75 text-sm font-medium duration-200 text-text_color hover:text-primary" href="https://adventhimalayatreks.budhomanche.com/trip/sherpa-cultural-trek-17-days">Sherpa Cultural Trek - 17 Days</a></li>
+                                                                       <li><a class="mb-0.75 text-sm font-medium duration-200 text-text_color hover:text-primary" href="https://adventhimalayatreks.budhomanche.com/trip/everest-base-camp-chola-pass-gokyo-lake-trek-21-days">Everest Base Camp - Chola Pass - Gokyo Lake Trek -21 Days</a></li>
                                                                    </ul>
                                                                </li>
-
-                                                               <li class="p-0 lg:p-2">
-                                                                   <a
-                                                                       aria-expanded="false"
-                                                                       class="mb-0.75 flex justify-between  text-base font-bold text-primary hover:text-secondary"
-                                                                       href="/categorylist">
-                                                                       Multi City
-                                                                   </a>
-                                                               </li>
-                                                               <li class="p-0 lg:p-2">
-                                                                   <a
-                                                                       aria-expanded="false"
-                                                                       class="mb-0.75 flex justify-between  text-base font-bold text-primary hover:text-secondary"
-                                                                       href="/categorylist">
-                                                                       Kanchenjunga
-                                                                   </a>
+                                                               <li class="p-0 lg:p-2"><a class="mb-0.75 flex justify-between text-base font-bold text-secondary hover:text-primary" aria-expanded="false" href="https://adventhimalayatreks.budhomanche.com/annapurna-region-trekking">Annapurna Region Trekking</a>
                                                                    <ul class="space-y-2">
-                                                                       <li>
-                                                                           <a
-                                                                               class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                               href="/category">
-                                                                               Kanchenjunga Base Camp Trek
-                                                                           </a>
-                                                                       </li>
+                                                                       <li><a class="mb-0.75 text-sm font-medium duration-200 text-text_color hover:text-primary" href="https://adventhimalayatreks.budhomanche.com/trip/annapurna-base-camp-trek-abc-trek-14-days">Annapurna Base Camp Trek (ABC Trek) - 14 Days</a></li>
+                                                                       <li><a class="mb-0.75 text-sm font-medium duration-200 text-text_color hover:text-primary" href="https://adventhimalayatreks.budhomanche.com/trip/nar-phu-circuit-trek-17days">Nar-Phu Circuit Trek -17days</a></li>
+                                                                       <li><a class="mb-0.75 text-sm font-medium duration-200 text-text_color hover:text-primary" href="https://adventhimalayatreks.budhomanche.com/trip/mardi-himal-trek-13-days">Mardi Himal Trek - 13 days</a></li>
+                                                                       <li><a class="mb-0.75 text-sm font-medium duration-200 text-text_color hover:text-primary" href="https://adventhimalayatreks.budhomanche.com/trip/annapurna-ghorepani-ghandruk-circuit-trek-9-days">Ghorepani -Ghandruk Circuit Trek - 9 Days</a></li>
+                                                                       <li><a class="mb-0.75 text-sm font-medium duration-200 text-text_color hover:text-primary" href="https://adventhimalayatreks.budhomanche.com/trip/ghorepani-mardi-himal-treks-16-days">Ghorepani Mardi Himal Circuit Treks - 16 Days</a></li>
+                                                                       <li><a class="mb-0.75 text-sm font-medium duration-200 text-text_color hover:text-primary" href="https://adventhimalayatreks.budhomanche.com/trip/annapurna-circuit-trek-20-days">Annapurna Circuit Trek-20Days</a></li>
                                                                    </ul>
                                                                </li>
-                                                               <li class="p-0 lg:p-2">
-                                                                   <a
-                                                                       aria-expanded="false"
-                                                                       class="mb-0.75 flex justify-between  text-base font-bold text-primary hover:text-secondary"
-                                                                       href="/categorylist">
-                                                                       Mustang and Manang
-                                                                   </a>
+                                                               <li class="p-0 lg:p-2"><a class="mb-0.75 flex justify-between text-base font-bold text-secondary hover:text-primary" aria-expanded="false" href="https://adventhimalayatreks.budhomanche.com/langtang-region-trekking">Langtang Region Trekking</a>
                                                                    <ul class="space-y-2">
-                                                                       <li>
-                                                                           <a
-                                                                               class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                               href="/category">
-                                                                               Upper Mustang Trek
-                                                                           </a>
-                                                                       </li>
-                                                                       <li>
-                                                                           <a
-                                                                               class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                               href="/category">
-                                                                               Upper Mustang Jeep Tour
-                                                                           </a>
-                                                                       </li>
+                                                                       <li><a class="mb-0.75 text-sm font-medium duration-200 text-text_color hover:text-primary" href="https://adventhimalayatreks.budhomanche.com/trip/langtang-valley-gosaikund-circuit-trek-16-days">Langtang Valley – Gosaikund Circuit Trek-16 Days</a></li>
                                                                    </ul>
                                                                </li>
-                                                               <li class="p-0 lg:p-2">
-                                                                   <a
-                                                                       aria-expanded="false"
-                                                                       class="mb-0.75 flex justify-between  text-base font-bold text-primary hover:text-secondary"
-                                                                       href="/categorylist">
-                                                                       Mustang and Manang
-                                                                   </a>
+                                                               <li class="p-0 lg:p-2"><a class="mb-0.75 flex justify-between text-base font-bold text-secondary hover:text-primary" aria-expanded="false" href="https://adventhimalayatreks.budhomanche.com/manaslu-region-trekking">Manaslu Region Trekking</a>
                                                                    <ul class="space-y-2">
-                                                                       <li>
-                                                                           <a
-                                                                               class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                               href="/category">
-                                                                               Upper Mustang Trek
-                                                                           </a>
-                                                                       </li>
-                                                                       <li>
-                                                                           <a
-                                                                               class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                               href="/category">
-                                                                               Upper Mustang Jeep Tour
-                                                                           </a>
-                                                                       </li>
+                                                                       <li><a class="mb-0.75 text-sm font-medium duration-200 text-text_color hover:text-primary" href="https://adventhimalayatreks.budhomanche.com/trip/manaslu-circuit-trek-19-days">Manaslu Circuit Trek- 19 Days</a></li>
+                                                                       <li><a class="mb-0.75 text-sm font-medium duration-200 text-text_color hover:text-primary" href="https://adventhimalayatreks.budhomanche.com/trip/t-sum-valley-trek-16-days">T-sum Valley Trek -16 Days</a></li>
                                                                    </ul>
                                                                </li>
-                                                               <li class="p-0 lg:p-2">
-                                                                   <a
-                                                                       aria-expanded="false"
-                                                                       class="mb-0.75 flex justify-between  text-base font-bold text-primary hover:text-secondary"
-                                                                       href="/categorylist">
-                                                                       Test
-                                                                   </a>
-
+                                                               <li class="p-0 lg:p-2"><a class="mb-0.75 flex justify-between text-base font-bold text-secondary hover:text-primary" aria-expanded="false" href="https://adventhimalayatreks.budhomanche.com/dolpo-region-trekking">Dolpo Region Trekking</a>
                                                                    <ul class="space-y-2">
-                                                                       <li>
-                                                                           <a
-                                                                               class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                               href="/category">
-                                                                               Short Trek to Everest Base Camp 7 Days
-                                                                           </a>
-                                                                       </li>
-                                                                       <li>
-                                                                           <a
-                                                                               class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                               href="/category">
-                                                                               Everest Base Camp Trek
-                                                                           </a>
-                                                                       </li>
-                                                                       <li>
-                                                                           <a
-                                                                               class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                               href="/category">
-                                                                               Everest Base Camp Tour 5 Days
-                                                                           </a>
-                                                                       </li>
-                                                                       <li>
-                                                                           <a
-                                                                               class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                               href="/category">
-                                                                               Everest Gokyo Chola Pass Trek
-                                                                           </a>
-                                                                       </li>
-                                                                       <li>
-                                                                           <a
-                                                                               class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                               href="/category">
-                                                                               Sleeping at Everest Base Camp Trek
-                                                                           </a>
-                                                                       </li>
-                                                                       <li>
-                                                                           <a
-                                                                               class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                               href="/category">
-                                                                               Everest Base Camp Helicopter Tour
-                                                                           </a>
-                                                                       </li>
-                                                                       <li>
-                                                                           <a
-                                                                               class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                               href="/category">
-                                                                               Kathmandu to Lukla Helicopter Flight
-                                                                               Booking
-                                                                           </a>
-                                                                       </li>
-                                                                       <li>
-                                                                           <a
-                                                                               class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                               href="/category">
-                                                                               Everest Base Camp Luxury Trek
-                                                                           </a>
-                                                                       </li>
+                                                                       <li><a class="mb-0.75 text-sm font-medium duration-200 text-text_color hover:text-primary" href="https://adventhimalayatreks.budhomanche.com/trip/upper-dolpo-circuit-trek-29-days">Upper Dolpo Circuit Trek-29 Days</a></li>
+                                                                       <li><a class="mb-0.75 text-sm font-medium duration-200 text-text_color hover:text-primary" href="https://adventhimalayatreks.budhomanche.com/trip/dhorpatan-lower-dolpo-trek-28-days">Dhorpatan - Lower Dolpo Trek - 28 days</a></li>
+                                                                       <li><a class="mb-0.75 text-sm font-medium duration-200 text-text_color hover:text-primary" href="https://adventhimalayatreks.budhomanche.com/trip/crystal-mountain-valley-camping-trek-23-days">Crystal Mountain Valley Camping Trek-23 Days</a></li>
+                                                                       <li><a class="mb-0.75 text-sm font-medium duration-200 text-text_color hover:text-primary" href="https://adventhimalayatreks.budhomanche.com/trip/lower-dolpo-circuit-trek-21-days">Lower Dolpo Circuit Trek -21 Days</a></li>
+                                                                       <li><a class="mb-0.75 text-sm font-medium duration-200 text-text_color hover:text-primary" href="https://adventhimalayatreks.budhomanche.com/trip/shey-phoksundo-lake-trek-15-days">Shey Phoksundo Lake Trek -15 Days</a></li>
                                                                    </ul>
                                                                </li>
-                                                               <li class="p-0 lg:p-2">
-                                                                   <a
-                                                                       aria-expanded="false"
-                                                                       class="mb-0.75 flex justify-between  text-base font-bold text-primary hover:text-secondary"
-                                                                       href="/categorylist">
-                                                                       Mustang and Manang
-                                                                   </a>
+                                                               <li class="p-0 lg:p-2"><a class="mb-0.75 flex justify-between text-base font-bold text-secondary hover:text-primary" aria-expanded="false" href="https://adventhimalayatreks.budhomanche.com/kanchanjanga-region-trekking">Kanchanjanga Region Trekking</a>
                                                                    <ul class="space-y-2">
-                                                                       <li>
-                                                                           <a
-                                                                               class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                               href="/category">
-                                                                               Upper Mustang Trek
-                                                                           </a>
-                                                                       </li>
-                                                                       <li>
-                                                                           <a
-                                                                               class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                               href="/category">
-                                                                               Upper Mustang Jeep Tour
-                                                                           </a>
-                                                                       </li>
+                                                                       <li><a class="mb-0.75 text-sm font-medium duration-200 text-text_color hover:text-primary" href="https://adventhimalayatreks.budhomanche.com/trip/kanchenjunga-north-south-base-camp-trek-27days">Kanchenjunga North - South Base Camp Trek- 27Days</a></li>
                                                                    </ul>
                                                                </li>
-                                                               <li class="p-0 lg:p-2">
-                                                                   <a
-                                                                       aria-expanded="false"
-                                                                       class="mb-0.75 flex justify-between  text-base font-bold text-primary hover:text-secondary"
-                                                                       href="/categorylist">
-                                                                       Test
-                                                                   </a>
-
+                                                               <li class="p-0 lg:p-2"><a class="mb-0.75 flex justify-between text-base font-bold text-secondary hover:text-primary" aria-expanded="false" href="https://adventhimalayatreks.budhomanche.com/makalu-region-trekking">Makalu Region Trekking</a>
                                                                    <ul class="space-y-2">
-                                                                       <li>
-                                                                           <a
-                                                                               class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                               href="/category">
-                                                                               Short Trek to Everest Base Camp 7 Days
-                                                                           </a>
-                                                                       </li>
-                                                                       <li>
-                                                                           <a
-                                                                               class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                               href="/category">
-                                                                               Everest Base Camp Trek
-                                                                           </a>
-                                                                       </li>
-                                                                       <li>
-                                                                           <a
-                                                                               class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                               href="/category">
-                                                                               Everest Base Camp Tour 5 Days
-                                                                           </a>
-                                                                       </li>
-                                                                       <li>
-                                                                           <a
-                                                                               class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                               href="/category">
-                                                                               Everest Gokyo Chola Pass Trek
-                                                                           </a>
-                                                                       </li>
-                                                                       <li>
-                                                                           <a
-                                                                               class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                               href="/category">
-                                                                               Sleeping at Everest Base Camp Trek
-                                                                           </a>
-                                                                       </li>
-                                                                       <li>
-                                                                           <a
-                                                                               class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                               href="/category">
-                                                                               Everest Base Camp Helicopter Tour
-                                                                           </a>
-                                                                       </li>
-                                                                       <li>
-                                                                           <a
-                                                                               class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                               href="/category">
-                                                                               Kathmandu to Lukla Helicopter Flight
-                                                                               Booking
-                                                                           </a>
-                                                                       </li>
-                                                                       <li>
-                                                                           <a
-                                                                               class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                               href="/category">
-                                                                               Everest Base Camp Luxury Trek
-                                                                           </a>
-                                                                       </li>
+                                                                       <li><a class="mb-0.75 text-sm font-medium duration-200 text-text_color hover:text-primary" href="https://adventhimalayatreks.budhomanche.com/trip/lumba-sumba-la-circuit-trek-18-days">Lumba Sumba La circuit Trek-18 Days</a></li>
                                                                    </ul>
                                                                </li>
-                                                               <li class="p-0 lg:p-2">
-                                                                   <a
-                                                                       class="mb-0.75 flex justify-between  text-base font-bold text-primary hover:text-secondary"
-                                                                       href="/categorylist"
-                                                                       aria-expanded="false">
-                                                                       Test
-                                                                   </a>
-
+                                                               <li class="p-0 lg:p-2"><a class="mb-0.75 flex justify-between text-base font-bold text-secondary hover:text-primary" aria-expanded="false" href="https://adventhimalayatreks.budhomanche.com/underrated-off-the-beaten-path-treks">Underrated/Off The Beaten Path Treks</a>
                                                                    <ul class="space-y-2">
-                                                                       <li>
-                                                                           <a
-                                                                               class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                               href="/category">
-                                                                               Short Trek to Everest Base Camp 7 Days
-                                                                           </a>
-                                                                       </li>
-                                                                       <li>
-                                                                           <a
-                                                                               class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                               href="/category">
-                                                                               Everest Base Camp Trek
-                                                                           </a>
-                                                                       </li>
-                                                                       <li>
-                                                                           <a
-                                                                               class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                               href="/category">
-                                                                               Everest Base Camp Tour 5 Days
-                                                                           </a>
-                                                                       </li>
-                                                                       <li>
-                                                                           <a
-                                                                               class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                               href="/category">
-                                                                               Everest Gokyo Chola Pass Trek
-                                                                           </a>
-                                                                       </li>
-                                                                       <li>
-                                                                           <a
-                                                                               class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                               href="/category">
-                                                                               Sleeping at Everest Base Camp Trek
-                                                                           </a>
-                                                                       </li>
-                                                                       <li>
-                                                                           <a
-                                                                               class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                               href="/category">
-                                                                               Everest Base Camp Helicopter Tour
-                                                                           </a>
-                                                                       </li>
-                                                                       <li>
-                                                                           <a
-                                                                               class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                               href="/category">
-                                                                               Kathmandu to Lukla Helicopter Flight
-                                                                               Booking
-                                                                           </a>
-                                                                       </li>
-                                                                       <li>
-                                                                           <a
-                                                                               class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                               href="/category">
-                                                                               Everest Base Camp Luxury Trek
-                                                                           </a>
-                                                                       </li>
+                                                                       <li><a class="mb-0.75 text-sm font-medium duration-200 text-text_color hover:text-primary" href="https://adventhimalayatreks.budhomanche.com/trip/dhorpatan-lower-dolpo-trek-28-days">Dhorpatan - Lower Dolpo Trek - 28 days</a></li>
+                                                                       <li><a class="mb-0.75 text-sm font-medium duration-200 text-text_color hover:text-primary" href="https://adventhimalayatreks.budhomanche.com/trip/lumba-sumba-la-circuit-trek-18-days">Lumba Sumba La circuit Trek-18 Days</a></li>
                                                                    </ul>
+                                                               </li>
+                                                               <li class="p-0 lg:p-2"><a class="mb-0.75 flex justify-between text-base font-bold text-secondary hover:text-primary" aria-expanded="false" href="https://adventhimalayatreks.budhomanche.com/mustang-treks">Mustang Treks</a>
+                                                                   <ul class="space-y-2">
+                                                                       <li><a class="mb-0.75 text-sm font-medium duration-200 text-text_color hover:text-primary" href="https://adventhimalayatreks.budhomanche.com/trip/mustang-circuit-trek-20-day">Mustang Circuit Trek - 20 day</a></li>
+                                                                   </ul>
+                                                               </li>
+                                                               <li class="p-0 lg:p-2"><a class="mb-0.75 flex justify-between text-base font-bold text-secondary hover:text-primary" aria-expanded="false" href="https://adventhimalayatreks.budhomanche.com/nepal-inlands-camping-treks">Nepal Inlands Camping Treks</a>
+                                                                   <ul class="space-y-2"></ul>
+                                                               </li>
+                                                               <li class="p-0 lg:p-2"><a class="mb-0.75 flex justify-between text-base font-bold text-secondary hover:text-primary" aria-expanded="false" href="https://adventhimalayatreks.budhomanche.com/full-board-trekking-travel-packages">Full-Board Trekking &amp; Travel Packages</a>
+                                                                   <ul class="space-y-2"></ul>
                                                                </li>
                                                            </ul>
                                                        </div>
                                                    </div>
-                                                   <div class="hidden tab-content" id="tab-trekking">
-                                                       <div class="flex flex-wrap justify-start ">
-                                                           <div class="flex flex-wrap justify-start">
-                                                               <ul class="megamenu-items xl:columns-3 columns-2 ">
-
-                                                                   <li class="p-0 lg:p-2">
-                                                                       <a
-                                                                           class="mb-0.75 flex justify-between  text-base font-bold text-primary hover:text-secondary"
-                                                                           href="/categorylist"
-                                                                           aria-expanded="false">
-                                                                           Axnnapurnaff
-                                                                       </a>
-                                                                       <ul class="space-y-2">
-                                                                           <li>
-                                                                               <a
-                                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                                   href="/category">
-                                                                                   Annapurna Helicopter Tours
-                                                                               </a>
-                                                                           </li>
-                                                                           <li>
-                                                                               <a
-                                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                                   href="/category">
-                                                                                   Annapurna Region
-                                                                               </a>
-                                                                           </li>
-                                                                       </ul>
-                                                                   </li>
-                                                                   <li class="p-0 lg:p-2">
-                                                                       <a
-                                                                           class="mb-0.75 flex justify-between  text-base font-bold text-primary hover:text-secondary"
-                                                                           href="/categorylist"
-                                                                           aria-expanded="false">
-                                                                           Manaslu
-                                                                       </a>
-                                                                       <ul class="space-y-2">
-                                                                           <li>
-                                                                               <a
-                                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                                   href="/category">
-                                                                                   Manaslu Circuit Trek
-                                                                               </a>
-                                                                           </li>
-                                                                       </ul>
-                                                                   </li>
-                                                                   <li class="p-0 lg:p-2">
-                                                                       <a
-                                                                           aria-expanded="false"
-                                                                           class="mb-0.75 flex justify-between  text-base font-bold text-primary hover:text-secondary"
-                                                                           href="/categorylist">
-                                                                           Multi City
-                                                                       </a>
-                                                                   </li>
-                                                                   <li class="p-0 lg:p-2">
-                                                                       <a
-                                                                           aria-expanded="false"
-                                                                           class="mb-0.75 flex justify-between  text-base font-bold text-primary hover:text-secondary"
-                                                                           href="/categorylist">
-                                                                           Kanchenjunga
-                                                                       </a>
-                                                                       <ul class="space-y-2">
-                                                                           <li>
-                                                                               <a
-                                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                                   href="/category">
-                                                                                   Kanchenjunga Base Camp Trek
-                                                                               </a>
-                                                                           </li>
-                                                                       </ul>
-                                                                   </li>
-                                                                   <li class="p-0 lg:p-2">
-                                                                       <a
-                                                                           aria-expanded="false"
-                                                                           class="mb-0.75 flex justify-between  text-base font-bold text-primary hover:text-secondary"
-                                                                           href="/categorylist">
-                                                                           Mustang and Manang
-                                                                       </a>
-                                                                       <ul class="space-y-2">
-                                                                           <li>
-                                                                               <a
-                                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                                   href="/category">
-                                                                                   Upper Mustang Trek
-                                                                               </a>
-                                                                           </li>
-                                                                           <li>
-                                                                               <a
-                                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                                   href="/category">
-                                                                                   Upper Mustang Jeep Tour
-                                                                               </a>
-                                                                           </li>
-                                                                       </ul>
-                                                                   </li>
-                                                                   <li class="p-0 lg:p-2">
-                                                                       <a
-                                                                           aria-expanded="false"
-                                                                           class="mb-0.75 flex justify-between  text-base font-bold text-primary hover:text-secondary"
-                                                                           href="/categorylist">
-                                                                           Mustang and Manang
-                                                                       </a>
-                                                                       <ul class="space-y-2">
-                                                                           <li>
-                                                                               <a
-                                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                                   href="/category">
-                                                                                   Upper Mustang Trek
-                                                                               </a>
-                                                                           </li>
-                                                                           <li>
-                                                                               <a
-                                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                                   href="/category">
-                                                                                   Upper Mustang Jeep Tour
-                                                                               </a>
-                                                                           </li>
-                                                                       </ul>
-                                                                   </li>
-                                                                   <li class="p-0 lg:p-2">
-                                                                       <a
-                                                                           aria-expanded="false"
-                                                                           class="mb-0.75 flex justify-between  text-base font-bold text-primary hover:text-secondary"
-                                                                           href="/categorylist">
-                                                                           Test
-                                                                       </a>
-
-                                                                       <ul class="space-y-2">
-                                                                           <li>
-                                                                               <a
-                                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                                   href="/category">
-                                                                                   Short Trek to Everest Base Camp 7 Days
-                                                                               </a>
-                                                                           </li>
-                                                                           <li>
-                                                                               <a
-                                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                                   href="/category">
-                                                                                   Everest Base Camp Trek
-                                                                               </a>
-                                                                           </li>
-                                                                           <li>
-                                                                               <a
-                                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                                   href="/category">
-                                                                                   Everest Base Camp Tour 5 Days
-                                                                               </a>
-                                                                           </li>
-                                                                           <li>
-                                                                               <a
-                                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                                   href="/category">
-                                                                                   Everest Gokyo Chola Pass Trek
-                                                                               </a>
-                                                                           </li>
-                                                                           <li>
-                                                                               <a
-                                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                                   href="/category">
-                                                                                   Sleeping at Everest Base Camp Trek
-                                                                               </a>
-                                                                           </li>
-                                                                           <li>
-                                                                               <a
-                                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                                   href="/category">
-                                                                                   Everest Base Camp Helicopter Tour
-                                                                               </a>
-                                                                           </li>
-                                                                           <li>
-                                                                               <a
-                                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                                   href="/category">
-                                                                                   Kathmandu to Lukla Helicopter Flight
-                                                                                   Booking
-                                                                               </a>
-                                                                           </li>
-                                                                           <li>
-                                                                               <a
-                                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                                   href="/category">
-                                                                                   Everest Base Camp Luxury Trek
-                                                                               </a>
-                                                                           </li>
-                                                                       </ul>
-                                                                   </li>
-                                                                   <li class="p-0 lg:p-2">
-                                                                       <a
-                                                                           aria-expanded="false"
-                                                                           class="mb-0.75 flex justify-between  text-base font-bold text-primary hover:text-secondary"
-                                                                           href="/categorylist">
-                                                                           Mustang and Manang
-                                                                       </a>
-                                                                       <ul class="space-y-2">
-                                                                           <li>
-                                                                               <a
-                                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                                   href="/category">
-                                                                                   Upper Mustang Trek
-                                                                               </a>
-                                                                           </li>
-                                                                           <li>
-                                                                               <a
-                                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                                   href="/category">
-                                                                                   Upper Mustang Jeep Tour
-                                                                               </a>
-                                                                           </li>
-                                                                       </ul>
-                                                                   </li>
-                                                                   <li class="p-0 lg:p-2">
-                                                                       <a
-                                                                           aria-expanded="false"
-                                                                           class="mb-0.75 flex justify-between  text-base font-bold text-primary hover:text-secondary"
-                                                                           href="/categorylist">
-                                                                           Test
-                                                                       </a>
-
-                                                                       <ul class="space-y-2">
-                                                                           <li>
-                                                                               <a
-                                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                                   href="/category">
-                                                                                   Short Trek to Everest Base Camp 7 Days
-                                                                               </a>
-                                                                           </li>
-                                                                           <li>
-                                                                               <a
-                                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                                   href="/category">
-                                                                                   Everest Base Camp Trek
-                                                                               </a>
-                                                                           </li>
-                                                                           <li>
-                                                                               <a
-                                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                                   href="/category">
-                                                                                   Everest Base Camp Tour 5 Days
-                                                                               </a>
-                                                                           </li>
-                                                                           <li>
-                                                                               <a
-                                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                                   href="/category">
-                                                                                   Everest Gokyo Chola Pass Trek
-                                                                               </a>
-                                                                           </li>
-                                                                           <li>
-                                                                               <a
-                                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                                   href="/category">
-                                                                                   Sleeping at Everest Base Camp Trek
-                                                                               </a>
-                                                                           </li>
-                                                                           <li>
-                                                                               <a
-                                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                                   href="/category">
-                                                                                   Everest Base Camp Helicopter Tour
-                                                                               </a>
-                                                                           </li>
-                                                                           <li>
-                                                                               <a
-                                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                                   href="/category">
-                                                                                   Kathmandu to Lukla Helicopter Flight
-                                                                                   Booking
-                                                                               </a>
-                                                                           </li>
-                                                                           <li>
-                                                                               <a
-                                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                                   href="/category">
-                                                                                   Everest Base Camp Luxury Trek
-                                                                               </a>
-                                                                           </li>
-                                                                       </ul>
-                                                                   </li>
-                                                                   <li class="p-0 lg:p-2">
-                                                                       <a
-                                                                           class="mb-0.75 flex justify-between  text-base font-bold text-primary hover:text-secondary"
-                                                                           href="/categorylist"
-                                                                           aria-expanded="false">
-                                                                           Test
-                                                                       </a>
-
-                                                                       <ul class="space-y-2">
-                                                                           <li>
-                                                                               <a
-                                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                                   href="/category">
-                                                                                   Short Trek to Everest Base Camp 7 Days
-                                                                               </a>
-                                                                           </li>
-                                                                           <li>
-                                                                               <a
-                                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                                   href="/category">
-                                                                                   Everest Base Camp Trek
-                                                                               </a>
-                                                                           </li>
-                                                                           <li>
-                                                                               <a
-                                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                                   href="/category">
-                                                                                   Everest Base Camp Tour 5 Days
-                                                                               </a>
-                                                                           </li>
-                                                                           <li>
-                                                                               <a
-                                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                                   href="/category">
-                                                                                   Everest Gokyo Chola Pass Trek
-                                                                               </a>
-                                                                           </li>
-                                                                           <li>
-                                                                               <a
-                                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                                   href="/category">
-                                                                                   Sleeping at Everest Base Camp Trek
-                                                                               </a>
-                                                                           </li>
-                                                                           <li>
-                                                                               <a
-                                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                                   href="/category">
-                                                                                   Everest Base Camp Helicopter Tour
-                                                                               </a>
-                                                                           </li>
-                                                                           <li>
-                                                                               <a
-                                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                                   href="/category">
-                                                                                   Kathmandu to Lukla Helicopter Flight
-                                                                                   Booking
-                                                                               </a>
-                                                                           </li>
-                                                                           <li>
-                                                                               <a
-                                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                                   href="/category">
-                                                                                   Everest Base Camp Luxury Trek
-                                                                               </a>
-                                                                           </li>
-                                                                       </ul>
-                                                                   </li>
-                                                               </ul>
-                                                           </div>
+                                                   <div class="tab-content hidden" id="tab-menu-tab-7">
+                                                       <div class="flex flex-wrap justify-start">
+                                                           <ul class="megamenu-items xl:columns-3 columns-2">
+                                                               <li class="p-0 lg:p-2"><a class="mb-0.75 text-sm font-medium duration-200 text-text_color hover:text-primary" href="https://adventhimalayatreks.budhomanche.com/trip/mera-peak-summit-4n-5d">Mera Peak Summit – 4N/5D</a></li>
+                                                               <li class="p-0 lg:p-2"><a class="mb-0.75 text-sm font-medium duration-200 text-text_color hover:text-primary" href="https://adventhimalayatreks.budhomanche.com/trip/island-peak-summit-3n-4d">Island Peak Summit-3N/4D</a></li>
+                                                               <li class="p-0 lg:p-2"><a class="mb-0.75 text-sm font-medium duration-200 text-text_color hover:text-primary" href="https://adventhimalayatreks.budhomanche.com/trip/lobuche-peak-1n-2d">Lobuche Peak 1N/2D</a></li>
+                                                           </ul>
                                                        </div>
                                                    </div>
-                                                   <div class="hidden tab-content" id="tab-climbing">
-                                                       <div class="flex flex-wrap justify-start ">
-                                                           <div class="flex flex-wrap justify-start">
-                                                               <ul class="megamenu-items xl:columns-3 columns-2 ">
-                                                                   <li class="p-0 lg:p-2">
-                                                                       <a
-                                                                           class="mb-0.75 flex justify-between  text-base font-bold text-primary hover:text-secondary"
-                                                                           href="/categorylist"
-                                                                           aria-expanded="false">
-                                                                           cc Everest
-                                                                       </a>
-                                                                       <ul class="space-y-2">
-                                                                           <li>
-                                                                               <a
-                                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                                   href="/category">
-                                                                                   Short Trek to Everest Base Camp 7 Days{" "}
-                                                                               </a>
-                                                                           </li>
-                                                                           <li>
-                                                                               <a
-                                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                                   href="/category">
-                                                                                   Gokyo Lakes Trek
-                                                                               </a>
-                                                                           </li>
-                                                                           <li>
-                                                                               <a
-                                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                                   href="/category">
-                                                                                   Everest View Trek
-                                                                               </a>
-                                                                           </li>
-                                                                           <li>
-                                                                               <a
-                                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                                   href="/category">
-                                                                                   Everest Base Camp Trek with Helicopter
-                                                                                   Return
-                                                                               </a>
-                                                                           </li>
-                                                                           <li>
-                                                                               <a
-                                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                                   href="/category">
-                                                                                   Everest Three High Pass Trek
-                                                                               </a>
-                                                                           </li>
-                                                                           <li>
-                                                                               <a
-                                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                                   href="/category">
-                                                                                   Everest Mani Rimdu Festival Trek
-                                                                               </a>
-                                                                           </li>
-                                                                           <li>
-                                                                               <a
-                                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                                   href="/category">
-                                                                                   Everest Base Camp Trek
-                                                                               </a>
-                                                                           </li>
-                                                                           <li>
-                                                                               <a
-                                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                                   href="/category">
-                                                                                   Everest Base Camp Tour 5 Days
-                                                                               </a>
-                                                                           </li>
-                                                                           <li>
-                                                                               <a
-                                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                                   href="/category">
-                                                                                   Everest Gokyo Chola Pass Trek
-                                                                               </a>
-                                                                           </li>
-                                                                           <li>
-                                                                               <a
-                                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                                   href="/category">
-                                                                                   Sleeping at Everest Base Camp Trek
-                                                                               </a>
-                                                                           </li>
-                                                                           <li>
-                                                                               <a
-                                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                                   href="/category">
-                                                                                   Everest Base Camp Helicopter Tour
-                                                                               </a>
-                                                                           </li>
-                                                                           <li>
-                                                                               <a
-                                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                                   href="/category">
-                                                                                   Kathmandu to Lukla Helicopter Flight
-                                                                                   Booking
-                                                                               </a>
-                                                                           </li>
-
-                                                                           <li>
-                                                                               <a
-                                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                                   href="/category">
-                                                                                   Shortest Everest Base Camp EBC Trek 7 Day
-                                                                               </a>
-                                                                           </li>
-                                                                           <li>
-                                                                               <a
-                                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                                   href="/category">
-                                                                                   Everest Base Camp Helicopter Return Trek -
-                                                                                   9 Days
-                                                                               </a>
-                                                                           </li>
-                                                                           <li>
-                                                                               <a
-                                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                                   href="/category">
-                                                                                   Numbur Cheese Circuit Trek - 15 Days
-                                                                               </a>
-                                                                           </li>
-                                                                           <li>
-                                                                               <a
-                                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                                   href="/category">
-                                                                                   Jiri to Everest Base Camp Trek
-                                                                               </a>
-                                                                           </li>
-                                                                           <li>
-                                                                               <a
-                                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                                   href="/category">
-                                                                                   Phaplu Lukla Everest Base Camp Trekking -
-                                                                                   14 Days
-                                                                               </a>
-                                                                           </li>
-                                                                           <li>
-                                                                               <a
-                                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                                   href="/category">
-                                                                                   Pikey Peak Trek - 9 Days
-                                                                               </a>
-                                                                           </li>
-                                                                           <li>
-                                                                               <a
-                                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                                   href="/category">
-                                                                                   Rolwaling Tashi Lapcha Trek
-                                                                               </a>
-                                                                           </li>
-                                                                           <li>
-                                                                               <a
-                                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                                   href="/category">
-                                                                                   Rolwaling Trek | Rolwaling Valley - 10
-                                                                                   Days
-                                                                               </a>
-                                                                           </li>
-                                                                       </ul>
-                                                                   </li>
-                                                                   <li class="p-0 lg:p-2">
-                                                                       <a
-                                                                           class="mb-0.75 flex justify-between  text-base font-bold text-primary hover:text-secondary"
-                                                                           href="/categorylist"
-                                                                           aria-expanded="false">
-                                                                           Annapurna
-                                                                       </a>
-                                                                       <ul class="space-y-2">
-                                                                           <li>
-                                                                               <a
-                                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                                   href="/category">
-                                                                                   Annapurna Helicopter Tours
-                                                                               </a>
-                                                                           </li>
-                                                                           <li>
-                                                                               <a
-                                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                                   href="/category">
-                                                                                   Annapurna Region
-                                                                               </a>
-                                                                           </li>
-                                                                       </ul>
-                                                                   </li>
-                                                                   <li class="p-0 lg:p-2">
-                                                                       <a
-                                                                           class="mb-0.75 flex justify-between  text-base font-bold text-primary hover:text-secondary"
-                                                                           href="/categorylist"
-                                                                           aria-expanded="false">
-                                                                           Manaslu
-                                                                       </a>
-                                                                       <ul class="space-y-2">
-                                                                           <li>
-                                                                               <a
-                                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                                   href="/category">
-                                                                                   Manaslu Circuit Trek
-                                                                               </a>
-                                                                           </li>
-                                                                       </ul>
-                                                                   </li>
-                                                                   <li class="p-0 lg:p-2">
-                                                                       <a
-                                                                           aria-expanded="false"
-                                                                           class="mb-0.75 flex justify-between  text-base font-bold text-primary hover:text-secondary"
-                                                                           href="/categorylist">
-                                                                           Multi City
-                                                                       </a>
-                                                                   </li>
-                                                                   <li class="p-0 lg:p-2">
-                                                                       <a
-                                                                           aria-expanded="false"
-                                                                           class="mb-0.75 flex justify-between  text-base font-bold text-primary hover:text-secondary"
-                                                                           href="/categorylist">
-                                                                           Kanchenjunga
-                                                                       </a>
-                                                                       <ul class="space-y-2">
-                                                                           <li>
-                                                                               <a
-                                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                                   href="/category">
-                                                                                   Kanchenjunga Base Camp Trek
-                                                                               </a>
-                                                                           </li>
-                                                                       </ul>
-                                                                   </li>
-                                                                   <li class="p-0 lg:p-2">
-                                                                       <a
-                                                                           aria-expanded="false"
-                                                                           class="mb-0.75 flex justify-between  text-base font-bold text-primary hover:text-secondary"
-                                                                           href="/categorylist">
-                                                                           Mustang and Manang
-                                                                       </a>
-                                                                       <ul class="space-y-2">
-                                                                           <li>
-                                                                               <a
-                                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                                   href="/category">
-                                                                                   Upper Mustang Trek
-                                                                               </a>
-                                                                           </li>
-                                                                           <li>
-                                                                               <a
-                                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                                   href="/category">
-                                                                                   Upper Mustang Jeep Tour
-                                                                               </a>
-                                                                           </li>
-                                                                       </ul>
-                                                                   </li>
-
-                                                                   <li class="p-0 lg:p-2">
-                                                                       <a
-                                                                           aria-expanded="false"
-                                                                           class="mb-0.75 flex justify-between  text-base font-bold text-primary hover:text-secondary"
-                                                                           href="/categorylist">
-                                                                           Test
-                                                                       </a>
-
-                                                                       <ul class="space-y-2">
-                                                                           <li>
-                                                                               <a
-                                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                                   href="/category">
-                                                                                   Short Trek to Everest Base Camp 7 Days
-                                                                               </a>
-                                                                           </li>
-                                                                           <li>
-                                                                               <a
-                                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                                   href="/category">
-                                                                                   Everest Base Camp Trek
-                                                                               </a>
-                                                                           </li>
-                                                                           <li>
-                                                                               <a
-                                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                                   href="/category">
-                                                                                   Everest Base Camp Tour 5 Days
-                                                                               </a>
-                                                                           </li>
-                                                                           <li>
-                                                                               <a
-                                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                                   href="/category">
-                                                                                   Everest Gokyo Chola Pass Trek
-                                                                               </a>
-                                                                           </li>
-                                                                           <li>
-                                                                               <a
-                                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                                   href="/category">
-                                                                                   Sleeping at Everest Base Camp Trek
-                                                                               </a>
-                                                                           </li>
-                                                                           <li>
-                                                                               <a
-                                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                                   href="/category">
-                                                                                   Everest Base Camp Helicopter Tour
-                                                                               </a>
-                                                                           </li>
-                                                                           <li>
-                                                                               <a
-                                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                                   href="/category">
-                                                                                   Kathmandu to Lukla Helicopter Flight
-                                                                                   Booking
-                                                                               </a>
-                                                                           </li>
-                                                                           <li>
-                                                                               <a
-                                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                                   href="/category">
-                                                                                   Everest Base Camp Luxury Trek
-                                                                               </a>
-                                                                           </li>
-                                                                       </ul>
-                                                                   </li>
-                                                                   <li class="p-0 lg:p-2">
-                                                                       <a
-                                                                           aria-expanded="false"
-                                                                           class="mb-0.75 flex justify-between  text-base font-bold text-primary hover:text-secondary"
-                                                                           href="/categorylist">
-                                                                           Mustang and Manang
-                                                                       </a>
-                                                                       <ul class="space-y-2">
-                                                                           <li>
-                                                                               <a
-                                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                                   href="/category">
-                                                                                   Upper Mustang Trek
-                                                                               </a>
-                                                                           </li>
-                                                                           <li>
-                                                                               <a
-                                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                                   href="/category">
-                                                                                   Upper Mustang Jeep Tour
-                                                                               </a>
-                                                                           </li>
-                                                                       </ul>
-                                                                   </li>
-
-                                                                   <li class="p-0 lg:p-2">
-                                                                       <a
-                                                                           class="mb-0.75 flex justify-between  text-base font-bold text-primary hover:text-secondary"
-                                                                           href="/categorylist"
-                                                                           aria-expanded="false">
-                                                                           Test
-                                                                       </a>
-
-                                                                       <ul class="space-y-2">
-                                                                           <li>
-                                                                               <a
-                                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                                   href="/category">
-                                                                                   Short Trek to Everest Base Camp 7 Days
-                                                                               </a>
-                                                                           </li>
-                                                                           <li>
-                                                                               <a
-                                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                                   href="/category">
-                                                                                   Everest Base Camp Trek
-                                                                               </a>
-                                                                           </li>
-                                                                           <li>
-                                                                               <a
-                                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                                   href="/category">
-                                                                                   Everest Base Camp Tour 5 Days
-                                                                               </a>
-                                                                           </li>
-                                                                           <li>
-                                                                               <a
-                                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                                   href="/category">
-                                                                                   Everest Gokyo Chola Pass Trek
-                                                                               </a>
-                                                                           </li>
-                                                                           <li>
-                                                                               <a
-                                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                                   href="/category">
-                                                                                   Sleeping at Everest Base Camp Trek
-                                                                               </a>
-                                                                           </li>
-                                                                           <li>
-                                                                               <a
-                                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                                   href="/category">
-                                                                                   Everest Base Camp Helicopter Tour
-                                                                               </a>
-                                                                           </li>
-                                                                           <li>
-                                                                               <a
-                                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                                   href="/category">
-                                                                                   Kathmandu to Lukla Helicopter Flight
-                                                                                   Booking
-                                                                               </a>
-                                                                           </li>
-                                                                           <li>
-                                                                               <a
-                                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                                   href="/category">
-                                                                                   Everest Base Camp Luxury Trek
-                                                                               </a>
-                                                                           </li>
-                                                                       </ul>
-                                                                   </li>
-                                                               </ul>
-                                                           </div>
+                                                   <div class="tab-content hidden" id="tab-menu-tab-18">
+                                                       <div class="flex flex-wrap justify-start">
+                                                           <ul class="megamenu-items xl:columns-3 columns-2"></ul>
+                                                       </div>
+                                                   </div>
+                                                   <div class="tab-content hidden" id="tab-menu-tab-61">
+                                                       <div class="flex flex-wrap justify-start">
+                                                           <ul class="megamenu-items xl:columns-3 columns-2"></ul>
                                                        </div>
                                                    </div>
                                                </div>
-
-                                           </div>
-                                       </div>
-
-                                   </li>
-                                   <li>
-                                       <span
-                                           class="dropdown-toggle flex w-full items-center gap-0 xl:text-base text-sm   hover:text-primary transition-all duration-500  font-medium leading-3.5 text-white "
-                                           aria-expanded="false">
-                                           Trekking in Nepal
-                                           <span class="text-sm xl:text-base icon icon-angle-down">
-                                           </span>
-                                       </span>
-                                       <div class="item dropdown custom-shadow absolute left-0 top-10 z-10 hidden w-full   p-6">
-                                           <div class="flex max-h-112.5 flex-wrap justify-start overflow-y-auto">
-                                               <ul class="megamenu-items columns-3 xl:columns-4">
-                                                   <li class="p-0 lg:p-2">
-                                                       <a
-                                                           aria-expanded="false"
-                                                           class="mb-0.75 flex justify-between text-base font-bold text-primary"
-                                                           href="/categorylist">
-                                                           Everest
-                                                       </a>
-                                                       <ul class="space-y-2">
-                                                           <li>
-                                                               <a
-                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                   href="/category">
-                                                                   Short Trek to Everest Base Camp 7 Days
-                                                               </a>
-                                                           </li>
-                                                           <li>
-                                                               <a
-                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                   href="/category">
-                                                                   Gokyo Lakes Trek
-                                                               </a>
-                                                           </li>
-                                                           <li>
-                                                               <a
-                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                   href="/category">
-                                                                   Everest View Trek
-                                                               </a>
-                                                           </li>
-                                                           <li>
-                                                               <a
-                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                   href="/category">
-                                                                   Everest Base Camp Trek with Helicopter
-                                                                   Return
-                                                               </a>
-                                                           </li>
-                                                           <li>
-                                                               <a
-                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                   href="/category">
-                                                                   Everest Three High Pass Trek
-                                                               </a>
-                                                           </li>
-                                                           <li>
-                                                               <a
-                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                   href="/category">
-                                                                   Everest Mani Rimdu Festival Trek
-                                                               </a>
-                                                           </li>
-                                                           <li>
-                                                               <a
-                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                   href="/category">
-                                                                   Everest Base Camp Trek
-                                                               </a>
-                                                           </li>
-                                                           <li>
-                                                               <a
-                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                   href="/category">
-                                                                   Everest Base Camp Tour 5 Days
-                                                               </a>
-                                                           </li>
-                                                           <li>
-                                                               <a
-                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                   href="/category">
-                                                                   Everest Gokyo Chola Pass Trek
-                                                               </a>
-                                                           </li>
-                                                           <li>
-                                                               <a
-                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                   href="/category">
-                                                                   Sleeping at Everest Base Camp Trek
-                                                               </a>
-                                                           </li>
-                                                           <li>
-                                                               <a
-                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                   href="/category">
-                                                                   Everest Base Camp Helicopter Tour
-                                                               </a>
-                                                           </li>
-                                                           <li>
-                                                               <a
-                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                   href="/category">
-                                                                   Kathmandu to Lukla Helicopter Flight
-                                                                   Booking
-                                                               </a>
-                                                           </li>
-                                                           <li>
-                                                               <a
-                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                   href="/category">
-                                                                   Everest Base Camp Luxury Trek
-                                                               </a>
-                                                           </li>
-                                                       </ul>
-                                                   </li>
-                                                   <li class="p-0 lg:p-2">
-                                                       <a
-                                                           aria-expanded="false"
-                                                           class="mb-0.75 flex justify-between   text-base font-bold text-primary"
-                                                           href="/categorylist">
-                                                           Annapurna
-                                                       </a>
-                                                       <ul class="space-y-2">
-                                                           <li>
-                                                               <a
-                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                   href="/category">
-                                                                   Annapurna Helicopter Tours
-                                                               </a>
-                                                           </li>
-                                                           <li>
-                                                               <a
-                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                   href="/category">
-                                                                   Annapurna Region
-                                                               </a>
-                                                           </li>
-                                                       </ul>
-                                                   </li>
-                                                   <li class="p-0 lg:p-2">
-                                                       <a
-                                                           class="mb-0.75 flex justify-between   text-base font-bold text-primary"
-                                                           href="/categorylist">
-                                                           Multi City
-                                                       </a>
-                                                   </li>
-                                                   <li class="p-0 lg:p-2">
-                                                       <a
-                                                           class="mb-0.75 flex justify-between   text-base font-bold text-primary"
-                                                           href="/categorylist"
-                                                           aria-expanded="false">
-                                                           Kanchenjunga
-                                                       </a>
-                                                       <ul class="space-y-2">
-                                                           <li>
-                                                               <a
-                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                   href="/category">
-                                                                   Kanchenjunga Base Camp Trek
-                                                               </a>
-                                                           </li>
-                                                       </ul>
-                                                   </li>
-                                                   <li class="p-0 lg:p-2">
-                                                       <a
-                                                           class="mb-0.75 flex justify-between   text-base font-bold text-primary"
-                                                           href="/categorylist"
-                                                           aria-expanded="false">
-                                                           Mustang and Manang
-                                                       </a>
-                                                       <ul class="space-y-2">
-                                                           <li>
-                                                               <a
-                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                   href="/category">
-                                                                   Upper Mustang Trek
-                                                               </a>
-                                                           </li>
-                                                           <li>
-                                                               <a
-                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                   href="/category">
-                                                                   Upper Mustang Jeep Tour
-                                                               </a>
-                                                           </li>
-                                                       </ul>
-                                                   </li>
-                                                   <li class="p-0 lg:p-2">
-                                                       <a
-                                                           class="mb-0.75 flex justify-between   text-base font-bold text-primary"
-                                                           href="/categorylist"
-                                                           aria-expanded="false">
-                                                           Mustang and Manang
-                                                       </a>
-                                                       <ul class="space-y-2">
-                                                           <li>
-                                                               <a
-                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                   href="/category">
-                                                                   Upper Mustang Trek
-                                                               </a>
-                                                           </li>
-                                                           <li>
-                                                               <a
-                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                   href="/category">
-                                                                   Upper Mustang Jeep Tour
-                                                               </a>
-                                                           </li>
-                                                       </ul>
-                                                   </li>
-                                                   <li class="p-0 lg:p-2">
-                                                       <a
-                                                           class="mb-0.75 flex justify-between   text-base font-bold text-primary"
-                                                           href="/categorylist"
-                                                           aria-expanded="false">
-                                                           Test
-                                                       </a>
-                                                       <ul class="space-y-2">
-                                                           <li>
-                                                               <a
-                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                   href="/category">
-                                                                   Short Trek to Everest Base Camp 7 Days
-                                                               </a>
-                                                           </li>
-                                                           <li>
-                                                               <a
-                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                   href="/category">
-                                                                   Everest Base Camp Trek
-                                                               </a>
-                                                           </li>
-                                                           <li>
-                                                               <a
-                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                   href="/category">
-                                                                   Everest Base Camp Tour 5 Days
-                                                               </a>
-                                                           </li>
-                                                           <li>
-                                                               <a
-                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                   href="/category">
-                                                                   Everest Gokyo Chola Pass Trek
-                                                               </a>
-                                                           </li>
-                                                           <li>
-                                                               <a
-                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                   href="/category">
-                                                                   Sleeping at Everest Base Camp Trek
-                                                               </a>
-                                                           </li>
-                                                           <li>
-                                                               <a
-                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                   href="/category">
-                                                                   Everest Base Camp Helicopter Tour
-                                                               </a>
-                                                           </li>
-                                                           <li>
-                                                               <a
-                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                   href="/category">
-                                                                   Kathmandu to Lukla Helicopter Flight
-                                                                   Booking
-                                                               </a>
-                                                           </li>
-                                                           <li>
-                                                               <a
-                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                   href="/category">
-                                                                   Everest Base Camp Luxury Trek
-                                                               </a>
-                                                           </li>
-                                                       </ul>
-                                                   </li>
-                                                   <li class="p-0 lg:p-2">
-                                                       <a
-                                                           class="mb-0.75 flex justify-between   text-base font-bold text-primary"
-                                                           href="/categorylist"
-                                                           aria-expanded="false">
-                                                           Mustang and Manang
-                                                       </a>
-                                                       <ul class="space-y-2">
-                                                           <li>
-                                                               <a
-                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                   href="/category">
-                                                                   Upper Mustang Trek
-                                                               </a>
-                                                           </li>
-                                                           <li>
-                                                               <a
-                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                   href="/category">
-                                                                   Upper Mustang Jeep Tour
-                                                               </a>
-                                                           </li>
-                                                       </ul>
-                                                   </li>
-                                               </ul>
                                            </div>
                                        </div>
                                    </li>
-                                   <li>
-                                       <span
-                                           class="dropdown-toggle flex w-full items-center gap-0  xl:text-base text-sm  hover:text-primary transition-all duration-500  font-medium leading-3.5 text-white "
-                                           aria-expanded="false">
-                                           Travel Guide
-                                           <span class="text-sm xl:text-base icon icon-angle-down">
-                                           </span>
-                                       </span>
+                                   <li><span class="dropdown-toggle flex w-full items-center gap-0 xl:text-base text-sm hover:text-primary transition-all duration-500 font-medium leading-3.5 text-white" role="button" tabindex="0" aria-expanded="false">Trekking in Nepal<span class="text-sm xl:text-base icon icon-angle-down"></span></span>
+                                       <div class="item dropdown custom-shadow absolute left-0 top-10 z-10 hidden w-full rounded-bl-[5px] rounded-br-[5px] p-6">
+                                           <div class="dropdown-scroll flex max-h-112.5 flex-wrap justify-start overflow-y-auto">
+                                               <div class="flex gap-3">
+                                                   <ul class="flex flex-col nav-tab-links gap-1 custom-rounded flex-[0_0_250px] w-50 bg-secondary">
+                                                       <li><button class="tab-item active" data-tab="menu-tab-6">Everest Region Trekking</button></li>
+                                                       <li><button class="tab-item" data-tab="menu-tab-9">Annapurna Region Trekking</button></li>
+                                                       <li><button class="tab-item" data-tab="menu-tab-15">Langtang Region Trekking</button></li>
+                                                       <li><button class="tab-item" data-tab="menu-tab-16">Manaslu Region Trekking</button></li>
+                                                       <li><button class="tab-item" data-tab="menu-tab-35">Dolpo Region Trekking</button></li>
+                                                       <li><button class="tab-item" data-tab="menu-tab-36">Kanchanjanga Region Trekking</button></li>
+                                                       <li><button class="tab-item" data-tab="menu-tab-37">Makalu Region Trekking</button></li>
+                                                       <li><button class="tab-item" data-tab="menu-tab-17">Underrated/Off The Beaten Path Treks</button></li>
+                                                       <li><button class="tab-item" data-tab="menu-tab-39">Mustang Treks</button></li>
+                                                       <li><button class="tab-item" data-tab="menu-tab-40">Nepal Inlands Camping Treks</button></li>
+                                                       <li><button class="tab-item" data-tab="menu-tab-86">Full-Board Trekking &amp; Travel Packages</button></li>
+                                                   </ul>
+                                                   <div class="tab-content active" id="tab-menu-tab-6">
+                                                       <div class="flex flex-wrap justify-start">
+                                                           <ul class="megamenu-items xl:columns-3 columns-2">
+                                                               <li class="p-0 lg:p-2"><a class="1.25 text-sm font-medium duration-200 text-text_color hover:text-primary" href="https://adventhimalayatreks.budhomanche.com/trip/everest-base-camp-trek">Everest Base Camp Trek - 17 Days</a></li>
+                                                               <li class="p-0 lg:p-2"><a class="1.25 text-sm font-medium duration-200 text-text_color hover:text-primary" href="https://adventhimalayatreks.budhomanche.com/trip/gokyo-lake-renjola-pass-trek-16-days">Gokyo Lake - Renjola Pass Trek -16 Days</a></li>
+                                                               <li class="p-0 lg:p-2"><a class="1.25 text-sm font-medium duration-200 text-text_color hover:text-primary" href="https://adventhimalayatreks.budhomanche.com/trip/three-high-passes-trek-22-days">Three High Passes Trek- 22 Days</a></li>
+                                                               <li class="p-0 lg:p-2"><a class="1.25 text-sm font-medium duration-200 text-text_color hover:text-primary" href="https://adventhimalayatreks.budhomanche.com/trip/sherpa-cultural-trek-17-days">Sherpa Cultural Trek - 17 Days</a></li>
+                                                               <li class="p-0 lg:p-2"><a class="1.25 text-sm font-medium duration-200 text-text_color hover:text-primary" href="https://adventhimalayatreks.budhomanche.com/trip/everest-base-camp-chola-pass-gokyo-lake-trek-21-days">Everest Base Camp - Chola Pass - Gokyo Lake Trek -21 Days</a></li>
+                                                           </ul>
+                                                       </div>
+                                                   </div>
+                                                   <div class="tab-content hidden" id="tab-menu-tab-9">
+                                                       <div class="flex flex-wrap justify-start">
+                                                           <ul class="megamenu-items xl:columns-3 columns-2">
+                                                               <li class="p-0 lg:p-2"><a class="1.25 text-sm font-medium duration-200 text-text_color hover:text-primary" href="https://adventhimalayatreks.budhomanche.com/trip/annapurna-base-camp-trek-abc-trek-14-days">Annapurna Base Camp Trek (ABC Trek) - 14 Days</a></li>
+                                                               <li class="p-0 lg:p-2"><a class="1.25 text-sm font-medium duration-200 text-text_color hover:text-primary" href="https://adventhimalayatreks.budhomanche.com/trip/nar-phu-circuit-trek-17days">Nar-Phu Circuit Trek -17days</a></li>
+                                                               <li class="p-0 lg:p-2"><a class="1.25 text-sm font-medium duration-200 text-text_color hover:text-primary" href="https://adventhimalayatreks.budhomanche.com/trip/mardi-himal-trek-13-days">Mardi Himal Trek - 13 days</a></li>
+                                                               <li class="p-0 lg:p-2"><a class="1.25 text-sm font-medium duration-200 text-text_color hover:text-primary" href="https://adventhimalayatreks.budhomanche.com/trip/annapurna-ghorepani-ghandruk-circuit-trek-9-days">Ghorepani -Ghandruk Circuit Trek - 9 Days</a></li>
+                                                               <li class="p-0 lg:p-2"><a class="1.25 text-sm font-medium duration-200 text-text_color hover:text-primary" href="https://adventhimalayatreks.budhomanche.com/trip/ghorepani-mardi-himal-treks-16-days">Ghorepani Mardi Himal Circuit Treks - 16 Days</a></li>
+                                                               <li class="p-0 lg:p-2"><a class="1.25 text-sm font-medium duration-200 text-text_color hover:text-primary" href="https://adventhimalayatreks.budhomanche.com/trip/annapurna-circuit-trek-20-days">Annapurna Circuit Trek-20Days</a></li>
+                                                           </ul>
+                                                       </div>
+                                                   </div>
+                                                   <div class="tab-content hidden" id="tab-menu-tab-15">
+                                                       <div class="flex flex-wrap justify-start">
+                                                           <ul class="megamenu-items xl:columns-3 columns-2">
+                                                               <li class="p-0 lg:p-2"><a class="1.25.75 text-sm font-medium duration-200 text-text_color hover:text-primary" href="https://adventhimalayatreks.budhomanche.com/trip/langtang-valley-gosaikund-circuit-trek-16-days">Langtang Valley – Gosaikund Circuit Trek-16 Days</a></li>
+                                                           </ul>
+                                                       </div>
+                                                   </div>
+                                                   <div class="tab-content hidden" id="tab-menu-tab-16">
+                                                       <div class="flex flex-wrap justify-start">
+                                                           <ul class="megamenu-items xl:columns-3 columns-2">
+                                                               <li class="p-0 lg:p-2"><a class="1.25 text-sm font-medium duration-200 text-text_color hover:text-primary" href="https://adventhimalayatreks.budhomanche.com/trip/manaslu-circuit-trek-19-days">Manaslu Circuit Trek- 19 Days</a></li>
+                                                               <li class="p-0 lg:p-2"><a class="1.25 text-sm font-medium duration-200 text-text_color hover:text-primary" href="https://adventhimalayatreks.budhomanche.com/trip/t-sum-valley-trek-16-days">T-sum Valley Trek -16 Days</a></li>
+                                                           </ul>
+                                                       </div>
+                                                   </div>
+                                                   <div class="tab-content hidden" id="tab-menu-tab-35">
+                                                       <div class="flex flex-wrap justify-start">
+                                                           <ul class="megamenu-items xl:columns-3 columns-2">
+                                                               <li class="p-0 lg:p-2"><a class="1.25 text-sm font-medium duration-200 text-text_color hover:text-primary" href="https://adventhimalayatreks.budhomanche.com/trip/upper-dolpo-circuit-trek-29-days">Upper Dolpo Circuit Trek-29 Days</a></li>
+                                                               <li class="p-0 lg:p-2"><a class="1.25 text-sm font-medium duration-200 text-text_color hover:text-primary" href="https://adventhimalayatreks.budhomanche.com/trip/dhorpatan-lower-dolpo-trek-28-days">Dhorpatan - Lower Dolpo Trek - 28 days</a></li>
+                                                               <li class="p-0 lg:p-2"><a class="1.25 text-sm font-medium duration-200 text-text_color hover:text-primary" href="https://adventhimalayatreks.budhomanche.com/trip/crystal-mountain-valley-camping-trek-23-days">Crystal Mountain Valley Camping Trek-23 Days</a></li>
+                                                               <li class="p-0 lg:p-2"><a class="1.25 text-sm font-medium duration-200 text-text_color hover:text-primary" href="https://adventhimalayatreks.budhomanche.com/trip/lower-dolpo-circuit-trek-21-days">Lower Dolpo Circuit Trek -21 Days</a></li>
+                                                               <li class="p-0 lg:p-2"><a class="1.25 text-sm font-medium duration-200 text-text_color hover:text-primary" href="https://adventhimalayatreks.budhomanche.com/trip/shey-phoksundo-lake-trek-15-days">Shey Phoksundo Lake Trek -15 Days</a></li>
+                                                           </ul>
+                                                       </div>
+                                                   </div>
+                                                   <div class="tab-content hidden" id="tab-menu-tab-36">
+                                                       <div class="flex flex-wrap justify-start">
+                                                           <ul class="megamenu-items xl:columns-3 columns-2">
+                                                               <li class="p-0 lg:p-2"><a class="1.25 text-sm font-medium duration-200 text-text_color hover:text-primary" href="https://adventhimalayatreks.budhomanche.com/trip/kanchenjunga-north-south-base-camp-trek-27days">Kanchenjunga North - South Base Camp Trek- 27Days</a></li>
+                                                           </ul>
+                                                       </div>
+                                                   </div>
+                                                   <div class="tab-content hidden" id="tab-menu-tab-37">
+                                                       <div class="flex flex-wrap justify-start">
+                                                           <ul class="megamenu-items xl:columns-3 columns-2">
+                                                               <li class="p-0 lg:p-2"><a class="1.25 text-sm font-medium duration-200 text-text_color hover:text-primary" href="https://adventhimalayatreks.budhomanche.com/trip/lumba-sumba-la-circuit-trek-18-days">Lumba Sumba La circuit Trek-18 Days</a></li>
+                                                           </ul>
+                                                       </div>
+                                                   </div>
+                                                   <div class="tab-content hidden" id="tab-menu-tab-17">
+                                                       <div class="flex flex-wrap justify-start">
+                                                           <ul class="megamenu-items xl:columns-3 columns-2">
+                                                               <li class="p-0 lg:p-2"><a class="1.25 text-sm font-medium duration-200 text-text_color hover:text-primary" href="https://adventhimalayatreks.budhomanche.com/trip/dhorpatan-lower-dolpo-trek-28-days">Dhorpatan - Lower Dolpo Trek - 28 days</a></li>
+                                                               <li class="p-0 lg:p-2"><a class="1.25 text-sm font-medium duration-200 text-text_color hover:text-primary" href="https://adventhimalayatreks.budhomanche.com/trip/lumba-sumba-la-circuit-trek-18-days">Lumba Sumba La circuit Trek-18 Days</a></li>
+                                                           </ul>
+                                                       </div>
+                                                   </div>
+                                                   <div class="tab-content hidden" id="tab-menu-tab-39">
+                                                       <div class="flex flex-wrap justify-start">
+                                                           <ul class="megamenu-items xl:columns-3 columns-2">
+                                                               <li class="p-0 lg:p-2"><a class="1.25 text-sm font-medium duration-200 text-text_color hover:text-primary" href="https://adventhimalayatreks.budhomanche.com/trip/mustang-circuit-trek-20-day">Mustang Circuit Trek - 20 day</a></li>
+                                                           </ul>
+                                                       </div>
+                                                   </div>
+                                                   <div class="tab-content hidden" id="tab-menu-tab-40">
+                                                       <div class="flex flex-wrap justify-start">
+                                                           <ul class="megamenu-items xl:columns-3 columns-2"></ul>
+                                                       </div>
+                                                   </div>
+                                                   <div class="tab-content hidden" id="tab-menu-tab-86">
+                                                       <div class="flex flex-wrap justify-start">
+                                                           <ul class="megamenu-items xl:columns-3 columns-2"></ul>
+                                                       </div>
+                                                   </div>
+                                               </div>
+                                           </div>
+                                       </div>
+                                   </li>
+                                   <li><span class="dropdown-toggle flex w-full items-center gap-0 xl:text-base text-sm hover:text-primary transition-all duration-500 font-medium leading-3.5 text-white" role="button" tabindex="0" aria-expanded="false">Travel Information<span class="text-sm xl:text-base icon icon-angle-down"></span></span>
                                        <div class="item dropdown custom-shadow absolute left-auto top-10 z-10 hidden rounded-bl-[5px] rounded-br-[5px]">
-                                           <div class="flex flex-wrap justify-start">
+                                           <div class="dropdown-scroll flex flex-wrap justify-start">
                                                <ul class="w-67.5 p-3">
-                                                   <li class="relative hav-dropdown-children">
-                                                       <a
-                                                           class="flex items-center justify-between text-sm font-medium duration-200 nested-dropdown-wrap text-text_color hover:text-primary"
-                                                           href="/#!"
-                                                           aria-expanded="false">
-                                                           About Us
-                                                           <span class="text-base -rotate-90 icon icon-angle-down">
-                                                           </span>
-                                                       </a>
-                                                       <ul class="nested-dropdown custom-shadow absolute -right-67.5 top-0 w-67.5 p-3">
-                                                           <li>
-                                                               <a
-                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                   href="!#">
-                                                                   Why Us
-                                                               </a>
-                                                           </li>
-                                                           <li>
-                                                               <a
-                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                   href="!#">
-                                                                   Why Us
-                                                               </a>
-                                                           </li>
-                                                           <li>
-                                                               <a
-                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                   href="!#">
-                                                                   Why Us
-                                                               </a>
-                                                           </li>
-                                                       </ul>
-                                                   </li>
-
+                                                   <li><a class="flex justify-between text-sm font-medium duration-200 nested-dropdown-wrap text-text_color hover:text-primary" href="https://adventhimalayatreks.budhomanche.com/nepal-travel-information">Nepal Travel Information</a></li>
+                                                   <li><a class="flex justify-between text-sm font-medium duration-200 nested-dropdown-wrap text-text_color hover:text-primary" href="https://adventhimalayatreks.budhomanche.com/tibet-travel-information">Tibet Travel Information</a></li>
+                                                   <li><a class="flex justify-between text-sm font-medium duration-200 nested-dropdown-wrap text-text_color hover:text-primary" href="https://adventhimalayatreks.budhomanche.com/bhutan-travel-information">Bhutan Travel Information</a></li>
+                                                   <li><a class="flex justify-between text-sm font-medium duration-200 nested-dropdown-wrap text-text_color hover:text-primary" href="https://adventhimalayatreks.budhomanche.com/india-travel-information">India Travel Information</a></li>
                                                </ul>
                                            </div>
                                        </div>
                                    </li>
-                                   <li>
-                                       <span
-                                           class="dropdown-toggle flex w-full items-center gap-0 xl:text-base text-sm   hover:text-primary transition-all duration-500  font-medium leading-3.5 text-white "
-                                           aria-expanded="false">
-                                           Company
-                                           <span class="text-sm xl:text-base icon icon-angle-down">
-                                           </span>
-                                       </span>
+                                   <li><span class="dropdown-toggle flex w-full items-center gap-0 xl:text-base text-sm hover:text-primary transition-all duration-500 font-medium leading-3.5 text-white" role="button" tabindex="0" aria-expanded="false">Company<span class="text-sm xl:text-base icon icon-angle-down"></span></span>
                                        <div class="item dropdown custom-shadow absolute left-auto top-10 z-10 hidden rounded-bl-[5px] rounded-br-[5px]">
-                                           <div class="flex flex-wrap justify-start">
+                                           <div class="dropdown-scroll flex flex-wrap justify-start">
                                                <ul class="w-67.5 p-3">
-                                                   <li class="relative hav-dropdown-children">
-                                                       <a
-                                                           class="flex justify-between text-sm font-medium duration-200 nested-dropdown-wrap text-text_color hover:text-primary"
-                                                           href="/#!"
-                                                           aria-expanded="false">
-                                                           About Us
-                                                           <span class="text-base -rotate-90 icon icon-angle-down">
-                                                           </span>
-                                                       </a>
-                                                       <ul class="nested-dropdown custom-shadow absolute -right-67.5 top-0 w-67.5 p-3">
-                                                           <li>
-                                                               <a
-                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                   href="!#">
-                                                                   Why Us
-                                                               </a>
-                                                           </li>
-                                                           <li>
-                                                               <a
-                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                   href="!#">
-                                                                   Why Us
-                                                               </a>
-                                                           </li>
-                                                           <li>
-                                                               <a
-                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                   href="!#">
-                                                                   Why Us
-                                                               </a>
-                                                           </li>
-                                                       </ul>
-                                                   </li>
-                                                   <li class="relative">
-                                                       <a
-                                                           class="flex justify-between text-sm font-medium duration-200 nested-dropdown-wrap text-text_color hover:text-primary"
-                                                           href="/#!"
-                                                           aria-expanded="false">
-                                                           About Us
-                                                           <span class="text-base -rotate-90 icon icon-angle-down">
-                                                           </span>
-                                                       </a>
-                                                       <ul class="nested-dropdown custom-shadow absolute -right-67.5 top-0 w-67.5 p-3">
-                                                           <li>
-                                                               <a
-                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                   href="!#">
-                                                                   Why Us
-                                                               </a>
-                                                           </li>
-                                                           <li>
-                                                               <a
-                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                   href="!#">
-                                                                   Why Us
-                                                               </a>
-                                                           </li>
-                                                           <li>
-                                                               <a
-                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                   href="!#">
-                                                                   Why Us
-                                                               </a>
-                                                           </li>
-                                                       </ul>
-                                                   </li>
-                                                   <li>
-                                                       <a
-                                                           class="flex justify-between text-sm font-medium duration-200 nested-dropdown-wrap text-text_color hover:text-primary"
-                                                           href="/#!">
-                                                           Manaslu
-                                                       </a>
-                                                   </li>
-                                                   <li class="relative">
-                                                       <a
-                                                           class="flex justify-between text-sm font-medium duration-200 nested-dropdown-wrap text-text_color hover:text-primary"
-                                                           href="/#!"
-                                                           aria-expanded="false">
-                                                           About Us
-                                                           <span class="text-base -rotate-90 icon icon-angle-down">
-                                                           </span>
-                                                       </a>
-                                                       <ul class="nested-dropdown custom-shadow absolute -right-67.5 top-0 w-67.5 p-3">
-                                                           <li>
-                                                               <a
-                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                   href="!#">
-                                                                   Why Us
-                                                               </a>
-                                                           </li>
-                                                           <li>
-                                                               <a
-                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                   href="!#">
-                                                                   Why Us
-                                                               </a>
-                                                           </li>
-                                                           <li>
-                                                               <a
-                                                                   class="mb-0.75 last:mb-0 text-sm font-medium duration-200 text-text_color hover:text-primary"
-                                                                   href="!#">
-                                                                   Why Us
-                                                               </a>
-                                                           </li>
-                                                       </ul>
-                                                   </li>
+                                                   <li><a class="flex justify-between text-sm font-medium duration-200 nested-dropdown-wrap text-text_color hover:text-primary" href="https://adventhimalayatreks.budhomanche.com/about-us">About Us</a></li>
+                                                   <li><a class="flex justify-between text-sm font-medium duration-200 nested-dropdown-wrap text-text_color hover:text-primary" href="https://adventhimalayatreks.budhomanche.com/why-trek-with-advent-himalaya-treks">Why Trek With Advent Himalaya Treks?</a></li>
+                                                   <li><a class="flex justify-between text-sm font-medium duration-200 nested-dropdown-wrap text-text_color hover:text-primary" href="https://adventhimalayatreks.budhomanche.com/our-team">Our Team</a></li>
+                                                   <li><a class="flex justify-between text-sm font-medium duration-200 nested-dropdown-wrap text-text_color hover:text-primary" href="https://adventhimalayatreks.budhomanche.com/legal-documents">Legal Documents</a></li>
+                                                   <li><a class="flex justify-between text-sm font-medium duration-200 nested-dropdown-wrap text-text_color hover:text-primary" href="https://adventhimalayatreks.budhomanche.com/terms-and-conditions">Terms and Conditions</a></li>
+                                                   <li><a class="flex justify-between text-sm font-medium duration-200 nested-dropdown-wrap text-text_color hover:text-primary" href="https://adventhimalayatreks.budhomanche.com/privacy-policy">Privacy Policy</a></li>
                                                </ul>
                                            </div>
                                        </div>
                                    </li>
-
-                                   <li>
-                                       <a
-                                           href=""
-                                           class="xl:text-base text-sm  leading-3.5 text-white hover:text-primary transition-all duration-500  font-medium  ">
-                                           Blog
-                                       </a>
-                                   </li>
-                                   <li>
-                                       <a
-                                           href=""
-                                           class="xl:text-base text-sm  leading-3.5 text-white hover:text-primary transition-all duration-500  font-medium  ">
-                                           Contact Us
-                                       </a>
-                                   </li>
+                                   <li><a class="xl:text-base text-sm leading-3.5 text-white hover:text-primary transition-all duration-500 font-medium" href="https://adventhimalayatreks.budhomanche.com/contact-us">Contact Us</a></li>
                                </ul>
                            </nav>
                            <div class="websearch-wrap">
