@@ -171,7 +171,7 @@
     <div class="container">
         <div class="section-title-wrap">
             <div class="text-center section-title-sm">Why Advent Himalaya Greks?</div>
-            <div class="text-center section-title mb-0!">Why Advent Himalaya Greks?</div>
+            <div class="text-center section-title-main mb-0!">Why Advent Himalaya Greks?</div>
         </div>
         <div class="text-center max-sm:px-2 max-lg:px-10 lg:max-w-[85%] mx-auto">
             "Specializing in adventurous Himalayan expeditions, cultural tours, and trekking experiences, we offer expertly guided journeys through Nepal’s breathtaking landscapes." Read more about us
@@ -243,6 +243,25 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="btn-wrap blogs-swiper-controls">
+            <button
+                type="button"
+                class="swiper-btn"
+                aria-label="Previous">
+                <span
+                    class="flex -translate-x-px rotate-90 items-center justify-center text-xl leading-none! text-white icon-angle-down icon"></span>
+            </button>
+
+            <button
+                type="button"
+                class="swiper-btn"
+                aria-label="Next">
+                <span
+                    class="flex translate-x-px -rotate-90 items-center justify-center
+                                   text-xl leading-none! text-white
+                                   icon-angle-down icon"></span>
+            </button>
         </div>
     </div>
 </section>
@@ -927,9 +946,33 @@
                             </div>
                         </div>
                     </div>
-                    <a href="" class="border mt-5 inline-block border-[#afafaf] font-medium text-sm px-5 hover:bg-secondary hover:border-secondary hover:text-white transition-all duration-500 py-2 rounded-full">
-                        View More
-                    </a>
+                    <div class=" max-lg:flex max-lg:justify-between">
+                        <a href="" class="border mt-5 inline-block border-[#afafaf] font-medium text-sm px-5 hover:bg-secondary hover:border-secondary hover:text-white transition-all duration-500 py-2 rounded-full">
+                            View More
+                        </a>
+
+                        <div class="btn-wrap blogs-swiper-controls">
+                            <button
+                                type="button"
+                                class="swiper-btn"
+                                aria-label="Previous">
+                                <span
+                                    class="flex -translate-x-px rotate-90 items-center justify-center
+                                   text-xl leading-none! text-white
+                                   icon-angle-down icon"></span>
+                            </button>
+
+                            <button
+                                type="button"
+                                class="swiper-btn"
+                                aria-label="Next">
+                                <span
+                                    class="flex translate-x-px -rotate-90 items-center justify-center
+                                   text-xl leading-none! text-white
+                                   icon-angle-down icon"></span>
+                            </button>
+                        </div>
+                    </div>
                 </div>
                 <div class="tab-content__wrap-item" id="camping">
                     <div class="grid grid-cols-12 gap-5">
@@ -1670,17 +1713,39 @@
             </div>
         </div>
     </div>
-    </div>
 </section>
 <section class="pt-0 homepage__testimonials common-box hav-title-btn">
     <div class="container-fluid">
         <div class="container">
             <div class="homepage__testimonials-header flex items-center justify-between mb-6">
                 <div class="mb-0 section-title">What Client Says</div>
-                <div class="section-title-btn">
-                    <a href="" class="border bg-white border-[#afafaf] font-medium text-sm px-5 hover:bg-secondary hover:border-secondary hover:text-white transition-all duration-500 py-2.5 rounded-full">
+                <div class="section-title-btn max-lg:flex max-lg:justify-between">
+                    <a
+                        href=""
+                        class="border bg-white border-[#afafaf] font-medium text-sm px-5 hover:bg-secondary hover:border-secondary hover:text-white transition-all duration-500 py-2.5 rounded-full">
                         View All Reviews
                     </a>
+                    <div class="btn-wrap blogs-swiper-controls">
+                        <button
+                            type="button"
+                            class="swiper-btn"
+                            aria-label="Previous">
+                            <span
+                                class="flex -translate-x-px rotate-90 items-center justify-center
+                                   text-xl leading-none! text-white
+                                   icon-angle-down icon"></span>
+                        </button>
+
+                        <button
+                            type="button"
+                            class="swiper-btn"
+                            aria-label="Next">
+                            <span
+                                class="flex translate-x-px -rotate-90 items-center justify-center
+                                   text-xl leading-none! text-white
+                                   icon-angle-down icon"></span>
+                        </button>
+                    </div>
                 </div>
             </div>
             <div class="homepage__testimonials-wrapper">
@@ -2014,10 +2079,31 @@
     <div class="container">
         <div class="flex items-center justify-between mb-6">
             <div class="mb-0 section-title">Video Reviews</div>
-            <div class="section-title-btn">
+            <div class="section-title-btn max-lg:flex max-lg:justify-between">
                 <a href="" class="border bg-white border-[#afafaf] font-medium text-sm px-5 hover:bg-secondary hover:border-secondary hover:text-white transition-all duration-500 py-2.5 rounded-full">
                     View All Moments
                 </a>
+                <div class="btn-wrap blogs-swiper-controls">
+                    <button
+                        type="button"
+                        class="swiper-btn"
+                        aria-label="Previous">
+                        <span
+                            class="flex -translate-x-px rotate-90 items-center justify-center
+                                   text-xl leading-none! text-white
+                                   icon-angle-down icon"></span>
+                    </button>
+
+                    <button
+                        type="button"
+                        class="swiper-btn"
+                        aria-label="Next">
+                        <span
+                            class="flex translate-x-px -rotate-90 items-center justify-center
+                                   text-xl leading-none! text-white
+                                   icon-angle-down icon"></span>
+                    </button>
+                </div>
             </div>
         </div>
         <div class="grid grid-cols-12 gap-5">
@@ -2091,10 +2177,31 @@
         <div class="container">
             <div class="flex items-center justify-between mb-4">
                 <div class="mb-0 section-title">Empowering Communities Through <br /> Eco-Tourism and Charity in Nepal</div>
-                <div class="section-title-btn">
+                <div class="section-title-btn max-lg:flex max-lg:justify-between">
                     <a href="" class="border border-[#afafaf] font-medium text-sm px-5 hover:bg-secondary hover:border-secondary hover:text-white transition-all duration-500 py-2.5 rounded-full">
                         View All Packages
                     </a>
+                    <div class="btn-wrap blogs-swiper-controls">
+                        <button
+                            type="button"
+                            class="swiper-btn"
+                            aria-label="Previous">
+                            <span
+                                class="flex -translate-x-px rotate-90 items-center justify-center
+                                   text-xl leading-none! text-white
+                                   icon-angle-down icon"></span>
+                        </button>
+
+                        <button
+                            type="button"
+                            class="swiper-btn"
+                            aria-label="Next">
+                            <span
+                                class="flex translate-x-px -rotate-90 items-center justify-center
+                                   text-xl leading-none! text-white
+                                   icon-angle-down icon"></span>
+                        </button>
+                    </div>
                 </div>
             </div>
             <div class="mb-6 text-text_color lg:w-10/12">
@@ -2174,11 +2281,40 @@
 <section class="homepage__blog common-box hav-title-btn scroll-wrap">
     <div class="container">
         <div class="flex items-center justify-between mb-6">
-            <div class="mb-0 section-title">Latest Updates</div>
-            <div class="section-title-btn">
-                <a href="" class="border bg-white border-[#afafaf] font-medium text-sm px-5 hover:bg-secondary hover:border-secondary hover:text-white transition-all duration-500 py-2.5 rounded-full">
+            <div class="mb-0 section-title">
+                Latest Updates
+            </div>
+            <div class="section-title-btn max-lg:flex max-lg:justify-between">
+                <a
+                    href=""
+                    class="shrink-0 whitespace-nowrap rounded-full border border-[#afafaf]
+                           bg-white px-5 py-2.5 text-sm font-medium
+                           transition-all duration-500
+                           hover:border-secondary hover:bg-secondary hover:text-white">
                     View All Posts
                 </a>
+
+                <div class="btn-wrap blogs-swiper-controls">
+                    <button
+                        type="button"
+                        class="swiper-btn"
+                        aria-label="Previous">
+                        <span
+                            class="flex -translate-x-px rotate-90 items-center justify-center
+                                   text-xl leading-none! text-white
+                                   icon-angle-down icon"></span>
+                    </button>
+
+                    <button
+                        type="button"
+                        class="swiper-btn"
+                        aria-label="Next">
+                        <span
+                            class="flex translate-x-px -rotate-90 items-center justify-center
+                                   text-xl leading-none! text-white
+                                   icon-angle-down icon"></span>
+                    </button>
+                </div>
             </div>
         </div>
         <div class="grid grid-cols-12 gap-5">
@@ -2189,23 +2325,26 @@
                             <div class="placeholder__img">
                                 <a href="">
                                     <img
-                                        width={600}
-                                        height={600}
+                                        width="600"
+                                        height="600"
                                         src="./images/dynamic/blog-thumb.webp"
                                         alt="image" />
                                 </a>
                             </div>
                         </div>
                     </div>
+
                     <div class="blog-list__item-content">
                         <div class="blog-list__item-meta">
                             <div class="blog-list__item-date">
                                 Jan 2026
                             </div>
+
                             <div class="blog-list__item-author">
                                 By Admin
                             </div>
                         </div>
+
                         <h3 class="blog-list__item-title">
                             <a href="">
                                 What it’s really like to stand on the roof of the world
@@ -2214,6 +2353,7 @@
                     </div>
                 </div>
             </div>
+
             <div class="col-span-4">
                 <div class="blog-list__item">
                     <div class="blog-list__item-image">
@@ -2221,23 +2361,26 @@
                             <div class="placeholder__img">
                                 <a href="">
                                     <img
-                                        width={600}
-                                        height={600}
+                                        width="600"
+                                        height="600"
                                         src="./images/dynamic/blog-thumb.webp"
                                         alt="image" />
                                 </a>
                             </div>
                         </div>
                     </div>
+
                     <div class="blog-list__item-content">
                         <div class="blog-list__item-meta">
                             <div class="blog-list__item-date">
                                 Jan 2026
                             </div>
+
                             <div class="blog-list__item-author">
                                 By Admin
                             </div>
                         </div>
+
                         <h3 class="blog-list__item-title">
                             <a href="">
                                 What it’s really like to stand on the roof of the world
@@ -2246,6 +2389,7 @@
                     </div>
                 </div>
             </div>
+
             <div class="col-span-4">
                 <div class="blog-list__item">
                     <div class="blog-list__item-image">
@@ -2253,23 +2397,26 @@
                             <div class="placeholder__img">
                                 <a href="">
                                     <img
-                                        width={600}
-                                        height={600}
+                                        width="600"
+                                        height="600"
                                         src="./images/dynamic/blog-thumb.webp"
                                         alt="image" />
                                 </a>
                             </div>
                         </div>
                     </div>
+
                     <div class="blog-list__item-content">
                         <div class="blog-list__item-meta">
                             <div class="blog-list__item-date">
                                 Jan 2026
                             </div>
+
                             <div class="blog-list__item-author">
                                 By Admin
                             </div>
                         </div>
+
                         <h3 class="blog-list__item-title">
                             <a href="">
                                 What it’s really like to stand on the roof of the world
@@ -2278,7 +2425,9 @@
                     </div>
                 </div>
             </div>
+
         </div>
+
     </div>
 </section>
 <section class="homepage__cta">

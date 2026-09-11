@@ -9,8 +9,8 @@
                     Review
                 </h1>
             </div>
-            <div class="review-page__filter">
-                <select class="w-full border custom-rounded border-primary border-opacity-20 md:w-40">
+            <div class="review-page__filter max-sm:w-full md:w-40">
+                <select class="w-full border custom-rounded border-secondary/10 bg-white max-sm:w-full md:w-40">
                     <option>Top Reviews</option>
                     <option>Newest</option>
                     <option>Rating: Highest to Lowest</option>

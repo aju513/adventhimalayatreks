@@ -3,33 +3,32 @@
 <?php include('./inc/breadcrumbs.php') ?>
 <section class="common-box search-page" role="main">
     <div class="container">
-        <div class="flex flex-col items-start justify-start gap-y-2 md:items-center md:justify-between md:flex-row">
+        <div class="flex flex-wrap  gap-y-3 items-center justify-between ">
             <div class="mb-0 page-title">
                 <h1>
                     Search Result
-                </h1>
             </div>
-            <div class="search-page__filter min-w-75">
-                <div class="flex flex-wrap items-center gap-3">
-                    <div class="w-full search-page__filter-duration md:w-40">
-                        <select class="w-full border custom-rounded border-primary border-opacity-20">
-                            <option>Duration</option>
-                            <option>Duration</option>
-                            <option>Duration</option>
-                            <option>Duration</option>
-                        </select>
-                    </div>
-                    <div class="w-full search-page__filter-price md:w-40">
-                        <select class="w-full border custom-rounded border-primary border-opacity-20">
-                            <option>Price</option>
-                            <option>Price</option>
-                            <option>Price</option>
-                            <option>Price</option>
-                        </select>
-                    </div>
+            <div class="search-list__sort flex flex-col max-md:mt-3 max-md:w-full md:flex-row md:items-center gap-3">
+                <div class="w-full search-page__filter-duration ">
+                    <select id="duration" name="duration" class="rounded-custom border-secondary/10 border bg-white max-md:w-full md:w-52">
+                        <option value="selected">Sort by Duration</option>
+                        <option>Duration</option>
+                        <option>Duration</option>
+                        <option>Duration</option>
+                    </select>
+                </div>
+                <div class="w-full search-page__filter-price ">
+                    <select class="rounded-custom border-secondary/10 border bg-white max-md:w-full md:w-52">
+                        <option value="selected">Sort by Price</option>
+                        <option>Price</option>
+                        <option>Price</option>
+                        <option>Price</option>
+                        <option>Price</option>
+                    </select>
                 </div>
             </div>
         </div>
+
 
         <div class="mt-8 search-page__list package-list">
 

@@ -3,7 +3,7 @@
 <?php include('./inc/breadcrumbs.php') ?>
 <section class="common-box author-page" role="main">
     <div class="container">
-        <div class="author-profile flex w-full flex-col items-start justify-start gap-4 mb-10  sm:gap-7.5 md:flex-row">
+        <div class="author-profile flex w-full flex-col items-start justify-start gap-4 mb-10 lg:mb-15  sm:gap-7.5 md:flex-row">
             <div class="author-profile__image flex-[0_0_250px]">
                 <div class="placeholder__img-wrapper">
                     <div class="w-full placeholder__img">
@@ -16,9 +16,9 @@
                 </div>
             </div>
             <div class="author-profile__content">
-                <div class="mt-2 mb-3 text-xl font-extrabold font-signika text-primary md:text-3xl">
+                <h1 class="page-title">
                     Daniel David
-                </div>
+                </h1>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -47,176 +47,183 @@
                 </div>
             </div>
         </div>
-        <div class="page-title">
-            <h1>
-                Latest Blog by author
-            </h1>
-        </div>
-        <div class="blog-list-wrapper blog-list">
-            <div class="grid grid-cols-12 gap-5">
-                <div class="col-span-12 sm:col-span-6 lg:col-span-4">
-                    <div class="blog-list__item">
-                        <div class="blog-list__item-image">
-                            <div class="placeholder__img-wrapper">
-                                <div class="placeholder__img">
-                                    <a href="">
-                                        <img
-                                            width={600}
-                                            height={600}
-                                            src="./images/dynamic/blog-thumb.webp"
-                                            alt="image" />
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="blog-list__item-content">
-                            <div class="blog-list__item-meta">
-                                <div class="blog-list__item-date">
-                                    Jan 2026
-                                </div>
-                                <div class="blog-list__item-author">
-                                    By Admin
-                                </div>
-                            </div>
-                            <h3 class="blog-list__item-title">
-                                <a href="">
-                                    What it’s really like to stand on the roof of the world
-                                </a>
-                            </h3>
-                        </div>
-                    </div>
+    </div>
+    <div class="blog-list-wrapper">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="inner-section-title">
+                    <h2>
+                        Latest Blog by author
+                    </h2>
                 </div>
-                <div class="col-span-12 sm:col-span-6 lg:col-span-4">
-                    <div class="blog-list__item">
-                        <div class="blog-list__item-image">
-                            <div class="placeholder__img-wrapper">
-                                <div class="placeholder__img">
-                                    <a href="">
-                                        <img
-                                            width={600}
-                                            height={600}
-                                            src="./images/dynamic/blog-thumb.webp"
-                                            alt="image" />
-                                    </a>
+                <div class="blog-list">
+                    <div class="grid grid-cols-12 gap-5">
+                        <div class="col-span-12 sm:col-span-6 lg:col-span-4">
+                            <div class="blog-list__item">
+                                <div class="blog-list__item-image">
+                                    <div class="placeholder__img-wrapper">
+                                        <div class="placeholder__img">
+                                            <a href="">
+                                                <img
+                                                    width={600}
+                                                    height={600}
+                                                    src="./images/dynamic/blog-thumb.webp"
+                                                    alt="image" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="blog-list__item-content">
+                                    <div class="blog-list__item-meta">
+                                        <div class="blog-list__item-date">
+                                            Jan 2026
+                                        </div>
+                                        <div class="blog-list__item-author">
+                                            By Admin
+                                        </div>
+                                    </div>
+                                    <h3 class="blog-list__item-title">
+                                        <a href="">
+                                            What it’s really like to stand on the roof of the world
+                                        </a>
+                                    </h3>
                                 </div>
                             </div>
                         </div>
-                        <div class="blog-list__item-content">
-                            <div class="blog-list__item-meta">
-                                <div class="blog-list__item-date">
-                                    Jan 2026
+                        <div class="col-span-12 sm:col-span-6 lg:col-span-4">
+                            <div class="blog-list__item">
+                                <div class="blog-list__item-image">
+                                    <div class="placeholder__img-wrapper">
+                                        <div class="placeholder__img">
+                                            <a href="">
+                                                <img
+                                                    width={600}
+                                                    height={600}
+                                                    src="./images/dynamic/blog-thumb.webp"
+                                                    alt="image" />
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="blog-list__item-author">
-                                    By Admin
-                                </div>
-                            </div>
-                            <h3 class="blog-list__item-title">
-                                <a href="">
-                                    What it’s really like to stand on the roof of the world
-                                </a>
-                            </h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-span-12 sm:col-span-6 lg:col-span-4">
-                    <div class="blog-list__item">
-                        <div class="blog-list__item-image">
-                            <div class="placeholder__img-wrapper">
-                                <div class="placeholder__img">
-                                    <a href="">
-                                        <img
-                                            width={600}
-                                            height={600}
-                                            src="./images/dynamic/blog-thumb.webp"
-                                            alt="image" />
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="blog-list__item-content">
-                            <div class="blog-list__item-meta">
-                                <div class="blog-list__item-date">
-                                    Jan 2026
-                                </div>
-                                <div class="blog-list__item-author">
-                                    By Admin
-                                </div>
-                            </div>
-                            <h3 class="blog-list__item-title">
-                                <a href="">
-                                    What it’s really like to stand on the roof of the world
-                                </a>
-                            </h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-span-12 sm:col-span-6 lg:col-span-4">
-                    <div class="blog-list__item">
-                        <div class="blog-list__item-image">
-                            <div class="placeholder__img-wrapper">
-                                <div class="placeholder__img">
-                                    <a href="">
-                                        <img
-                                            width={600}
-                                            height={600}
-                                            src="./images/dynamic/blog-thumb.webp"
-                                            alt="image" />
-                                    </a>
+                                <div class="blog-list__item-content">
+                                    <div class="blog-list__item-meta">
+                                        <div class="blog-list__item-date">
+                                            Jan 2026
+                                        </div>
+                                        <div class="blog-list__item-author">
+                                            By Admin
+                                        </div>
+                                    </div>
+                                    <h3 class="blog-list__item-title">
+                                        <a href="">
+                                            What it’s really like to stand on the roof of the world
+                                        </a>
+                                    </h3>
                                 </div>
                             </div>
                         </div>
-                        <div class="blog-list__item-content">
-                            <div class="blog-list__item-meta">
-                                <div class="blog-list__item-date">
-                                    Jan 2026
+                        <div class="col-span-12 sm:col-span-6 lg:col-span-4">
+                            <div class="blog-list__item">
+                                <div class="blog-list__item-image">
+                                    <div class="placeholder__img-wrapper">
+                                        <div class="placeholder__img">
+                                            <a href="">
+                                                <img
+                                                    width={600}
+                                                    height={600}
+                                                    src="./images/dynamic/blog-thumb.webp"
+                                                    alt="image" />
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="blog-list__item-author">
-                                    By Admin
+                                <div class="blog-list__item-content">
+                                    <div class="blog-list__item-meta">
+                                        <div class="blog-list__item-date">
+                                            Jan 2026
+                                        </div>
+                                        <div class="blog-list__item-author">
+                                            By Admin
+                                        </div>
+                                    </div>
+                                    <h3 class="blog-list__item-title">
+                                        <a href="">
+                                            What it’s really like to stand on the roof of the world
+                                        </a>
+                                    </h3>
                                 </div>
                             </div>
-                            <h3 class="blog-list__item-title">
-                                <a href="">
-                                    What it’s really like to stand on the roof of the world
-                                </a>
-                            </h3>
                         </div>
-                    </div>
-                </div>
-                <div class="col-span-12 sm:col-span-6 lg:col-span-4">
-                    <div class="blog-list__item">
-                        <div class="blog-list__item-image">
-                            <div class="placeholder__img-wrapper">
-                                <div class="placeholder__img">
-                                    <a href="">
-                                        <img
-                                            width={600}
-                                            height={600}
-                                            src="./images/dynamic/blog-thumb.webp"
-                                            alt="image" />
-                                    </a>
+                        <div class="col-span-12 sm:col-span-6 lg:col-span-4">
+                            <div class="blog-list__item">
+                                <div class="blog-list__item-image">
+                                    <div class="placeholder__img-wrapper">
+                                        <div class="placeholder__img">
+                                            <a href="">
+                                                <img
+                                                    width={600}
+                                                    height={600}
+                                                    src="./images/dynamic/blog-thumb.webp"
+                                                    alt="image" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="blog-list__item-content">
+                                    <div class="blog-list__item-meta">
+                                        <div class="blog-list__item-date">
+                                            Jan 2026
+                                        </div>
+                                        <div class="blog-list__item-author">
+                                            By Admin
+                                        </div>
+                                    </div>
+                                    <h3 class="blog-list__item-title">
+                                        <a href="">
+                                            What it’s really like to stand on the roof of the world
+                                        </a>
+                                    </h3>
                                 </div>
                             </div>
                         </div>
-                        <div class="blog-list__item-content">
-                            <div class="blog-list__item-meta">
-                                <div class="blog-list__item-date">
-                                    Jan 2026
+                        <div class="col-span-12 sm:col-span-6 lg:col-span-4">
+                            <div class="blog-list__item">
+                                <div class="blog-list__item-image">
+                                    <div class="placeholder__img-wrapper">
+                                        <div class="placeholder__img">
+                                            <a href="">
+                                                <img
+                                                    width={600}
+                                                    height={600}
+                                                    src="./images/dynamic/blog-thumb.webp"
+                                                    alt="image" />
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="blog-list__item-author">
-                                    By Admin
+                                <div class="blog-list__item-content">
+                                    <div class="blog-list__item-meta">
+                                        <div class="blog-list__item-date">
+                                            Jan 2026
+                                        </div>
+                                        <div class="blog-list__item-author">
+                                            By Admin
+                                        </div>
+                                    </div>
+                                    <h3 class="blog-list__item-title">
+                                        <a href="">
+                                            What it’s really like to stand on the roof of the world
+                                        </a>
+                                    </h3>
                                 </div>
                             </div>
-                            <h3 class="blog-list__item-title">
-                                <a href="">
-                                    What it’s really like to stand on the roof of the world
-                                </a>
-                            </h3>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
 </section>
 
 <?php include('./inc/footer.php') ?>

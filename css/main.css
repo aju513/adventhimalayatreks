@@ -782,7 +782,12 @@ blockquote {
 .author-profile__social-linkedin {
   @apply bg-[#0a66c2] hover:bg-primary;
 }
-
+.blog-list-wrapper .container-fluid {
+  @apply bg-dim_bg relative rounded-none px-0 py-10 lg:py-15 2xl:rounded-[30px] 2xl:max-w-[calc(100%-180px)] w-full 2xl:px-8;
+}
+.blog-list-wrapper {
+  @apply max-lg:pb-0;
+}
 #toggleButton {
   @apply hidden absolute -right-11.25 top-12.5 bg-[#f4f8fa] pt-2 pr-2 pb-px pl-2 rounded-r-[5px]   z-20;
   box-shadow: 2px 2px 4px 0px #00000052;
@@ -1111,7 +1116,7 @@ a.nested-dropdown-wrap {
   @apply leading-4.5 inline-block text-left;
 }
 .page-title {
-  @apply m-0 mb-7.5;
+  @apply m-0 mb-6;
 }
 .page-title.mb-0 {
   @apply mb-0;
@@ -1221,27 +1226,38 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 /*  tabs */
 .tab-link {
-  @apply flex gap-2 flex-wrap mb-5;
+  @apply mb-5 flex gap-2 flex-wrap;
 }
+
 .tab-link.mb-0 {
   @apply mb-0;
 }
+
 .tab-link__item {
-  @apply px-5 py-2 bg-[#e4e4e4] font-bold text-xs cursor-pointer rounded-full transition-all duration-500 hover:bg-secondary hover:text-white text-secondary uppercase;
+  @apply shrink-0 cursor-pointer whitespace-nowrap
+         rounded-full bg-[#e4e4e4]
+         px-5 py-2
+         text-xs font-bold uppercase text-secondary
+         transition-all duration-500
+         hover:bg-secondary hover:text-white;
 }
 
 .tab-link__item.active {
   @apply bg-secondary text-white;
 }
 
-.tab-content__wrap-item {
-  @apply hidden opacity-0 translate-y-2.5 transition-all duration-300 ease-in-out;
-}
+@media (max-width: 1023px) {
+  .tab-link {
+    @apply flex-nowrap overflow-x-auto;
 
-.tab-content__wrap-item.active {
-  @apply block opacity-100 translate-y-0;
-}
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+  }
 
+  .tab-link::-webkit-scrollbar {
+    display: none;
+  }
+}
 /*  date picker */
 .floating-form input[type="text"].date-picker,
 input[type="text"].date-picker {
@@ -1249,7 +1265,7 @@ input[type="text"].date-picker {
 }
 /*  inner page banner */
 .inner-banner {
-  @apply relative;
+  @apply relative mb-6 lg:mb-8;
 }
 .inner-banner::before {
   @apply absolute left-0 top-0 bg-dim_bg w-full h-[85%];
@@ -2062,7 +2078,7 @@ input[type="text"].date-picker {
 }
 /*  sitemap */
 .sitemap-page__col-title {
-  @apply text-xl inline-block mb-2.5 text-primary font-signika font-bold mt-5;
+  @apply text-xl inline-block mb-2.5 text-secondary font-signika font-bold mt-5;
 }
 
 .sitemap-page__col-title:first-child {
@@ -2070,7 +2086,7 @@ input[type="text"].date-picker {
 }
 
 .sitemap-page__col-title a {
-  @apply text-xl text-text_color font-signika font-bold relative hover:text-primary transition-all duration-500;
+  @apply text-xl text-secondary font-signika font-bold relative hover:text-primary transition-all duration-500;
 }
 
 .sitemap-page__col ul {
@@ -2106,7 +2122,9 @@ input[type="text"].date-picker {
 .team-list__wrapper-title {
   @apply mb-3 text-xl lg:text-2xl font-bold text-secondary font-signika;
 }
-
+.team-details-page {
+  @apply max-lg:pt-5!;
+}
 .team-details-page__description-image .placeholder__img-wrapper {
   @apply aspect-square rounded-2xl;
 }
@@ -2124,7 +2142,7 @@ input[type="text"].date-picker {
 }
 
 .contact-page__representative-wrapper {
-  @apply flex items-center bg-dim_bg flex-wrap p-5 sm:p-7.5 rounded-2xl gap-y-4 gap-x-24;
+  @apply flex items-center bg-dim_bg flex-wrap p-5 sm:p-7.5 rounded-2xl gap-y-4 gap-x-24 mt-15;
 }
 
 .contact-page__representative-wrapper .contact-page__representative-title {
@@ -2150,19 +2168,22 @@ input[type="text"].date-picker {
 }
 
 .contact-page__form-wrap {
-  @apply p-5 sm:p-8 border border-primary rounded-2xl;
+  @apply p-5 sm:p-8 bg-white border border-secondary/10 rounded-2xl;
 }
 
 .contact-page__form label {
-  @apply pl-4!;
+  @apply pl-0!;
 }
 
 .contact-page__form .relative input,
 .contact-page__form .relative select,
 .contact-page__form .relative textarea {
-  @apply pl-0 bg-white rounded-none border-white border-b-primary;
+  @apply pl-0! bg-white rounded-none border-white border-b-primary;
 }
 
+.contact-page__map {
+  @apply lg:pl-10 max-lg:mt-13;
+}
 .contact-page__map iframe {
   @apply w-full;
 }
@@ -2173,6 +2194,9 @@ input[type="text"].date-picker {
 /* section title */
 .section-title {
   @apply font-signika text-secondary font-bold mb-6 text-[28px] lg:text-[38px] leading-9 md:leading-10 lg:leading-12.5;
+}
+.section-title-main {
+  @apply font-signika text-secondary font-bold mb-6 text-[34px] lg:text-[48px] leading-9 md:leading-10 lg:leading-12.5;
 }
 .section-title-sm {
   @apply text-base;
@@ -3119,4 +3143,76 @@ input[type="text"].date-picker {
 /* faqs */
 .faqs-page__wrapper .accordion__item-title {
   @apply pr-12.5;
+}
+/* Homepage card swipers */
+
+.homepage-card-swiper .swiper-wrapper {
+  @apply grid max-h-none gap-5;
+}
+
+.homepage-card-swiper .swiper-slide {
+  @apply h-auto min-w-0 w-auto;
+}
+
+.homepage-card-swiper.why-us-swiper .swiper-wrapper {
+  @apply grid-cols-10;
+}
+
+.homepage-card-swiper.testimonials-swiper .swiper-wrapper {
+  @apply grid-cols-2;
+}
+
+.homepage-card-swiper.video-reviews-swiper .swiper-wrapper {
+  @apply grid-cols-12;
+}
+
+.homepage-card-swiper.special-articles-swiper .swiper-wrapper,
+.homepage-card-swiper.blogs-swiper .swiper-wrapper {
+  @apply grid-cols-12;
+}
+
+/* Controls */
+
+.btn-wrap {
+  @apply hidden items-center gap-1;
+}
+
+.swiper-btn {
+  @apply flex size-10 items-center justify-center
+         rounded-full bg-secondary text-white
+         transition-all duration-500
+         hover:bg-primary
+         disabled:cursor-default disabled:opacity-30;
+}
+
+/* Mobile + tablet swiper */
+
+@media (max-width: 1023px) {
+  .homepage-card-swiper {
+    @apply w-full overflow-hidden px-1;
+  }
+
+  .homepage-card-swiper .swiper-wrapper {
+    @apply flex gap-0;
+  }
+
+  .homepage-card-swiper .swiper-slide {
+    @apply h-auto min-w-0 w-full flex-[0_0_100%];
+  }
+
+  .btn-wrap {
+    @apply flex right-3.75;
+  }
+
+  .homepage__why-us .btn-wrap {
+    @apply mt-5 justify-end;
+  }
+}
+@media (max-width: 1023px) {
+  .homepage__blog,
+  .homepage__testimonials,
+  .homepage__article,
+  .homepage__moments .section-title-btn {
+    @apply left-3.75 right-3.75 w-auto;
+  }
 }

@@ -119,7 +119,7 @@
 
     <div class="pb-0 common-box contact-page__form floating-form">
         <div class="container">
-            <div class="contact-page__form-wrap">
+            <div class="contact-page__form-wrap custom-shadow">
                 <div class="grid grid-cols-12 gap-5">
                     <div class="col-span-12 lg:col-span-7">
                         <div class="text-xl font-bold text-secondary">Get In Touch With Us</div>
