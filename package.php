@@ -715,7 +715,6 @@
                                 </div>
                                 <a href="" class="text-sm font-medium text-text_color underline hover:text-primary">Download Map</a>
                             </div>
-
                             <div class="tab-content__wrap">
                                 <div class="tab-content__wrap-item active" id="route">
                                     <a href="./images/dynamic/route-map.webp"
@@ -741,7 +740,6 @@
                                 </div>
                             </div>
                         </div>
-
                     </div>
                     <div class="package__cost-details common-module scroll-mt-20" id="package-cost-details">
                         <h2 class="package__section-title">Cost Details</h2>
@@ -892,15 +890,6 @@
                             <div class="package__addons-list">
                                 <div class="package__addons-item">
                                     <div class="package__addons-item-title-wrap">
-                                        <div class="package__addons-item-image">
-                                            <div class="placeholder__img-wrapper">
-                                                <div class="placeholder__img">
-                                                    <img
-                                                        src="/images/dynamic/package-thumb.webp"
-                                                        alt="gallery" />
-                                                </div>
-                                            </div>
-                                        </div>
                                         <div class="package__addons-item-content">
                                             <div class="package__addons-item-title">
                                                 Heli Flight from EBC to Kathmandu.
@@ -928,7 +917,7 @@
                     <div class="package__equipment common-module scroll-mt-20" id="package-equipment">
                         <div class="flex flex-wrap items-end gap-2 justify-between mb-5">
                             <h2 class="package__section-title mb-0!">Essential Packing List</h2>
-                            <button class="flex items-center justify-center text-text_color transition-all duration-500 hover:text-primary">
+                            <button class="flex items-center justify-center text-text_color transition-all duration-500 hover:text-primary ml-auto">
                                 <span class="underline hover:no-underline">Download</span>
                                 <span class="pl-1 text-sm leading-5 icon-download"></span>
                             </button>
@@ -999,7 +988,7 @@
                         <h2 class="package__section-title">FAQs</h2>
                         <div class="accordion" id="faq-accordion">
                             <div class="accordion__item" data-id="q1">
-                                <div class="text-base font-bold accordion__item-title md:text-xl text-text_color font-signika ">
+                                <div class=" font-semibold accordion__item-title text-xl text-text_color font-signika ">
                                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. amet consectetur, adipisicing elit. amet amet
                                 </div>
                                 <div class="accordion__item-content">
@@ -1009,7 +998,7 @@
                                 </div>
                             </div>
                             <div class="accordion__item" data-id="q2">
-                                <div class="text-base font-bold accordion__item-title md:text-xl text-text_color font-signika ">
+                                <div class=" font-semibold accordion__item-title text-xl text-text_color font-signika ">
                                     Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                                 </div>
                                 <div class="accordion__item-content">
@@ -1109,10 +1098,10 @@
                                 </div>
                             </div>
                             <div class="package__price-links">
-                                <button class="w-full py-3 mb-2 text-lg text-white uppercase transition-all duration-500 rounded-md last:mb-0 bg-primary hover:bg-secondary">
+                                <button class="w-full py-3 mb-2 text-lg text-white uppercase transition-all duration-500 rounded-md last:mb-0 bg-secondary hover:bg-primary">
                                     Book This Trip
                                 </button>
-                                <button class="w-full py-3 mb-2 text-lg uppercase transition-all duration-500 border rounded-md last:mb-0 text-text_color border-secondary hover:border-dim_bg hover:bg-dim_bg">
+                                <button class="w-full py-3 mb-2 text-lg text-white uppercase transition-all duration-500 rounded-md last:mb-0 bg-secondary hover:bg-primary">
                                     Check Availability
                                 </button>
                                 <button class="w-full py-3 mb-2 text-lg text-white uppercase transition-all duration-500 rounded-md last:mb-0 bg-secondary hover:bg-primary">
@@ -1157,15 +1146,15 @@
     <div class="container">
         <div class="inner-section-title ">Video Review</div>
         <div class="grid grid-cols-12 gap-5">
-            <div class="col-span-4">
+            <div class="col-span-6">
                 <div class="moments__list-item">
                     <div class="moments__list-item-image">
                         <div class="placeholder__img-wrapper">
                             <div class="placeholder__img">
                                 <img
                                     width={600}
-                                    height={450}
-                                    src="./images/dynamic/moments-thumb.webp"
+                                    height={350}
+                                    src="./images/dynamic/moments-thumb-sm.webp"
                                     alt="image" />
                             </div>
                         </div>
@@ -1183,41 +1172,15 @@
                     </div>
                 </div>
             </div>
-            <div class="col-span-4">
+            <div class="col-span-6">
                 <div class="moments__list-item">
                     <div class="moments__list-item-image">
                         <div class="placeholder__img-wrapper">
                             <div class="placeholder__img">
                                 <img
                                     width={600}
-                                    height={450}
-                                    src="./images/dynamic/moments-thumb.webp"
-                                    alt="image" />
-                            </div>
-                        </div>
-                        <div class="play-btn">
-                            <a href="https://www.youtube.com/watch?v=a3ICNMQW7Ok"
-                                data-fancybox="package-video">
-                                <span class="flex items-center justify-center w-20 h-20 rounded-full circular-animate">
-                                    <span class="relative z-10 text-3xl icon-play"></span>
-                                </span>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="moments__list-item-content">
-                        Green Trails, Giving Hearts
-                    </div>
-                </div>
-            </div>
-            <div class="col-span-4">
-                <div class="moments__list-item">
-                    <div class="moments__list-item-image">
-                        <div class="placeholder__img-wrapper">
-                            <div class="placeholder__img">
-                                <img
-                                    width={600}
-                                    height={450}
-                                    src="./images/dynamic/moments-thumb.webp"
+                                    height={350}
+                                    src="./images/dynamic/moments-thumb-sm.webp"
                                     alt="image" />
                             </div>
                         </div>
