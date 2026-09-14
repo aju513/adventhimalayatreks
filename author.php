@@ -16,9 +16,9 @@
                 </div>
             </div>
             <div class="author-profile__content">
-                <h1 class="page-title">
-                    Daniel David
-                </h1>
+                <div class="page-title">
+                    <h1>Daniel David</h1>
+                </div>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut

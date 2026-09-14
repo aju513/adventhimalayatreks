@@ -167,7 +167,7 @@
     </div>
     <?php include('./inc/notice.php') ?>
 </section>
-<section class="homepage__why-us bg-dim_bg common-box">
+<section class="homepage__why-us bg-dim_bg common-box ">
     <div class="container">
         <div class="section-title-wrap">
             <div class="text-center section-title-sm">Why Advent Himalaya Greks?</div>
@@ -1719,7 +1719,7 @@
         <div class="container">
             <div class="homepage__testimonials-header flex items-center justify-between mb-6">
                 <div class="mb-0 section-title">What Client Says</div>
-                <div class="section-title-btn max-lg:flex max-lg:justify-between">
+                <div class="section-title-btn max-lg:flex max-lg:justify-between gap-5">
                     <a
                         href=""
                         class="border bg-white border-[#afafaf] font-medium text-sm px-5 hover:bg-secondary hover:border-secondary hover:text-white transition-all duration-500 py-2.5 rounded-full">
@@ -2301,7 +2301,7 @@
                         aria-label="Previous">
                         <span
                             class="flex -translate-x-px rotate-90 items-center justify-center
-                                   text-xl leading-none! text-white
+                                   text-xl leading-none! text-secondary/70!
                                    icon-angle-down icon"></span>
                     </button>
 
@@ -2311,7 +2311,7 @@
                         aria-label="Next">
                         <span
                             class="flex translate-x-px -rotate-90 items-center justify-center
-                                   text-xl leading-none! text-white
+                                   text-xl leading-none! text-secondary!
                                    icon-angle-down icon"></span>
                     </button>
                 </div>

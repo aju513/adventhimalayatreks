@@ -859,7 +859,11 @@
                                         <div class="mb-2 text-lg font-semibold text-text_color">
                                             Select your preffered date
                                         </div>
-                                        <input type="text" placeholder="Choose date" />
+
+                                        <div class="private-trip-date">
+                                            <input type="text" placeholder="Choose date" />
+                                            <span class="icon-calendar" aria-hidden="true"></span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -1098,13 +1102,13 @@
                                 </div>
                             </div>
                             <div class="package__price-links">
-                                <button class="w-full py-3 mb-2 text-lg text-white uppercase transition-all duration-500 rounded-md last:mb-0 bg-secondary hover:bg-primary">
+                                <button class="w-full py-3 mb-2 text-base font-bold text-white uppercase transition-all duration-500 rounded-md last:mb-0 bg-secondary hover:bg-primary">
                                     Book This Trip
                                 </button>
-                                <button class="w-full py-3 mb-2 text-lg text-white uppercase transition-all duration-500 rounded-md last:mb-0 bg-secondary hover:bg-primary">
+                                <button class="w-full py-3 mb-2 text-base font-bold text-white uppercase transition-all duration-500 rounded-md last:mb-0 bg-secondary hover:bg-primary">
                                     Check Availability
                                 </button>
-                                <button class="w-full py-3 mb-2 text-lg text-white uppercase transition-all duration-500 rounded-md last:mb-0 bg-secondary hover:bg-primary">
+                                <button class="w-full py-3 mb-2 text-base font-bold text-white uppercase transition-all duration-500 rounded-md last:mb-0 bg-secondary hover:bg-primary">
                                     Make an Inquiry
                                 </button>
                             </div>

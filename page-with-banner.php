@@ -2,7 +2,7 @@
 <?php include('./inc/header.php') ?>
 <?php include('./inc/breadcrumbs.php') ?>
 <?php include('./inc/innerbanner.php') ?>
-<section class="common-box common-page pt-0!" role="main">
+<section class="common-box common-page" role="main">
     <div class="container">
         <div class="page-title">
             <h1 class="  font-signika text-[28px]  font-extrabold leading-8 text-extrabold sm:text-[30px] lg:text-[40px] lg:leading-[40px]">
