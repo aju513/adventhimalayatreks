@@ -2781,7 +2781,7 @@ input[type="text"].date-picker {
   @apply relative mb-4 rounded-2xl  bg-[#f3f8fb] px-7 pb-6 pt-8  last:mb-0;
   &::before {
     content: "";
-    @apply pointer-events-none absolute inset-0 left-7 border-t-3 border-secondary;
+    @apply pointer-events-none absolute inset-0 left-7 border-t-3 border-secondary/60;
     border-radius: inherit;
   }
 }
@@ -3236,6 +3236,18 @@ input[type="text"].date-picker {
   @apply flex size-10 items-center justify-center rounded-full border border-[#afafaf] bg-white text-secondary transition-all duration-500 hover:bg-primary disabled:cursor-default disabled:opacity-30;
 }
 
+.why-us-pagination {
+  @apply static hidden items-center justify-center;
+}
+
+.why-us-pagination .swiper-pagination-bullet {
+  @apply m-0 size-2 cursor-pointer bg-[#afafaf] opacity-100 transition-all duration-300;
+}
+
+.why-us-pagination .swiper-pagination-bullet-active {
+  @apply w-6 rounded-full bg-primary;
+}
+
 /* Small/tablet swiper */
 @media (max-width: 1023px) {
   .homepage-card-swiper {
@@ -3254,8 +3266,9 @@ input[type="text"].date-picker {
     @apply flex right-3.75;
   }
 
-  .homepage__why-us .btn-wrap {
-    @apply mt-5 justify-end;
+  .homepage__why-us .why-us-pagination,
+  .inner__whyus .why-us-pagination {
+    @apply mt-5 flex;
   }
 }
 
@@ -3271,4 +3284,7 @@ input[type="text"].date-picker {
   ul {
     @apply mb-0!;
   }
+}
+.inner-banner + .common-box {
+  @apply pt-0!;
 }
