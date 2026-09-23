@@ -745,7 +745,7 @@
             <div class="mt-8 mb-2 text-xl font-bold text-white lg:text-2xl">
                 Plan your trip on your own date
             </div>
-            <div class="text-white lg:w-10/12 max-lg:mb-4">
+            <div class="text-white/80 lg:w-10/12 max-lg:mb-4">
                 Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
             </div>
             <a href="" class="inline-block px-5 py-2 lg:mt-4 text-sm font-medium text-white transition-all duration-500 border border-white rounded-full hover:bg-primary">

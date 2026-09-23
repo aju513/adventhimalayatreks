@@ -1022,7 +1022,7 @@
                                     <div class="flex items-start gap-1.5">
                                         <span class="text-xl leading-5 text-[#fdd284] icon-tag pt-1"></span>
                                         <div class="flex flex-col">
-                                            <span class="text-sm font-bold text-text_color">Price from</span>
+                                            <span class="text-sm text-text_color">Price from</span>
                                             <div class="flex items-center gap-1.5">
                                                 <div class="package__price-final">US$1500</div>
                                                 <div class="package__price-initial">US$1600</div>
@@ -1102,13 +1102,13 @@
                                 </div>
                             </div>
                             <div class="package__price-links">
-                                <button class="w-full py-3 mb-2 text-base font-bold text-white uppercase transition-all duration-500 rounded-md last:mb-0 bg-secondary hover:bg-primary">
+                                <button class="w-full py-3 mb-2 text-[15px] font-bold text-white uppercase transition-all duration-500 rounded-md last:mb-0 bg-secondary hover:bg-primary">
                                     Book This Trip
                                 </button>
-                                <button class="w-full py-3 mb-2 text-base font-bold text-white uppercase transition-all duration-500 rounded-md last:mb-0 bg-secondary hover:bg-primary">
+                                <button class="w-full py-3 mb-2 text-[15px] font-bold text-white uppercase transition-all duration-500 rounded-md last:mb-0 bg-secondary hover:bg-primary">
                                     Check Availability
                                 </button>
-                                <button class="w-full py-3 mb-2 text-base font-bold text-white uppercase transition-all duration-500 rounded-md last:mb-0 bg-secondary hover:bg-primary">
+                                <button class="w-full py-3 mb-2 text-[15px] font-bold text-white uppercase transition-all duration-500 rounded-md last:mb-0 bg-secondary hover:bg-primary">
                                     Make an Inquiry
                                 </button>
                             </div>
